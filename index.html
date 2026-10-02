@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="MEB okul öğrenci sayıları üzerinden Madde 21 rehberlik alan öğretmeni norm kadro hesaplama ve filtreleme aracı.">
+  <title>PDR Norm Haritası | Rehberlik Alan Öğretmeni Norm Analizi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <style>:root{--bg:#f4f1e9;--paper:#fffdf8;--ink:#15382f;--muted:#66756f;--line:#d9ded8;--green:#123c31;--mint:#dfeae3;--accent:#c9dfcf;--warn:#8a5d21;--warnbg:#f6ead3;--shadow:0 18px 55px rgba(18,60,49,.08)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,sans-serif}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;max-width:1440px;margin:auto;padding:0 34px;border-bottom:1px solid rgba(18,60,49,.12)}.brand{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none;font-weight:800}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--green);color:#fff;font-size:12px;letter-spacing:.06em}.ghost-btn,.text-btn,.secondary-btn,.pagination button{font:inherit;cursor:pointer}.ghost-btn{border:1px solid rgba(18,60,49,.2);background:transparent;border-radius:999px;padding:10px 15px;color:var(--ink);font-weight:700}.hero{max-width:1180px;margin:0 auto;padding:78px 34px 38px}.eyebrow,.section-kicker{font-size:12px;letter-spacing:.16em;font-weight:800;color:#557068}.hero h1{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(44px,6vw,78px);line-height:.98;letter-spacing:-.045em;max-width:980px;margin:18px 0 22px;font-weight:600}.hero h1 em{font-style:italic;color:#3d6759}.hero-copy{max-width:780px;color:#52645e;font-size:18px;line-height:1.7;margin:0}.legal-note{margin-top:28px;display:inline-flex;max-width:880px;padding:12px 15px;border:1px solid #d6dfd9;border-radius:12px;background:rgba(255,255,255,.45);font-size:12px;color:#65736e;line-height:1.55}.stats{max-width:1180px;margin:0 auto;padding:14px 34px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px 20px 18px;box-shadow:0 8px 30px rgba(18,60,49,.035)}.stat span{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#738079}.stat strong{display:block;font-family:"Source Serif 4",Georgia,serif;font-size:38px;line-height:1;margin:12px 0 7px}.stat small{color:#7d8984}.stat.warning{background:var(--warnbg);border-color:#ead2aa;color:#694715}.panel{max-width:1180px;margin:0 auto 18px;background:var(--paper);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}.filters{padding:25px}.panel-head,.results-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.panel h2,.method-summary h2{font-family:"Source Serif 4",Georgia,serif;font-size:31px;letter-spacing:-.025em;margin:5px 0 0}.text-btn{border:0;background:transparent;text-decoration:underline;text-underline-offset:4px;color:#5c6b66;font-weight:700}.filter-grid{display:grid;grid-template-columns:2fr repeat(5,1fr);gap:12px;margin-top:22px}.field{display:flex;flex-direction:column;gap:7px}.field span{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:#708079}.field input,.field select{width:100%;height:46px;border:1px solid #d8ddd9;border-radius:11px;background:#fff;padding:0 12px;color:#193d33;font:inherit;font-size:13px;outline:none}.field input:focus,.field select:focus{border-color:#6b9585;box-shadow:0 0 0 3px rgba(107,149,133,.13)}.results{padding:0;overflow:hidden}.results-head{padding:24px 25px;border-bottom:1px solid var(--line)}.secondary-btn{border:1px solid var(--green);background:var(--green);color:#fff;border-radius:11px;padding:11px 15px;font-weight:800}.secondary-btn:disabled{opacity:.5;cursor:not-allowed}.loading-box{margin:24px;display:flex;align-items:center;gap:14px;padding:18px;background:#f4f7f4;border:1px solid #dce4de;border-radius:14px}.loading-box div:last-child{display:flex;flex-direction:column;gap:4px}.loading-box span{font-size:12px;color:#6d7975}.spinner{width:22px;height:22px;border:3px solid #d6e1da;border-top-color:var(--green);border-radius:50%;animation:spin .85s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.table-wrap{overflow:auto;max-height:760px}table{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;min-width:1050px}thead th{position:sticky;top:0;z-index:2;background:#f2f5f1;color:#5c6d67;text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.055em;padding:12px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap}thead th:last-child{cursor:default}tbody td{padding:13px 12px;border-bottom:1px solid #e8ebe8;vertical-align:top}tbody tr:hover{background:#f8faf7}.numeric{text-align:right}.school-name{font-weight:800;color:#183c32;min-width:245px}.school-code{display:block;color:#87918d;font-size:10px;margin-top:4px}.type-pill,.status-pill,.norm-badge{display:inline-flex;align-items:center;border-radius:999px;white-space:nowrap}.type-pill{background:#edf2ee;padding:5px 8px;color:#54655f}.status-pill{padding:5px 8px;background:#eef4ef;color:#4f675e}.status-pill.missing{background:#f7ead3;color:#81561d}.norm-badge{min-width:34px;justify-content:center;padding:6px 9px;background:var(--green);color:#fff;font-weight:900;font-size:13px}.norm-badge.zero{background:#edf0ed;color:#6d7874}.norm-badge.unknown{background:#f4e5cb;color:#80571f}.source-link{color:#275f4e;font-weight:800;text-decoration:none}.source-link:hover{text-decoration:underline}.reason{display:block;margin-top:5px;max-width:220px;color:#87918d;font-size:10px;line-height:1.4}.pagination{display:flex;align-items:center;justify-content:center;gap:16px;padding:18px;border-top:1px solid var(--line)}.pagination button{border:1px solid #d3dcd6;background:#fff;border-radius:9px;padding:8px 13px;color:var(--ink);font-weight:700}.pagination button:disabled{opacity:.35;cursor:not-allowed}.pagination span{font-size:12px;color:#6b7773}.empty-state{padding:55px;text-align:center;color:#718079}.method-summary{max-width:1180px;margin:55px auto;padding:0 34px 70px}.rules-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}.rules-grid article{background:#e8eee9;border:1px solid #d2ddd6;border-radius:18px;padding:20px}.rules-grid b{display:block;font-size:12px;color:#60716a}.rules-grid strong{display:block;font-family:"Source Serif 4",Georgia,serif;font-size:35px;margin:10px 0}.rules-grid p{margin:0;color:#65746f;font-size:12px;line-height:1.55}dialog{width:min(720px,calc(100% - 28px));border:1px solid #ced8d1;border-radius:20px;padding:0;background:var(--paper);color:var(--ink);box-shadow:0 30px 100px rgba(0,0,0,.2)}dialog::backdrop{background:rgba(16,31,26,.45);backdrop-filter:blur(3px)}.dialog-head{display:flex;justify-content:space-between;align-items:flex-start;padding:22px 24px;border-bottom:1px solid var(--line)}.dialog-head h2{font-family:"Source Serif 4",Georgia,serif;margin:4px 0 0;font-size:28px}.dialog-head button{border:0;background:transparent;font-size:28px;color:#62716b;cursor:pointer}.dialog-body{padding:8px 24px 22px}.dialog-body p{font-size:13px;line-height:1.7;color:#596a64}.dialog-body b{color:#193c32}footer{max-width:1180px;margin:0 auto 30px;padding:25px 34px;border-top:1px solid rgba(18,60,49,.16);display:flex;justify-content:space-between;gap:20px;color:#708079;font-size:11px}footer div{display:flex;flex-direction:column;gap:5px}footer strong{color:var(--ink)}@media(max-width:1100px){.filter-grid{grid-template-columns:repeat(3,1fr)}.field-search{grid-column:span 3}.stats{grid-template-columns:repeat(2,1fr)}.rules-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:680px){.topbar{height:64px;padding:0 18px}.brand{font-size:14px}.ghost-btn{font-size:11px;padding:8px 10px}.hero{padding:52px 18px 28px}.hero h1{font-size:44px}.hero-copy{font-size:15px}.stats{padding:8px 18px 24px;grid-template-columns:1fr 1fr;gap:8px}.stat{padding:15px}.stat strong{font-size:29px}.panel{margin-left:10px;margin-right:10px;border-radius:17px}.filters{padding:17px}.panel-head{align-items:flex-start}.filter-grid{grid-template-columns:1fr 1fr}.field-search{grid-column:span 2}.results-head{padding:18px;align-items:flex-start;flex-direction:column}.secondary-btn{width:100%}.actions{width:100%}.method-summary{padding:0 18px 45px;margin-top:40px}.rules-grid{grid-template-columns:1fr}footer{margin:0;padding:22px 18px;flex-direction:column}.reason{display:none}}</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">PDR</span><span>Norm Haritası</span></a>
+    <button id="methodBtn" class="ghost-btn" type="button">Hesaplama yöntemi</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">PDR KAMPÜS · NORM ANALİZİ</div>
+      <h1>Okulların rehber öğretmen normunu <em>veriye göre</em> incele.</h1>
+      <p class="hero-copy">55 binden fazla okulun öğrenci sayısını Madde 21 kurallarıyla eşleştir; il, ilçe, okul türü ve hesaplanan rehberlik normuna göre filtrele.</p>
+      <div class="legal-note">Bu sayfa bir karar/atama sistemi değildir. Hesaplama, veri setindeki alanlar ve Madde 21'in kullanıcı tarafından sağlanan hükümleri esas alınarak yapılır.</div>
+    </section>
+
+    <section class="stats" aria-label="Özet istatistikler">
+      <article class="stat"><span>Okul</span><strong id="statSchools">—</strong><small>yüklenen kayıt</small></article>
+      <article class="stat"><span>Hesaplanan norm</span><strong id="statNorm">—</strong><small>görünen kayıt toplamı</small></article>
+      <article class="stat"><span>Normu 1+</span><strong id="statEligible">—</strong><small>görünen okul</small></article>
+      <article class="stat warning"><span>Ek veri gerekli</span><strong id="statMissing">—</strong><small>kesin norm üretilemeyen</small></article>
+    </section>
+
+    <section class="panel filters">
+      <div class="panel-head">
+        <div>
+          <span class="section-kicker">FİLTRELER</span>
+          <h2>Okul verisini daralt</h2>
+        </div>
+        <button id="resetBtn" class="text-btn" type="button">Filtreleri temizle</button>
+      </div>
+      <div class="filter-grid">
+        <label class="field field-search">
+          <span>Okul ara</span>
+          <input id="searchInput" type="search" placeholder="Okul adı veya kurum kodu…" autocomplete="off">
+        </label>
+        <label class="field">
+          <span>İl</span>
+          <select id="provinceSelect"><option value="">Tüm iller</option></select>
+        </label>
+        <label class="field">
+          <span>İlçe</span>
+          <select id="districtSelect"><option value="">Tüm ilçeler</option></select>
+        </label>
+        <label class="field">
+          <span>Okul türü</span>
+          <select id="typeSelect"><option value="">Tüm okul türleri</option></select>
+        </label>
+        <label class="field">
+          <span>Norm</span>
+          <select id="normSelect">
+            <option value="">Tümü</option>
+            <option value="0">0 norm</option>
+            <option value="1">1 norm</option>
+            <option value="2plus">2 ve üzeri</option>
+            <option value="unknown">Hesaplanamayan</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Öğrenci</span>
+          <select id="studentSelect">
+            <option value="">Tümü</option>
+            <option value="missing">Verisi eksik</option>
+            <option value="0-149">0–149</option>
+            <option value="150-299">150–299</option>
+            <option value="300-499">300–499</option>
+            <option value="500-999">500–999</option>
+            <option value="1000plus">1000+</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="panel results">
+      <div class="results-head">
+        <div>
+          <span class="section-kicker">SONUÇLAR</span>
+          <h2><span id="resultCount">—</span> okul</h2>
+        </div>
+        <div class="actions">
+          <button id="downloadBtn" class="secondary-btn" type="button" disabled>Filtrelenmiş CSV'yi indir</button>
+        </div>
+      </div>
+
+      <div id="loadingBox" class="loading-box">
+        <div class="spinner" aria-hidden="true"></div>
+        <div>
+          <strong>Okul verileri hazırlanıyor…</strong>
+          <span id="loadingText">Veri parçaları yükleniyor.</span>
+        </div>
+      </div>
+
+      <div id="tableWrap" class="table-wrap" hidden>
+        <table>
+          <thead>
+            <tr>
+              <th data-sort="il">İl</th>
+              <th data-sort="ilce">İlçe</th>
+              <th data-sort="okul_adi">Okul</th>
+              <th data-sort="okul_turu">Tür</th>
+              <th data-sort="ogrenci_sayisi" class="numeric">Öğrenci</th>
+              <th data-sort="norm" class="numeric norm-col">Olması gereken rehber öğretmen normu</th>
+              <th>Hesap</th>
+              <th>Kaynak</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <div id="emptyState" class="empty-state" hidden>Bu filtrelerle eşleşen okul bulunamadı.</div>
+
+      <div class="pagination" id="pagination" hidden>
+        <button id="prevBtn" type="button">Önceki</button>
+        <span id="pageInfo"></span>
+        <button id="nextBtn" type="button">Sonraki</button>
+      </div>
+    </section>
+
+    <section class="method-summary">
+      <div>
+        <span class="section-kicker">MADDE 21</span>
+        <h2>Hangi eşikler uygulanıyor?</h2>
+      </div>
+      <div class="rules-grid">
+        <article><b>İlkokul</b><strong>300+</strong><p>İlk norm; 500 ve katlarında her defasında +1.</p></article>
+        <article><b>Ortaokul / İHO / Ortaöğretim</b><strong>150+</strong><p>İlk norm; 500 ve katlarında her defasında +1.</p></article>
+        <article><b>Özel eğitim</b><strong>25+</strong><p>İlk norm; 100 ve katlarında her defasında +1. Özel eğitim anaokulu hariç.</p></article>
+        <article><b>Meslekî eğitim merkezi</b><strong>200+</strong><p>Çırak/kursiyer eşiği; veri setindeki öğrenci sayısı vekil olarak kullanılır.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="methodDialog">
+    <div class="dialog-head">
+      <div><span class="section-kicker">YÖNTEM</span><h2>Hesaplama kapsamı</h2></div>
+      <button id="closeDialog" aria-label="Kapat">×</button>
+    </div>
+    <div class="dialog-body">
+      <p><b>Temel hesap:</b> İlkokullarda 300+, ortaokul/İHO ve ortaöğretimde 150+, özel eğitim kurumlarında 25+, meslekî eğitim merkezlerinde 200+ eşiği uygulanır. Özel eğitimde her 100, diğer kapsamdaki eğitim kurumlarında her 500 öğrenciye ulaşıldığında ek norm hesaplanır.</p>
+      <p><b>Yatılı/pansiyonlu:</b> Dosyada ayrı bir “yatılı/pansiyonlu” alanı yoktur. Kurum adı veya türünde açıkça “yatılı” ya da “pansiyon” ibaresi varsa asgari 1 norm uygulanır; adı bunu göstermeyen pansiyonlu okullar veri setinden tespit edilemez.</p>
+      <p><b>İlçe merkezi istisnası (21/2-d):</b> CSV'de okulun ilçe merkezinde olup olmadığını güvenilir biçimde gösteren alan bulunmadığından bu bent otomatik eklenmez. Bu nedenle bazı 0 norm görünen ilçe merkezi okullarının gerçekte 1 norm hakkı olabilir.</p>
+      <p><b>RAM:</b> Rehberlik ve araştırma merkezi hesabı il/ilçe nüfusuna bağlıdır. Veri setinde nüfus olmadığı için RAM kayıtları “ek veri gerekli” olarak gösterilir.</p>
+      <p><b>Madde 21/4:</b> Bu fıkra norm sayısını değil, ikinci ve sonraki normlara atama sırasını sınırlar. Bu nedenle hesaplanan norm sütununu azaltmaz.</p>
+      <p><b>Özel eğitim ortak bina/bahçe:</b> Aynı bina veya bahçede farklı kademeler bilgisini CSV içermediğinden bu kurumları birleştiren kontrol yapılamaz.</p>
+    </div>
+  </dialog>
+
+  <footer>
+    <div><strong>PDR Kampüs · Norm Haritası</strong><span>Veri odaklı rehberlik planlaması için araştırma aracı.</span></div>
+    <span>Veri çekim tarihi: 31.08.2026 · Hesaplama: Madde 21</span>
+  </footer>
+
+  <script>const DATA_CHUNKS = Array.from({length: 56}, (_, i) => `data/chunk-${String(i+1).padStart(3,"0")}.csv`);
+const PAGE_SIZE = 50;
+let allRows = [], filtered = [], page = 1, sortKey = "il", sortDir = 1;
+
+const $ = id => document.getElementById(id);
+const els = {
+  search:$("searchInput"), province:$("provinceSelect"), district:$("districtSelect"),
+  type:$("typeSelect"), norm:$("normSelect"), student:$("studentSelect"),
+  body:$("tableBody"), tableWrap:$("tableWrap"), loading:$("loadingBox"),
+  loadingText:$("loadingText"), resultCount:$("resultCount"), pagination:$("pagination"),
+  pageInfo:$("pageInfo"), prev:$("prevBtn"), next:$("nextBtn"), empty:$("emptyState"),
+  download:$("downloadBtn")
+};
+
+function trLower(v=""){return String(v).replaceAll("I","ı").replaceAll("İ","i").toLocaleLowerCase("tr-TR")}
+function num(v){const n=Number(String(v??"").trim().replace(",",".")); return Number.isFinite(n)?n:null}
+
+function parseCSV(text){
+  const rows=[]; let row=[], field="", q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){
+      if(c==='"' && text[i+1]==='"'){field+='"';i++}
+      else if(c==='"') q=false;
+      else field+=c;
+    }else{
+      if(c==='"') q=true;
+      else if(c===','){row.push(field);field=""}
+      else if(c==='\n'){row.push(field);rows.push(row);row=[];field=""}
+      else if(c!=='\r') field+=c;
+    }
+  }
+  if(field.length||row.length){row.push(field);rows.push(row)}
+  const headers=rows.shift().map((h,i)=>i===0?h.replace(/^\uFEFF/,""):h);
+  return rows.filter(r=>r.some(Boolean)).map(r=>Object.fromEntries(headers.map((h,i)=>[h,r[i]??""])));
+}
+
+const secondaryTypes = new Set(["Anadolu Lisesi","Mesleki ve Teknik Anadolu Lisesi","Anadolu İmam Hatip Lisesi","Çok Programlı Anadolu Lisesi","Fen Lisesi","Lise","Spor Lisesi","Güzel Sanatlar Lisesi","Sosyal Bilimler Lisesi","Açık/Akşam Lisesi"]);
+const middleTypes = new Set(["Ortaokul","İmam Hatip Ortaokulu","Yatılı Bölge Ortaokulu"]);
+
+function normFor(r){
+  const t=r.okul_turu||"", name=trLower(r.okul_adi), tl=trLower(t), n=num(r.ogrenci_sayisi);
+  const boarding=["yatılı","pansiyonlu","pansiyon"].some(k=>name.includes(k)||tl.includes(k));
+  const special=t==="Özel Eğitim Kurumu", specialKG=special&&(name.includes("anaokulu")||name.includes("ana okulu"));
+  if(t==="Rehberlik ve Araştırma Merkezi") return {norm:null,status:"Ek veri gerekli",reason:"RAM normu için il/ilçe nüfus verisi gerekir (21/1)."};
+  if(specialKG) return {norm:0,status:"Hesaplandı",reason:"Özel eğitim anaokulu öğrenci sayısı norm hesabının dışında (21/2-a, 21/3)."};
+  if(t==="Anaokulu"){
+    if(boarding) return {norm:1,status:"Hesaplandı",reason:"Ad/tür bilgisindeki yatılı-pansiyonlu işaretine göre en az 1 norm (21/2-ç)."};
+    return {norm:0,status:"Hesaplandı",reason:"Anaokulu 21/2-b dışında; yatılı/pansiyonlu olduğuna dair veri işareti yok."};
+  }
+  if(special){
+    if(n===null) return boarding ? {norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1; öğrenci sayısı eksik."}:{norm:null,status:"Ek veri gerekli",reason:"Özel eğitim kurumu için öğrenci sayısı eksik."};
+    const v=Math.max((n>=25?1:0)+Math.floor(n/100),boarding?1:0);
+    return {norm:v,status:"Hesaplandı",reason:`Özel eğitim: ${fmt(n)} öğrenci; 25+ için 1, her 100'de +1 (21/2-a, 21/3). Ortak bina/bahçe kontrolü veri setinden yapılamıyor.`};
+  }
+  if(t==="İlkokul"){
+    if(n===null) return boarding?{norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1; öğrenci sayısı eksik."}:{norm:null,status:"Ek veri gerekli",reason:"İlkokul için öğrenci sayısı eksik."};
+    const v=Math.max((n>=300?1:0)+Math.floor(n/500),boarding?1:0);
+    return {norm:v,status:"Hesaplandı",reason:`İlkokul: ${fmt(n)} öğrenci; 300+ için 1, her 500'de +1. 21/2-d ilçe merkezi istisnası veri yokluğu nedeniyle eklenmedi.`};
+  }
+  if(middleTypes.has(t)||secondaryTypes.has(t)){
+    if(n===null) return boarding?{norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1; öğrenci sayısı eksik."}:{norm:null,status:"Ek veri gerekli",reason:"Bu kurum için öğrenci sayısı eksik."};
+    const v=Math.max((n>=150?1:0)+Math.floor(n/500),boarding?1:0);
+    return {norm:v,status:"Hesaplandı",reason:`${middleTypes.has(t)?"Ortaokul/İHO":"Ortaöğretim"}: ${fmt(n)} öğrenci; 150+ için 1, her 500'de +1. 21/2-d gerekiyorsa ilçe merkezi verisi ayrıca gerekir.`};
+  }
+  if(t==="Mesleki Eğitim Merkezi"){
+    if(n===null) return {norm:null,status:"Ek veri gerekli",reason:"Meslekî eğitim merkezi için çırak/kursiyer sayısı yerine kullanılabilecek öğrenci verisi eksik."};
+    const v=Math.max((n>=200?1:0)+Math.floor(n/500),boarding?1:0);
+    return {norm:v,status:"Hesaplandı",reason:`Dosyadaki ${fmt(n)} öğrenci sayısı çırak/kursiyer sayısı vekili olarak kullanıldı; 200+ için 1, her 500'de +1.`};
+  }
+  if(boarding){
+    if(n===null) return {norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1 norm; öğrenci sayısı eksik."};
+    return {norm:1+Math.floor(n/500),status:"Hesaplandı",reason:`Yatılı/pansiyonlu işaretinden en az 1 norm (21/2-ç); 500'lük artışlar ayrıca uygulandı.`};
+  }
+  return {norm:0,status:"Hesaplandı",reason:"Bu kurum türü 21/2'deki öğrenci sayısına bağlı temel gruplarda görünmüyor; yatılı/pansiyonlu işareti yok."};
+}
+
+function fmt(n){return new Intl.NumberFormat("tr-TR").format(n)}
+function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+
+async function loadData(){
+  try{
+    let parts=[];
+    for(let i=0;i<DATA_CHUNKS.length;i+=8){
+      const batch=DATA_CHUNKS.slice(i,i+8);
+      const texts=await Promise.all(batch.map(async u=>{
+        const res=await fetch(u); if(!res.ok) throw new Error(`${u} (${res.status})`); return res.text();
+      }));
+      parts.push(...texts);
+      els.loadingText.textContent=`${Math.min(i+8,DATA_CHUNKS.length)} / ${DATA_CHUNKS.length} veri parçası yüklendi.`;
+    }
+    const text=parts.join("\n");
+    allRows=parseCSV(text).map(r=>({...r,...normFor(r)}));
+    populateFilters();
+    els.loading.hidden=true; els.tableWrap.hidden=false; els.download.disabled=false;
+    applyFilters();
+  }catch(err){
+    console.error(err);
+    els.loading.innerHTML=`<div><strong>Veri yüklenemedi.</strong><span>${esc(err.message)} · data/ klasörünün eksiksiz yayımlandığını kontrol edin.</span></div>`;
+  }
+}
+
+function populateFilters(){
+  fill(els.province,[...new Set(allRows.map(r=>r.il).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"tr")),"Tüm iller");
+  fill(els.type,[...new Set(allRows.map(r=>r.okul_turu).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"tr")),"Tüm okul türleri");
+  updateDistricts();
+}
+function fill(el,values,label){const val=el.value;el.innerHTML=`<option value="">${label}</option>`+values.map(x=>`<option>${esc(x)}</option>`).join("");if(values.includes(val))el.value=val}
+function updateDistricts(){
+  const p=els.province.value;
+  const vals=[...new Set(allRows.filter(r=>!p||r.il===p).map(r=>r.ilce).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"tr"));
+  fill(els.district,vals,"Tüm ilçeler");
+}
+function studentMatch(r,v){
+  const n=num(r.ogrenci_sayisi);
+  if(!v)return true;if(v==="missing")return n===null;if(n===null)return false;
+  if(v==="0-149")return n<=149;if(v==="150-299")return n>=150&&n<=299;if(v==="300-499")return n>=300&&n<=499;if(v==="500-999")return n>=500&&n<=999;if(v==="1000plus")return n>=1000;return true
+}
+function normMatch(r,v){if(!v)return true;if(v==="unknown")return r.norm===null;if(v==="2plus")return r.norm!==null&&r.norm>=2;return r.norm===Number(v)}
+
+let filterTimer;
+function scheduleFilter(){clearTimeout(filterTimer);filterTimer=setTimeout(()=>applyFilters(),120)}
+function applyFilters(){
+  const q=trLower(els.search.value.trim()), p=els.province.value,d=els.district.value,t=els.type.value,n=els.norm.value,s=els.student.value;
+  filtered=allRows.filter(r=>(!q||trLower(r.okul_adi).includes(q)||String(r.kurum_kodu).includes(q))&&(!p||r.il===p)&&(!d||r.ilce===d)&&(!t||r.okul_turu===t)&&normMatch(r,n)&&studentMatch(r,s));
+  page=1;sortRows();render();updateStats();
+}
+function sortRows(){
+  filtered.sort((a,b)=>{
+    let av=sortKey==="norm"?a.norm:sortKey==="ogrenci_sayisi"?num(a.ogrenci_sayisi):a[sortKey], bv=sortKey==="norm"?b.norm:sortKey==="ogrenci_sayisi"?num(b.ogrenci_sayisi):b[sortKey];
+    if(av===null||av===undefined||av==="")return 1;if(bv===null||bv===undefined||bv==="")return -1;
+    return (typeof av==="number"&&typeof bv==="number"?(av-bv):String(av).localeCompare(String(bv),"tr"))*sortDir;
+  })
+}
+function render(){
+  els.resultCount.textContent=fmt(filtered.length);
+  const start=(page-1)*PAGE_SIZE, rows=filtered.slice(start,start+PAGE_SIZE);
+  els.body.innerHTML=rows.map(r=>{
+    const nb=r.norm===null?`<span class="norm-badge unknown">?</span>`:`<span class="norm-badge ${r.norm===0?"zero":""}">${r.norm}</span>`;
+    const statusClass=r.status==="Hesaplandı"?"":"missing";
+    const src=r.kaynak_url||r.web_sitesi;
+    return `<tr>
+      <td>${esc(r.il)}</td><td>${esc(r.ilce)}</td>
+      <td class="school-name">${esc(r.okul_adi)}<span class="school-code">Kurum kodu: ${esc(r.kurum_kodu)}</span></td>
+      <td><span class="type-pill">${esc(r.okul_turu)}</span></td>
+      <td class="numeric">${num(r.ogrenci_sayisi)===null?"—":fmt(num(r.ogrenci_sayisi))}</td>
+      <td class="numeric">${nb}</td>
+      <td><span class="status-pill ${statusClass}">${esc(r.status)}</span><span class="reason">${esc(r.reason)}</span></td>
+      <td>${src?`<a class="source-link" href="${esc(src)}" target="_blank" rel="noopener">MEB ↗</a>`:"—"}</td>
+    </tr>`
+  }).join("");
+  els.empty.hidden=filtered.length>0;els.tableWrap.hidden=filtered.length===0;
+  const pages=Math.max(1,Math.ceil(filtered.length/PAGE_SIZE));
+  els.pagination.hidden=filtered.length<=PAGE_SIZE;
+  els.pageInfo.textContent=`Sayfa ${page} / ${pages}`;
+  els.prev.disabled=page<=1;els.next.disabled=page>=pages;
+}
+function updateStats(){
+  const known=filtered.filter(r=>r.norm!==null);
+  const total=known.reduce((s,r)=>s+r.norm,0), eligible=known.filter(r=>r.norm>=1).length, miss=filtered.filter(r=>r.norm===null||r.status!=="Hesaplandı").length;
+  $("statSchools").textContent=fmt(filtered.length);$("statNorm").textContent=fmt(total);$("statEligible").textContent=fmt(eligible);$("statMissing").textContent=fmt(miss);
+}
+function csvEscape(v){const s=String(v??"");return /[",\n]/.test(s)?`"${s.replaceAll('"','""')}"`:s}
+function downloadCSV(){
+  const cols=["il","ilce","okul_adi","kurum_kodu","okul_turu","ogrenci_sayisi","norm","status","reason","kaynak_url"];
+  const labels=["il","ilce","okul_adi","kurum_kodu","okul_turu","ogrenci_sayisi","rehber_ogretmen_normu","norm_hesap_durumu","norm_gerekce","kaynak_url"];
+  const lines=[labels.join(","),...filtered.map(r=>cols.map(c=>csvEscape(r[c])).join(","))];
+  const blob=new Blob(["\uFEFF"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download="pdr_norm_filtreli.csv";a.click();URL.revokeObjectURL(url)
+}
+
+els.search.addEventListener("input",scheduleFilter);
+[els.district,els.type,els.norm,els.student].forEach(e=>e.addEventListener("change",applyFilters));
+els.province.addEventListener("change",()=>{updateDistricts();applyFilters()});
+$("resetBtn").addEventListener("click",()=>{els.search.value="";els.province.value="";updateDistricts();[els.district,els.type,els.norm,els.student].forEach(e=>e.value="");applyFilters()});
+document.querySelectorAll("th[data-sort]").forEach(th=>th.addEventListener("click",()=>{const k=th.dataset.sort;if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=1}sortRows();render()}));
+els.prev.addEventListener("click",()=>{if(page>1){page--;render();els.tableWrap.scrollTop=0}});
+els.next.addEventListener("click",()=>{if(page<Math.ceil(filtered.length/PAGE_SIZE)){page++;render();els.tableWrap.scrollTop=0}});
+els.download.addEventListener("click",downloadCSV);
+$("methodBtn").addEventListener("click",()=>$("methodDialog").showModal());
+$("closeDialog").addEventListener("click",()=>$("methodDialog").close());
+$("methodDialog").addEventListener("click",e=>{if(e.target===$("methodDialog"))$("methodDialog").close()});
+loadData();</script>
+</body>
+</html>
