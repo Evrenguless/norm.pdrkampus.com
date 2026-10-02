@@ -1,8 +1,11 @@
 {
   "meta": {
-    "updated_at": "2026-10-03",
-    "source": "Manual MEB verification + nationwide scraper",
-    "rule": "When conflicting counts exist, the highest verifiable count is used."
+    "updated_at": "2026-10-02T21:33:33.656469+00:00",
+    "source": "MEB school websites",
+    "rule": "When conflicting counts exist, the highest verifiable count is used.",
+    "targets_scanned": 650,
+    "verified_records": 10,
+    "new_or_retained_records": 5
   },
   "schools": {
     "189376": {
@@ -68,6 +71,136 @@
       ],
       "sources": [],
       "note": "MEB sayfalarında görülen değerlerden yüksek olan kullanıldı."
+    },
+    "777386": {
+      "value": 120,
+      "verified": true,
+      "school": "İstiklal İlkokulu",
+      "province": "Adıyaman",
+      "district": "Çelikhan",
+      "observed_values": [
+        120
+      ],
+      "sources": [
+        {
+          "url": "https://777386.meb.k12.tr/",
+          "values": [
+            120
+          ]
+        },
+        {
+          "url": "https://777386.meb.k12.tr/tema/",
+          "values": [
+            120
+          ]
+        }
+      ],
+      "updated_at": "2026-10-02T21:31:51.112250+00:00",
+      "note": "MEB okul sayfalarında ve mevcut veri alanlarında bulunan değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "776786": {
+      "value": 222,
+      "verified": true,
+      "school": "Rüzgar Gülü Anaokulu",
+      "province": "Diyarbakır",
+      "district": "Kayapınar",
+      "observed_values": [
+        222
+      ],
+      "sources": [
+        {
+          "url": "https://776786.meb.k12.tr/",
+          "values": [
+            222
+          ]
+        },
+        {
+          "url": "https://776786.meb.k12.tr/tema/",
+          "values": [
+            222
+          ]
+        }
+      ],
+      "updated_at": "2026-10-02T21:32:19.888240+00:00",
+      "note": "MEB okul sayfalarında ve mevcut veri alanlarında bulunan değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "777207": {
+      "value": 63,
+      "verified": true,
+      "school": "Aziziye Maarif Yüzyılı İlkokulu",
+      "province": "Erzurum",
+      "district": "Aziziye",
+      "observed_values": [
+        63
+      ],
+      "sources": [
+        {
+          "url": "https://777207.meb.k12.tr/",
+          "values": [
+            63
+          ]
+        },
+        {
+          "url": "https://777207.meb.k12.tr/tema/",
+          "values": [
+            63
+          ]
+        }
+      ],
+      "updated_at": "2026-10-02T21:32:24.154191+00:00",
+      "note": "MEB okul sayfalarında ve mevcut veri alanlarında bulunan değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "777314": {
+      "value": 26,
+      "verified": true,
+      "school": "Niğde Müzik Ortaokulu",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        26
+      ],
+      "sources": [
+        {
+          "url": "https://777314.meb.k12.tr/",
+          "values": [
+            26
+          ]
+        },
+        {
+          "url": "https://777314.meb.k12.tr/tema/",
+          "values": [
+            26
+          ]
+        }
+      ],
+      "updated_at": "2026-10-02T21:33:04.331554+00:00",
+      "note": "MEB okul sayfalarında ve mevcut veri alanlarında bulunan değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "777313": {
+      "value": 18,
+      "verified": true,
+      "school": "Niğde Müzik İlkokulu",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        18
+      ],
+      "sources": [
+        {
+          "url": "https://777313.meb.k12.tr/",
+          "values": [
+            18
+          ]
+        },
+        {
+          "url": "https://777313.meb.k12.tr/tema/",
+          "values": [
+            18
+          ]
+        }
+      ],
+      "updated_at": "2026-10-02T21:33:04.334075+00:00",
+      "note": "MEB okul sayfalarında ve mevcut veri alanlarında bulunan değerler arasından en yüksek öğrenci sayısı kullanıldı."
     }
   }
 }
