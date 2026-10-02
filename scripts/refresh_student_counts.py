@@ -120,10 +120,20 @@ def scan(row):
     }
 
 def load_rows():
+    paths = sorted(glob.glob(str(DATA_DIR / "chunk-*.csv")))
+    if not paths:
+        return []
+
     rows = []
-    for path in sorted(glob.glob(str(DATA_DIR / "chunk-*.csv"))):
+    with open(paths[0], newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+        rows.extend(reader)
+
+    # chunk-002..056 continue the original CSV and intentionally have no header.
+    for path in paths[1:]:
         with open(path, newline="", encoding="utf-8-sig") as f:
-            rows.extend(csv.DictReader(f))
+            rows.extend(csv.DictReader(f, fieldnames=fieldnames))
     return rows
 
 def load_existing():
@@ -136,9 +146,17 @@ def load_existing():
 
 def main():
     rows = load_rows()
-    # Re-scan zero or missing records; non-zero conflicts are already resolved client-side
-    # by taking the maximum number from all CSV count fields.
-    targets = [r for r in rows if current_count(r) in (None, 0) and candidate_urls(r)]
+    # Re-scan every school whose primary scraped student field is zero, plus
+    # records that still have no usable count. This intentionally includes rows
+    # where another CSV field already contains a non-zero number: the MEB page
+    # may expose an even higher/current value, and the project rule is to keep
+    # the highest verifiable value.
+    def needs_rescan(r):
+        primary = extract_numbers(r.get("ogrenci_sayisi"))
+        primary_zero = bool(primary) and max(primary) == 0
+        return (primary_zero or current_count(r) in (None, 0)) and bool(candidate_urls(r))
+
+    targets = [r for r in rows if needs_rescan(r)]
 
     payload = load_existing()
     schools = payload.setdefault("schools", {})
