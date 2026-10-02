@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "updated_at": "2026-10-03",
+    "source": "Manual MEB verification + nationwide scraper",
+    "rule": "When conflicting counts exist, the highest verifiable count is used."
+  },
+  "schools": {
+    "189376": {
+      "value": 486,
+      "verified": true,
+      "school": "Niğde Atatürk Anadolu Lisesi",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        482,
+        486
+      ],
+      "sources": [],
+      "note": "MEB sayfalarında görülen değerlerden yüksek olan kullanıldı."
+    },
+    "189423": {
+      "value": 760,
+      "verified": true,
+      "school": "Şehit Fazıl Doğruöz Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        754,
+        760
+      ],
+      "sources": [],
+      "note": "MEB sayfalarında görülen değerlerden yüksek olan kullanıldı."
+    },
+    "763613": {
+      "value": 754,
+      "verified": true,
+      "school": "Şehit Kemal Tosun Anadolu İmam Hatip Lisesi",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        748,
+        754
+      ],
+      "sources": [],
+      "note": "MEB sayfalarında görülen değerlerden yüksek olan kullanıldı."
+    },
+    "770607": {
+      "value": 0,
+      "verified": true,
+      "school": "Tırhan İlkokulu",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        0
+      ],
+      "sources": [],
+      "note": "MEB okul sayfasında 0 öğrenci olarak doğrulandı."
+    },
+    "967713": {
+      "value": 604,
+      "verified": true,
+      "school": "Cumhuriyet Anadolu Lisesi",
+      "province": "Niğde",
+      "district": "Merkez",
+      "observed_values": [
+        575,
+        604
+      ],
+      "sources": [],
+      "note": "MEB sayfalarında görülen değerlerden yüksek olan kullanıldı."
+    }
+  }
+}
