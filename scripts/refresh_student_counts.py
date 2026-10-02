@@ -146,13 +146,36 @@ def load_existing():
 
 def main():
     rows = load_rows()
-    # Re-scan every school whose primary scraped student field is zero.
-    # Missing-but-not-zero records are intentionally excluded from this pass so
-    # the nationwide zero-cleanup stays focused and fast.
+    # Re-scan schools that matter for Madde 21 and still have no usable
+    # student count, plus the zero-primary records already targeted before.
+    # RAM is excluded here because its norm depends on population, not students.
+    target_types = {
+        "İlkokul",
+        "Ortaokul",
+        "İmam Hatip Ortaokulu",
+        "Yatılı Bölge Ortaokulu",
+        "Anadolu Lisesi",
+        "Mesleki ve Teknik Anadolu Lisesi",
+        "Anadolu İmam Hatip Lisesi",
+        "Çok Programlı Anadolu Lisesi",
+        "Fen Lisesi",
+        "Lise",
+        "Spor Lisesi",
+        "Güzel Sanatlar Lisesi",
+        "Sosyal Bilimler Lisesi",
+        "Açık/Akşam Lisesi",
+        "Özel Eğitim Kurumu",
+        "Mesleki Eğitim Merkezi",
+    }
+
     def needs_rescan(r):
+        t = (r.get("okul_turu") or "").strip()
+        if t not in target_types:
+            return False
         primary = extract_numbers(r.get("ogrenci_sayisi"))
         primary_zero = bool(primary) and max(primary) == 0
-        return primary_zero and bool(candidate_urls(r))
+        missing = current_count(r) is None
+        return (primary_zero or missing) and bool(candidate_urls(r))
 
     targets = [r for r in rows if needs_rescan(r)]
 
@@ -160,7 +183,7 @@ def main():
     schools = payload.setdefault("schools", {})
     verified_before = len(schools)
 
-    print(f"Loaded {len(rows)} schools; scanning {len(targets)} zero/missing records")
+    print(f"Loaded {len(rows)} schools; scanning {len(targets)} norm-relevant zero/missing records")
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         futures = [ex.submit(scan, r) for r in targets]
