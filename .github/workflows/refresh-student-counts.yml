@@ -32,7 +32,7 @@ jobs:
         run: python scripts/refresh_student_counts.py
       - name: Commit verified updates
         run: |
-          if git diff --quiet -- data/student-overrides.json; then
+          if [ -z "$(git status --porcelain -- data/student-overrides.json)" ]; then
             echo "No verified student-count changes."
             exit 0
           fi
