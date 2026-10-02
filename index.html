@@ -217,9 +217,20 @@ const els = {
 };
 
 function trLower(v=""){return String(v).replaceAll("I","ı").replaceAll("İ","i").toLocaleLowerCase("tr-TR")}
-function num(v){const s=String(v??"").trim();if(s==="")return null;const n=Number(s.replace(",",".")); return Number.isFinite(n)?n:null}
+function num(v){
+  const s=String(v??"").trim();
+  if(s==="") return null;
+  const matches=s.replace(",",".").match(/\d+(?:\.\d+)?/g);
+  if(!matches) return null;
+  const values=matches.map(Number).filter(Number.isFinite);
+  return values.length?Math.max(...values):null;
+}
 
 const STUDENT_OVERRIDES={
+  "189376":{value:486,verified:true,note:"Niğde Atatürk Anadolu Lisesi MEB sayfalarında görülen 482 ve 486 değerlerinden yüksek olan 486 kullanıldı."},
+  "967713":{value:604,verified:true,note:"Cumhuriyet Anadolu Lisesi MEB sayfalarında görülen 575 ve 604 değerlerinden yüksek olan 604 kullanıldı."},
+  "763613":{value:754,verified:true,note:"Şehit Kemal Tosun AİHL MEB sayfalarında görülen 748 ve 754 değerlerinden yüksek olan 754 kullanıldı."},
+  "189423":{value:760,verified:true,note:"Şehit Fazıl Doğruöz MTAL MEB sayfalarında görülen 754 ve 760 değerlerinden yüksek olan 760 kullanıldı."},
   "770607":{value:0,verified:true,note:"MEB okul sayfasında 0 öğrenci olarak doğrulandı."},
   "777313":{value:null,verified:false,note:"Ağustos verisindeki 0 güncel kabul edilmedi; 2026-2027 öğrenci alımı sonrası yeniden doğrulama gerekli."},
   "777314":{value:null,verified:false,note:"Ağustos verisindeki 0 güncel kabul edilmedi; 2026-2027 öğrenci alımı sonrası yeniden doğrulama gerekli."}
