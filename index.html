@@ -231,7 +231,7 @@ function studentInfo(r){
     const o=STUDENT_OVERRIDES[code];
     return {value:o.value,verified:o.verified,note:o.note,source:"override"};
   }
-  const vals=[r.ogrenci_sayisi_etkin,num(r.ogrenci_sayilari)].filter(v=>v!==null);
+  const vals=[num(r.ogrenci_sayisi),num(r.ogrenci_sayilari)].filter(v=>v!==null);
   if(!vals.length)return {value:null,verified:false,note:"Öğrenci sayısı verisi eksik.",source:"csv"};
   const value=Math.max(...vals);
   if(value===0)return {value:null,verified:false,note:"CSV'de 0 görünüyor; güncel okul sayfasından yeniden doğrulanması gerekiyor.",source:"csv-zero"};
@@ -324,7 +324,7 @@ function normFor(r){
   return {norm:0,status:"Hesaplandı",reason:"Bu kurum türü 21/2'deki öğrenci sayısına bağlı temel gruplarda görünmüyor; yatılı/pansiyonlu işareti yok."};
 }
 
-function fmt(n){return new Intl.NumberFormat("tr-TR").format(n)}
+function fmt(n){return Number.isFinite(Number(n))?new Intl.NumberFormat("tr-TR").format(Number(n)):"—"}
 function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 
 async function loadData(){
@@ -375,7 +375,7 @@ function applyFilters(){
 }
 function sortRows(){
   filtered.sort((a,b)=>{
-    let av=sortKey==="norm"?a.norm:sortKey==="ogrenci_sayisi"?num(a.ogrenci_sayisi):a[sortKey], bv=sortKey==="norm"?b.norm:sortKey==="ogrenci_sayisi"?num(b.ogrenci_sayisi):b[sortKey];
+    let av=sortKey==="norm"?a.norm:sortKey==="ogrenci_sayisi"?a.ogrenci_sayisi_etkin:a[sortKey], bv=sortKey==="norm"?b.norm:sortKey==="ogrenci_sayisi"?b.ogrenci_sayisi_etkin:b[sortKey];
     if(av===null||av===undefined||av==="")return 1;if(bv===null||bv===undefined||bv==="")return -1;
     return (typeof av==="number"&&typeof bv==="number"?(av-bv):String(av).localeCompare(String(bv),"tr"))*sortDir;
   })
