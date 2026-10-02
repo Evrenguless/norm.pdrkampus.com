@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - "scripts/refresh_student_counts.py"
+      - "scripts/refresh_student_counts_shard.py"
+      - "scripts/merge_student_scan_shards.py"
       - ".github/workflows/refresh-student-counts.yml"
 
 permissions:
@@ -18,9 +20,14 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  refresh:
+  scan:
+    name: Deep scan shard ${{ matrix.shard }}
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,8 +35,33 @@ jobs:
           python-version: "3.12"
       - name: Install scraper dependencies
         run: pip install requests beautifulsoup4
-      - name: Deep re-scan unresolved normal schools
-        run: python scripts/refresh_student_counts.py
+      - name: Run shard
+        env:
+          SHARD_INDEX: ${{ matrix.shard }}
+          SHARD_COUNT: 4
+          SHARD_OUT_DIR: shard-output
+        run: python scripts/refresh_student_counts_shard.py
+      - name: Upload shard result
+        uses: actions/upload-artifact@v4
+        with:
+          name: student-scan-shard-${{ matrix.shard }}
+          path: shard-output/student-scan-shard-${{ matrix.shard }}.json
+          retention-days: 2
+
+  merge:
+    name: Merge student scan results
+    needs: scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download shard results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: student-scan-shard-*
+          path: shards
+      - name: Merge shard results
+        run: python scripts/merge_student_scan_shards.py
       - name: Commit verified updates and scan summary
         run: |
           if [ -z "$(git status --porcelain -- data/student-overrides.json data/student-scan-summary.json)" ]; then
