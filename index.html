@@ -238,15 +238,35 @@ let STUDENT_OVERRIDES={
 
 function studentInfo(r){
   const code=String(r.kurum_kodu||"").trim();
-  if(Object.prototype.hasOwnProperty.call(STUDENT_OVERRIDES,code)){
-    const o=STUDENT_OVERRIDES[code];
-    return {value:o.value,verified:o.verified,note:o.note,source:"override"};
+  const csvVals=[num(r.ogrenci_sayisi),num(r.ogrenci_sayilari)].filter(v=>v!==null);
+  const o=Object.prototype.hasOwnProperty.call(STUDENT_OVERRIDES,code)?STUDENT_OVERRIDES[code]:null;
+  const overrideVals=[];
+  if(o){
+    const direct=num(o.value);
+    if(direct!==null) overrideVals.push(direct);
+    if(Array.isArray(o.observed_values)){
+      for(const v of o.observed_values){
+        const n=num(v);
+        if(n!==null) overrideVals.push(n);
+      }
+    }
   }
-  const vals=[num(r.ogrenci_sayisi),num(r.ogrenci_sayilari)].filter(v=>v!==null);
-  if(!vals.length)return {value:null,verified:false,note:"Öğrenci sayısı verisi eksik.",source:"csv"};
+  const vals=[...csvVals,...overrideVals];
+  if(!vals.length){
+    return {value:null,verified:false,note:o?.note||"Öğrenci sayısı verisi eksik.",source:o?"override":"csv"};
+  }
   const value=Math.max(...vals);
-  if(value===0)return {value:null,verified:false,note:"CSV'de 0 görünüyor; güncel okul sayfasından yeniden doğrulanması gerekiyor.",source:"csv-zero"};
-  return {value,verified:true,note:"CSV'deki öğrenci sayı alanları arasından en yüksek değer kullanıldı.",source:"csv"};
+  if(value===0){
+    if(o?.verified){
+      return {value:0,verified:true,note:o.note||"0 öğrenci olarak doğrulandı.",source:"override"};
+    }
+    return {value:null,verified:false,note:o?.note||"CSV'de 0 görünüyor; güncel okul sayfasından yeniden doğrulanması gerekiyor.",source:o?"override":"csv-zero"};
+  }
+  const allObserved=[...new Set(vals)].sort((a,b)=>a-b);
+  const note=o
+    ? `CSV ve MEB doğrulamalarındaki tüm öğrenci sayıları karşılaştırıldı (${allObserved.join(" / ")}); en yüksek değer ${value} kullanıldı.`
+    : `CSV'deki tüm öğrenci sayıları karşılaştırıldı (${allObserved.join(" / ")}); en yüksek değer ${value} kullanıldı.`;
+  return {value,verified:true,note,source:o?"combined":"csv"};
 }
 
 function parseCSV(text){
