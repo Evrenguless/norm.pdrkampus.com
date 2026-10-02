@@ -146,15 +146,13 @@ def load_existing():
 
 def main():
     rows = load_rows()
-    # Re-scan every school whose primary scraped student field is zero, plus
-    # records that still have no usable count. This intentionally includes rows
-    # where another CSV field already contains a non-zero number: the MEB page
-    # may expose an even higher/current value, and the project rule is to keep
-    # the highest verifiable value.
+    # Re-scan every school whose primary scraped student field is zero.
+    # Missing-but-not-zero records are intentionally excluded from this pass so
+    # the nationwide zero-cleanup stays focused and fast.
     def needs_rescan(r):
         primary = extract_numbers(r.get("ogrenci_sayisi"))
         primary_zero = bool(primary) and max(primary) == 0
-        return (primary_zero or current_count(r) in (None, 0)) and bool(candidate_urls(r))
+        return primary_zero and bool(candidate_urls(r))
 
     targets = [r for r in rows if needs_rescan(r)]
 
