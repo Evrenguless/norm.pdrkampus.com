@@ -187,7 +187,7 @@ def discover_links(html, page_url):
 def fetch_page(session, url):
     last_status = None
     last_error = None
-    for attempt in range(2):
+    for attempt in range(1):
         try:
             response = session.get(
                 url,
@@ -249,7 +249,7 @@ def scan(row):
     queue = seed_urls(row)
 
     with requests.Session() as session:
-        while queue and len(visited) < 5 + MAX_DISCOVERED_PAGES:
+        while queue and len(visited) < 3 + MAX_DISCOVERED_PAGES:
             url = queue.pop(0)
             if url in visited:
                 continue
