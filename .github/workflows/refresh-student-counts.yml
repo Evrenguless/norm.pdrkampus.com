@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: refresh-student-counts
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
