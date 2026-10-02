@@ -226,7 +226,7 @@ function num(v){
   return values.length?Math.max(...values):null;
 }
 
-const STUDENT_OVERRIDES={
+let STUDENT_OVERRIDES={
   "189376":{value:486,verified:true,note:"Niğde Atatürk Anadolu Lisesi MEB sayfalarında görülen 482 ve 486 değerlerinden yüksek olan 486 kullanıldı."},
   "967713":{value:604,verified:true,note:"Cumhuriyet Anadolu Lisesi MEB sayfalarında görülen 575 ve 604 değerlerinden yüksek olan 604 kullanıldı."},
   "763613":{value:754,verified:true,note:"Şehit Kemal Tosun AİHL MEB sayfalarında görülen 748 ve 754 değerlerinden yüksek olan 754 kullanıldı."},
@@ -340,6 +340,15 @@ function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt
 
 async function loadData(){
   try{
+    try{
+      const overrideRes=await fetch("data/student-overrides.json",{cache:"no-store"});
+      if(overrideRes.ok){
+        const payload=await overrideRes.json();
+        if(payload&&payload.schools) STUDENT_OVERRIDES={...STUDENT_OVERRIDES,...payload.schools};
+      }
+    }catch(err){
+      console.warn("Öğrenci override dosyası yüklenemedi; gömülü doğrulamalar kullanılacak.",err);
+    }
     let parts=[];
     for(let i=0;i<DATA_CHUNKS.length;i+=8){
       const batch=DATA_CHUNKS.slice(i,i+8);
