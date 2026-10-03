@@ -1,1 +1,0 @@
-Primary-school missing student-count rescan requested 2026-10-03. This file exists only to trigger the refresh-student-counts workflow via the workflow path update committed alongside it.
