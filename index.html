@@ -351,7 +351,7 @@ function normFor(r){
   if(t==="Mesleki Eğitim Merkezi" || t==="Meslekî Eğitim Merkezi"){
     if(n===null) return {norm:null,status:"Ek veri gerekli",reason:"Meslekî eğitim merkezi için çırak/kursiyer sayısı yerine kullanılabilecek öğrenci verisi eksik."};
     const v=Math.max((n>=200?1:0)+Math.floor(n/500),boarding?1:0);
-    return {norm:v,status:"Hesaplandı",reason:`Dosyadaki ${fmt(n)} öğrenci sayısı çırak/kursiyer sayısı vekili olarak kullanıldı; 200+ için 1, her 500'de +1.`};
+    return {norm:v,status:"Kısmi hesap",reason:`Madde 21/2-e çırak/kursiyer sayısını esas alır. Dosyadaki ${fmt(n)} öğrenci sayısı yalnızca vekil olarak kullanıldı; 200+ için 1, her 500 ve katında +1. Kesin norm için gerçek çırak/kursiyer sayısı doğrulanmalıdır.`};
   }
   if(boarding){
     if(n===null) return {norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1 norm; öğrenci sayısı eksik."};
