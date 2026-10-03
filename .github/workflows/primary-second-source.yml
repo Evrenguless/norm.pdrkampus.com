@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "scripts/scan_primary_second_source.py"
+      - "data/student-scan-summary.json"
       - ".github/workflows/primary-second-source.yml"
   workflow_dispatch:
 
