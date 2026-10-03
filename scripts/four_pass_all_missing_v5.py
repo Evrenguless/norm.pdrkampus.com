@@ -5,6 +5,7 @@ from pathlib import Path
 
 import four_pass_all_missing_v4 as scan
 
+# Canonical schema shared by chunk-001 and the headerless continuation chunks.
 HEADERS = [
     'il','ilce','okul_adi','kurum_kodu','okul_turu','web_sitesi','adres','telefon',
     'harita','cekim_tarihi','ogrenci_sayisi','ogrenci_sayilari','durum','kaynak_url',
