@@ -59,7 +59,7 @@ def needs_rescan(row, verified_codes):
     primary = extract_numbers(row.get("ogrenci_sayisi"))
     primary_zero = bool(primary) and max(primary) == 0
     missing = current_count(row) is None
-    if TARGET_GROUP in {"highschool", "middle"}:
+    if TARGET_GROUP in {"highschool", "middle", "primary"}:
         return (primary_zero or missing) and bool(seed_urls(row))
     if code in verified_codes:
         return False
@@ -77,6 +77,8 @@ def main():
         raise RuntimeError(f"Safety check failed: expected exactly 532 high-school targets, got {len(targets)}")
     if TARGET_GROUP == "middle" and len(targets) != 978:
         raise RuntimeError(f"Safety check failed: expected exactly 978 middle-school targets, got {len(targets)}")
+    if TARGET_GROUP == "primary" and len(targets) != 1546:
+        raise RuntimeError(f"Safety check failed: expected exactly 1546 primary-school targets, got {len(targets)}")
     shard_targets = [
         row for i, row in enumerate(targets)
         if i % SHARD_COUNT == SHARD_INDEX
