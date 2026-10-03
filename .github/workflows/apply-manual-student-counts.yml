@@ -6,6 +6,7 @@ on:
     paths:
       - "data/manual-student-counts-2026-10-03.json"
       - "scripts/apply_manual_student_counts.py"
+      - "scripts/patch_manual_review_frontend.py"
       - ".github/workflows/apply-manual-student-counts.yml"
   workflow_dispatch:
 
@@ -22,14 +23,16 @@ jobs:
           python-version: "3.12"
       - name: Apply manual records and preschool labels
         run: python scripts/apply_manual_student_counts.py
-      - name: Commit generated data
+      - name: Patch published site views
+        run: python scripts/patch_manual_review_frontend.py
+      - name: Commit generated data and site views
         run: |
-          if [ -z "$(git status --porcelain -- data/student-overrides.json data/manual-student-counts-summary.json)" ]; then
+          if [ -z "$(git status --porcelain -- data/student-overrides.json data/manual-student-counts-summary.json index.html eksik-veriler.html)" ]; then
             echo "No changes."
             exit 0
           fi
           git config user.name "pdrkampus-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/student-overrides.json data/manual-student-counts-summary.json
-          git commit -m "data: apply manual preschool student counts"
+          git add data/student-overrides.json data/manual-student-counts-summary.json index.html eksik-veriler.html
+          git commit -m "data: publish manual preschool review results"
           git push
