@@ -61,19 +61,21 @@ new = '''    <section class="panel results">
       <div class="results-summary" aria-label="Filtrelenmiş sonuç özeti">
         <article class="results-summary-card"><span>Toplam okul</span><strong id="resultSchools">—</strong><small>filtreyle eşleşen kayıt</small></article>
         <article class="results-summary-card"><span>Toplam öğrenci</span><strong id="resultStudents">—</strong><small>öğrenci sayısı bulunan kayıtlar</small></article>
-        <article class="results-summary-card"><span>Hesaplanan norm</span><strong id="resultNorm">—</strong><small>hesaplanabilen norm toplamı</small></article>
+        <article class="results-summary-card"><span>Hesaplanan norm + RAM</span><strong id="resultNorm">—</strong><small id="resultNormNote">hesaplanabilen norm toplamı</small></article>
       </div>'''
 if 'id="resultStudents"' not in text:
     if old not in text:
         raise RuntimeError('results section anchor not found')
     text = text.replace(old, new, 1)
+else:
+    text = text.replace('<article class="results-summary-card"><span>Hesaplanan norm</span><strong id="resultNorm">—</strong><small>hesaplanabilen norm toplamı</small></article>', '<article class="results-summary-card"><span>Hesaplanan norm + RAM</span><strong id="resultNorm">—</strong><small id="resultNormNote">hesaplanabilen norm toplamı</small></article>')
 
-old_stats = 'function updateStats(){const known=filtered.filter(r=>r.norm!==null),total=known.reduce((s,r)=>s+r.norm,0),eligible=known.filter(r=>r.norm>=1).length,miss=filtered.filter(isMissingForNorm).length;$("statSchools").textContent=fmt(filtered.length);$("statNorm").textContent=fmt(total);$("statEligible").textContent=fmt(eligible);$("statMissing").textContent=fmt(miss);}'
-new_stats = 'function updateStats(){const known=filtered.filter(r=>r.norm!==null),total=known.reduce((s,r)=>s+r.norm,0),eligible=known.filter(r=>r.norm>=1).length,miss=filtered.filter(isMissingForNorm).length,studentTotal=filtered.reduce((s,r)=>s+(Number.isFinite(Number(r.ogrenci_sayisi_etkin))?Number(r.ogrenci_sayisi_etkin):0),0);const statSchools=$("statSchools"),statNorm=$("statNorm"),statEligible=$("statEligible"),statMissing=$("statMissing");if(statSchools)statSchools.textContent=fmt(filtered.length);if(statNorm)statNorm.textContent=fmt(total);if(statEligible)statEligible.textContent=fmt(eligible);if(statMissing)statMissing.textContent=fmt(miss);$("resultSchools").textContent=fmt(filtered.length);$("resultStudents").textContent=fmt(studentTotal);$("resultNorm").textContent=fmt(total);}'
-if 'studentTotal=filtered.reduce' not in text:
-    if old_stats not in text:
-        raise RuntimeError('updateStats anchor not found')
+old_stats = 'function updateStats(){const known=filtered.filter(r=>r.norm!==null),total=known.reduce((s,r)=>s+r.norm,0),eligible=known.filter(r=>r.norm>=1).length,miss=filtered.filter(isMissingForNorm).length,studentTotal=filtered.reduce((s,r)=>s+(Number.isFinite(Number(r.ogrenci_sayisi_etkin))?Number(r.ogrenci_sayisi_etkin):0),0);const statSchools=$("statSchools"),statNorm=$("statNorm"),statEligible=$("statEligible"),statMissing=$("statMissing");if(statSchools)statSchools.textContent=fmt(filtered.length);if(statNorm)statNorm.textContent=fmt(total);if(statEligible)statEligible.textContent=fmt(eligible);if(statMissing)statMissing.textContent=fmt(miss);$("resultSchools").textContent=fmt(filtered.length);$("resultStudents").textContent=fmt(studentTotal);$("resultNorm").textContent=fmt(total);}'
+new_stats = 'function updateStats(){const RAM_EXISTING_COUNSELORS=2543,known=filtered.filter(r=>r.norm!==null),total=known.reduce((s,r)=>s+r.norm,0),eligible=known.filter(r=>r.norm>=1).length,miss=filtered.filter(isMissingForNorm).length,studentTotal=filtered.reduce((s,r)=>s+(Number.isFinite(Number(r.ogrenci_sayisi_etkin))?Number(r.ogrenci_sayisi_etkin):0),0),noGeoOrValueFilters=!els.search.value.trim()&&!els.province.value&&!els.district.value&&!els.norm.value&&!els.student.value,includeRam=noGeoOrValueFilters&&(els.type.value===""||els.type.value==="RAM"),displayNorm=total+(includeRam?RAM_EXISTING_COUNSELORS:0);const statSchools=$("statSchools"),statNorm=$("statNorm"),statEligible=$("statEligible"),statMissing=$("statMissing"),normNote=$("resultNormNote");if(statSchools)statSchools.textContent=fmt(filtered.length);if(statNorm)statNorm.textContent=fmt(displayNorm);if(statEligible)statEligible.textContent=fmt(eligible);if(statMissing)statMissing.textContent=fmt(miss);$("resultSchools").textContent=fmt(filtered.length);$("resultStudents").textContent=fmt(studentTotal);$("resultNorm").textContent=fmt(displayNorm);if(normNote)normNote.textContent=includeRam?(els.type.value==="RAM"?"RAM mevcut rehber öğretmen: 2.543":"okul normu + RAM mevcut rehber öğretmen: 2.543"):"filtrelenmiş hesaplanabilen norm toplamı (RAM dağılımı eklenmedi)";}'
+if old_stats in text:
     text = text.replace(old_stats, new_stats, 1)
+elif 'RAM_EXISTING_COUNSELORS=2543' not in text:
+    raise RuntimeError('updateStats anchor not found')
 
 # Account for the new summary strip in the full-screen table height.
 text = text.replace('max-height: calc(100vh - 236px) !important;', 'max-height: calc(100vh - 330px) !important;')
@@ -81,4 +83,4 @@ text = text.replace('max-height: calc(100vh - 280px) !important;', 'max-height: 
 text = text.replace('max-height: calc(100vh - 286px) !important;', 'max-height: calc(100vh - 390px) !important;')
 
 INDEX.write_text(text, encoding="utf-8")
-print('results summary cards applied')
+print('results summary cards applied with RAM existing counselor count')
