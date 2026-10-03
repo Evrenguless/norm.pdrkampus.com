@@ -67703,7 +67703,10 @@
       "district": "Merkez",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-yavuz-coban-mesleki-ve-teknik-anadolu-lisesi-aksaray-merkez-738-obp"
+      "source_url": "https://liseler.com.tr/sehit-yavuz-coban-mesleki-ve-teknik-anadolu-lisesi-aksaray-merkez-738-obp",
+      "value": 2744,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "320561": {
       "student_count": 550,
@@ -67712,7 +67715,10 @@
       "district": "Alanya",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mustafamuruvvet-alaattinoglu-anadolu-lisesi-antalya-alanya-813-obp"
+      "source_url": "https://liseler.com.tr/mustafamuruvvet-alaattinoglu-anadolu-lisesi-antalya-alanya-813-obp",
+      "value": 550,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "378154": {
       "student_count": 148,
@@ -67721,7 +67727,10 @@
       "district": "Başmakçı",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/basmakci-cok-programli-anadolu-lisesi-afyonkarahisar-basmakci-564-obp"
+      "source_url": "https://liseler.com.tr/basmakci-cok-programli-anadolu-lisesi-afyonkarahisar-basmakci-564-obp",
+      "value": 148,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "749271": {
       "student_count": 607,
@@ -67730,7 +67739,10 @@
       "district": "Manavgat",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/irazduriye-duran-anadolu-lisesi-antalya-manavgat-918-obp"
+      "source_url": "https://liseler.com.tr/irazduriye-duran-anadolu-lisesi-antalya-manavgat-918-obp",
+      "value": 607,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "122462": {
       "student_count": 1037,
@@ -67739,7 +67751,10 @@
       "district": "Sincan",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-ozgur-can-ince-mesleki-ve-teknik-anadolu-lisesi-ankara-sincan-432-obp"
+      "source_url": "https://liseler.com.tr/sehit-ozgur-can-ince-mesleki-ve-teknik-anadolu-lisesi-ankara-sincan-432-obp",
+      "value": 1037,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "325121": {
       "student_count": 211,
@@ -67748,7 +67763,10 @@
       "district": "Ağaçören",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/agacoren-sehit-menderes-taskale-cok-programli-anadolu-lisesi-aksaray-agacoren-709-obp"
+      "source_url": "https://liseler.com.tr/agacoren-sehit-menderes-taskale-cok-programli-anadolu-lisesi-aksaray-agacoren-709-obp",
+      "value": 211,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "761447": {
       "student_count": 1018,
@@ -67757,7 +67775,10 @@
       "district": "Kepez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-muhittin-talha-caliskan-anadolu-lisesi-antalya-kepez-879-obp"
+      "source_url": "https://liseler.com.tr/sehit-muhittin-talha-caliskan-anadolu-lisesi-antalya-kepez-879-obp",
+      "value": 1018,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "968961": {
       "student_count": 709,
@@ -67766,7 +67787,10 @@
       "district": "Çukurova",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mehmet-ozoncel-anadolu-lisesi-adana-cukurova-21-obp"
+      "source_url": "https://liseler.com.tr/mehmet-ozoncel-anadolu-lisesi-adana-cukurova-21-obp",
+      "value": 709,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "223312": {
       "student_count": 57,
@@ -67775,7 +67799,10 @@
       "district": "Merkez",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/yesiltepe-sehit-atilla-mutlu-cok-programli-anadolu-lisesi-aksaray-merkez-745-obp"
+      "source_url": "https://liseler.com.tr/yesiltepe-sehit-atilla-mutlu-cok-programli-anadolu-lisesi-aksaray-merkez-745-obp",
+      "value": 57,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "774083": {
       "student_count": 12,
@@ -67784,7 +67811,10 @@
       "district": "Ardanuç",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/ardanuc-tarim-mesleki-ve-teknik-anadolu-lisesi-artvin-ardanuc-986-obp"
+      "source_url": "https://liseler.com.tr/ardanuc-tarim-mesleki-ve-teknik-anadolu-lisesi-artvin-ardanuc-986-obp",
+      "value": 12,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "962698": {
       "student_count": 366,
@@ -67793,7 +67823,10 @@
       "district": "Söke",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fatma-tuzzehra-orhun-mesleki-ve-teknik-anadolu-lisesi-aydin-soke-1090-obp"
+      "source_url": "https://liseler.com.tr/fatma-tuzzehra-orhun-mesleki-ve-teknik-anadolu-lisesi-aydin-soke-1090-obp",
+      "value": 366,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "117807": {
       "student_count": 436,
@@ -67802,7 +67835,10 @@
       "district": "Merzifon",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/merzifon-abide-hatun-anadolu-lisesi-amasya-merzifon-783-obp"
+      "source_url": "https://liseler.com.tr/merzifon-abide-hatun-anadolu-lisesi-amasya-merzifon-783-obp",
+      "value": 436,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "905493": {
       "student_count": 320,
@@ -67811,7 +67847,10 @@
       "district": "Taşova",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/tasova-sehit-polis-ahmet-yasar-mesleki-ve-teknik-anadolu-lisesi-amasya-tasova-797-obp"
+      "source_url": "https://liseler.com.tr/tasova-sehit-polis-ahmet-yasar-mesleki-ve-teknik-anadolu-lisesi-amasya-tasova-797-obp",
+      "value": 320,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "372863": {
       "student_count": 73,
@@ -67820,7 +67859,10 @@
       "district": "Elmadağ",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/elmadag-anadolu-imam-hatip-lisesi-ankara-elmadag-271-obp"
+      "source_url": "https://liseler.com.tr/elmadag-anadolu-imam-hatip-lisesi-ankara-elmadag-271-obp",
+      "value": 73,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "967475": {
       "student_count": 1202,
@@ -67829,7 +67871,10 @@
       "district": "Pursaklar",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/pursaklar-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-ankara-pursaklar-421-obp"
+      "source_url": "https://liseler.com.tr/pursaklar-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-ankara-pursaklar-421-obp",
+      "value": 1202,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "767612": {
       "student_count": 423,
@@ -67838,7 +67883,10 @@
       "district": "Keçiören",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/baglum-sehit-oguz-kaan-usta-mesleki-ve-teknik-anadolu-lisesi-ankara-kecioren-359-obp"
+      "source_url": "https://liseler.com.tr/baglum-sehit-oguz-kaan-usta-mesleki-ve-teknik-anadolu-lisesi-ankara-kecioren-359-obp",
+      "value": 423,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "745562": {
       "student_count": 155,
@@ -67847,7 +67895,10 @@
       "district": "Besni",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/besni-cakirhoyuk-cok-programli-anadolu-lisesi-adiyaman-besni-492-obp"
+      "source_url": "https://liseler.com.tr/besni-cakirhoyuk-cok-programli-anadolu-lisesi-adiyaman-besni-492-obp",
+      "value": 155,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "969356": {
       "student_count": 724,
@@ -67856,7 +67907,10 @@
       "district": "Pursaklar",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/pursaklar-anadolu-imam-hatip-lisesi-ankara-pursaklar-417-obp"
+      "source_url": "https://liseler.com.tr/pursaklar-anadolu-imam-hatip-lisesi-ankara-pursaklar-417-obp",
+      "value": 724,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "341465": {
       "student_count": 92,
@@ -67865,7 +67919,10 @@
       "district": "Şavşat",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/savsat-cok-programli-anadolu-lisesi-artvin-savsat-1011-obp"
+      "source_url": "https://liseler.com.tr/savsat-cok-programli-anadolu-lisesi-artvin-savsat-1011-obp",
+      "value": 92,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "760289": {
       "student_count": 88,
@@ -67874,7 +67931,10 @@
       "district": "İncirliova",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/incirliova-anadolu-imam-hatip-lisesi-aydin-incirliova-1055-obp"
+      "source_url": "https://liseler.com.tr/incirliova-anadolu-imam-hatip-lisesi-aydin-incirliova-1055-obp",
+      "value": 88,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "967557": {
       "student_count": 774,
@@ -67883,7 +67943,10 @@
       "district": "Merkez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/semsi-turkmen-anadolu-lisesi-agri-merkez-684-obp"
+      "source_url": "https://liseler.com.tr/semsi-turkmen-anadolu-lisesi-agri-merkez-684-obp",
+      "value": 774,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "906988": {
       "student_count": 434,
@@ -67892,7 +67955,10 @@
       "district": "Sındırgı",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sindirgi-mesleki-ve-teknik-anadolu-lisesi-balikesir-sindirgi-1285-obp"
+      "source_url": "https://liseler.com.tr/sindirgi-mesleki-ve-teknik-anadolu-lisesi-balikesir-sindirgi-1285-obp",
+      "value": 434,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "766287": {
       "student_count": 103,
@@ -67901,7 +67967,10 @@
       "district": "Beyağaç",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/beyagac-anadolu-imam-hatip-lisesi-denizli-beyagac-1875-obp"
+      "source_url": "https://liseler.com.tr/beyagac-anadolu-imam-hatip-lisesi-denizli-beyagac-1875-obp",
+      "value": 103,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "965267": {
       "student_count": 215,
@@ -67910,7 +67979,10 @@
       "district": "Bigadiç",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/bigadic-anadolu-lisesi-balikesir-bigadic-1218-obp"
+      "source_url": "https://liseler.com.tr/bigadic-anadolu-lisesi-balikesir-bigadic-1218-obp",
+      "value": 215,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "749647": {
       "student_count": 98,
@@ -67919,7 +67991,10 @@
       "district": "Demirözü",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mustafa-koseoglu-cok-programli-anadolu-lisesi-bayburt-demirozu-1380-obp"
+      "source_url": "https://liseler.com.tr/mustafa-koseoglu-cok-programli-anadolu-lisesi-bayburt-demirozu-1380-obp",
+      "value": 98,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "325037": {
       "student_count": 23,
@@ -67928,7 +68003,10 @@
       "district": "Kıbrıscık",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-yildirim-oflaz-cok-programli-anadolu-lisesi-bolu-kibriscik-1494-obp"
+      "source_url": "https://liseler.com.tr/sehit-yildirim-oflaz-cok-programli-anadolu-lisesi-bolu-kibriscik-1494-obp",
+      "value": 23,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "130848": {
       "student_count": 342,
@@ -67937,7 +68015,10 @@
       "district": "Osmaneli",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/osmaneli-nilufer-hatun-mesleki-ve-teknik-anadolu-lisesi-bilecik-osmaneli-1409-obp"
+      "source_url": "https://liseler.com.tr/osmaneli-nilufer-hatun-mesleki-ve-teknik-anadolu-lisesi-bilecik-osmaneli-1409-obp",
+      "value": 342,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "964610": {
       "student_count": 1162,
@@ -67946,7 +68027,10 @@
       "district": "Yıldırım",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/yildirim-beyazit-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-bursa-yildirim-1700-obp"
+      "source_url": "https://liseler.com.tr/yildirim-beyazit-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-bursa-yildirim-1700-obp",
+      "value": 1162,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "751378": {
       "student_count": 62,
@@ -67955,7 +68039,10 @@
       "district": "Ağlasun",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-bayram-yesil-cok-programli-anadolu-lisesi-burdur-aglasun-1524-obp"
+      "source_url": "https://liseler.com.tr/sehit-bayram-yesil-cok-programli-anadolu-lisesi-burdur-aglasun-1524-obp",
+      "value": 62,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765286": {
       "student_count": 38,
@@ -67964,7 +68051,10 @@
       "district": "Baskil",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/baskil-mesleki-ve-teknik-anadolu-lisesi-elazig-baskil-2179-obp"
+      "source_url": "https://liseler.com.tr/baskil-mesleki-ve-teknik-anadolu-lisesi-elazig-baskil-2179-obp",
+      "value": 38,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "246729": {
       "student_count": 298,
@@ -67973,7 +68063,10 @@
       "district": "Adilcevaz",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/adilcevaz-tugrul-bey-anadolu-lisesi-bitlis-adilcevaz-1447-obp"
+      "source_url": "https://liseler.com.tr/adilcevaz-tugrul-bey-anadolu-lisesi-bitlis-adilcevaz-1447-obp",
+      "value": 298,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "321721": {
       "student_count": 82,
@@ -67982,7 +68075,10 @@
       "district": "Çilimli",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/cilimli-anadolu-kalkinma-vakfi-mesleki-ve-teknik-anadolu-lisesi-duzce-cilimli-2106-obp"
+      "source_url": "https://liseler.com.tr/cilimli-anadolu-kalkinma-vakfi-mesleki-ve-teknik-anadolu-lisesi-duzce-cilimli-2106-obp",
+      "value": 82,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972850": {
       "student_count": 665,
@@ -67991,7 +68087,10 @@
       "district": "Antakya",
       "school_type": "Lise",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/antakya-lisesi-hatay-antakya-2741-obp"
+      "source_url": "https://liseler.com.tr/antakya-lisesi-hatay-antakya-2741-obp",
+      "value": 665,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "760091": {
       "student_count": 1070,
@@ -68000,7 +68099,10 @@
       "district": "Şahinbey",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mevlana-anadolu-lisesi-gaziantep-sahinbey-2495-obp"
+      "source_url": "https://liseler.com.tr/mevlana-anadolu-lisesi-gaziantep-sahinbey-2495-obp",
+      "value": 1070,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "967988": {
       "student_count": 778,
@@ -68009,7 +68111,10 @@
       "district": "Odunpazarı",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kilicoglu-anadolu-lisesi-eskisehir-odunpazari-2380-obp"
+      "source_url": "https://liseler.com.tr/kilicoglu-anadolu-lisesi-eskisehir-odunpazari-2380-obp",
+      "value": 778,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "236452": {
       "student_count": 514,
@@ -68018,7 +68123,10 @@
       "district": "Belen",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/belen-anadolu-lisesi-hatay-belen-2763-obp"
+      "source_url": "https://liseler.com.tr/belen-anadolu-lisesi-hatay-belen-2763-obp",
+      "value": 514,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "767332": {
       "student_count": 530,
@@ -68027,7 +68135,10 @@
       "district": "Kırıkhan",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/yorukler-anadolu-lisesi-hatay-kirikhan-2814-obp"
+      "source_url": "https://liseler.com.tr/yorukler-anadolu-lisesi-hatay-kirikhan-2814-obp",
+      "value": 530,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "767333": {
       "student_count": 461,
@@ -68036,7 +68147,10 @@
       "district": "Reyhanlı",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/yesilova-anadolu-lisesi-hatay-reyhanli-2833-obp"
+      "source_url": "https://liseler.com.tr/yesilova-anadolu-lisesi-hatay-reyhanli-2833-obp",
+      "value": 461,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "153860": {
       "student_count": 643,
@@ -68045,7 +68159,10 @@
       "district": "Payas",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/payas-anadolu-lisesi-hatay-payas-2820-obp"
+      "source_url": "https://liseler.com.tr/payas-anadolu-lisesi-hatay-payas-2820-obp",
+      "value": 643,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "155033": {
       "student_count": 238,
@@ -68054,7 +68171,10 @@
       "district": "Merkez",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/gul-sehri-mesleki-ve-teknik-anadolu-lisesi-isparta-merkez-2895-obp"
+      "source_url": "https://liseler.com.tr/gul-sehri-mesleki-ve-teknik-anadolu-lisesi-isparta-merkez-2895-obp",
+      "value": 238,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "878973": {
       "student_count": 147,
@@ -68063,7 +68183,10 @@
       "district": "Merkez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/karaman-bifa-anadolu-lisesi-karaman-merkez-3929-obp"
+      "source_url": "https://liseler.com.tr/karaman-bifa-anadolu-lisesi-karaman-merkez-3929-obp",
+      "value": 147,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "754519": {
       "student_count": 410,
@@ -68072,7 +68195,10 @@
       "district": "Dulkadiroğlu",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/karacasu-cok-programli-anadolu-lisesi-kahramanmaras-dulkadiroglu-3772-obp"
+      "source_url": "https://liseler.com.tr/karacasu-cok-programli-anadolu-lisesi-kahramanmaras-dulkadiroglu-3772-obp",
+      "value": 410,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "320764": {
       "student_count": 75,
@@ -68081,7 +68207,10 @@
       "district": "Küre",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kure-cok-programli-anadolu-lisesi-kastamonu-kure-4010-obp"
+      "source_url": "https://liseler.com.tr/kure-cok-programli-anadolu-lisesi-kastamonu-kure-4010-obp",
+      "value": 75,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "907276": {
       "student_count": 723,
@@ -68090,7 +68219,10 @@
       "district": "Kağızman",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kagizman-mesleki-ve-teknik-anadolu-lisesi-kars-kagizman-3944-obp"
+      "source_url": "https://liseler.com.tr/kagizman-mesleki-ve-teknik-anadolu-lisesi-kars-kagizman-3944-obp",
+      "value": 723,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "763711": {
       "student_count": 275,
@@ -68099,7 +68231,10 @@
       "district": "Develi",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fahri-mor-mesleki-ve-teknik-anadolu-lisesi-kayseri-develi-4057-obp"
+      "source_url": "https://liseler.com.tr/fahri-mor-mesleki-ve-teknik-anadolu-lisesi-kayseri-develi-4057-obp",
+      "value": 275,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "761418": {
       "student_count": 414,
@@ -68108,7 +68243,10 @@
       "district": "Melikgazi",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/ertugrulgazi-anadolu-imam-hatip-lisesi-kayseri-melikgazi-4128-obp"
+      "source_url": "https://liseler.com.tr/ertugrulgazi-anadolu-imam-hatip-lisesi-kayseri-melikgazi-4128-obp",
+      "value": 414,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "777100": {
       "student_count": 502,
@@ -68117,7 +68255,10 @@
       "district": "Merkez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/turkiye-odalar-ve-borsalar-birligi-anadolu-lisesi-kirklareli-merkez-4228-obp"
+      "source_url": "https://liseler.com.tr/turkiye-odalar-ve-borsalar-birligi-anadolu-lisesi-kirklareli-merkez-4228-obp",
+      "value": 502,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "973766": {
       "student_count": 442,
@@ -68126,7 +68267,10 @@
       "district": "Kocasinan",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kocasinan-furkan-dogan-anadolu-imam-hatip-lisesi-kayseri-kocasinan-4082-obp"
+      "source_url": "https://liseler.com.tr/kocasinan-furkan-dogan-anadolu-imam-hatip-lisesi-kayseri-kocasinan-4082-obp",
+      "value": 442,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "351539": {
       "student_count": 803,
@@ -68135,7 +68279,10 @@
       "district": "Merkez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/aytac-eruz-anadolu-lisesi-kastamonu-merkez-4018-obp"
+      "source_url": "https://liseler.com.tr/aytac-eruz-anadolu-lisesi-kastamonu-merkez-4018-obp",
+      "value": 803,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "751757": {
       "student_count": 147,
@@ -68144,7 +68291,10 @@
       "district": "Bozkır",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/lokman-hekim-mesleki-ve-teknik-anadolu-lisesi-konya-bozkir-4441-obp"
+      "source_url": "https://liseler.com.tr/lokman-hekim-mesleki-ve-teknik-anadolu-lisesi-konya-bozkir-4441-obp",
+      "value": 147,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "974919": {
       "student_count": 441,
@@ -68153,7 +68303,10 @@
       "district": "Gölcük",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/barbaros-hayrettin-anadolu-lisesi-kocaeli-golcuk-4360-obp"
+      "source_url": "https://liseler.com.tr/barbaros-hayrettin-anadolu-lisesi-kocaeli-golcuk-4360-obp",
+      "value": 441,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "752229": {
       "student_count": 490,
@@ -68162,7 +68315,10 @@
       "district": "Dilovası",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/gebkim-mesleki-ve-teknik-anadolu-lisesi-kocaeli-dilovasi-4328-obp"
+      "source_url": "https://liseler.com.tr/gebkim-mesleki-ve-teknik-anadolu-lisesi-kocaeli-dilovasi-4328-obp",
+      "value": 490,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972927": {
       "student_count": 672,
@@ -68171,7 +68327,10 @@
       "district": "Selçuklu",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mehmet-akif-ersoy-anadolu-lisesi-konya-selcuklu-4564-obp"
+      "source_url": "https://liseler.com.tr/mehmet-akif-ersoy-anadolu-lisesi-konya-selcuklu-4564-obp",
+      "value": 672,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "300458": {
       "student_count": 644,
@@ -68180,7 +68339,10 @@
       "district": "Tavşanlı",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/tavsanli-anadolu-lisesi-kutahya-tavsanli-4656-obp"
+      "source_url": "https://liseler.com.tr/tavsanli-anadolu-lisesi-kutahya-tavsanli-4656-obp",
+      "value": 644,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "373102": {
       "student_count": 6,
@@ -68189,7 +68351,10 @@
       "district": "Domaniç",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/domanic-anadolu-imam-hatip-lisesi-kutahya-domanic-4615-obp"
+      "source_url": "https://liseler.com.tr/domanic-anadolu-imam-hatip-lisesi-kutahya-domanic-4615-obp",
+      "value": 6,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "264355": {
       "student_count": 169,
@@ -68198,7 +68363,10 @@
       "district": "Merkez",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/17-agustos-mesleki-ve-teknik-anadolu-lisesi-kirikkale-merkez-4195-obp"
+      "source_url": "https://liseler.com.tr/17-agustos-mesleki-ve-teknik-anadolu-lisesi-kirikkale-merkez-4195-obp",
+      "value": 169,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972377": {
       "student_count": 250,
@@ -68207,7 +68375,10 @@
       "district": "Salihli",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kemal-ural-anadolu-lisesi-manisa-salihli-4801-obp"
+      "source_url": "https://liseler.com.tr/kemal-ural-anadolu-lisesi-manisa-salihli-4801-obp",
+      "value": 250,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "759974": {
       "student_count": 36,
@@ -68216,7 +68387,10 @@
       "district": "Köprübaşı",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-hikmet-guler-anadolu-imam-hatip-lisesi-manisa-koprubasi-4788-obp"
+      "source_url": "https://liseler.com.tr/sehit-hikmet-guler-anadolu-imam-hatip-lisesi-manisa-koprubasi-4788-obp",
+      "value": 36,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972941": {
       "student_count": 682,
@@ -68225,7 +68399,10 @@
       "district": "Soma",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/soma-linyit-anadolu-lisesi-manisa-soma-4819-obp"
+      "source_url": "https://liseler.com.tr/soma-linyit-anadolu-lisesi-manisa-soma-4819-obp",
+      "value": 682,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "381084": {
       "student_count": 79,
@@ -68234,7 +68411,10 @@
       "district": "Midyat",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/senkoy-anadolu-lisesi-mardin-midyat-5026-obp"
+      "source_url": "https://liseler.com.tr/senkoy-anadolu-lisesi-mardin-midyat-5026-obp",
+      "value": 79,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972625": {
       "student_count": 218,
@@ -68243,7 +68423,10 @@
       "district": "Akdeniz",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/abdulkadir-persembe-vakfi-mesleki-ve-teknik-anadolu-lisesi-mersin-akdeniz-4860-obp"
+      "source_url": "https://liseler.com.tr/abdulkadir-persembe-vakfi-mesleki-ve-teknik-anadolu-lisesi-mersin-akdeniz-4860-obp",
+      "value": 218,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "967767": {
       "student_count": 1051,
@@ -68252,7 +68435,10 @@
       "district": "Yenişehir",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/yahya-gunsur-mesleki-ve-teknik-anadolu-lisesi-mersin-yenisehir-4975-obp"
+      "source_url": "https://liseler.com.tr/yahya-gunsur-mesleki-ve-teknik-anadolu-lisesi-mersin-yenisehir-4975-obp",
+      "value": 1051,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "763606": {
       "student_count": 79,
@@ -68261,7 +68447,10 @@
       "district": "Yeşilli",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/yesilli-bahcebasi-anadolu-imam-hatip-lisesi-mardin-yesilli-5054-obp"
+      "source_url": "https://liseler.com.tr/yesilli-bahcebasi-anadolu-imam-hatip-lisesi-mardin-yesilli-5054-obp",
+      "value": 79,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "964101": {
       "student_count": 585,
@@ -68270,7 +68459,10 @@
       "district": "Fethiye",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fethiye-anadolu-lisesi-mugla-fethiye-5073-obp"
+      "source_url": "https://liseler.com.tr/fethiye-anadolu-lisesi-mugla-fethiye-5073-obp",
+      "value": 585,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972509": {
       "student_count": 422,
@@ -68279,7 +68471,10 @@
       "district": "Fethiye",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fethiye-uzumlu-borsa-istanbul-anadolu-lisesi-mugla-fethiye-5076-obp"
+      "source_url": "https://liseler.com.tr/fethiye-uzumlu-borsa-istanbul-anadolu-lisesi-mugla-fethiye-5076-obp",
+      "value": 422,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "968062": {
       "student_count": 1200,
@@ -68288,7 +68483,10 @@
       "district": "Yenişehir",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sevket-pozcu-anadolu-lisesi-mersin-yenisehir-4972-obp"
+      "source_url": "https://liseler.com.tr/sevket-pozcu-anadolu-lisesi-mersin-yenisehir-4972-obp",
+      "value": 1200,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "967563": {
       "student_count": 897,
@@ -68297,7 +68495,10 @@
       "district": "Altınordu",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fatih-anadolu-lisesi-ordu-altinordu-5265-obp"
+      "source_url": "https://liseler.com.tr/fatih-anadolu-lisesi-ordu-altinordu-5265-obp",
+      "value": 897,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "974760": {
       "student_count": 87,
@@ -68306,7 +68507,10 @@
       "district": "Çaybaşı",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/caybasi-anadolu-imam-hatip-lisesi-ordu-caybasi-5280-obp"
+      "source_url": "https://liseler.com.tr/caybasi-anadolu-imam-hatip-lisesi-ordu-caybasi-5280-obp",
+      "value": 87,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "964392": {
       "student_count": 636,
@@ -68315,7 +68519,10 @@
       "district": "Ferizli",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/ferizli-fikretismet-aktekin-anadolu-lisesi-sakarya-ferizli-5467-obp"
+      "source_url": "https://liseler.com.tr/ferizli-fikretismet-aktekin-anadolu-lisesi-sakarya-ferizli-5467-obp",
+      "value": 636,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "973167": {
       "student_count": 565,
@@ -68324,7 +68531,10 @@
       "district": "Atakum",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kurupelit-mesleki-ve-teknik-anadolu-lisesi-samsun-atakum-5527-obp"
+      "source_url": "https://liseler.com.tr/kurupelit-mesleki-ve-teknik-anadolu-lisesi-samsun-atakum-5527-obp",
+      "value": 565,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765490": {
       "student_count": 513,
@@ -68333,7 +68543,10 @@
       "district": "Merkez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mimar-sinan-anadolu-lisesi-siirt-merkez-5628-obp"
+      "source_url": "https://liseler.com.tr/mimar-sinan-anadolu-lisesi-siirt-merkez-5628-obp",
+      "value": 513,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "767397": {
       "student_count": 202,
@@ -68342,7 +68555,10 @@
       "district": "Merkez",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/karsiyaka-asik-ismeti-anadolu-lisesi-sivas-merkez-5734-obp"
+      "source_url": "https://liseler.com.tr/karsiyaka-asik-ismeti-anadolu-lisesi-sivas-merkez-5734-obp",
+      "value": 202,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "751496": {
       "student_count": 81,
@@ -68351,7 +68567,10 @@
       "district": "Doğanşar",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/dogansar-cok-programli-anadolu-lisesi-sivas-dogansar-5685-obp"
+      "source_url": "https://liseler.com.tr/dogansar-cok-programli-anadolu-lisesi-sivas-dogansar-5685-obp",
+      "value": 81,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "962532": {
       "student_count": 313,
@@ -68360,7 +68579,10 @@
       "district": "Çayeli",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/cayeli-haci-ahmet-hamdi-ishakoglu-mesleki-ve-teknik-anadolu-lisesi-rize-cayeli-5397-obp"
+      "source_url": "https://liseler.com.tr/cayeli-haci-ahmet-hamdi-ishakoglu-mesleki-ve-teknik-anadolu-lisesi-rize-cayeli-5397-obp",
+      "value": 313,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "317153": {
       "student_count": 348,
@@ -68369,7 +68591,10 @@
       "district": "Gerze",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-nurullah-sarac-anadolu-lisesi-sinop-gerze-5664-obp"
+      "source_url": "https://liseler.com.tr/sehit-nurullah-sarac-anadolu-lisesi-sinop-gerze-5664-obp",
+      "value": 348,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "326616": {
       "student_count": 550,
@@ -68378,7 +68603,10 @@
       "district": "Muratlı",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/muratli-anadolu-lisesi-tekirdag-muratli-6008-obp"
+      "source_url": "https://liseler.com.tr/muratli-anadolu-lisesi-tekirdag-muratli-6008-obp",
+      "value": 550,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "749649": {
       "student_count": 45,
@@ -68387,7 +68615,10 @@
       "district": "Erbaa",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/gokal-guldere-cok-programli-anadolu-lisesi-tokat-erbaa-6036-obp"
+      "source_url": "https://liseler.com.tr/gokal-guldere-cok-programli-anadolu-lisesi-tokat-erbaa-6036-obp",
+      "value": 45,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "363865": {
       "student_count": 132,
@@ -68396,7 +68627,10 @@
       "district": "Pazar",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/pazar-uzumoren-selcuk-cok-programli-anadolu-lisesi-tokat-pazar-6064-obp"
+      "source_url": "https://liseler.com.tr/pazar-uzumoren-selcuk-cok-programli-anadolu-lisesi-tokat-pazar-6064-obp",
+      "value": 132,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "973005": {
       "student_count": 846,
@@ -68405,7 +68639,10 @@
       "district": "Ortahisar",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/affan-kitapcioglu-anadolu-lisesi-trabzon-ortahisar-6147-obp"
+      "source_url": "https://liseler.com.tr/affan-kitapcioglu-anadolu-lisesi-trabzon-ortahisar-6147-obp",
+      "value": 846,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "752262": {
       "student_count": 75,
@@ -68414,7 +68651,10 @@
       "district": "Sivaslı",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sivasli-anadolu-imam-hatip-lisesi-usak-sivasli-6233-obp"
+      "source_url": "https://liseler.com.tr/sivasli-anadolu-imam-hatip-lisesi-usak-sivasli-6233-obp",
+      "value": 75,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "207303": {
       "student_count": 20,
@@ -68423,7 +68663,10 @@
       "district": "Ulubey",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/ulubey-ummu-baykan-anadolu-imam-hatip-lisesi-usak-ulubey-6235-obp"
+      "source_url": "https://liseler.com.tr/ulubey-ummu-baykan-anadolu-imam-hatip-lisesi-usak-ulubey-6235-obp",
+      "value": 20,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "750329": {
       "student_count": 142,
@@ -68432,7 +68675,10 @@
       "district": "Karahallı",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/karahalli-anadolu-lisesi-usak-karahalli-6213-obp"
+      "source_url": "https://liseler.com.tr/karahalli-anadolu-lisesi-usak-karahalli-6213-obp",
+      "value": 142,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "321853": {
       "student_count": 52,
@@ -68441,7 +68687,10 @@
       "district": "Sorgun",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/cigdemli-cok-programli-anadolu-lisesi-yozgat-sorgun-6413-obp"
+      "source_url": "https://liseler.com.tr/cigdemli-cok-programli-anadolu-lisesi-yozgat-sorgun-6413-obp",
+      "value": 52,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "905564": {
       "student_count": 412,
@@ -68450,7 +68699,10 @@
       "district": "Devrek",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/devrek-mesleki-ve-teknik-anadolu-lisesi-zonguldak-devrek-6447-obp"
+      "source_url": "https://liseler.com.tr/devrek-mesleki-ve-teknik-anadolu-lisesi-zonguldak-devrek-6447-obp",
+      "value": 412,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "974790": {
       "student_count": 242,
@@ -68459,7 +68711,10 @@
       "district": "Çaycuma",
       "school_type": "Anadolu İmam Hatip Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/caycuma-anadolu-imam-hatip-lisesi-zonguldak-caycuma-6437-obp"
+      "source_url": "https://liseler.com.tr/caycuma-anadolu-imam-hatip-lisesi-zonguldak-caycuma-6437-obp",
+      "value": 242,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "973163": {
       "student_count": 232,
@@ -68468,7 +68723,10 @@
       "district": "Ereğli",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/ormanli-cok-programli-anadolu-lisesi-zonguldak-eregli-6456-obp"
+      "source_url": "https://liseler.com.tr/ormanli-cok-programli-anadolu-lisesi-zonguldak-eregli-6456-obp",
+      "value": 232,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "240040": {
       "student_count": 85,
@@ -68477,7 +68735,10 @@
       "district": "Laçin",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/lacin-cok-programli-anadolu-lisesi-corum-lacin-1820-obp"
+      "source_url": "https://liseler.com.tr/lacin-cok-programli-anadolu-lisesi-corum-lacin-1820-obp",
+      "value": 85,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "750871": {
       "student_count": 2083,
@@ -68486,7 +68747,10 @@
       "district": "Avcılar",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sabanci-50-yil-anadolu-lisesi-istanbul-avcilar-2955-obp"
+      "source_url": "https://liseler.com.tr/sabanci-50-yil-anadolu-lisesi-istanbul-avcilar-2955-obp",
+      "value": 2083,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "766303": {
       "student_count": 570,
@@ -68495,7 +68759,10 @@
       "district": "Bahçelievler",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/bahcelievler-turkiye-gazetesi-cok-programli-anadolu-lisesi-istanbul-bahcelievler-3001-obp"
+      "source_url": "https://liseler.com.tr/bahcelievler-turkiye-gazetesi-cok-programli-anadolu-lisesi-istanbul-bahcelievler-3001-obp",
+      "value": 570,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "971768": {
       "student_count": 976,
@@ -68504,7 +68771,10 @@
       "district": "Beylikdüzü",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/beylikduzu-mimar-sinan-cok-programli-anadolu-lisesi-istanbul-beylikduzu-3073-obp"
+      "source_url": "https://liseler.com.tr/beylikduzu-mimar-sinan-cok-programli-anadolu-lisesi-istanbul-beylikduzu-3073-obp",
+      "value": 976,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "967500": {
       "student_count": 1317,
@@ -68513,7 +68783,10 @@
       "district": "Başakşehir",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/bahcesehir-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-istanbul-basaksehir-3033-obp"
+      "source_url": "https://liseler.com.tr/bahcesehir-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-istanbul-basaksehir-3033-obp",
+      "value": 1317,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "970083": {
       "student_count": 1014,
@@ -68522,7 +68795,10 @@
       "district": "Bahçelievler",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/mehmet-akif-cok-programli-anadolu-lisesi-istanbul-bahcelievler-2998-obp"
+      "source_url": "https://liseler.com.tr/mehmet-akif-cok-programli-anadolu-lisesi-istanbul-bahcelievler-2998-obp",
+      "value": 1014,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "768446": {
       "student_count": 1524,
@@ -68531,7 +68807,10 @@
       "district": "Başakşehir",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/emlak-konut-bahcekent-anadolu-lisesi-istanbul-basaksehir-3028-obp"
+      "source_url": "https://liseler.com.tr/emlak-konut-bahcekent-anadolu-lisesi-istanbul-basaksehir-3028-obp",
+      "value": 1524,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "241584": {
       "student_count": 858,
@@ -68540,7 +68819,10 @@
       "district": "Beykoz",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fevzi-cakmak-anadolu-lisesi-istanbul-beykoz-3055-obp"
+      "source_url": "https://liseler.com.tr/fevzi-cakmak-anadolu-lisesi-istanbul-beykoz-3055-obp",
+      "value": 858,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "158780": {
       "student_count": 798,
@@ -68549,7 +68831,10 @@
       "district": "Beşiktaş",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/etiler-anadolu-lisesi-istanbul-besiktas-3053-obp"
+      "source_url": "https://liseler.com.tr/etiler-anadolu-lisesi-istanbul-besiktas-3053-obp",
+      "value": 798,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "767278": {
       "student_count": 781,
@@ -68558,7 +68843,10 @@
       "district": "Esenler",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/esenler-menderes-anadolu-lisesi-istanbul-esenler-3126-obp"
+      "source_url": "https://liseler.com.tr/esenler-menderes-anadolu-lisesi-istanbul-esenler-3126-obp",
+      "value": 781,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765290": {
       "student_count": 1353,
@@ -68567,7 +68855,10 @@
       "district": "Fatih",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/fatih-ataturk-cagdas-yasam-cok-programli-anadolu-lisesi-istanbul-fatih-3171-obp"
+      "source_url": "https://liseler.com.tr/fatih-ataturk-cagdas-yasam-cok-programli-anadolu-lisesi-istanbul-fatih-3171-obp",
+      "value": 1353,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "745912": {
       "student_count": 1740,
@@ -68576,7 +68867,10 @@
       "district": "Gaziosmanpaşa",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/2-mehmet-cok-programli-anadolu-lisesi-istanbul-gaziosmanpasa-3180-obp"
+      "source_url": "https://liseler.com.tr/2-mehmet-cok-programli-anadolu-lisesi-istanbul-gaziosmanpasa-3180-obp",
+      "value": 1740,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765518": {
       "student_count": 1658,
@@ -68585,7 +68879,10 @@
       "district": "Sultangazi",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-erhan-dundar-cok-programli-anadolu-lisesi-istanbul-sultangazi-3372-obp"
+      "source_url": "https://liseler.com.tr/sehit-erhan-dundar-cok-programli-anadolu-lisesi-istanbul-sultangazi-3372-obp",
+      "value": 1658,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "775245": {
       "student_count": 164,
@@ -68594,7 +68891,10 @@
       "district": "Maltepe",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/zumrutevler-anadolu-lisesi-istanbul-maltepe-3291-obp"
+      "source_url": "https://liseler.com.tr/zumrutevler-anadolu-lisesi-istanbul-maltepe-3291-obp",
+      "value": 164,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "349796": {
       "student_count": 879,
@@ -68603,7 +68903,10 @@
       "district": "Tuzla",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kasif-kalkavan-cok-programli-anadolu-lisesi-istanbul-tuzla-3419-obp"
+      "source_url": "https://liseler.com.tr/kasif-kalkavan-cok-programli-anadolu-lisesi-istanbul-tuzla-3419-obp",
+      "value": 879,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "163228": {
       "student_count": 760,
@@ -68612,7 +68915,10 @@
       "district": "Zeytinburnu",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-buyukelci-galip-balkar-mesleki-ve-teknik-anadolu-lisesi-istanbul-zeytinburnu-3466-obp"
+      "source_url": "https://liseler.com.tr/sehit-buyukelci-galip-balkar-mesleki-ve-teknik-anadolu-lisesi-istanbul-zeytinburnu-3466-obp",
+      "value": 760,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "162306": {
       "student_count": 652,
@@ -68621,7 +68927,10 @@
       "district": "Şişli",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kurtulus-anadolu-lisesi-istanbul-sisli-3398-obp"
+      "source_url": "https://liseler.com.tr/kurtulus-anadolu-lisesi-istanbul-sisli-3398-obp",
+      "value": 652,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "971526": {
       "student_count": 290,
@@ -68630,7 +68939,10 @@
       "district": "Şile",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/agva-anadolu-lisesi-istanbul-sile-3391-obp"
+      "source_url": "https://liseler.com.tr/agva-anadolu-lisesi-istanbul-sile-3391-obp",
+      "value": 290,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "970497": {
       "student_count": 732,
@@ -68639,7 +68951,10 @@
       "district": "Bayraklı",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/bayrakli-nuri-atik-mesleki-ve-teknik-anadolu-lisesi-izmir-bayrakli-3493-obp"
+      "source_url": "https://liseler.com.tr/bayrakli-nuri-atik-mesleki-ve-teknik-anadolu-lisesi-izmir-bayrakli-3493-obp",
+      "value": 732,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "378058": {
       "student_count": 914,
@@ -68648,7 +68963,10 @@
       "district": "Zeytinburnu",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/zeytinburnu-trisad-tekstil-teknolojisi-mesleki-ve-teknik-anadolu-lisesi-istanbul-zeytinburnu-3465-obp"
+      "source_url": "https://liseler.com.tr/zeytinburnu-trisad-tekstil-teknolojisi-mesleki-ve-teknik-anadolu-lisesi-istanbul-zeytinburnu-3465-obp",
+      "value": 914,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "972890": {
       "student_count": 1044,
@@ -68657,7 +68975,10 @@
       "district": "Buca",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/buca-sultan-alparslan-anadolu-lisesi-izmir-buca-3549-obp"
+      "source_url": "https://liseler.com.tr/buca-sultan-alparslan-anadolu-lisesi-izmir-buca-3549-obp",
+      "value": 1044,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "766281": {
       "student_count": 977,
@@ -68666,7 +68987,10 @@
       "district": "Karabağlar",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/bozyaka-sehit-fethi-bey-anadolu-lisesi-izmir-karabaglar-3600-obp"
+      "source_url": "https://liseler.com.tr/bozyaka-sehit-fethi-bey-anadolu-lisesi-izmir-karabaglar-3600-obp",
+      "value": 977,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "341597": {
       "student_count": 489,
@@ -68675,7 +68999,10 @@
       "district": "Kiraz",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/kiraz-cok-programli-anadolu-lisesi-izmir-kiraz-3645-obp"
+      "source_url": "https://liseler.com.tr/kiraz-cok-programli-anadolu-lisesi-izmir-kiraz-3645-obp",
+      "value": 489,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765530": {
       "student_count": 610,
@@ -68684,7 +69011,10 @@
       "district": "Karabağlar",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/karabaglar-yesilyurt-borsa-istanbul-cok-programli-anadolu-lisesi-izmir-karabaglar-3601-obp"
+      "source_url": "https://liseler.com.tr/karabaglar-yesilyurt-borsa-istanbul-cok-programli-anadolu-lisesi-izmir-karabaglar-3601-obp",
+      "value": 610,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "973817": {
       "student_count": 231,
@@ -68693,7 +69023,10 @@
       "district": "Menderes",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/gumuldur-bilgin-bulent-kilic-anadolu-lisesi-izmir-menderes-3680-obp"
+      "source_url": "https://liseler.com.tr/gumuldur-bilgin-bulent-kilic-anadolu-lisesi-izmir-menderes-3680-obp",
+      "value": 231,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765316": {
       "student_count": 443,
@@ -68702,7 +69035,10 @@
       "district": "Torbalı",
       "school_type": "Çok Programlı Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/torbali-subasi-mustafa-topalan-cok-programli-anadolu-lisesi-izmir-torbali-3727-obp"
+      "source_url": "https://liseler.com.tr/torbali-subasi-mustafa-topalan-cok-programli-anadolu-lisesi-izmir-torbali-3727-obp",
+      "value": 443,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "216146": {
       "student_count": 438,
@@ -68711,7 +69047,10 @@
       "district": "Urla",
       "school_type": "Mesleki ve Teknik Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/urla-mesleki-ve-teknik-anadolu-lisesi-izmir-urla-3737-obp"
+      "source_url": "https://liseler.com.tr/urla-mesleki-ve-teknik-anadolu-lisesi-izmir-urla-3737-obp",
+      "value": 438,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "973820": {
       "student_count": 408,
@@ -68720,7 +69059,10 @@
       "district": "Çiğli",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/necip-fazil-kisakurek-anadolu-lisesi-izmir-cigli-3566-obp"
+      "source_url": "https://liseler.com.tr/necip-fazil-kisakurek-anadolu-lisesi-izmir-cigli-3566-obp",
+      "value": 408,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "767145": {
       "student_count": 641,
@@ -68729,7 +69071,10 @@
       "district": "Çiğli",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/sehit-ali-karaoglan-anadolu-lisesi-izmir-cigli-3571-obp"
+      "source_url": "https://liseler.com.tr/sehit-ali-karaoglan-anadolu-lisesi-izmir-cigli-3571-obp",
+      "value": 641,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "765139": {
       "student_count": 311,
@@ -68738,7 +69083,10 @@
       "district": "Akçakale",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/nusretiye-anadolu-lisesi-sanliurfa-akcakale-5767-obp"
+      "source_url": "https://liseler.com.tr/nusretiye-anadolu-lisesi-sanliurfa-akcakale-5767-obp",
+      "value": 311,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     },
     "775185": {
       "student_count": 134,
@@ -68747,7 +69095,10 @@
       "district": "Eyyübiye",
       "school_type": "Anadolu Lisesi",
       "source": "liseler.com.tr",
-      "source_url": "https://liseler.com.tr/milli-irade-anadolu-lisesi-sanliurfa-eyyubiye-5808-obp"
+      "source_url": "https://liseler.com.tr/milli-irade-anadolu-lisesi-sanliurfa-eyyubiye-5808-obp",
+      "value": 134,
+      "verified": true,
+      "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
     }
   }
 }
