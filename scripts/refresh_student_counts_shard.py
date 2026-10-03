@@ -21,7 +21,7 @@ from refresh_student_counts import (
 
 SHARD_INDEX = int(os.environ["SHARD_INDEX"])
 SHARD_COUNT = int(os.environ.get("SHARD_COUNT", "4"))
-OUT_DIR = Path(os.environ.get("SHARD_OUT_DIR", "shard-output"))
+TARGET_GROUP = os.environ.get("TARGET_GROUP", "all").strip().lower()\nOUT_DIR = Path(os.environ.get("SHARD_OUT_DIR", "shard-output"))
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -58,7 +58,7 @@ def main():
 
     print(
         f"Shard {SHARD_INDEX + 1}/{SHARD_COUNT}: "
-        f"{len(shard_targets)} of {len(targets)} unresolved normal schools"
+        f"{len(shard_targets)} of {len(targets)} unresolved {TARGET_GROUP} schools"
     )
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
