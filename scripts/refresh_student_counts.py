@@ -28,14 +28,14 @@ HEADERS = {
 }
 
 COUNT_PATTERNS = [
-    re.compile(r"Öğrenci\\s*Say(?:ı|i)s(?:ı|i)\\s*[:\\-]?\\s*(\\d{1,5})", re.I),
-    re.compile(r"Öğrenci\\s*Sayımız\\s*[:\\-]?\\s*(\\d{1,5})", re.I),
-    re.compile(r"Toplam\\s*Öğrenci(?:\\s*Say(?:ı|i)s(?:ı|i))?\\s*[:\\-]?\\s*(\\d{1,5})", re.I),
+    re.compile(r"Öğrenci\s*Say(?:ı|i)s(?:ı|i)\s*[:\\-]?\s*(\d{1,5})", re.I),
+    re.compile(r"Öğrenci\s*Sayımız\s*[:\\-]?\s*(\d{1,5})", re.I),
+    re.compile(r"Toplam\s*Öğrenci(?:\s*Say(?:ı|i)s(?:ı|i))?\s*[:\\-]?\s*(\d{1,5})", re.I),
 ]
 
 ZERO_OR_DASH_PATTERNS = [
-    re.compile(r"Öğrenci\\s*Say(?:ı|i)s(?:ı|i)\\s*[:\\-]?\\s*(?:0|[-–—])(?:\\D|$)", re.I),
-    re.compile(r"Öğrenci\\s*Sayımız\\s*[:\\-]?\\s*(?:0|[-–—])(?:\\D|$)", re.I),
+    re.compile(r"Öğrenci\s*Say(?:ı|i)s(?:ı|i)\s*[:\\-]?\s*(?:0|[-–—])(?:\D|$)", re.I),
+    re.compile(r"Öğrenci\s*Sayımız\s*[:\\-]?\s*(?:0|[-–—])(?:\D|$)", re.I),
 ]
 
 DISCOVERY_HINTS = (
@@ -69,7 +69,7 @@ def extract_numbers(value):
     if value is None:
         return []
     vals = []
-    for m in re.findall(r"\\d+(?:[.,]\\d+)?", str(value)):
+    for m in re.findall(r"\d+(?:[.,]\d+)?", str(value)):
         try:
             n = int(float(m.replace(",", ".")))
         except ValueError:
