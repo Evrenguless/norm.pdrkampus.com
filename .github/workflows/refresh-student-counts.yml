@@ -36,7 +36,7 @@ jobs:
         env:
           SHARD_INDEX: ${{ matrix.shard }}
           SHARD_COUNT: 4
-          TARGET_GROUP: highschool
+          TARGET_GROUP: middle
           SHARD_OUT_DIR: shard-output
         run: python scripts/refresh_student_counts_shard.py
       - name: Upload shard result
