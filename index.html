@@ -706,6 +706,7 @@
     }
 
     .results table{
+      display:table!important;
       width:100%!important;
       min-width:1080px!important;
       table-layout:fixed!important;
@@ -714,10 +715,26 @@
       background:#fff!important;
     }
 
-    .results thead,
-    .results thead tr{
+    .results thead{
       display:table-header-group!important;
       position:static!important;
+    }
+    .results thead tr{
+      display:table-row!important;
+      position:static!important;
+      width:auto!important;
+    }
+    .results tbody{
+      display:table-row-group!important;
+    }
+    .results tbody tr{
+      display:table-row!important;
+      width:auto!important;
+    }
+    .results thead th,
+    .results tbody td{
+      display:table-cell!important;
+      float:none!important;
     }
 
     .results thead th{
@@ -919,7 +936,7 @@
     <section class="hero">
       <div class="eyebrow">PDR KAMPÜS · NORM ANALİZİ</div>
       <h1>Okulların rehber öğretmen normunu <em>veriye göre</em> incele.</h1>
-      <p class="hero-copy">55 binden fazla okulun öğrenci sayısını Madde 21 kurallarıyla eşleştir; il, ilçe, eğitim kademesi ve hesaplanan rehberlik normuna göre filtrele. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir.</p>
+      <p class="hero-copy">55 binden fazla okulun öğrenci sayısını Madde 21 kurallarıyla eşleştir; il, ilçe, eğitim kademesi ve hesaplanan rehberlik normuna göre filtrele. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir. Güncel verisine ulaşılamayan kurumlar ayrıca işaretlenir.</p>
       <div class="legal-note">Bu sayfa bir karar/atama sistemi değildir. Hesaplama, veri setindeki alanlar ve Madde 21'in güncel birleşik metnindeki eşikler esas alınarak yapılır.</div>
     </section>
 
