@@ -10,6 +10,7 @@ on:
       - "scripts/final_table_density_cleanup.py"
       - "scripts/add_private_school_scope_note.py"
       - "scripts/add_zero_norm_breakdown.py"
+      - "scripts/dashboard_redesign_v2.py"
       - ".github/workflows/final-ui-polish.yml"
   workflow_dispatch:
 
@@ -36,6 +37,8 @@ jobs:
         run: python scripts/add_private_school_scope_note.py
       - name: Add zero-norm threshold breakdown
         run: python scripts/add_zero_norm_breakdown.py
+      - name: Apply dashboard hierarchy redesign
+        run: python scripts/dashboard_redesign_v2.py
       - name: Commit polished homepage
         run: |
           git config user.name "pdrkampus-data-bot"
@@ -45,5 +48,5 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "ui: show zero-norm schools by level"
+          git commit -m "ui: redesign norm dashboard hierarchy"
           git push
