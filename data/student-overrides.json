@@ -14,7 +14,7 @@
       "site_unreachable": 4,
       "student_field_not_found": 37
     },
-    "layered_rescue_updated_at": "2026-10-03T11:23:23.574784+00:00"
+    "layered_rescue_updated_at": "2026-10-03T11:29:37.908645+00:00"
   },
   "schools": {
     "189376": {
@@ -75046,6 +75046,215 @@
       "source_url": "https://776609.meb.k12.tr/",
       "confidence": "A",
       "note": "Katmanlı taramada A_MEB_SITE kaynağında 128 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 128 kullanıldı."
+    },
+    "774528": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://774528.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "776553": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://776553.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "770871": {
+      "value": 9,
+      "verified": true,
+      "observed_values": [
+        9
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://770871.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 9 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 9 kullanıldı."
+    },
+    "771503": {
+      "value": 6,
+      "verified": true,
+      "observed_values": [
+        6
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://771503.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 6 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 6 kullanıldı."
+    },
+    "772060": {
+      "value": 8,
+      "verified": true,
+      "observed_values": [
+        8
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://772060.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 8 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 8 kullanıldı."
+    },
+    "774530": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://774530.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "773752": {
+      "value": 4,
+      "verified": true,
+      "observed_values": [
+        4
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://773752.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 4 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 4 kullanıldı."
+    },
+    "776373": {
+      "value": 7,
+      "verified": true,
+      "observed_values": [
+        7
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://776373.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 7 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 7 kullanıldı."
+    },
+    "777092": {
+      "value": 2,
+      "verified": true,
+      "observed_values": [
+        2
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://777092.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 2 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 2 kullanıldı."
+    },
+    "772888": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://772888.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "773115": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://773115.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "774908": {
+      "value": 5,
+      "verified": true,
+      "observed_values": [
+        5
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://774908.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 5 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 5 kullanıldı."
+    },
+    "776215": {
+      "value": 6,
+      "verified": true,
+      "observed_values": [
+        6
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://776215.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 6 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 6 kullanıldı."
+    },
+    "776863": {
+      "value": 2,
+      "verified": true,
+      "observed_values": [
+        2
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://776863.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 2 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 2 kullanıldı."
+    },
+    "777096": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://777096.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "777262": {
+      "value": 1,
+      "verified": true,
+      "observed_values": [
+        1
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://777262.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 1 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 1 kullanıldı."
+    },
+    "767370": {
+      "value": 7,
+      "verified": true,
+      "observed_values": [
+        7
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://767370.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 7 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 7 kullanıldı."
+    },
+    "775456": {
+      "value": 11,
+      "verified": true,
+      "observed_values": [
+        11
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://775456.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 11 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 11 kullanıldı."
+    },
+    "776127": {
+      "value": 8,
+      "verified": true,
+      "observed_values": [
+        8
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://776127.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 8 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 8 kullanıldı."
     }
   }
 }
