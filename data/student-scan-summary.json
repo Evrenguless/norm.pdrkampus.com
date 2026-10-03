@@ -1,37 +1,22 @@
 {
-  "updated_at": "2026-10-03T00:45:28.329165+00:00",
+  "updated_at": "2026-10-03T00:55:26.498836+00:00",
   "scan_mode": "parallel_deep_second_pass",
   "shards": 4,
-  "targets_scanned": 532,
+  "targets_scanned": 978,
   "recovered": 0,
-  "remaining_unresolved": 235,
+  "remaining_unresolved": 385,
   "recovered_by_school_type": {
-    "Anadolu Lisesi": 111,
-    "Anadolu İmam Hatip Lisesi": 58,
-    "Fen Lisesi": 17,
-    "Güzel Sanatlar Lisesi": 1,
-    "Lise": 2,
-    "Mesleki ve Teknik Anadolu Lisesi": 81,
-    "Sosyal Bilimler Lisesi": 5,
-    "Spor Lisesi": 2,
-    "Çok Programlı Anadolu Lisesi": 20
+    "Ortaokul": 502,
+    "İmam Hatip Ortaokulu": 91
   },
   "unresolved_by_school_type": {
-    "Anadolu Lisesi": 75,
-    "Anadolu İmam Hatip Lisesi": 47,
-    "Açık/Akşam Lisesi": 1,
-    "Fen Lisesi": 3,
-    "Güzel Sanatlar Lisesi": 2,
-    "Lise": 4,
-    "Mesleki ve Teknik Anadolu Lisesi": 63,
-    "Sosyal Bilimler Lisesi": 2,
-    "Spor Lisesi": 3,
-    "Çok Programlı Anadolu Lisesi": 35
+    "Ortaokul": 291,
+    "İmam Hatip Ortaokulu": 94
   },
   "unresolved_by_reason": {
-    "published_zero_or_dash": 67,
-    "site_unreachable": 2,
-    "student_field_not_found": 166
+    "published_zero_or_dash": 158,
+    "site_unreachable": 14,
+    "student_field_not_found": 213
   },
   "reason_legend": {
     "published_zero_or_dash": "MEB sayfasında öğrenci alanı var ancak 0 veya '-' yayınlanmış.",
@@ -44,17 +29,17 @@
   },
   "sample_unresolved": [
     {
-      "school": "Kurtuluş Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Şişli",
-      "school_type": "Anadolu Lisesi",
+      "school": "Başiskele Kartonsan Ortaokulu",
+      "province": "Kocaeli",
+      "district": "Başiskele",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://kurtuluslisesi.meb.k12.tr/",
-        "https://kurtuluslisesi.meb.k12.tr/tema/",
-        "https://kurtuluslisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kurtuluslisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kurtuluslisesi.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://basiskelekartonsanortaokulu.meb.k12.tr/",
+        "https://basiskelekartonsanortaokulu.meb.k12.tr/tema/",
+        "https://basiskelekartonsanortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://basiskelekartonsanortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://basiskelekartonsanortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -65,130 +50,21 @@
       ]
     },
     {
-      "school": "Ulubey Ümmü Baykan Anadolu İmam Hatip Lisesi",
-      "province": "Uşak",
-      "district": "Ulubey",
-      "school_type": "Anadolu İmam Hatip Lisesi",
+      "school": "Huriye Eren Ortaokulu",
+      "province": "Kayseri",
+      "district": "Kocasinan",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ummubaykanihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ummubaykanihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ummubaykanihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ummubaykanihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ummubaykanihl"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Şehzadeler Gediz Anadolu Lisesi",
-      "province": "Manisa",
-      "district": "Şehzadeler",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=maol",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=maol",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=maol",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=maol",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=maol"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Borsa İstanbul Şehit Ömer Halisdemir Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Selçuk",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://sal35.meb.k12.tr/",
-        "https://sal35.meb.k12.tr/tema/",
-        "https://sal35.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://sal35.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://sal35.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Çilimli Anadolu Kalkınma Vakfı Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Düzce",
-      "district": "Çilimli",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://cilimliakvmtal.meb.k12.tr/",
-        "https://cilimliakvmtal.meb.k12.tr/tema/",
-        "https://cilimliakvmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://cilimliakvmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://cilimliakvmtal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Ağaçören Şehit Menderes Taşkale Çok Programlı Anadolu Lisesi",
-      "province": "Aksaray",
-      "district": "Ağaçören",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://agacorencpl.meb.k12.tr/",
-        "https://agacorencpl.meb.k12.tr/tema/",
-        "https://agacorencpl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://agacorencpl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://agacorencpl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://agacorencpl.meb.k12.tr/icerikler/20032025okulumuztatiledildi_16115732.html",
-        "https://agacorencpl.meb.k12.tr/icerikler/20032025okulumuztatiledildi_16115732.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Adilcevaz Tuğrul Bey Anadolu Lisesi",
-      "province": "Bitlis",
-      "district": "Adilcevaz",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://adilcevaztugrulbey.meb.k12.tr/",
-        "https://adilcevaztugrulbey.meb.k12.tr/tema/",
-        "https://adilcevaztugrulbey.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://adilcevaztugrulbey.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://adilcevaztugrulbey.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://adilcevaztugrulbey.meb.k12.tr/icerikler/okulumuzdamsutanitimivemeslekitanitimyapildi_17551836.html",
-        "https://adilcevaztugrulbey.meb.k12.tr/icerikler/20242028okulumuzstratejikplani_15462680.html",
-        "https://adilcevaztugrulbey.meb.k12.tr/icerikler/okulumuzdamsutanitimivemeslekitanitimyapildi_17551836.html",
-        "https://adilcevaztugrulbey.meb.k12.tr/icerikler/20242028okulumuzstratejikplani_15462680.html"
+        "https://huriyeerenoo.meb.k12.tr/",
+        "https://huriyeerenoo.meb.k12.tr/tema/",
+        "https://huriyeerenoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://huriyeerenoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://huriyeerenoo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://huriyeerenoo.meb.k12.tr/icerikler/okulumuzdaanlamlietkinlikbilinclituketicivegeridonusum_17486499.html",
+        "https://huriyeerenoo.meb.k12.tr/icerikler/okulumuzda23nisanulusalegemenlikvecocukbayramikutlandi_17419638.html",
+        "https://huriyeerenoo.meb.k12.tr/icerikler/okulumuzdaanlamlietkinlikbilinclituketicivegeridonusum_17486499.html",
+        "https://huriyeerenoo.meb.k12.tr/icerikler/okulumuzda23nisanulusalegemenlikvecocukbayramikutlandi_17419638.html"
       ],
       "statuses": [
         200,
@@ -203,20 +79,49 @@
       ]
     },
     {
-      "school": "Taşucu Turizm Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Mersin",
-      "district": "Silifke",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "school": "Mimar Sinan Ortaokulu",
+      "province": "Çorum",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=silifkeaotml",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=silifkeaotml",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=silifkeaotml",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=silifkeaotml",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=silifkeaotml"
+        "https://corummimarsinanortaokulu.meb.k12.tr/",
+        "https://corummimarsinanortaokulu.meb.k12.tr/tema/",
+        "https://corummimarsinanortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://corummimarsinanortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://corummimarsinanortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Yunus Emre İmam Hatip Ortaokulu",
+      "province": "Nevşehir",
+      "district": "Merkez",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://nevsehiryunusemreiho.meb.k12.tr/",
+        "https://nevsehiryunusemreiho.meb.k12.tr/tema/",
+        "https://nevsehiryunusemreiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://nevsehiryunusemreiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://nevsehiryunusemreiho.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://nevsehiryunusemreiho.meb.k12.tr/icerikler/okulumuzdadijitalfarkindalikveguvenliinternetegitimicalismalari_17569413.html",
+        "https://nevsehiryunusemreiho.meb.k12.tr/icerikler/okulumuzdadijitalfarkindalikveguvenliinternetegitimicalismalari_17569412.html",
+        "https://nevsehiryunusemreiho.meb.k12.tr/icerikler/okulumuzdadijitalfarkindalikveguvenliinternetegitimicalismalari_17569413.html",
+        "https://nevsehiryunusemreiho.meb.k12.tr/icerikler/okulumuzdadijitalfarkindalikveguvenliinternetegitimicalismalari_17569412.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
         200,
         200,
         200,
@@ -224,20 +129,21 @@
       ]
     },
     {
-      "school": "Kaşif Kalkavan Çok Programlı Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Tuzla",
-      "school_type": "Çok Programlı Anadolu Lisesi",
+      "school": "Erkunt Traktör Ortaokulu",
+      "province": "Antalya",
+      "district": "Korkuteli",
+      "school_type": "Ortaokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://kasifkalkavan.meb.k12.tr/",
-        "https://kasifkalkavan.meb.k12.tr/tema/",
-        "https://kasifkalkavan.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kasifkalkavan.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kasifkalkavan.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://kasifkalkavan.meb.k12.tr/icerikler/onemliduyuruokulumuzunwebsitesitasinmistir_17625918.html",
-        "https://kasifkalkavan.meb.k12.tr/icerikler/okulkiyafetlerimiz_16340540.html",
-        "https://kasifkalkavan.meb.k12.tr/icerikler/etiket_Okulumuz_K%C4%B1yafetleri_"
+        "https://erkunttraktorortaokulu.meb.k12.tr/",
+        "https://erkunttraktorortaokulu.meb.k12.tr/tema/",
+        "https://erkunttraktorortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://erkunttraktorortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://erkunttraktorortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://erkunttraktorortaokulu.meb.k12.tr/icerikler/vefahaftasietkinliklerikapsamindakoyumuzdebulunankibrisgazisieroltoramanokulumuzuziyaretetmistir_16929182.html",
+        "https://erkunttraktorortaokulu.meb.k12.tr/icerikler/okulumuzuguzellestiriyoruz_16599558.html",
+        "https://erkunttraktorortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://erkunttraktorortaokulu.meb.k12.tr/okulumuz_hakkinda.html#okul"
       ],
       "statuses": [
         200,
@@ -247,47 +153,49 @@
         404,
         200,
         200,
+        200,
         200
       ]
     },
     {
-      "school": "Domaniç Anadolu İmam Hatip Lisesi",
-      "province": "Kütahya",
-      "district": "Domaniç",
-      "school_type": "Anadolu İmam Hatip Lisesi",
+      "school": "Kızılyaka Ortaokulu",
+      "province": "Muğla",
+      "district": "Ula",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://domanicandihl.meb.k12.tr/",
-        "https://domanicandihl.meb.k12.tr/tema/",
-        "https://domanicandihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://domanicandihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://domanicandihl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://domanicandihl.meb.k12.tr/icerikler/okulumuzutercihedenogrencilerindikkatine_16516034.html",
-        "https://domanicandihl.meb.k12.tr/icerikler/okulumuzutercihedenogrencilerindikkatine_16516034.html"
+        "https://kizilyakaortaokulu.meb.k12.tr/",
+        "https://kizilyakaortaokulu.meb.k12.tr/tema/",
+        "https://kizilyakaortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kizilyakaortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kizilyakaortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
         200,
         200,
         200,
-        404,
-        200,
-        200
+        404
       ]
     },
     {
-      "school": "Zeytinburnu TRİSAD Tekstil Teknolojisi Mesleki ve Teknik Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Zeytinburnu",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
+      "school": "27 Aralık Lions Ortaokulu",
+      "province": "Ankara",
+      "district": "Çankaya",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://trisad.meb.k12.tr/",
-        "https://trisad.meb.k12.tr/tema/",
-        "https://trisad.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://trisad.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://trisad.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://trisad.meb.k12.tr/icerikler/okulumuzbakanlikkarariilekapatilmistir_17528130.html"
+        "https://27araliklionsortaokulu.meb.k12.tr/",
+        "https://27araliklionsortaokulu.meb.k12.tr/tema/",
+        "https://27araliklionsortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://27araliklionsortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://27araliklionsortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://27araliklionsortaokulu.meb.k12.tr/icerikler/yesilvatanprojesikapsamindaokulumuzdayapilanetkinlikler_16845136.html",
+        "https://27araliklionsortaokulu.meb.k12.tr/icerikler/okulumuzdayurutulencedesprojesikapsamindayapilanetkinlikler_14322561.html",
+        "https://27araliklionsortaokulu.meb.k12.tr/icerikler/aileyiliprojesikapsamindaokulumuzdagerceklesenetkinlikler_16845791.html",
+        "https://27araliklionsortaokulu.meb.k12.tr/icerikler/okulsagligiprojesikapsamindaokulumuzdayapilanetkinlikler_16885057.html",
+        "https://27araliklionsortaokulu.meb.k12.tr/icerikler/yesilvatanprojesikapsamindaokulumuzdayapilanetkinlikler_16845136.html",
+        "https://27araliklionsortaokulu.meb.k12.tr/icerikler/okulumuzdayurutulencedesprojesikapsamindayapilanetkinlikler_14322561.html"
       ],
       "statuses": [
         200,
@@ -295,239 +203,135 @@
         200,
         200,
         404,
+        200,
+        200,
+        200,
+        200,
+        200,
         200
       ]
     },
     {
-      "school": "Şavşat Çok Programlı Anadolu Lisesi",
-      "province": "Artvin",
-      "district": "Şavşat",
-      "school_type": "Çok Programlı Anadolu Lisesi",
+      "school": "Şehit Nedim ÇALIK Ortaokulu",
+      "province": "Rize",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://rsehitnedimcalikortaokulu.meb.k12.tr/",
+        "https://rsehitnedimcalikortaokulu.meb.k12.tr/tema/",
+        "https://rsehitnedimcalikortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://rsehitnedimcalikortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://rsehitnedimcalikortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Mehmet Mihri Akıncı Ortaokulu",
+      "province": "Elazığ",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://mehmetmihriakinci.meb.k12.tr/",
+        "https://mehmetmihriakinci.meb.k12.tr/tema/",
+        "https://mehmetmihriakinci.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://mehmetmihriakinci.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://mehmetmihriakinci.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://mehmetmihriakinci.meb.k12.tr/icerikler/okulumuzunsonsinifogrencileriicinmezuniyetprogramiyapildi_17606037.html",
+        "https://mehmetmihriakinci.meb.k12.tr/icerikler/okulumuzunsonsinifogrencileriicinmezuniyetprogramiyapildi_17606037.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "700.Yıl Ortaokulu",
+      "province": "Bilecik",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://bilecik700yilortaokulu.meb.k12.tr/",
+        "https://bilecik700yilortaokulu.meb.k12.tr/tema/",
+        "https://bilecik700yilortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://bilecik700yilortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://bilecik700yilortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Cumhuriyet Ortaokulu",
+      "province": "Yozgat",
+      "district": "Çekerek",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://cekerekcumhuriyetoo.meb.k12.tr/",
+        "https://cekerekcumhuriyetoo.meb.k12.tr/tema/",
+        "https://cekerekcumhuriyetoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://cekerekcumhuriyetoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://cekerekcumhuriyetoo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://cekerekcumhuriyetoo.meb.k12.tr/icerikler/okulumuzdayesilvatanbenimokulumgelecegecareprojesieyluletkinlikleriyapildi_16630101.html",
+        "https://cekerekcumhuriyetoo.meb.k12.tr/icerikler/okulumuzdayesilvatanbenimokulumgelecegecareprojesieyluletkinlikleriyapildi_16630101.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Dağdibi Ortaokulu",
+      "province": "Şırnak",
+      "district": "Uludere",
+      "school_type": "Ortaokul",
       "reason": "site_unreachable",
       "attempted_urls": [
-        "https://savsat_cpal.meb.k12.tr/",
-        "https://savsat_cpal.meb.k12.tr/tema/",
-        "https://savsat_cpal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://savsat_cpal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://savsat_cpal.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://dagdibioo_73.meb.k12.tr/",
+        "https://dagdibioo_73.meb.k12.tr/tema/",
+        "https://dagdibioo_73.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://dagdibioo_73.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://dagdibioo_73.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": []
     },
     {
-      "school": "Hoca Ahmet Yesevi Kız Anadolu İmam Hatip Lisesi",
-      "province": "Mersin",
-      "district": "Toroslar",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://toroslarhaykaihl.meb.k12.tr/",
-        "https://toroslarhaykaihl.meb.k12.tr/tema/",
-        "https://toroslarhaykaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://toroslarhaykaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://toroslarhaykaihl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://toroslarhaykaihl.meb.k12.tr/icerikler/dinogretimiilsubemuduruondersariokulumuzuziyaretetti_17659285.html",
-        "https://toroslarhaykaihl.meb.k12.tr/icerikler/dinogretimiilsubemuduruondersariokulumuzuziyaretetti_17659285.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Sabancı 50. Yıl Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Avcılar",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://sabanci50yillisesi.meb.k12.tr/",
-        "https://sabanci50yillisesi.meb.k12.tr/tema/",
-        "https://sabanci50yillisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://sabanci50yillisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://sabanci50yillisesi.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Burdur Spor Lisesi",
-      "province": "Burdur",
-      "district": "Merkez",
-      "school_type": "Spor Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://burdursprl.meb.k12.tr/",
-        "https://burdursprl.meb.k12.tr/tema/",
-        "https://burdursprl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://burdursprl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://burdursprl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Osmangazi Hüma Hatun Kız Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Bursa",
-      "district": "Osmangazi",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://humahatunmestal.meb.k12.tr/",
-        "https://humahatunmestal.meb.k12.tr/tema/",
-        "https://humahatunmestal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://humahatunmestal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://humahatunmestal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://humahatunmestal.meb.k12.tr/icerikler/okulumuzukazananogrencilerimizehosgeldinizdiyorvebasarilarinindevaminidiliyoruz_17644609.html",
-        "https://humahatunmestal.meb.k12.tr/icerikler/okulumuzbilgiyarismasibirincisi10asinifi_17620538.html",
-        "https://humahatunmestal.meb.k12.tr/icerikler/okulumuzukazananogrencilerimizehosgeldinizdiyorvebasarilarinindevaminidiliyoruz_17644609.html",
-        "https://humahatunmestal.meb.k12.tr/icerikler/okulumuzbilgiyarismasibirincisi10asinifi_17620538.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Eczacı Güzin-Velittin Bekrioğlu Kız Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Antalya",
-      "district": "Alanya",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://eczgvbmtal.meb.k12.tr/",
-        "https://eczgvbmtal.meb.k12.tr/tema/",
-        "https://eczgvbmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://eczgvbmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://eczgvbmtal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Ayvaz Dede Kız Anadolu İmam Hatip Lisesi",
-      "province": "Manisa",
-      "district": "Akhisar",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=adnanmendereskaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=adnanmendereskaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=adnanmendereskaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=adnanmendereskaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=adnanmendereskaihl"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Fatma Talip Kahraman Kız Anadolu İmam Hatip Lisesi",
-      "province": "İstanbul",
-      "district": "Çekmeköy",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://fatmatalipkahramankizaihl.meb.k12.tr/",
-        "https://fatmatalipkahramankizaihl.meb.k12.tr/tema/",
-        "https://fatmatalipkahramankizaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://fatmatalipkahramankizaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://fatmatalipkahramankizaihl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Foça Recep Kerman Spor Lisesi",
-      "province": "İzmir",
-      "district": "Foça",
-      "school_type": "Spor Lisesi",
+      "school": "Feke İmam Hatip Ortaokulu",
+      "province": "Adana",
+      "district": "Feke",
+      "school_type": "İmam Hatip Ortaokulu",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://focaspor.meb.k12.tr/",
-        "https://focaspor.meb.k12.tr/tema/",
-        "https://focaspor.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://focaspor.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://focaspor.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Kızıltepe Anadolu İmam Hatip Lisesi",
-      "province": "Mardin",
-      "district": "Kızıltepe",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://kiziltepeanadoluihl.meb.k12.tr/",
-        "https://kiziltepeanadoluihl.meb.k12.tr/tema/",
-        "https://kiziltepeanadoluihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kiziltepeanadoluihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kiziltepeanadoluihl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Şehit Özgür Gencer Kız Anadolu İmam Hatip Lisesi",
-      "province": "Sivas",
-      "district": "Şarkışla",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://sarkislakaihl.meb.k12.tr/",
-        "https://sarkislakaihl.meb.k12.tr/tema/",
-        "https://sarkislakaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://sarkislakaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://sarkislakaihl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://sarkislakaihl.meb.k12.tr/icerikler/okulumuzpansiyonundakalacakogrencilerindikkatine_17650522.html",
-        "https://sarkislakaihl.meb.k12.tr/icerikler/okulumuzpansiyonundakalacakogrencilerindikkatine_17650522.html"
+        "https://fekeimamhatip.meb.k12.tr/",
+        "https://fekeimamhatip.meb.k12.tr/tema/",
+        "https://fekeimamhatip.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://fekeimamhatip.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://fekeimamhatip.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://fekeimamhatip.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://fekeimamhatip.meb.k12.tr/okulumuz_hakkinda.html#okul"
       ],
       "statuses": [
         200,
@@ -540,86 +344,42 @@
       ]
     },
     {
-      "school": "Nusretiye Anadolu Lisesi",
+      "school": "Türkiye Odalar ve Borsalar Birliği 18 Eylül Ortaokulu",
+      "province": "Balıkesir",
+      "district": "Erdek",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=erdek18eylul",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=erdek18eylul",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=erdek18eylul",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=erdek18eylul",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=erdek18eylul"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Saylakkaya Ortaokulu",
       "province": "Şanlıurfa",
-      "district": "Akçakale",
-      "school_type": "Anadolu Lisesi",
+      "district": "Halfeti",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://nusretiyeanadolulisesi.meb.k12.tr/",
-        "https://nusretiyeanadolulisesi.meb.k12.tr/tema/",
-        "https://nusretiyeanadolulisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://nusretiyeanadolulisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://nusretiyeanadolulisesi.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Fatih Atatürk Çağdaş Yaşam Çok Programlı Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Fatih",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://765290.meb.k12.tr/",
-        "https://765290.meb.k12.tr/tema/",
-        "https://765290.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://765290.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://765290.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Melek Aknil Çok Programlı Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Pendik",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://765513.meb.k12.tr/",
-        "https://765513.meb.k12.tr/tema/",
-        "https://765513.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://765513.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://765513.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Ziya Eren Güzel Sanatlar Lisesi",
-      "province": "Bitlis",
-      "district": "Merkez",
-      "school_type": "Güzel Sanatlar Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://bitlisgsl.meb.k12.tr/",
-        "https://bitlisgsl.meb.k12.tr/tema/",
-        "https://bitlisgsl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://bitlisgsl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://bitlisgsl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://bitlisgsl.meb.k12.tr/icerikler/okulumuzdaresimvemuzikalanlarindaboskalankontenjanlariicin2026eylulayiekyeteneksinavibasvurularibasladi_16569774.html",
-        "https://bitlisgsl.meb.k12.tr/icerikler/siirttakasbankguzelsanatlarlisesiilebirliktesenesonukonserimizveokulumuzresimsergisiprogrami_17655215.html",
-        "https://bitlisgsl.meb.k12.tr/icerikler/jandarmateskilatinin187kurulusyildonumuresimyarismasindaokulumuzogrencisiturkiyebirincisioldu_17609560.html",
-        "https://bitlisgsl.meb.k12.tr/icerikler/okulumuzogrencilerindendiyalizhastalarinamoraldinletisi_17152862.html",
-        "https://bitlisgsl.meb.k12.tr/icerikler/okulumuzdaresimvemuzikalanlarindaboskalankontenjanlariicin2026eylulayiekyeteneksinavibasvurularibasladi_16569774.html",
-        "https://bitlisgsl.meb.k12.tr/icerikler/siirttakasbankguzelsanatlarlisesiilebirliktesenesonukonserimizveokulumuzresimsergisiprogrami_17655215.html"
+        "https://saylakkayaortaokulu.meb.k12.tr/",
+        "https://saylakkayaortaokulu.meb.k12.tr/tema/",
+        "https://saylakkayaortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://saylakkayaortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://saylakkayaortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://saylakkayaortaokulu.meb.k12.tr/icerikler/okulumuzingilizceogretmeniselinayaksununyuruttuguve7asinifiogrencilerininyeraldigietwinninginnostembuildingskillsfortomorrowadliprojemizkapsamindacalismalarimizyapilmaktadir_17585406.html",
+        "https://saylakkayaortaokulu.meb.k12.tr/icerikler/okulumuzozelegitimsiniflarihosgeldinramazanetkinlikleri_17202935.html",
+        "https://saylakkayaortaokulu.meb.k12.tr/icerikler/okulumuzingilizceogretmeniselinayaksununyuruttuguve7asinifiogrencilerininyeraldigietwinninginnostembuildingskillsfortomorrowadliprojemizkapsamindacalismalarimizyapilmaktadir_17585406.html",
+        "https://saylakkayaortaokulu.meb.k12.tr/icerikler/okulumuzozelegitimsiniflarihosgeldinramazanetkinlikleri_17202935.html"
       ],
       "statuses": [
         200,
@@ -630,44 +390,21 @@
         200,
         200,
         200,
-        200,
-        200,
         200
       ]
     },
     {
-      "school": "Bozyaka Şehit Fethi Bey Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Karabağlar",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://sehitfethibeyal.meb.k12.tr/",
-        "https://sehitfethibeyal.meb.k12.tr/tema/",
-        "https://sehitfethibeyal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://sehitfethibeyal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://sehitfethibeyal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "80. Yıl Çok Programlı Anadolu Lisesi",
+      "school": "Yalıncak Ortaokulu",
       "province": "Trabzon",
       "district": "Ortahisar",
-      "school_type": "Çok Programlı Anadolu Lisesi",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767494",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767494",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767494",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767494",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767494"
+        "https://www.meb.k12.tr/HataliDns.php?DNS=yalincakortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=yalincakortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=yalincakortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=yalincakortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=yalincakortaokulu"
       ],
       "statuses": [
         200,
@@ -678,770 +415,19 @@
       ]
     },
     {
-      "school": "Bağlum Şehit Oğuz Kaan Usta Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Ankara",
-      "district": "Keçiören",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://baglumsehitoguzkaanustamtal.meb.k12.tr/",
-        "https://baglumsehitoguzkaanustamtal.meb.k12.tr/tema/",
-        "https://baglumsehitoguzkaanustamtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://baglumsehitoguzkaanustamtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://baglumsehitoguzkaanustamtal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Ahmet Ziylan Anadolu İmam Hatip Lisesi",
-      "province": "İstanbul",
-      "district": "Ümraniye",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=dudulluaaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=dudulluaaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=dudulluaaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=dudulluaaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=dudulluaaihl"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Doğubayazıt Anadolu Lisesi",
-      "province": "Ağrı",
-      "district": "Doğubayazıt",
-      "school_type": "Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://dogubayazitanadolulisesi.meb.k12.tr/",
-        "https://dogubayazitanadolulisesi.meb.k12.tr/tema/",
-        "https://dogubayazitanadolulisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://dogubayazitanadolulisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://dogubayazitanadolulisesi.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Üsküplü Sebahattin Özcan Mesleki ve Teknik Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Buca",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://uskuplusebahattinozcanmtal.meb.k12.tr/",
-        "https://uskuplusebahattinozcanmtal.meb.k12.tr/tema/",
-        "https://uskuplusebahattinozcanmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://uskuplusebahattinozcanmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://uskuplusebahattinozcanmtal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Zümrütevler Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Maltepe",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=zumrutevleranadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=zumrutevleranadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=zumrutevleranadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=zumrutevleranadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=zumrutevleranadolulisesi"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Milli İrade Anadolu Lisesi",
-      "province": "Şanlıurfa",
-      "district": "Eyyübiye",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775185",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775185",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775185",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775185",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775185"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Haldun Koşay Mesleki ve Teknik Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Menemen",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://777034.meb.k12.tr/",
-        "https://777034.meb.k12.tr/tema/",
-        "https://777034.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://777034.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://777034.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Gökbey Anadolu Lisesi",
-      "province": "Şanlıurfa",
-      "district": "Eyyübiye",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=776587",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=776587",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=776587",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=776587",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=776587"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Sultan Alparslan Mesleki ve Teknik Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Buca",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://777139.meb.k12.tr/",
-        "https://777139.meb.k12.tr/tema/",
-        "https://777139.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://777139.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://777139.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "İkizce Anadolu Lisesi",
-      "province": "Malatya",
-      "district": "Yeşilyurt",
-      "school_type": "Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://777256.meb.k12.tr/",
-        "https://777256.meb.k12.tr/tema/",
-        "https://777256.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://777256.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://777256.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Kuyular Anadolu İmam Hatip Lisesi",
-      "province": "Diyarbakır",
-      "district": "Hani",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://777308.meb.k12.tr/",
-        "https://777308.meb.k12.tr/tema/",
-        "https://777308.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://777308.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://777308.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Ford Otosan Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Kocaeli",
-      "district": "Gölcük",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://777401.meb.k12.tr/",
-        "https://777401.meb.k12.tr/tema/",
-        "https://777401.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://777401.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://777401.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Sancaktepe Teknoloji Kız Anadolu İmam Hatip Lisesi",
-      "province": "İstanbul",
-      "district": "Sancaktepe",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777202",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777202",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777202",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777202",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777202"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Besti Aydeniz Kız Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Iğdır",
-      "district": "Merkez",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://bestiaydeniz.meb.k12.tr/",
-        "https://bestiaydeniz.meb.k12.tr/tema/",
-        "https://bestiaydeniz.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://bestiaydeniz.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://bestiaydeniz.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://bestiaydeniz.meb.k12.tr/icerikler/okulumuzbenimsehrimbenimevimseferberligindesahadaydi_17701738.html",
-        "https://bestiaydeniz.meb.k12.tr/icerikler/okulumuzbenimsehrimbenimevimseferberligindesahadaydi_17701738.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "KIRGIZİSTAN KIRGIZ TÜRK ANADOLU KIZ MESLEK LİSESİ",
-      "province": "Bakanlık",
-      "district": "Y.Dışı-Kırgızistan",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://ktakml.meb.k12.tr/",
-        "https://ktakml.meb.k12.tr/tema/",
-        "https://ktakml.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://ktakml.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://ktakml.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://ktakml.meb.k12.tr/icerikler/okulumuzdaogrencilerarasisatrancturnuvasiduzenlendi_17146480.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200
-      ]
-    },
-    {
-      "school": "Develi Borsa İstanbul Fen Lisesi",
-      "province": "Kayseri",
-      "district": "Develi",
-      "school_type": "Fen Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://develifen.meb.k12.tr/",
-        "https://develifen.meb.k12.tr/tema/",
-        "https://develifen.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://develifen.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://develifen.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://develifen.meb.k12.tr/icerikler/okulumuzun-tarihçesi_15317195.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        404
-      ]
-    },
-    {
-      "school": "Devrek Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Zonguldak",
-      "district": "Devrek",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://devrekmetal.meb.k12.tr/",
-        "https://devrekmetal.meb.k12.tr/tema/",
-        "https://devrekmetal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://devrekmetal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://devrekmetal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://devrekmetal.meb.k12.tr/icerikler/devrekkaymakamimizsayinonuralpbicakciokulumuzuvealanlarimiziziyaretetti_17718742.html",
-        "https://devrekmetal.meb.k12.tr/icerikler/devrekkaymakamimizsayinonuralpbicakciokulumuzuvealanlarimiziziyaretetti_17718742.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Yıldırım Beyazıt Borsa İstanbul Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Bursa",
-      "district": "Yıldırım",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://ybbistmtal.meb.k12.tr/",
-        "https://ybbistmtal.meb.k12.tr/tema/",
-        "https://ybbistmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://ybbistmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://ybbistmtal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Fethiye Anadolu Lisesi",
-      "province": "Muğla",
-      "district": "Fethiye",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://fethiyeanadolu.meb.k12.tr/",
-        "https://fethiyeanadolu.meb.k12.tr/tema/",
-        "https://fethiyeanadolu.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://fethiyeanadolu.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://fethiyeanadolu.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://fethiyeanadolu.meb.k12.tr/icerikler/okulkiyafetleri_17681441.html",
-        "https://fethiyeanadolu.meb.k12.tr/icerikler/okulkiyafetleri_17681441.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Bigadiç Anadolu Lisesi",
-      "province": "Balıkesir",
-      "district": "Bigadiç",
-      "school_type": "Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://bigadicanadolu.meb.k12.tr/",
-        "https://bigadicanadolu.meb.k12.tr/tema/",
-        "https://bigadicanadolu.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://bigadicanadolu.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://bigadicanadolu.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://bigadicanadolu.meb.k12.tr/icerikler/okulumuzogrenciveogretmenlerimizefigenkadioglutarafindanilkyardimegitimiverildi_15127947.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200
-      ]
-    },
-    {
-      "school": "Fatih Anadolu Lisesi",
-      "province": "Ordu",
-      "district": "Altınordu",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://ordufatihanadolulisesi.meb.k12.tr/",
-        "https://ordufatihanadolulisesi.meb.k12.tr/tema/",
-        "https://ordufatihanadolulisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://ordufatihanadolulisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://ordufatihanadolulisesi.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Pursaklar Borsa İstanbul Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Ankara",
-      "district": "Pursaklar",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/",
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/tema/",
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/icerikler/losevinciprojelerikapsamindaokulumuzdafarkindaliksemineriduzenlendi_17562609.html",
-        "https://pursaklarborsaistanbulmtal.meb.k12.tr/icerikler/losevinciprojelerikapsamindaokulumuzdafarkindaliksemineriduzenlendi_17562609.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Ferizli Fikret-İsmet Aktekin Anadolu Lisesi",
-      "province": "Sakarya",
-      "district": "Ferizli",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://fikretismetaktekinal.meb.k12.tr/",
-        "https://fikretismetaktekinal.meb.k12.tr/tema/",
-        "https://fikretismetaktekinal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://fikretismetaktekinal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://fikretismetaktekinal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://fikretismetaktekinal.meb.k12.tr/icerikler/okulumuzegitimogretimehazir_17675279.html",
-        "https://fikretismetaktekinal.meb.k12.tr/icerikler/18martsehitlergunuvecanakkaledenizzaferinin111yildonumuokulumuzdaanildi_17306114.html",
-        "https://fikretismetaktekinal.meb.k12.tr/icerikler/02012026okulumuzdanharikakismanzaralari_17020270.html",
-        "https://fikretismetaktekinal.meb.k12.tr/icerikler/okulumuzegitimogretimehazir_17675279.html",
-        "https://fikretismetaktekinal.meb.k12.tr/icerikler/18martsehitlergunuvecanakkaledenizzaferinin111yildonumuokulumuzdaanildi_17306114.html",
-        "https://fikretismetaktekinal.meb.k12.tr/icerikler/02012026okulumuzdanharikakismanzaralari_17020270.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Bayraklı Nuri Atik Mesleki ve Teknik Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Bayraklı",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://natem.meb.k12.tr/",
-        "https://natem.meb.k12.tr/tema/",
-        "https://natem.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://natem.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://natem.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Kemal Ural Anadolu Lisesi",
-      "province": "Manisa",
-      "district": "Salihli",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://kual.meb.k12.tr/",
-        "https://kual.meb.k12.tr/tema/",
-        "https://kual.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kual.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kual.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Yahya Günsür Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Mersin",
-      "district": "Yenişehir",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://yahyagunsur.meb.k12.tr/",
-        "https://yahyagunsur.meb.k12.tr/tema/",
-        "https://yahyagunsur.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://yahyagunsur.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://yahyagunsur.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://yahyagunsur.meb.k12.tr/icerikler/okulumuzduzenlemisoldugukapadokyagezisi_17371369.html",
-        "https://yahyagunsur.meb.k12.tr/icerikler/okulumuzduzenlemisoldugukayserierciyesgezisi_17143653.html",
-        "https://yahyagunsur.meb.k12.tr/icerikler/yenisehirilcemilliegitimmudurusayinaliucarokulumuzuziyaretetti_17051678.html",
-        "https://yahyagunsur.meb.k12.tr/icerikler/20252026egitimogretimyiliokulumuzpansiyonunayerlesenogrencilistesi_16558169.html",
-        "https://yahyagunsur.meb.k12.tr/icerikler/okulumuzduzenlemisoldugukapadokyagezisi_17371369.html",
-        "https://yahyagunsur.meb.k12.tr/icerikler/okulumuzduzenlemisoldugukayserierciyesgezisi_17143653.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Emine İlhan Kadam Kız Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Antalya",
-      "district": "Döşemealtı",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://emineilhankadamkml.meb.k12.tr/",
-        "https://emineilhankadamkml.meb.k12.tr/tema/",
-        "https://emineilhankadamkml.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://emineilhankadamkml.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://emineilhankadamkml.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://emineilhankadamkml.meb.k12.tr/icerikler/okulumuzezgidenadimahalkoyunlarisenligindesahnealdi_17596851.html",
-        "https://emineilhankadamkml.meb.k12.tr/icerikler/dahatemizbirgelecekicinokulumuzdacevrefarkindaligietkinligi_17595010.html",
-        "https://emineilhankadamkml.meb.k12.tr/icerikler/okulumuzderyaprojesifestivaliacilisprograminakatildi_17594925.html",
-        "https://emineilhankadamkml.meb.k12.tr/icerikler/okulumuzezgidenadimahalkoyunlarisenligindesahnealdi_17596851.html",
-        "https://emineilhankadamkml.meb.k12.tr/icerikler/dahatemizbirgelecekicinokulumuzdacevrefarkindaligietkinligi_17595010.html",
-        "https://emineilhankadamkml.meb.k12.tr/icerikler/okulumuzderyaprojesifestivaliacilisprograminakatildi_17594925.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Bağcılar Ahi Evran Kız Anadolu İmam Hatip Lisesi",
-      "province": "İstanbul",
-      "district": "Bağcılar",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ahievrenkaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ahievrenkaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ahievrenkaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ahievrenkaihl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ahievrenkaihl"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Mesleki ve Teknik Eğitim Genel Müdürlüğü",
-      "province": "Bakanlık",
-      "district": "Merkez Teşkilatı",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=974425",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=974425",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=974425",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=974425",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=974425"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Osmangazi Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "school": "Abdülhalim Altınoluk Uludağ Ortaokulu",
       "province": "Bursa",
       "district": "Osmangazi",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://osmangazitml.meb.k12.tr/",
-        "https://osmangazitml.meb.k12.tr/tema/",
-        "https://osmangazitml.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://osmangazitml.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://osmangazitml.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Merzifon Abide Hatun Anadolu Lisesi",
-      "province": "Amasya",
-      "district": "Merzifon",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=abidehatunanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=abidehatunanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=abidehatunanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=abidehatunanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=abidehatunanadolulisesi"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Payas Anadolu Lisesi",
-      "province": "Hatay",
-      "district": "Payas",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=payasanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=payasanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=payasanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=payasanadolulisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=payasanadolulisesi"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Şehit Yavuz Çoban Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Aksaray",
-      "district": "Merkez",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://atem68.meb.k12.tr/",
-        "https://atem68.meb.k12.tr/tema/",
-        "https://atem68.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://atem68.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://atem68.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Nevşehir Ahi Evran Ticaret Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Nevşehir",
-      "district": "Merkez",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://nevatml.meb.k12.tr/",
-        "https://nevatml.meb.k12.tr/tema/",
-        "https://nevatml.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://nevatml.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://nevatml.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://nevatml.meb.k12.tr/icerikler/9sinifogrencilerimizeokulumuzahosgeldiniz_17656956.html",
-        "https://nevatml.meb.k12.tr/icerikler/9sinifogrencilerimizeokulumuzahosgeldiniz_17656956.html"
+        "https://uludagortaokulu.meb.k12.tr/",
+        "https://uludagortaokulu.meb.k12.tr/tema/",
+        "https://uludagortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://uludagortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://uludagortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://uludagortaokulu.meb.k12.tr/icerikler/okulumuzdaannelergunukutlandi_17492611.html",
+        "https://uludagortaokulu.meb.k12.tr/icerikler/okulumuzdaannelergunukutlandi_17492611.html"
       ],
       "statuses": [
         200,
@@ -1454,144 +440,21 @@
       ]
     },
     {
-      "school": "Alanya Ümit Altay Turizm Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Antalya",
-      "district": "Alanya",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "school": "Cumhuriyet Ortaokulu",
+      "province": "Mardin",
+      "district": "Midyat",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://umitaltay.meb.k12.tr/",
-        "https://umitaltay.meb.k12.tr/tema/",
-        "https://umitaltay.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://umitaltay.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://umitaltay.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Belen Anadolu Lisesi",
-      "province": "Hatay",
-      "district": "Belen",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://belenanadolulisesi.meb.k12.tr/",
-        "https://belenanadolulisesi.meb.k12.tr/tema/",
-        "https://belenanadolulisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://belenanadolulisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://belenanadolulisesi.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Şehit Büyükelçi Galip Balkar Mesleki ve Teknik Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Zeytinburnu",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/tema/",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/icerikler/okulumuzbakanlikkarariilekapatilmistir_17528162.html",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/icerikler/okulumuzifcofuarindasektorlebulustu_17107747.html",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/icerikler/oecdzirvesikapsamindaokulumuzdaondegerlendirmeziyareti_17105277.html",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/icerikler/okulumuzdahalukdugahocamiztarafindanseminerverildi_16949549.html",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/icerikler/okulumuzaaitkiyafetler_16499916.html",
-        "https://zeytinburnutekstilmeslek.meb.k12.tr/icerikler/okulumuzatpbolumuyazstaji122temmuz11sinifogrencilerimiz1temmuz4agustos2025tarihleriarasindagerceklestirilecektir_16462041.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Mustafa-Mürüvvet Alaattinoğlu Anadolu Lisesi",
-      "province": "Antalya",
-      "district": "Alanya",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=mmalisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=mmalisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=mmalisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=mmalisesi",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=mmalisesi"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Tavşanlı Anadolu Lisesi",
-      "province": "Kütahya",
-      "district": "Tavşanlı",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://tavsal.meb.k12.tr/",
-        "https://tavsal.meb.k12.tr/tema/",
-        "https://tavsal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://tavsal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://tavsal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://tavsal.meb.k12.tr/icerikler/sayin-kaymakamimizin-okulumuzu-ziyareti_15723880.html",
-        "https://tavsal.meb.k12.tr/icerikler/okulumuzdandiplomatasdiknameveogrenimbelgesialmakisteyenlerindikkatine_17009692.html",
-        "https://tavsal.meb.k12.tr/icerikler/okulumuzdandiplomatasdiknameveogrenimbelgesialmakisteyenlerindikkatine_17009692.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Çanakkale Kepez Turizm Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Çanakkale",
-      "district": "Merkez",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://ckalekepezmtal.meb.k12.tr/",
-        "https://ckalekepezmtal.meb.k12.tr/tema/",
-        "https://ckalekepezmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://ckalekepezmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://ckalekepezmtal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://ckalekepezmtal.meb.k12.tr/icerikler/okulumuzcevrekulubutarafindanduzenlenenatikyagvepilyarismasinikazananozelegitimsinifiogrencilerimizleyarismaoduluolarakduzenlenenpiknikgerceklestirildi_17599172.html",
-        "https://ckalekepezmtal.meb.k12.tr/icerikler/21mayis2026persembegunucanakkaledeyapilanmeteffuarindaogrenciveogretmenlerimizbolumlerdeuretilenurunlerileokulumuzuntanitiminiyapildi_17523642.html",
-        "https://ckalekepezmtal.meb.k12.tr/icerikler/okulumuzcevrekulubutarafindanduzenlenenatikyagvepilyarismasinikazananozelegitimsinifiogrencilerimizleyarismaoduluolarakduzenlenenpiknikgerceklestirildi_17599172.html",
-        "https://ckalekepezmtal.meb.k12.tr/icerikler/21mayis2026persembegunucanakkaledeyapilanmeteffuarindaogrenciveogretmenlerimizbolumlerdeuretilenurunlerileokulumuzuntanitiminiyapildi_17523642.html"
+        "https://midyatcumhuriyet.meb.k12.tr/",
+        "https://midyatcumhuriyet.meb.k12.tr/tema/",
+        "https://midyatcumhuriyet.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://midyatcumhuriyet.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://midyatcumhuriyet.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://midyatcumhuriyet.meb.k12.tr/icerikler/okulumuzkantinimizyenilendi_17426763.html",
+        "https://midyatcumhuriyet.meb.k12.tr/icerikler/okulumuzuntarihcesihk_16371634.html",
+        "https://midyatcumhuriyet.meb.k12.tr/icerikler/okulumuzkantinimizyenilendi_17426763.html",
+        "https://midyatcumhuriyet.meb.k12.tr/icerikler/okulumuzuntarihcesihk_16371634.html"
       ],
       "statuses": [
         200,
@@ -1606,515 +469,17 @@
       ]
     },
     {
-      "school": "Kiraz Çok Programlı Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Kiraz",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://kirazcpl35.meb.k12.tr/",
-        "https://kirazcpl35.meb.k12.tr/tema/",
-        "https://kirazcpl35.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kirazcpl35.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kirazcpl35.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Çiğdemli Çok Programlı Anadolu Lisesi",
-      "province": "Yozgat",
-      "district": "Sorgun",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://cigdemlicpl.meb.k12.tr/",
-        "https://cigdemlicpl.meb.k12.tr/tema/",
-        "https://cigdemlicpl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://cigdemlicpl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://cigdemlicpl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://cigdemlicpl.meb.k12.tr/icerikler/okulumuzda10kasimataturkuanmaprogramiduzenlendi_15623091.html",
-        "https://cigdemlicpl.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
-        "https://cigdemlicpl.meb.k12.tr/okulumuz_hakkinda.html#okul",
-        "https://cigdemlicpl.meb.k12.tr/icerikler/okulumuzda10kasimataturkuanmaprogramiduzenlendi_15623091.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Muratlı Anadolu Lisesi",
-      "province": "Tekirdağ",
-      "district": "Muratlı",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://muratlianadolulisesi.meb.k12.tr/",
-        "https://muratlianadolulisesi.meb.k12.tr/tema/",
-        "https://muratlianadolulisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://muratlianadolulisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://muratlianadolulisesi.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://muratlianadolulisesi.meb.k12.tr/icerikler/okulumuzayerlesmeyehakkazanandegerliogrencilerimizokulumuzahosgeldiniz_17642823.html",
-        "https://muratlianadolulisesi.meb.k12.tr/icerikler/okulumuzayerlesmeyehakkazanandegerliogrencilerimizokulumuzahosgeldiniz_17642823.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Elmadağ Anadolu İmam Hatip Lisesi",
-      "province": "Ankara",
-      "district": "Elmadağ",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://elmadagihl.meb.k12.tr/",
-        "https://elmadagihl.meb.k12.tr/tema/",
-        "https://elmadagihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://elmadagihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://elmadagihl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Başmakçı Çok Programlı Anadolu Lisesi",
-      "province": "Afyonkarahisar",
-      "district": "Başmakçı",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=basmakcicpl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=basmakcicpl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=basmakcicpl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=basmakcicpl",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=basmakcicpl"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Hacı Avni Kız Anadolu İmam Hatip Lisesi",
-      "province": "Malatya",
-      "district": "Battalgazi",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://haciavnikizaihl.meb.k12.tr/",
-        "https://haciavnikizaihl.meb.k12.tr/tema/",
-        "https://haciavnikizaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://haciavnikizaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://haciavnikizaihl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "2. Mehmet Çok Programlı Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Gaziosmanpaşa",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ikincimehmetcpal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ikincimehmetcpal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ikincimehmetcpal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ikincimehmetcpal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=ikincimehmetcpal"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Mustafa Köseoğlu Çok Programlı Anadolu Lisesi",
-      "province": "Bayburt",
-      "district": "Demirözü",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://mustafakoseoglucpl.meb.k12.tr/",
-        "https://mustafakoseoglucpl.meb.k12.tr/tema/",
-        "https://mustafakoseoglucpl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://mustafakoseoglucpl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://mustafakoseoglucpl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Karahallı Anadolu Lisesi",
-      "province": "Uşak",
-      "district": "Karahallı",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://karahallianadolulisesi.meb.k12.tr/",
-        "https://karahallianadolulisesi.meb.k12.tr/tema/",
-        "https://karahallianadolulisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://karahallianadolulisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://karahallianadolulisesi.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Doğanşar Çok Programlı Anadolu Lisesi",
-      "province": "Sivas",
-      "district": "Doğanşar",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://dogansarcpl.meb.k12.tr/",
-        "https://dogansarcpl.meb.k12.tr/tema/",
-        "https://dogansarcpl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://dogansarcpl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://dogansarcpl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "GEBKİM Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Kocaeli",
-      "district": "Dilovası",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://gebkimmtal.meb.k12.tr/",
-        "https://gebkimmtal.meb.k12.tr/tema/",
-        "https://gebkimmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://gebkimmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://gebkimmtal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Van Spor Lisesi",
-      "province": "Van",
-      "district": "Tuşba",
-      "school_type": "Spor Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://755789.meb.k12.tr/",
-        "https://755789.meb.k12.tr/tema/",
-        "https://755789.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://755789.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://755789.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Torbalı Sema Karhan Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Torbalı",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=torbalisemakarhanal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=torbalisemakarhanal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=torbalisemakarhanal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=torbalisemakarhanal",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=torbalisemakarhanal"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Türkiye Odalar ve Borsalar Birliği Kız Anadolu İmam Hatip Lisesi",
+      "school": "Selahaddin Eyyubi Ortaokulu",
       "province": "Adıyaman",
       "district": "Merkez",
-      "school_type": "Anadolu İmam Hatip Lisesi",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://tobbkizaihl.meb.k12.tr/",
-        "https://tobbkizaihl.meb.k12.tr/tema/",
-        "https://tobbkizaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://tobbkizaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://tobbkizaihl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Kandıra Kız Anadolu İmam Hatip Lisesi",
-      "province": "Kocaeli",
-      "district": "Kandıra",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://kandirakaihl.meb.k12.tr/",
-        "https://kandirakaihl.meb.k12.tr/tema/",
-        "https://kandirakaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kandirakaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kandirakaihl.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Zeycan Yıldırım Mesleki ve Teknik Anadolu Lisesi",
-      "province": "Elazığ",
-      "district": "Merkez",
-      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://zeycanmtal.meb.k12.tr/",
-        "https://zeycanmtal.meb.k12.tr/tema/",
-        "https://zeycanmtal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://zeycanmtal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://zeycanmtal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://zeycanmtal.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
-        "https://zeycanmtal.meb.k12.tr/okulumuz_hakkinda.html#okul"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Torbalı Subaşı Mustafa Topalan Çok Programlı Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Torbalı",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://765316.meb.k12.tr/",
-        "https://765316.meb.k12.tr/tema/",
-        "https://765316.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://765316.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://765316.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "TOKİ Karşıyaka Belediyesi Anadolu Lisesi",
-      "province": "İzmir",
-      "district": "Karşıyaka",
-      "school_type": "Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://tkbal.meb.k12.tr/",
-        "https://tkbal.meb.k12.tr/tema/",
-        "https://tkbal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://tkbal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://tkbal.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Yeşilli Bahçebaşı Anadolu İmam Hatip Lisesi",
-      "province": "Mardin",
-      "district": "Yeşilli",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://bahcebasiaihl.meb.k12.tr/",
-        "https://bahcebasiaihl.meb.k12.tr/tema/",
-        "https://bahcebasiaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://bahcebasiaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://bahcebasiaihl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://bahcebasiaihl.meb.k12.tr/icerikler/suverimliligiseferberligikapsamindaokulumuzdaseminerverildi_16404607.html",
-        "https://bahcebasiaihl.meb.k12.tr/icerikler/kaymakamimizveilcemilliegitimmudurumuzokulumuzuziyaretetti_16134888.html",
-        "https://bahcebasiaihl.meb.k12.tr/icerikler/suverimliligiseferberligikapsamindaokulumuzdaseminerverildi_16404607.html",
-        "https://bahcebasiaihl.meb.k12.tr/icerikler/kaymakamimizveilcemilliegitimmudurumuzokulumuzuziyaretetti_16134888.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "İTO İbrahim Çağlar Anadolu İmam Hatip Lisesi",
-      "province": "İstanbul",
-      "district": "Arnavutköy",
-      "school_type": "Anadolu İmam Hatip Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://itoibrahimcaglaraihl.meb.k12.tr/",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/tema/",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/icerikler/okulumuzukazanan9sinifogrencilerimizicinonkayitformu_17647681.html",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/icerikler/okulumuzliseogrencilerimizinkabulundebasarihedefiniyukseltiyor_17628003.html",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/icerikler/okulumuzukazanan9sinifogrencilerimizicinonkayitformu_17647681.html",
-        "https://itoibrahimcaglaraihl.meb.k12.tr/icerikler/okulumuzliseogrencilerimizinkabulundebasarihedefiniyukseltiyor_17628003.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Şehit Erhan Dündar Çok Programlı Anadolu Lisesi",
-      "province": "İstanbul",
-      "district": "Sultangazi",
-      "school_type": "Çok Programlı Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://erhandundarcpal.meb.k12.tr/",
-        "https://erhandundarcpal.meb.k12.tr/tema/",
-        "https://erhandundarcpal.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://erhandundarcpal.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://erhandundarcpal.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://erhandundarcpal.meb.k12.tr/icerikler/okulumuzunyeniwebadresi_17612764.html",
-        "https://erhandundarcpal.meb.k12.tr/icerikler/okulumuzunyeniwebadresi_17612764.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Şehit Serkan Çölkesen Anadolu Lisesi",
-      "province": "Antalya",
-      "district": "Muratpaşa",
-      "school_type": "Anadolu Lisesi",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://767197.meb.k12.tr/",
-        "https://767197.meb.k12.tr/tema/",
-        "https://767197.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://767197.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://767197.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Yörükler Anadolu Lisesi",
-      "province": "Hatay",
-      "district": "Kırıkhan",
-      "school_type": "Anadolu Lisesi",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767332",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767332",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767332",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767332",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=767332"
+        "https://www.meb.k12.tr/HataliDns.php?DNS=cemozgulortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=cemozgulortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=cemozgulortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=cemozgulortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=cemozgulortaokulu"
       ],
       "statuses": [
         200,
@@ -2125,50 +490,17 @@
       ]
     },
     {
-      "school": "Nusaybin Zeynelabidin Anadolu İmam Hatip Lisesi",
-      "province": "Mardin",
-      "district": "Nusaybin",
-      "school_type": "Anadolu İmam Hatip Lisesi",
+      "school": "Kurucuk Ortaokulu",
+      "province": "Şanlıurfa",
+      "district": "Eyyübiye",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/tema/",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/icerikler/okulumuzdaduzenlenenhadisyarismasindadereceyegirenogrencilerimizeodulleriokulmudurumuzsayinmehmetcemalaytarafindantakdimedildi_17148242.html",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/icerikler/20252026egitimogretimyilikapsamindailcemizdeduzenlenenbirbilenlebilgenesilkompozisyonyarismasindaokulumuz10dsinifiogrencisifatmaberitanozcelikilcebirincisiolmustur_17128922.html",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/icerikler/20252026egitimogretimyilikapsamindailcemizdeduzenlenenbirbilenlebilgenesilkompozisyonyarismasindaokulumuz10dsinifiogrencisifatmaberitanozcelikilcebirincisiolmustur_17128910.html",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/icerikler/okulumuzdaduzenlenenhadisyarismasindadereceyegirenogrencilerimizeodulleriokulmudurumuzsayinmehmetcemalaytarafindantakdimedildi_17148242.html",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/icerikler/20252026egitimogretimyilikapsamindailcemizdeduzenlenenbirbilenlebilgenesilkompozisyonyarismasindaokulumuz10dsinifiogrencisifatmaberitanozcelikilcebirincisiolmustur_17128922.html",
-        "https://nusaybinzeynelabidinanadoluihl.meb.k12.tr/icerikler/20252026egitimogretimyilikapsamindailcemizdeduzenlenenbirbilenlebilgenesilkompozisyonyarismasindaokulumuz10dsinifiogrencisifatmaberitanozcelikilcebirincisiolmustur_17128910.html"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200,
-        200,
-        200,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Aydın Adnan Menderes Üniversitesi Devlet Konservatuvarı Müzik ve Sahne Sanatları Lisesi",
-      "province": "Aydın",
-      "district": "Kuşadası",
-      "school_type": "Lise",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://767861.meb.k12.tr/",
-        "https://767861.meb.k12.tr/tema/",
-        "https://767861.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://767861.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://767861.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://kurucukortaokulu.meb.k12.tr/",
+        "https://kurucukortaokulu.meb.k12.tr/tema/",
+        "https://kurucukortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kurucukortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kurucukortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -2179,17 +511,57 @@
       ]
     },
     {
-      "school": "Emlak Konut Bahçekent Anadolu Lisesi",
+      "school": "Bilim Ortaokulu",
+      "province": "Şanlıurfa",
+      "district": "Eyyübiye",
+      "school_type": "Ortaokul",
+      "reason": "site_unreachable",
+      "attempted_urls": [
+        "https://bilim_orta.meb.k12.tr/",
+        "https://bilim_orta.meb.k12.tr/tema/",
+        "https://bilim_orta.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://bilim_orta.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://bilim_orta.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": []
+    },
+    {
+      "school": "Abdi İbrahim Ortaokulu",
       "province": "İstanbul",
       "district": "Başakşehir",
-      "school_type": "Anadolu Lisesi",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://emlakkonutbahcekental.meb.k12.tr/",
-        "https://emlakkonutbahcekental.meb.k12.tr/tema/",
-        "https://emlakkonutbahcekental.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://emlakkonutbahcekental.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://emlakkonutbahcekental.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://abdiibrahimoo.meb.k12.tr/",
+        "https://abdiibrahimoo.meb.k12.tr/tema/",
+        "https://abdiibrahimoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://abdiibrahimoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://abdiibrahimoo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://abdiibrahimoo.meb.k12.tr/icerikler/ana-sınıfı-kayıtları-hakkında-bilgilendirme_17635683.html",
+        "https://abdiibrahimoo.meb.k12.tr/icerikler/5sınıf-kayıtları-hakkında-bilgilendirme_17635677.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        404,
+        404
+      ]
+    },
+    {
+      "school": "Kemalettin Tuğcu Ortaokulu",
+      "province": "İstanbul",
+      "district": "Beykoz",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://kemalettintugcuortaokulu.meb.k12.tr/",
+        "https://kemalettintugcuortaokulu.meb.k12.tr/tema/",
+        "https://kemalettintugcuortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kemalettintugcuortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kemalettintugcuortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -2200,17 +572,101 @@
       ]
     },
     {
-      "school": "Gökçeada Anadolu İmam Hatip Lisesi",
-      "province": "Çanakkale",
-      "district": "Gökçeada",
-      "school_type": "Anadolu İmam Hatip Lisesi",
+      "school": "Kavacık Şehit Oğuz Yelken Ortaokulu",
+      "province": "Edirne",
+      "district": "Uzunköprü",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=kavacikoo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=kavacikoo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=kavacikoo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=kavacikoo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=kavacikoo"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Alibeyhüyüğü İmam Hatip Ortaokulu",
+      "province": "Konya",
+      "district": "Çumra",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=alibeyhuyuguiho",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=alibeyhuyuguiho",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=alibeyhuyuguiho",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=alibeyhuyuguiho",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=alibeyhuyuguiho"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Güveçli Ortaokulu",
+      "province": "Bingöl",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=guvecli",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=guvecli",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=guvecli",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=guvecli",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=guvecli"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Atatürk Ortaokulu",
+      "province": "İzmir",
+      "district": "Tire",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://tireataturk.meb.k12.tr/",
+        "https://tireataturk.meb.k12.tr/tema/",
+        "https://tireataturk.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://tireataturk.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://tireataturk.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Fethi Gemuhluoğlu Ortaokulu",
+      "province": "İstanbul",
+      "district": "Pendik",
+      "school_type": "Ortaokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://gokceadaanadoluihl.meb.k12.tr/",
-        "https://gokceadaanadoluihl.meb.k12.tr/tema/",
-        "https://gokceadaanadoluihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://gokceadaanadoluihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://gokceadaanadoluihl.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://fethigemuhluogluoo.meb.k12.tr/",
+        "https://fethigemuhluogluoo.meb.k12.tr/tema/",
+        "https://fethigemuhluogluoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://fethigemuhluogluoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://fethigemuhluogluoo.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -2221,17 +677,71 @@
       ]
     },
     {
-      "school": "Müzehhibe Fatma Aydın Kız Anadolu İmam Hatip Lisesi",
-      "province": "Kocaeli",
-      "district": "Başiskele",
-      "school_type": "Anadolu İmam Hatip Lisesi",
+      "school": "Sultan Murat Ortaokulu",
+      "province": "İstanbul",
+      "district": "Küçükçekmece",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://fatmaaydinaihl.meb.k12.tr/",
-        "https://fatmaaydinaihl.meb.k12.tr/tema/",
-        "https://fatmaaydinaihl.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://fatmaaydinaihl.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://fatmaaydinaihl.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://sultanmuratoo.meb.k12.tr/",
+        "https://sultanmuratoo.meb.k12.tr/tema/",
+        "https://sultanmuratoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://sultanmuratoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://sultanmuratoo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://sultanmuratoo.meb.k12.tr/icerikler/okulumuzda23nisanulusalegemenlikvecocukbayramibuyukbircoskuylakutlandi_17420310.html",
+        "https://sultanmuratoo.meb.k12.tr/icerikler/okulumuzda23nisanulusalegemenlikvecocukbayramibuyukbircoskuylakutlandi_17420310.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Büyük Kılıçlı Ortaokulu",
+      "province": "İstanbul",
+      "district": "Silivri",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://buyukklclortaokulu.meb.k12.tr/",
+        "https://buyukklclortaokulu.meb.k12.tr/tema/",
+        "https://buyukklclortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://buyukklclortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://buyukklclortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://buyukklclortaokulu.meb.k12.tr/icerikler/okulumuzdasporsehriistanbulprojesiformadagitimiyapildi_17147586.html",
+        "https://buyukklclortaokulu.meb.k12.tr/icerikler/silivriilcemilliegitimmudurumuzsayinibrahimdamatinokulumuzuziyareti_16835123.html",
+        "https://buyukklclortaokulu.meb.k12.tr/icerikler/okulumuzdasporsehriistanbulprojesiformadagitimiyapildi_17147586.html",
+        "https://buyukklclortaokulu.meb.k12.tr/icerikler/silivriilcemilliegitimmudurumuzsayinibrahimdamatinokulumuzuziyareti_16835123.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Kaşüstü Ortaokulu",
+      "province": "Trabzon",
+      "district": "Yomra",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://kasustuortaokulu.meb.k12.tr/",
+        "https://kasustuortaokulu.meb.k12.tr/tema/",
+        "https://kasustuortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kasustuortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kasustuortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -2242,17 +752,128 @@
       ]
     },
     {
-      "school": "Karahallı Veyis Turan Çok Programlı Anadolu Lisesi",
-      "province": "Uşak",
-      "district": "Karahallı",
-      "school_type": "Çok Programlı Anadolu Lisesi",
+      "school": "Gümüşsu Derviş Ali Mehmet Ceylan Ortaokulu",
+      "province": "Denizli",
+      "district": "Çivril",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://776911.meb.k12.tr/",
-        "https://776911.meb.k12.tr/tema/",
-        "https://776911.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://776911.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://776911.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://gumussuortaokulu.meb.k12.tr/",
+        "https://gumussuortaokulu.meb.k12.tr/tema/",
+        "https://gumussuortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://gumussuortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://gumussuortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Ayşe-Hüseyin Özkan Ortaokulu",
+      "province": "Konya",
+      "district": "Karatay",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://aysehuseyinozkanoo.meb.k12.tr/",
+        "https://aysehuseyinozkanoo.meb.k12.tr/tema/",
+        "https://aysehuseyinozkanoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://aysehuseyinozkanoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://aysehuseyinozkanoo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://aysehuseyinozkanoo.meb.k12.tr/icerikler/ilmilliegitimmudurumuzmuratyigitokulumuzuziyaretetti_16879854.html",
+        "https://aysehuseyinozkanoo.meb.k12.tr/icerikler/cokluyabancidilegitimmodeliokulumuzdabasliyor_16516552.html",
+        "https://aysehuseyinozkanoo.meb.k12.tr/icerikler/okulumuzadreskayitalani_16516515.html",
+        "https://aysehuseyinozkanoo.meb.k12.tr/icerikler/ilmilliegitimmudurumuzmuratyigitokulumuzuziyaretetti_16879854.html",
+        "https://aysehuseyinozkanoo.meb.k12.tr/icerikler/cokluyabancidilegitimmodeliokulumuzdabasliyor_16516552.html",
+        "https://aysehuseyinozkanoo.meb.k12.tr/icerikler/okulumuzadreskayitalani_16516515.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Gürlek Ortaokulu",
+      "province": "Denizli",
+      "district": "Honaz",
+      "school_type": "Ortaokul",
+      "reason": "site_unreachable",
+      "attempted_urls": [
+        "https://gurlek_ortaokulu.meb.k12.tr/",
+        "https://gurlek_ortaokulu.meb.k12.tr/tema/",
+        "https://gurlek_ortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://gurlek_ortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://gurlek_ortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": []
+    },
+    {
+      "school": "Akçalı Şehit Piyade Üstçavuş Ahmet Tündü Ortaokulu",
+      "province": "Kahramanmaraş",
+      "district": "Türkoğlu",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://akcaliortaokulu.meb.k12.tr/",
+        "https://akcaliortaokulu.meb.k12.tr/tema/",
+        "https://akcaliortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://akcaliortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://akcaliortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Yahyalı Şehit Mustafa Aydın Yatılı Bölge Ortaokulu",
+      "province": "Kayseri",
+      "district": "Yahyalı",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://yahyaliybo.meb.k12.tr/",
+        "https://yahyaliybo.meb.k12.tr/tema/",
+        "https://yahyaliybo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://yahyaliybo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://yahyaliybo.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Altınova Ortaokulu",
+      "province": "Muş",
+      "district": "Korkut",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=altinovaybo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=altinovaybo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=altinovaybo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=altinovaybo",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=altinovaybo"
       ],
       "statuses": [
         200,
@@ -2263,17 +884,17 @@
       ]
     },
     {
-      "school": "Kulu Fahrettin Koca Fen Lisesi",
-      "province": "Konya",
-      "district": "Kulu",
-      "school_type": "Fen Lisesi",
-      "reason": "student_field_not_found",
+      "school": "Erginler Ortaokulu",
+      "province": "Van",
+      "district": "Çaldıran",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://kulufahrettinkocafenlisesi.meb.k12.tr/",
-        "https://kulufahrettinkocafenlisesi.meb.k12.tr/tema/",
-        "https://kulufahrettinkocafenlisesi.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://kulufahrettinkocafenlisesi.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://kulufahrettinkocafenlisesi.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://erginler.meb.k12.tr/",
+        "https://erginler.meb.k12.tr/tema/",
+        "https://erginler.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://erginler.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://erginler.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -2284,17 +905,999 @@
       ]
     },
     {
-      "school": "Kırıkhan Gazi Anadolu Lisesi",
+      "school": "Çanakçı İmam Hatip Ortaokulu",
+      "province": "Giresun",
+      "district": "Çanakçı",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://canakciiho.meb.k12.tr/",
+        "https://canakciiho.meb.k12.tr/tema/",
+        "https://canakciiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://canakciiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://canakciiho.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://canakciiho.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://canakciiho.meb.k12.tr/okulumuz_hakkinda.html#okul"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Ahmetli Çancılar İmam Hatip Ortaokulu",
+      "province": "Manisa",
+      "district": "Ahmetli",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://ahmetliimamhatip.meb.k12.tr/",
+        "https://ahmetliimamhatip.meb.k12.tr/tema/",
+        "https://ahmetliimamhatip.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://ahmetliimamhatip.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://ahmetliimamhatip.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://ahmetliimamhatip.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://ahmetliimamhatip.meb.k12.tr/okulumuz_hakkinda.html#okul"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Şehit Kaymakam Muhammed Fatih Safitürk Ortaokulu",
+      "province": "Ağrı",
+      "district": "Patnos",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://patnosskmfatihsafiturkoo.meb.k12.tr/",
+        "https://patnosskmfatihsafiturkoo.meb.k12.tr/tema/",
+        "https://patnosskmfatihsafiturkoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://patnosskmfatihsafiturkoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://patnosskmfatihsafiturkoo.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "İdil İmam Hatip Ortaokulu",
+      "province": "Şırnak",
+      "district": "İdil",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://idilimamhatiportaokulu.meb.k12.tr/",
+        "https://idilimamhatiportaokulu.meb.k12.tr/tema/",
+        "https://idilimamhatiportaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://idilimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://idilimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://idilimamhatiportaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://idilimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.html#okul"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Ahmet Tevfik İleri İmam Hatip Ortaokulu",
+      "province": "Konya",
+      "district": "Meram",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://ahmettevfikileri.meb.k12.tr/",
+        "https://ahmettevfikileri.meb.k12.tr/tema/",
+        "https://ahmettevfikileri.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://ahmettevfikileri.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://ahmettevfikileri.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Hasan Banuki İmam Hatip Ortaokulu",
+      "province": "Bitlis",
+      "district": "Merkez",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://757729.meb.k12.tr/",
+        "https://757729.meb.k12.tr/tema/",
+        "https://757729.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://757729.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://757729.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Demirtaş Nihal Demirel Ortaokulu",
+      "province": "Antalya",
+      "district": "Alanya",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://demirtasnihaldemirelortaokulu.meb.k12.tr/",
+        "https://demirtasnihaldemirelortaokulu.meb.k12.tr/tema/",
+        "https://demirtasnihaldemirelortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://demirtasnihaldemirelortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://demirtasnihaldemirelortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Abdurrahmangazi İmam Hatip Ortaokulu",
+      "province": "Erzurum",
+      "district": "Karaçoban",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://758702.meb.k12.tr/",
+        "https://758702.meb.k12.tr/tema/",
+        "https://758702.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://758702.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://758702.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Çanakyayla Köyü Ortaokulu",
+      "province": "Bitlis",
+      "district": "Adilcevaz",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://canakyaylakoyuortaokulu.meb.k12.tr/",
+        "https://canakyaylakoyuortaokulu.meb.k12.tr/tema/",
+        "https://canakyaylakoyuortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://canakyaylakoyuortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://canakyaylakoyuortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Cevat Güleç Ortaokulu",
+      "province": "İstanbul",
+      "district": "Beylikdüzü",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://cevatgulecortaokulu.meb.k12.tr/",
+        "https://cevatgulecortaokulu.meb.k12.tr/tema/",
+        "https://cevatgulecortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://cevatgulecortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://cevatgulecortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://cevatgulecortaokulu.meb.k12.tr/icerikler/okulumuzasirasandalyebagisi_17683257.html",
+        "https://cevatgulecortaokulu.meb.k12.tr/icerikler/okulumuzasirasandalyebagisi_17683257.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Şehit Abubekir Elyıldırım Ortaokulu",
+      "province": "Kars",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://sae.meb.k12.tr/",
+        "https://sae.meb.k12.tr/tema/",
+        "https://sae.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://sae.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://sae.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Mehmet Bozkurt İmam Hatip Ortaokulu",
+      "province": "Antalya",
+      "district": "Manavgat",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://mehmetbozkurtiho.meb.k12.tr/",
+        "https://mehmetbozkurtiho.meb.k12.tr/tema/",
+        "https://mehmetbozkurtiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://mehmetbozkurtiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://mehmetbozkurtiho.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Kadılı Cumhuriyet İmam Hatip Ortaokulu",
+      "province": "Yozgat",
+      "district": "Sarıkaya",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://kadilicumhuriyetiho.meb.k12.tr/",
+        "https://kadilicumhuriyetiho.meb.k12.tr/tema/",
+        "https://kadilicumhuriyetiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kadilicumhuriyetiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kadilicumhuriyetiho.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Pınardere İmam Hatip Ortaokulu",
+      "province": "Mardin",
+      "district": "Savur",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/",
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/tema/",
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://pinardereimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.html#okul"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Mimar Sinan İmam Hatip Ortaokulu",
+      "province": "Kocaeli",
+      "district": "İzmit",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://izmitmimarsinaniho.meb.k12.tr/",
+        "https://izmitmimarsinaniho.meb.k12.tr/tema/",
+        "https://izmitmimarsinaniho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://izmitmimarsinaniho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://izmitmimarsinaniho.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://izmitmimarsinaniho.meb.k12.tr/icerikler/okulumuzogretmenlerineyanginguvenligiegitimivetatbikatiyapildi_17683169.html",
+        "https://izmitmimarsinaniho.meb.k12.tr/icerikler/okulumuzogretmenlerineyanginguvenligiegitimivetatbikatiyapildi_17683169.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "15 Temmuz Şehitleri İmam Hatip Ortaokulu",
+      "province": "İstanbul",
+      "district": "Sancaktepe",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://sancaktepe15temmuzsehitleriiho.meb.k12.tr/",
+        "https://sancaktepe15temmuzsehitleriiho.meb.k12.tr/tema/",
+        "https://sancaktepe15temmuzsehitleriiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://sancaktepe15temmuzsehitleriiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://sancaktepe15temmuzsehitleriiho.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Tepecik Ortaokulu",
+      "province": "Diyarbakır",
+      "district": "Kocaköy",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://tepecikortaokulu21.meb.k12.tr/",
+        "https://tepecikortaokulu21.meb.k12.tr/tema/",
+        "https://tepecikortaokulu21.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://tepecikortaokulu21.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://tepecikortaokulu21.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://tepecikortaokulu21.meb.k12.tr/icerikler/ilcemizdeveokulumuzda19mayiskutlamalari_17507131.html",
+        "https://tepecikortaokulu21.meb.k12.tr/icerikler/okulumuzda23nisan_17413542.html",
+        "https://tepecikortaokulu21.meb.k12.tr/icerikler/okulumuzdaistiklalmarsimizinkabulunun105yilibuyukcoskuylakutlandi_17274960.html",
+        "https://tepecikortaokulu21.meb.k12.tr/icerikler/ilcemizdeveokulumuzda19mayiskutlamalari_17507131.html",
+        "https://tepecikortaokulu21.meb.k12.tr/icerikler/okulumuzda23nisan_17413542.html",
+        "https://tepecikortaokulu21.meb.k12.tr/icerikler/okulumuzdaistiklalmarsimizinkabulunun105yilibuyukcoskuylakutlandi_17274960.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Yıllarca Halkbank Şehit Haşim Türkoğlu İmam Hatip Ortaokulu",
+      "province": "Diyarbakır",
+      "district": "Çınar",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/",
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/tema/",
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/icerikler/okulumuzun-afisi_9688735.html",
+        "https://yillarcaimamhatiportaokulu.meb.k12.tr/tema/icerikler/okulumuzun-afisi_9688735.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        404,
+        404
+      ]
+    },
+    {
+      "school": "Kovanpınar İmam Hatip Ortaokulu",
+      "province": "Giresun",
+      "district": "Tirebolu",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://kovanpinarimamhatipoo.meb.k12.tr/",
+        "https://kovanpinarimamhatipoo.meb.k12.tr/tema/",
+        "https://kovanpinarimamhatipoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kovanpinarimamhatipoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kovanpinarimamhatipoo.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Necip Fazıl Kısakürek Ortaokulu",
+      "province": "İstanbul",
+      "district": "Esenyurt",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/",
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/tema/",
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/icerikler/milliegitimbakanliginabagliokulogrencilerininkilikvekiyafetlerinedairyonetmeliktedegisiklikyapilmasihakkindayonetmelik_16485942.html",
+        "https://necipfazlksakrekortaokulu.meb.k12.tr/icerikler/milliegitimbakanliginabagliokulogrencilerininkilikvekiyafetlerinedairyonetmeliktedegisiklikyapilmasihakkindayonetmelik_16485942.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "75. Yıl İmam Hatip Ortaokulu",
+      "province": "Hakkari",
+      "district": "Yüksekova",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://767737.meb.k12.tr/",
+        "https://767737.meb.k12.tr/tema/",
+        "https://767737.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://767737.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://767737.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Havacılar Ortaokulu",
+      "province": "Eskişehir",
+      "district": "Odunpazarı",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://havacilarortaokulu.meb.k12.tr/",
+        "https://havacilarortaokulu.meb.k12.tr/tema/",
+        "https://havacilarortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://havacilarortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://havacilarortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://havacilarortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://havacilarortaokulu.meb.k12.tr/okulumuz_hakkinda.html#okul"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Yeniköy 15 Temmuz İmam Hatip Ortaokulu",
+      "province": "Diyarbakır",
+      "district": "Çüngüş",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://yenikoy15temmuzsehitlerimamhatip.meb.k12.tr/",
+        "https://yenikoy15temmuzsehitlerimamhatip.meb.k12.tr/tema/",
+        "https://yenikoy15temmuzsehitlerimamhatip.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://yenikoy15temmuzsehitlerimamhatip.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://yenikoy15temmuzsehitlerimamhatip.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://yenikoy15temmuzsehitlerimamhatip.meb.k12.tr/icerikler/okulumuz_12779060.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200
+      ]
+    },
+    {
+      "school": "Refika Küçükçalık İmam Hatip Ortaokulu",
+      "province": "Kayseri",
+      "district": "Kocasinan",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://refikaiho.meb.k12.tr/",
+        "https://refikaiho.meb.k12.tr/tema/",
+        "https://refikaiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://refikaiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://refikaiho.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://refikaiho.meb.k12.tr/icerikler/okulumuzdaveremegitimivefarkindalikkonferansiduzenlendi_17046134.html",
+        "https://refikaiho.meb.k12.tr/icerikler/okulumuzdangencbilallerezanokumayarismasindaanlamlitemsil_17003778.html",
+        "https://refikaiho.meb.k12.tr/icerikler/okulumuzdaveremegitimivefarkindalikkonferansiduzenlendi_17046134.html",
+        "https://refikaiho.meb.k12.tr/icerikler/okulumuzdangencbilallerezanokumayarismasindaanlamlitemsil_17003778.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "MEHMET BATALLI ORTAOKULU",
+      "province": "Gaziantep",
+      "district": "Şehitkamil",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://mehmetbatalli.meb.k12.tr/",
+        "https://mehmetbatalli.meb.k12.tr/tema/",
+        "https://mehmetbatalli.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://mehmetbatalli.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://mehmetbatalli.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Vali Erdoğan Gürbüz İmam Hatip Ortaokulu",
+      "province": "Hakkari",
+      "district": "Yüksekova",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://768760.meb.k12.tr/",
+        "https://768760.meb.k12.tr/tema/",
+        "https://768760.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://768760.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://768760.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Şehit Sudi Doruk Ortaokulu",
+      "province": "Ankara",
+      "district": "Keçiören",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://768835.meb.k12.tr/",
+        "https://768835.meb.k12.tr/tema/",
+        "https://768835.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://768835.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://768835.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Kurucaşile İmam Hatip Ortaokulu",
+      "province": "Bartın",
+      "district": "Kurucaşile",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://kurucasileiho.meb.k12.tr/",
+        "https://kurucasileiho.meb.k12.tr/tema/",
+        "https://kurucasileiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kurucasileiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kurucasileiho.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Gerede Eyüp Özdemir İmam Hatip Ortaokulu",
+      "province": "Bolu",
+      "district": "Gerede",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://770909.meb.k12.tr/",
+        "https://770909.meb.k12.tr/tema/",
+        "https://770909.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://770909.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://770909.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Tillo Ortaokulu",
+      "province": "Siirt",
+      "district": "Tillo",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://775855.meb.k12.tr/",
+        "https://775855.meb.k12.tr/tema/",
+        "https://775855.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://775855.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://775855.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Segirkan İmam Hatip Ortaokulu",
+      "province": "Batman",
+      "district": "Merkez",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://775983.meb.k12.tr/",
+        "https://775983.meb.k12.tr/tema/",
+        "https://775983.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://775983.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://775983.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Sakarkaya İmam Hatip Ortaokulu",
+      "province": "Kahramanmaraş",
+      "district": "Pazarcık",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://sakarkayaiho.meb.k12.tr/",
+        "https://sakarkayaiho.meb.k12.tr/tema/",
+        "https://sakarkayaiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://sakarkayaiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://sakarkayaiho.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Muğla Spor Ortaokulu",
+      "province": "Muğla",
+      "district": "Menteşe",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://776369.meb.k12.tr/",
+        "https://776369.meb.k12.tr/tema/",
+        "https://776369.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://776369.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://776369.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Büyüknacar İmam Hatip Ortaokulu",
+      "province": "Kahramanmaraş",
+      "district": "Pazarcık",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://776433.meb.k12.tr/",
+        "https://776433.meb.k12.tr/tema/",
+        "https://776433.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://776433.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://776433.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "15 Temmuz Şehitler Spor Ortaokulu",
+      "province": "Hatay",
+      "district": "Antakya",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://776712.meb.k12.tr/",
+        "https://776712.meb.k12.tr/tema/",
+        "https://776712.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://776712.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://776712.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Ahlat Ortaokulu",
+      "province": "Bitlis",
+      "district": "Ahlat",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://776934.meb.k12.tr/",
+        "https://776934.meb.k12.tr/tema/",
+        "https://776934.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://776934.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://776934.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Devlettepe Ortaokulu",
+      "province": "Kahramanmaraş",
+      "district": "Göksun",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777268.meb.k12.tr/",
+        "https://777268.meb.k12.tr/tema/",
+        "https://777268.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777268.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777268.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Ahmetler İmam Hatip Ortaokulu",
+      "province": "Bartın",
+      "district": "Merkez",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777176.meb.k12.tr/",
+        "https://777176.meb.k12.tr/tema/",
+        "https://777176.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777176.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777176.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Altınözü Ortaokulu",
+      "province": "Hatay",
+      "district": "Altınözü",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777218.meb.k12.tr/",
+        "https://777218.meb.k12.tr/tema/",
+        "https://777218.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777218.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777218.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Serdar Aksun Ortaokulu",
+      "province": "İstanbul",
+      "district": "Eyüpsultan",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777252",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777252",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777252",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777252",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777252"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Artuklu Ortaokulu",
+      "province": "Batman",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777345.meb.k12.tr/",
+        "https://777345.meb.k12.tr/tema/",
+        "https://777345.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777345.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777345.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Özkanlar Ortaokulu",
+      "province": "İzmir",
+      "district": "Bayraklı",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777318.meb.k12.tr/",
+        "https://777318.meb.k12.tr/tema/",
+        "https://777318.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777318.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777318.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Başöğretmen Atatürk Ortaokulu",
+      "province": "Çorum",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777364.meb.k12.tr/",
+        "https://777364.meb.k12.tr/tema/",
+        "https://777364.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777364.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777364.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Teferrüç Ortaokulu",
+      "province": "İstanbul",
+      "district": "Sultanbeyli",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://777378.meb.k12.tr/",
+        "https://777378.meb.k12.tr/tema/",
+        "https://777378.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://777378.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://777378.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Kırıkhan Ortaokulu",
       "province": "Hatay",
       "district": "Kırıkhan",
-      "school_type": "Anadolu Lisesi",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775336",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775336",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775336",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775336",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=775336"
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777409",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777409",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777409",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777409",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=777409"
       ],
       "statuses": [
         200,
@@ -2305,17 +1908,336 @@
       ]
     },
     {
-      "school": "Ahmet Ömer Kocaşaban Fen Lisesi",
-      "province": "Afyonkarahisar",
-      "district": "Merkez",
-      "school_type": "Fen Lisesi",
+      "school": "Hacı İsmail Akdağ İmam Hatip Ortaokulu",
+      "province": "İzmir",
+      "district": "Bayındır",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://haciismailakdagiho.meb.k12.tr/",
+        "https://haciismailakdagiho.meb.k12.tr/tema/",
+        "https://haciismailakdagiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://haciismailakdagiho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://haciismailakdagiho.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Ilgaz Fatih Sultan Mehmet Ortaokulu",
+      "province": "Çankırı",
+      "district": "Ilgaz",
+      "school_type": "Ortaokul",
       "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777140",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777140",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777140",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777140",
-        "https://www.meb.k12.tr/HataliDns.php?DNS=777140"
+        "https://ilgazfsm.meb.k12.tr/",
+        "https://ilgazfsm.meb.k12.tr/tema/",
+        "https://ilgazfsm.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://ilgazfsm.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://ilgazfsm.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://ilgazfsm.meb.k12.tr/icerikler/yazarmehmetcayokulumuzogrencileriylebulustu_17468163.html",
+        "https://ilgazfsm.meb.k12.tr/icerikler/yazarmehmetcayokulumuzogrencileriylebulustu_17468163.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Doğansu Kız Yatılı Bölge Ortaokulu",
+      "province": "Ağrı",
+      "district": "Patnos",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://dogansukizybo.meb.k12.tr/",
+        "https://dogansukizybo.meb.k12.tr/tema/",
+        "https://dogansukizybo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://dogansukizybo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://dogansukizybo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://dogansukizybo.meb.k12.tr/icerikler/okulumuzdamezuniyetcoskusu_14129616.html",
+        "https://dogansukizybo.meb.k12.tr/icerikler/okulumuzdasiniflararasibilgiyarismasinefeskesti_14105198.html",
+        "https://dogansukizybo.meb.k12.tr/icerikler/okulumuztanitimfilmi_12288634.html",
+        "https://dogansukizybo.meb.k12.tr/tema/okulumuz_hakkinda.php#okul",
+        "https://dogansukizybo.meb.k12.tr/okulumuz_hakkinda.html#okul",
+        "https://dogansukizybo.meb.k12.tr/icerikler/etwinningeuropeanqualitylabel_14134858.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Kefken Şehit Oğuz Kır Ortaokulu",
+      "province": "Kocaeli",
+      "district": "Kandıra",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://kefkensehitoguzkirortaokulu.meb.k12.tr/",
+        "https://kefkensehitoguzkirortaokulu.meb.k12.tr/tema/",
+        "https://kefkensehitoguzkirortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kefkensehitoguzkirortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kefkensehitoguzkirortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "29 Ekim Ortaokulu",
+      "province": "Kocaeli",
+      "district": "İzmit",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://29ekimortaokulu.meb.k12.tr/",
+        "https://29ekimortaokulu.meb.k12.tr/tema/",
+        "https://29ekimortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://29ekimortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://29ekimortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Örentaht Ortaokulu",
+      "province": "Aydın",
+      "district": "Bozdoğan",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://orentahtoo.meb.k12.tr/",
+        "https://orentahtoo.meb.k12.tr/tema/",
+        "https://orentahtoo.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://orentahtoo.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://orentahtoo.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://orentahtoo.meb.k12.tr/icerikler/okulumuzdaissagligiveguvenligikapsamindayeniliklerdevamediyor_17475159.html",
+        "https://orentahtoo.meb.k12.tr/icerikler/okulumuzuntabelasidegisti_16603220.html",
+        "https://orentahtoo.meb.k12.tr/icerikler/okulumuzguzellesiyor_16213944.html",
+        "https://orentahtoo.meb.k12.tr/icerikler/okulumuzdaissagligiveguvenligikapsamindayeniliklerdevamediyor_17475159.html",
+        "https://orentahtoo.meb.k12.tr/icerikler/okulumuzuntabelasidegisti_16603220.html",
+        "https://orentahtoo.meb.k12.tr/icerikler/okulumuzguzellesiyor_16213944.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Beyazıt Ortaokulu",
+      "province": "Afyonkarahisar",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://beyazitortaokulu.meb.k12.tr/",
+        "https://beyazitortaokulu.meb.k12.tr/tema/",
+        "https://beyazitortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://beyazitortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://beyazitortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Bahçelievler Ortaokulu",
+      "province": "Tekirdağ",
+      "district": "Süleymanpaşa",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://bahcelievlerortaokulu59.meb.k12.tr/",
+        "https://bahcelievlerortaokulu59.meb.k12.tr/tema/",
+        "https://bahcelievlerortaokulu59.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://bahcelievlerortaokulu59.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://bahcelievlerortaokulu59.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://bahcelievlerortaokulu59.meb.k12.tr/icerikler/okulumuzda-ilköğretim-haftasi-kutlandi_16569538.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        404
+      ]
+    },
+    {
+      "school": "Çatalören Ortaokulu",
+      "province": "Erzurum",
+      "district": "Karayazı",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://catalorenortaokulu.meb.k12.tr/",
+        "https://catalorenortaokulu.meb.k12.tr/tema/",
+        "https://catalorenortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://catalorenortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://catalorenortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Anıtlı Ortaokulu",
+      "province": "Erzurum",
+      "district": "Karayazı",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://anitliortaokulu25.meb.k12.tr/",
+        "https://anitliortaokulu25.meb.k12.tr/tema/",
+        "https://anitliortaokulu25.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://anitliortaokulu25.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://anitliortaokulu25.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://anitliortaokulu25.meb.k12.tr/icerikler/okulumuzdunyadabuyukbirsorunhalinegelenkoronaviruskapsamindabilgilendirmecalismalariyapmaktadir_9249178.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200
+      ]
+    },
+    {
+      "school": "Başöğretmen Atatürk Ortaokulu",
+      "province": "Antalya",
+      "district": "Muratpaşa",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://basogretmenataturk.meb.k12.tr/",
+        "https://basogretmenataturk.meb.k12.tr/tema/",
+        "https://basogretmenataturk.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://basogretmenataturk.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://basogretmenataturk.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://basogretmenataturk.meb.k12.tr/icerikler/okulumuzogrencilerivefaprojesikapsamindayuzbasimustafaertugrulakerinkabriniziyaretetti_16919607.html",
+        "https://basogretmenataturk.meb.k12.tr/icerikler/okulumuzogrencilerivefaprojesikapsamindayuzbasimustafaertugrulakerinkabriniziyaretetti_16919607.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "İsmail Güner Ortaokulu",
+      "province": "Edirne",
+      "district": "Merkez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://ismailguner.meb.k12.tr/",
+        "https://ismailguner.meb.k12.tr/tema/",
+        "https://ismailguner.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://ismailguner.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://ismailguner.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://ismailguner.meb.k12.tr/icerikler/okulumuz20262027tahminibutcesionaylanmistir_17625447.html",
+        "https://ismailguner.meb.k12.tr/icerikler/okulumuz20262027tahminibutcesionaylanmistir_17625447.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Esenli Bilal Şahin İmam Hatip Ortaokulu",
+      "province": "Yozgat",
+      "district": "Merkez",
+      "school_type": "İmam Hatip Ortaokulu",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://esenlibilalsahiniho.meb.k12.tr/",
+        "https://esenlibilalsahiniho.meb.k12.tr/tema/",
+        "https://esenlibilalsahiniho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://esenlibilalsahiniho.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://esenlibilalsahiniho.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://esenlibilalsahiniho.meb.k12.tr/icerikler/ilmilliegitimsubemudurlerimizinokulumuzuziyareti_17627117.html",
+        "https://esenlibilalsahiniho.meb.k12.tr/icerikler/ilmilliegitimmudurumuzunokulumuzuziyareti_17622229.html",
+        "https://esenlibilalsahiniho.meb.k12.tr/icerikler/okulumuzun20262027egitimogretimyilihakkindabilgilendirme_17655015.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Ahmet Coşkun Bulut Ortaokulu",
+      "province": "Antalya",
+      "district": "Kepez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://www.meb.k12.tr/HataliDns.php?DNS=ahmetcoskunbulutortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=ahmetcoskunbulutortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=ahmetcoskunbulutortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=ahmetcoskunbulutortaokulu",
+        "https://www.meb.k12.tr/HataliDns.php?DNS=ahmetcoskunbulutortaokulu"
       ],
       "statuses": [
         200,
@@ -2323,6 +2245,77 @@
         200,
         200,
         200
+      ]
+    },
+    {
+      "school": "Hayriye Kaya Ortaokulu",
+      "province": "Antalya",
+      "district": "Kepez",
+      "school_type": "Ortaokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://hayriyekayaortaokulu.meb.k12.tr/",
+        "https://hayriyekayaortaokulu.meb.k12.tr/tema/",
+        "https://hayriyekayaortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://hayriyekayaortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://hayriyekayaortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://hayriyekayaortaokulu.meb.k12.tr/icerikler/okulumuzyeniegitimogretimyilinahazir_17682595.html",
+        "https://hayriyekayaortaokulu.meb.k12.tr/icerikler/okulumuzyeniegitimogretimyilinahazir_17682595.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Mustafa Kemal Ortaokulu",
+      "province": "Eskişehir",
+      "district": "Tepebaşı",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/",
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/tema/",
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/icerikler/yemekhaneucretlerivekayitlarihakkinda_15367035.html",
+        "https://eskisehirmustafakemalortaokulu.meb.k12.tr/icerikler/2donemyemekucretlerihakkinda_14694646.html"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404,
+        200,
+        200
+      ]
+    },
+    {
+      "school": "Aygün Sarıçoban Ortaokulu",
+      "province": "Diyarbakır",
+      "district": "Kulp",
+      "school_type": "Ortaokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://kulpaygunsaricobanortaokulu.meb.k12.tr/",
+        "https://kulpaygunsaricobanortaokulu.meb.k12.tr/tema/",
+        "https://kulpaygunsaricobanortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://kulpaygunsaricobanortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://kulpaygunsaricobanortaokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
       ]
     }
   ]
