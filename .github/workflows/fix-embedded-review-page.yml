@@ -1,0 +1,26 @@
+name: Fix embedded review page
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fix_embedded_review_page.py'
+      - '.github/workflows/fix-embedded-review-page.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Repair syntax
+        run: python scripts/fix_embedded_review_page.py
+      - name: Commit repaired page
+        run: |
+          git config user.name "pdrkampus-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add eksik-veriler.html
+          git diff --cached --quiet || git commit -m "fix: render embedded unresolved review data"
+          git push
