@@ -67695,6 +67695,1059 @@
       ],
       "updated_at": "2026-10-03T00:59:31.383423+00:00",
       "note": "MEB okul sayfalarında bulunan doğrulanabilir değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "190126": {
+      "student_count": 2744,
+      "school": "Şehit Yavuz Çoban Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Aksaray",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-yavuz-coban-mesleki-ve-teknik-anadolu-lisesi-aksaray-merkez-738-obp"
+    },
+    "320561": {
+      "student_count": 550,
+      "school": "Mustafa-Mürüvvet Alaattinoğlu Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Alanya",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mustafamuruvvet-alaattinoglu-anadolu-lisesi-antalya-alanya-813-obp"
+    },
+    "378154": {
+      "student_count": 148,
+      "school": "Başmakçı Çok Programlı Anadolu Lisesi",
+      "province": "Afyonkarahisar",
+      "district": "Başmakçı",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/basmakci-cok-programli-anadolu-lisesi-afyonkarahisar-basmakci-564-obp"
+    },
+    "749271": {
+      "student_count": 607,
+      "school": "Iraz-Düriye Duran Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Manavgat",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/irazduriye-duran-anadolu-lisesi-antalya-manavgat-918-obp"
+    },
+    "122462": {
+      "student_count": 1037,
+      "school": "Şehit Özgür Can İnce Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Ankara",
+      "district": "Sincan",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-ozgur-can-ince-mesleki-ve-teknik-anadolu-lisesi-ankara-sincan-432-obp"
+    },
+    "325121": {
+      "student_count": 211,
+      "school": "Ağaçören Şehit Menderes Taşkale Çok Programlı Anadolu Lisesi",
+      "province": "Aksaray",
+      "district": "Ağaçören",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/agacoren-sehit-menderes-taskale-cok-programli-anadolu-lisesi-aksaray-agacoren-709-obp"
+    },
+    "761447": {
+      "student_count": 1018,
+      "school": "Şehit Muhittin Talha Çalışkan Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Kepez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-muhittin-talha-caliskan-anadolu-lisesi-antalya-kepez-879-obp"
+    },
+    "968961": {
+      "student_count": 709,
+      "school": "Mehmet Özöncel Anadolu Lisesi",
+      "province": "Adana",
+      "district": "Çukurova",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mehmet-ozoncel-anadolu-lisesi-adana-cukurova-21-obp"
+    },
+    "223312": {
+      "student_count": 57,
+      "school": "Yeşiltepe Şehit Atilla Mutlu Çok Programlı Anadolu Lisesi",
+      "province": "Aksaray",
+      "district": "Merkez",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/yesiltepe-sehit-atilla-mutlu-cok-programli-anadolu-lisesi-aksaray-merkez-745-obp"
+    },
+    "774083": {
+      "student_count": 12,
+      "school": "Ardanuç Tarım Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Artvin",
+      "district": "Ardanuç",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/ardanuc-tarim-mesleki-ve-teknik-anadolu-lisesi-artvin-ardanuc-986-obp"
+    },
+    "962698": {
+      "student_count": 366,
+      "school": "Fatma Tüzzehra Orhun Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Aydın",
+      "district": "Söke",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fatma-tuzzehra-orhun-mesleki-ve-teknik-anadolu-lisesi-aydin-soke-1090-obp"
+    },
+    "117807": {
+      "student_count": 436,
+      "school": "Merzifon Abide Hatun Anadolu Lisesi",
+      "province": "Amasya",
+      "district": "Merzifon",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/merzifon-abide-hatun-anadolu-lisesi-amasya-merzifon-783-obp"
+    },
+    "905493": {
+      "student_count": 320,
+      "school": "Taşova Şehit Polis Ahmet Yaşar Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Amasya",
+      "district": "Taşova",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/tasova-sehit-polis-ahmet-yasar-mesleki-ve-teknik-anadolu-lisesi-amasya-tasova-797-obp"
+    },
+    "372863": {
+      "student_count": 73,
+      "school": "Elmadağ Anadolu İmam Hatip Lisesi",
+      "province": "Ankara",
+      "district": "Elmadağ",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/elmadag-anadolu-imam-hatip-lisesi-ankara-elmadag-271-obp"
+    },
+    "967475": {
+      "student_count": 1202,
+      "school": "Pursaklar Borsa İstanbul Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Ankara",
+      "district": "Pursaklar",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/pursaklar-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-ankara-pursaklar-421-obp"
+    },
+    "767612": {
+      "student_count": 423,
+      "school": "Bağlum Şehit Oğuz Kaan Usta Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Ankara",
+      "district": "Keçiören",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/baglum-sehit-oguz-kaan-usta-mesleki-ve-teknik-anadolu-lisesi-ankara-kecioren-359-obp"
+    },
+    "745562": {
+      "student_count": 155,
+      "school": "Besni Çakırhöyük Çok Programlı Anadolu Lisesi",
+      "province": "Adıyaman",
+      "district": "Besni",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/besni-cakirhoyuk-cok-programli-anadolu-lisesi-adiyaman-besni-492-obp"
+    },
+    "969356": {
+      "student_count": 724,
+      "school": "Pursaklar Anadolu İmam Hatip Lisesi",
+      "province": "Ankara",
+      "district": "Pursaklar",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/pursaklar-anadolu-imam-hatip-lisesi-ankara-pursaklar-417-obp"
+    },
+    "341465": {
+      "student_count": 92,
+      "school": "Şavşat Çok Programlı Anadolu Lisesi",
+      "province": "Artvin",
+      "district": "Şavşat",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/savsat-cok-programli-anadolu-lisesi-artvin-savsat-1011-obp"
+    },
+    "760289": {
+      "student_count": 88,
+      "school": "İncirliova Anadolu İmam Hatip Lisesi",
+      "province": "Aydın",
+      "district": "İncirliova",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/incirliova-anadolu-imam-hatip-lisesi-aydin-incirliova-1055-obp"
+    },
+    "967557": {
+      "student_count": 774,
+      "school": "Şemsi Türkmen Anadolu Lisesi",
+      "province": "Ağrı",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/semsi-turkmen-anadolu-lisesi-agri-merkez-684-obp"
+    },
+    "906988": {
+      "student_count": 434,
+      "school": "Sındırgı Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Balıkesir",
+      "district": "Sındırgı",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sindirgi-mesleki-ve-teknik-anadolu-lisesi-balikesir-sindirgi-1285-obp"
+    },
+    "766287": {
+      "student_count": 103,
+      "school": "Beyağaç Anadolu İmam Hatip Lisesi",
+      "province": "Denizli",
+      "district": "Beyağaç",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/beyagac-anadolu-imam-hatip-lisesi-denizli-beyagac-1875-obp"
+    },
+    "965267": {
+      "student_count": 215,
+      "school": "Bigadiç Anadolu Lisesi",
+      "province": "Balıkesir",
+      "district": "Bigadiç",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/bigadic-anadolu-lisesi-balikesir-bigadic-1218-obp"
+    },
+    "749647": {
+      "student_count": 98,
+      "school": "Mustafa Köseoğlu Çok Programlı Anadolu Lisesi",
+      "province": "Bayburt",
+      "district": "Demirözü",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mustafa-koseoglu-cok-programli-anadolu-lisesi-bayburt-demirozu-1380-obp"
+    },
+    "325037": {
+      "student_count": 23,
+      "school": "Şehit Yıldırım Oflaz Çok Programlı Anadolu Lisesi",
+      "province": "Bolu",
+      "district": "Kıbrıscık",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-yildirim-oflaz-cok-programli-anadolu-lisesi-bolu-kibriscik-1494-obp"
+    },
+    "130848": {
+      "student_count": 342,
+      "school": "Osmaneli Nilüfer Hatun Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Bilecik",
+      "district": "Osmaneli",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/osmaneli-nilufer-hatun-mesleki-ve-teknik-anadolu-lisesi-bilecik-osmaneli-1409-obp"
+    },
+    "964610": {
+      "student_count": 1162,
+      "school": "Yıldırım Beyazıt Borsa İstanbul Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Bursa",
+      "district": "Yıldırım",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/yildirim-beyazit-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-bursa-yildirim-1700-obp"
+    },
+    "751378": {
+      "student_count": 62,
+      "school": "Şehit Bayram Yeşil Çok Programlı Anadolu Lisesi",
+      "province": "Burdur",
+      "district": "Ağlasun",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-bayram-yesil-cok-programli-anadolu-lisesi-burdur-aglasun-1524-obp"
+    },
+    "765286": {
+      "student_count": 38,
+      "school": "Baskil Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Elazığ",
+      "district": "Baskil",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/baskil-mesleki-ve-teknik-anadolu-lisesi-elazig-baskil-2179-obp"
+    },
+    "246729": {
+      "student_count": 298,
+      "school": "Adilcevaz Tuğrul Bey Anadolu Lisesi",
+      "province": "Bitlis",
+      "district": "Adilcevaz",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/adilcevaz-tugrul-bey-anadolu-lisesi-bitlis-adilcevaz-1447-obp"
+    },
+    "321721": {
+      "student_count": 82,
+      "school": "Çilimli Anadolu Kalkınma Vakfı Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Düzce",
+      "district": "Çilimli",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/cilimli-anadolu-kalkinma-vakfi-mesleki-ve-teknik-anadolu-lisesi-duzce-cilimli-2106-obp"
+    },
+    "972850": {
+      "student_count": 665,
+      "school": "Antakya Lisesi",
+      "province": "Hatay",
+      "district": "Antakya",
+      "school_type": "Lise",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/antakya-lisesi-hatay-antakya-2741-obp"
+    },
+    "760091": {
+      "student_count": 1070,
+      "school": "Mevlana Anadolu Lisesi",
+      "province": "Gaziantep",
+      "district": "Şahinbey",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mevlana-anadolu-lisesi-gaziantep-sahinbey-2495-obp"
+    },
+    "967988": {
+      "student_count": 778,
+      "school": "Kılıçoğlu Anadolu Lisesi",
+      "province": "Eskişehir",
+      "district": "Odunpazarı",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kilicoglu-anadolu-lisesi-eskisehir-odunpazari-2380-obp"
+    },
+    "236452": {
+      "student_count": 514,
+      "school": "Belen Anadolu Lisesi",
+      "province": "Hatay",
+      "district": "Belen",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/belen-anadolu-lisesi-hatay-belen-2763-obp"
+    },
+    "767332": {
+      "student_count": 530,
+      "school": "Yörükler Anadolu Lisesi",
+      "province": "Hatay",
+      "district": "Kırıkhan",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/yorukler-anadolu-lisesi-hatay-kirikhan-2814-obp"
+    },
+    "767333": {
+      "student_count": 461,
+      "school": "Yeşilova Anadolu Lisesi",
+      "province": "Hatay",
+      "district": "Reyhanlı",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/yesilova-anadolu-lisesi-hatay-reyhanli-2833-obp"
+    },
+    "153860": {
+      "student_count": 643,
+      "school": "Payas Anadolu Lisesi",
+      "province": "Hatay",
+      "district": "Payas",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/payas-anadolu-lisesi-hatay-payas-2820-obp"
+    },
+    "155033": {
+      "student_count": 238,
+      "school": "Gül Şehri Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Isparta",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/gul-sehri-mesleki-ve-teknik-anadolu-lisesi-isparta-merkez-2895-obp"
+    },
+    "878973": {
+      "student_count": 147,
+      "school": "Karaman Bifa Anadolu Lisesi",
+      "province": "Karaman",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/karaman-bifa-anadolu-lisesi-karaman-merkez-3929-obp"
+    },
+    "754519": {
+      "student_count": 410,
+      "school": "Karacasu Çok Programlı Anadolu Lisesi",
+      "province": "Kahramanmaraş",
+      "district": "Dulkadiroğlu",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/karacasu-cok-programli-anadolu-lisesi-kahramanmaras-dulkadiroglu-3772-obp"
+    },
+    "320764": {
+      "student_count": 75,
+      "school": "Küre Çok Programlı Anadolu Lisesi",
+      "province": "Kastamonu",
+      "district": "Küre",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kure-cok-programli-anadolu-lisesi-kastamonu-kure-4010-obp"
+    },
+    "907276": {
+      "student_count": 723,
+      "school": "Kağızman Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Kars",
+      "district": "Kağızman",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kagizman-mesleki-ve-teknik-anadolu-lisesi-kars-kagizman-3944-obp"
+    },
+    "763711": {
+      "student_count": 275,
+      "school": "Fahri Mor Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Kayseri",
+      "district": "Develi",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fahri-mor-mesleki-ve-teknik-anadolu-lisesi-kayseri-develi-4057-obp"
+    },
+    "761418": {
+      "student_count": 414,
+      "school": "Ertuğrulgazi Anadolu İmam Hatip Lisesi",
+      "province": "Kayseri",
+      "district": "Melikgazi",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/ertugrulgazi-anadolu-imam-hatip-lisesi-kayseri-melikgazi-4128-obp"
+    },
+    "777100": {
+      "student_count": 502,
+      "school": "Türkiye Odalar ve Borsalar Birliği Anadolu Lisesi",
+      "province": "Kars",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/turkiye-odalar-ve-borsalar-birligi-anadolu-lisesi-kirklareli-merkez-4228-obp"
+    },
+    "973766": {
+      "student_count": 442,
+      "school": "Kocasinan Furkan Doğan Anadolu İmam Hatip Lisesi",
+      "province": "Kayseri",
+      "district": "Kocasinan",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kocasinan-furkan-dogan-anadolu-imam-hatip-lisesi-kayseri-kocasinan-4082-obp"
+    },
+    "351539": {
+      "student_count": 803,
+      "school": "Aytaç Eruz Anadolu Lisesi",
+      "province": "Kastamonu",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/aytac-eruz-anadolu-lisesi-kastamonu-merkez-4018-obp"
+    },
+    "751757": {
+      "student_count": 147,
+      "school": "Lokman Hekim Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Konya",
+      "district": "Bozkır",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/lokman-hekim-mesleki-ve-teknik-anadolu-lisesi-konya-bozkir-4441-obp"
+    },
+    "974919": {
+      "student_count": 441,
+      "school": "Barbaros Hayrettin Anadolu Lisesi",
+      "province": "Kocaeli",
+      "district": "Gölcük",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/barbaros-hayrettin-anadolu-lisesi-kocaeli-golcuk-4360-obp"
+    },
+    "752229": {
+      "student_count": 490,
+      "school": "GEBKİM Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Kocaeli",
+      "district": "Dilovası",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/gebkim-mesleki-ve-teknik-anadolu-lisesi-kocaeli-dilovasi-4328-obp"
+    },
+    "972927": {
+      "student_count": 672,
+      "school": "Mehmet Akif Ersoy Anadolu Lisesi",
+      "province": "Konya",
+      "district": "Selçuklu",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mehmet-akif-ersoy-anadolu-lisesi-konya-selcuklu-4564-obp"
+    },
+    "300458": {
+      "student_count": 644,
+      "school": "Tavşanlı Anadolu Lisesi",
+      "province": "Kütahya",
+      "district": "Tavşanlı",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/tavsanli-anadolu-lisesi-kutahya-tavsanli-4656-obp"
+    },
+    "373102": {
+      "student_count": 6,
+      "school": "Domaniç Anadolu İmam Hatip Lisesi",
+      "province": "Kütahya",
+      "district": "Domaniç",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/domanic-anadolu-imam-hatip-lisesi-kutahya-domanic-4615-obp"
+    },
+    "264355": {
+      "student_count": 169,
+      "school": "17 Ağustos Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Kırıkkale",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/17-agustos-mesleki-ve-teknik-anadolu-lisesi-kirikkale-merkez-4195-obp"
+    },
+    "972377": {
+      "student_count": 250,
+      "school": "Kemal Ural Anadolu Lisesi",
+      "province": "Manisa",
+      "district": "Salihli",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kemal-ural-anadolu-lisesi-manisa-salihli-4801-obp"
+    },
+    "759974": {
+      "student_count": 36,
+      "school": "Şehit Hikmet Güler Anadolu İmam Hatip Lisesi",
+      "province": "Manisa",
+      "district": "Köprübaşı",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-hikmet-guler-anadolu-imam-hatip-lisesi-manisa-koprubasi-4788-obp"
+    },
+    "972941": {
+      "student_count": 682,
+      "school": "Soma Linyit Anadolu Lisesi",
+      "province": "Manisa",
+      "district": "Soma",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/soma-linyit-anadolu-lisesi-manisa-soma-4819-obp"
+    },
+    "381084": {
+      "student_count": 79,
+      "school": "Şenköy Anadolu Lisesi",
+      "province": "Mardin",
+      "district": "Midyat",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/senkoy-anadolu-lisesi-mardin-midyat-5026-obp"
+    },
+    "972625": {
+      "student_count": 218,
+      "school": "Abdülkadir Perşembe Vakfı Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Mersin",
+      "district": "Akdeniz",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/abdulkadir-persembe-vakfi-mesleki-ve-teknik-anadolu-lisesi-mersin-akdeniz-4860-obp"
+    },
+    "967767": {
+      "student_count": 1051,
+      "school": "Yahya Günsür Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Mersin",
+      "district": "Yenişehir",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/yahya-gunsur-mesleki-ve-teknik-anadolu-lisesi-mersin-yenisehir-4975-obp"
+    },
+    "763606": {
+      "student_count": 79,
+      "school": "Yeşilli Bahçebaşı Anadolu İmam Hatip Lisesi",
+      "province": "Mardin",
+      "district": "Yeşilli",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/yesilli-bahcebasi-anadolu-imam-hatip-lisesi-mardin-yesilli-5054-obp"
+    },
+    "964101": {
+      "student_count": 585,
+      "school": "Fethiye Anadolu Lisesi",
+      "province": "Muğla",
+      "district": "Fethiye",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fethiye-anadolu-lisesi-mugla-fethiye-5073-obp"
+    },
+    "972509": {
+      "student_count": 422,
+      "school": "Fethiye Üzümlü Borsa İstanbul Anadolu Lisesi",
+      "province": "Muğla",
+      "district": "Fethiye",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fethiye-uzumlu-borsa-istanbul-anadolu-lisesi-mugla-fethiye-5076-obp"
+    },
+    "968062": {
+      "student_count": 1200,
+      "school": "Şevket Pozcu Anadolu Lisesi",
+      "province": "Mersin",
+      "district": "Yenişehir",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sevket-pozcu-anadolu-lisesi-mersin-yenisehir-4972-obp"
+    },
+    "967563": {
+      "student_count": 897,
+      "school": "Fatih Anadolu Lisesi",
+      "province": "Ordu",
+      "district": "Altınordu",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fatih-anadolu-lisesi-ordu-altinordu-5265-obp"
+    },
+    "974760": {
+      "student_count": 87,
+      "school": "Çaybaşı Anadolu İmam Hatip Lisesi",
+      "province": "Ordu",
+      "district": "Çaybaşı",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/caybasi-anadolu-imam-hatip-lisesi-ordu-caybasi-5280-obp"
+    },
+    "964392": {
+      "student_count": 636,
+      "school": "Ferizli Fikret-İsmet Aktekin Anadolu Lisesi",
+      "province": "Sakarya",
+      "district": "Ferizli",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/ferizli-fikretismet-aktekin-anadolu-lisesi-sakarya-ferizli-5467-obp"
+    },
+    "973167": {
+      "student_count": 565,
+      "school": "Kurupelit Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Samsun",
+      "district": "Atakum",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kurupelit-mesleki-ve-teknik-anadolu-lisesi-samsun-atakum-5527-obp"
+    },
+    "765490": {
+      "student_count": 513,
+      "school": "Mimar Sinan Anadolu Lisesi",
+      "province": "Siirt",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mimar-sinan-anadolu-lisesi-siirt-merkez-5628-obp"
+    },
+    "767397": {
+      "student_count": 202,
+      "school": "Karşıyaka Aşık İsmeti Anadolu Lisesi",
+      "province": "Sivas",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/karsiyaka-asik-ismeti-anadolu-lisesi-sivas-merkez-5734-obp"
+    },
+    "751496": {
+      "student_count": 81,
+      "school": "Doğanşar Çok Programlı Anadolu Lisesi",
+      "province": "Sivas",
+      "district": "Doğanşar",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/dogansar-cok-programli-anadolu-lisesi-sivas-dogansar-5685-obp"
+    },
+    "962532": {
+      "student_count": 313,
+      "school": "Çayeli Hacı Ahmet Hamdi İshakoğlu Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Rize",
+      "district": "Çayeli",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/cayeli-haci-ahmet-hamdi-ishakoglu-mesleki-ve-teknik-anadolu-lisesi-rize-cayeli-5397-obp"
+    },
+    "317153": {
+      "student_count": 348,
+      "school": "Şehit Nurullah Saraç Anadolu Lisesi",
+      "province": "Sinop",
+      "district": "Gerze",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-nurullah-sarac-anadolu-lisesi-sinop-gerze-5664-obp"
+    },
+    "326616": {
+      "student_count": 550,
+      "school": "Muratlı Anadolu Lisesi",
+      "province": "Tekirdağ",
+      "district": "Muratlı",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/muratli-anadolu-lisesi-tekirdag-muratli-6008-obp"
+    },
+    "749649": {
+      "student_count": 45,
+      "school": "Gökal Güldere Çok Programlı Anadolu Lisesi",
+      "province": "Tokat",
+      "district": "Erbaa",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/gokal-guldere-cok-programli-anadolu-lisesi-tokat-erbaa-6036-obp"
+    },
+    "363865": {
+      "student_count": 132,
+      "school": "Pazar Üzümören Selçuk Çok Programlı Anadolu Lisesi",
+      "province": "Tokat",
+      "district": "Pazar",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/pazar-uzumoren-selcuk-cok-programli-anadolu-lisesi-tokat-pazar-6064-obp"
+    },
+    "973005": {
+      "student_count": 846,
+      "school": "Affan Kitapçıoğlu Anadolu Lisesi",
+      "province": "Trabzon",
+      "district": "Ortahisar",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/affan-kitapcioglu-anadolu-lisesi-trabzon-ortahisar-6147-obp"
+    },
+    "752262": {
+      "student_count": 75,
+      "school": "Sivaslı Anadolu İmam Hatip Lisesi",
+      "province": "Uşak",
+      "district": "Sivaslı",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sivasli-anadolu-imam-hatip-lisesi-usak-sivasli-6233-obp"
+    },
+    "207303": {
+      "student_count": 20,
+      "school": "Ulubey Ümmü Baykan Anadolu İmam Hatip Lisesi",
+      "province": "Uşak",
+      "district": "Ulubey",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/ulubey-ummu-baykan-anadolu-imam-hatip-lisesi-usak-ulubey-6235-obp"
+    },
+    "750329": {
+      "student_count": 142,
+      "school": "Karahallı Anadolu Lisesi",
+      "province": "Uşak",
+      "district": "Karahallı",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/karahalli-anadolu-lisesi-usak-karahalli-6213-obp"
+    },
+    "321853": {
+      "student_count": 52,
+      "school": "Çiğdemli Çok Programlı Anadolu Lisesi",
+      "province": "Yozgat",
+      "district": "Sorgun",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/cigdemli-cok-programli-anadolu-lisesi-yozgat-sorgun-6413-obp"
+    },
+    "905564": {
+      "student_count": 412,
+      "school": "Devrek Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Zonguldak",
+      "district": "Devrek",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/devrek-mesleki-ve-teknik-anadolu-lisesi-zonguldak-devrek-6447-obp"
+    },
+    "974790": {
+      "student_count": 242,
+      "school": "Çaycuma Anadolu İmam Hatip Lisesi",
+      "province": "Zonguldak",
+      "district": "Çaycuma",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/caycuma-anadolu-imam-hatip-lisesi-zonguldak-caycuma-6437-obp"
+    },
+    "973163": {
+      "student_count": 232,
+      "school": "Ormanlı Çok Programlı Anadolu Lisesi",
+      "province": "Zonguldak",
+      "district": "Ereğli",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/ormanli-cok-programli-anadolu-lisesi-zonguldak-eregli-6456-obp"
+    },
+    "240040": {
+      "student_count": 85,
+      "school": "Laçin Çok Programlı Anadolu Lisesi",
+      "province": "Çorum",
+      "district": "Laçin",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/lacin-cok-programli-anadolu-lisesi-corum-lacin-1820-obp"
+    },
+    "750871": {
+      "student_count": 2083,
+      "school": "Sabancı 50. Yıl Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Avcılar",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sabanci-50-yil-anadolu-lisesi-istanbul-avcilar-2955-obp"
+    },
+    "766303": {
+      "student_count": 570,
+      "school": "Bahçelievler Türkiye Gazetesi Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Bahçelievler",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/bahcelievler-turkiye-gazetesi-cok-programli-anadolu-lisesi-istanbul-bahcelievler-3001-obp"
+    },
+    "971768": {
+      "student_count": 976,
+      "school": "Beylikdüzü Mimar Sinan Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Beylikdüzü",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/beylikduzu-mimar-sinan-cok-programli-anadolu-lisesi-istanbul-beylikduzu-3073-obp"
+    },
+    "967500": {
+      "student_count": 1317,
+      "school": "Bahçeşehir Borsa İstanbul Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Başakşehir",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/bahcesehir-borsa-istanbul-mesleki-ve-teknik-anadolu-lisesi-istanbul-basaksehir-3033-obp"
+    },
+    "970083": {
+      "student_count": 1014,
+      "school": "Mehmet Akif Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Bahçelievler",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/mehmet-akif-cok-programli-anadolu-lisesi-istanbul-bahcelievler-2998-obp"
+    },
+    "768446": {
+      "student_count": 1524,
+      "school": "Emlak Konut Bahçekent Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Başakşehir",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/emlak-konut-bahcekent-anadolu-lisesi-istanbul-basaksehir-3028-obp"
+    },
+    "241584": {
+      "student_count": 858,
+      "school": "Fevzi Çakmak Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Beykoz",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fevzi-cakmak-anadolu-lisesi-istanbul-beykoz-3055-obp"
+    },
+    "158780": {
+      "student_count": 798,
+      "school": "Etiler Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Beşiktaş",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/etiler-anadolu-lisesi-istanbul-besiktas-3053-obp"
+    },
+    "767278": {
+      "student_count": 781,
+      "school": "Esenler Menderes Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Esenler",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/esenler-menderes-anadolu-lisesi-istanbul-esenler-3126-obp"
+    },
+    "765290": {
+      "student_count": 1353,
+      "school": "Fatih Atatürk Çağdaş Yaşam Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Fatih",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/fatih-ataturk-cagdas-yasam-cok-programli-anadolu-lisesi-istanbul-fatih-3171-obp"
+    },
+    "745912": {
+      "student_count": 1740,
+      "school": "2. Mehmet Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Gaziosmanpaşa",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/2-mehmet-cok-programli-anadolu-lisesi-istanbul-gaziosmanpasa-3180-obp"
+    },
+    "765518": {
+      "student_count": 1658,
+      "school": "Şehit Erhan Dündar Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Sultangazi",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-erhan-dundar-cok-programli-anadolu-lisesi-istanbul-sultangazi-3372-obp"
+    },
+    "775245": {
+      "student_count": 164,
+      "school": "Zümrütevler Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Maltepe",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/zumrutevler-anadolu-lisesi-istanbul-maltepe-3291-obp"
+    },
+    "349796": {
+      "student_count": 879,
+      "school": "Kaşif Kalkavan Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Tuzla",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kasif-kalkavan-cok-programli-anadolu-lisesi-istanbul-tuzla-3419-obp"
+    },
+    "163228": {
+      "student_count": 760,
+      "school": "Şehit Büyükelçi Galip Balkar Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Zeytinburnu",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-buyukelci-galip-balkar-mesleki-ve-teknik-anadolu-lisesi-istanbul-zeytinburnu-3466-obp"
+    },
+    "162306": {
+      "student_count": 652,
+      "school": "Kurtuluş Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Şişli",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kurtulus-anadolu-lisesi-istanbul-sisli-3398-obp"
+    },
+    "971526": {
+      "student_count": 290,
+      "school": "Ağva Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Şile",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/agva-anadolu-lisesi-istanbul-sile-3391-obp"
+    },
+    "970497": {
+      "student_count": 732,
+      "school": "Bayraklı Nuri Atik Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Bayraklı",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/bayrakli-nuri-atik-mesleki-ve-teknik-anadolu-lisesi-izmir-bayrakli-3493-obp"
+    },
+    "378058": {
+      "student_count": 914,
+      "school": "Zeytinburnu TRİSAD Tekstil Teknolojisi Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Zeytinburnu",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/zeytinburnu-trisad-tekstil-teknolojisi-mesleki-ve-teknik-anadolu-lisesi-istanbul-zeytinburnu-3465-obp"
+    },
+    "972890": {
+      "student_count": 1044,
+      "school": "Buca Sultan Alparslan Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Buca",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/buca-sultan-alparslan-anadolu-lisesi-izmir-buca-3549-obp"
+    },
+    "766281": {
+      "student_count": 977,
+      "school": "Bozyaka Şehit Fethi Bey Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Karabağlar",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/bozyaka-sehit-fethi-bey-anadolu-lisesi-izmir-karabaglar-3600-obp"
+    },
+    "341597": {
+      "student_count": 489,
+      "school": "Kiraz Çok Programlı Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Kiraz",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/kiraz-cok-programli-anadolu-lisesi-izmir-kiraz-3645-obp"
+    },
+    "765530": {
+      "student_count": 610,
+      "school": "Karabağlar Yeşilyurt Borsa İstanbul Çok Programlı Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Karabağlar",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/karabaglar-yesilyurt-borsa-istanbul-cok-programli-anadolu-lisesi-izmir-karabaglar-3601-obp"
+    },
+    "973817": {
+      "student_count": 231,
+      "school": "Gümüldür Bilgin Bülent Kılıç Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Menderes",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/gumuldur-bilgin-bulent-kilic-anadolu-lisesi-izmir-menderes-3680-obp"
+    },
+    "765316": {
+      "student_count": 443,
+      "school": "Torbalı Subaşı Mustafa Topalan Çok Programlı Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Torbalı",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/torbali-subasi-mustafa-topalan-cok-programli-anadolu-lisesi-izmir-torbali-3727-obp"
+    },
+    "216146": {
+      "student_count": 438,
+      "school": "Urla Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Urla",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/urla-mesleki-ve-teknik-anadolu-lisesi-izmir-urla-3737-obp"
+    },
+    "973820": {
+      "student_count": 408,
+      "school": "Necip Fazıl Kısakürek Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Çiğli",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/necip-fazil-kisakurek-anadolu-lisesi-izmir-cigli-3566-obp"
+    },
+    "767145": {
+      "student_count": 641,
+      "school": "Şehit Ali Karaoğlan Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Çiğli",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/sehit-ali-karaoglan-anadolu-lisesi-izmir-cigli-3571-obp"
+    },
+    "765139": {
+      "student_count": 311,
+      "school": "Nusretiye Anadolu Lisesi",
+      "province": "Şanlıurfa",
+      "district": "Akçakale",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/nusretiye-anadolu-lisesi-sanliurfa-akcakale-5767-obp"
+    },
+    "775185": {
+      "student_count": 134,
+      "school": "Milli İrade Anadolu Lisesi",
+      "province": "Şanlıurfa",
+      "district": "Eyyübiye",
+      "school_type": "Anadolu Lisesi",
+      "source": "liseler.com.tr",
+      "source_url": "https://liseler.com.tr/milli-irade-anadolu-lisesi-sanliurfa-eyyubiye-5808-obp"
     }
   }
 }
