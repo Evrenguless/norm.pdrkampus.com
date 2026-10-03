@@ -75,6 +75,8 @@ def main():
     targets.sort(key=lambda row: str(row.get("kurum_kodu") or ""))
     if TARGET_GROUP == "highschool" and len(targets) != 532:
         raise RuntimeError(f"Safety check failed: expected exactly 532 high-school targets, got {len(targets)}")
+    if TARGET_GROUP == "middle" and len(targets) != 978:
+        raise RuntimeError(f"Safety check failed: expected exactly 978 middle-school targets, got {len(targets)}")
     shard_targets = [
         row for i, row in enumerate(targets)
         if i % SHARD_COUNT == SHARD_INDEX
