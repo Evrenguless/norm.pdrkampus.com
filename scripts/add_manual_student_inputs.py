@@ -1,0 +1,22 @@
+from pathlib import Path
+
+p=Path('eksik-veriler.html')
+s=p.read_text(encoding='utf-8')
+
+repls=[
+(".links a.primary{background:var(--green);color:white;border-color:var(--green)}", ".links a.primary{background:var(--green);color:white;border-color:var(--green)}.manualbox{display:flex;align-items:center;gap:7px;min-width:160px}.manualinput{width:92px;height:38px;border:1px solid #bfcfc6;border-radius:9px;padding:0 9px;font:inherit;font-weight:800;color:var(--ink);background:#fff}.manualinput:focus{outline:2px solid rgba(18,60,49,.18);border-color:var(--green)}.savedtick{font-size:10px;font-weight:800;color:#2f725d;white-space:nowrap}.exportbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.exportbtn{border:1px solid #bfcfc6;background:white;border-radius:9px;padding:8px 10px;font:inherit;font-size:11px;font-weight:800;color:var(--ink);cursor:pointer}.exportbtn.primary{background:var(--green);color:white;border-color:var(--green)}"),
+("<div class=\"summary\"><span><strong id=\"shown\">—</strong> kayıt gösteriliyor</span><span>Snapshot: GitHub Actions run <strong>37121325865</strong></span></div>", "<div class=\"summary\"><span><strong id=\"shown\">—</strong> kayıt gösteriliyor · <strong id=\"enteredCount\">0</strong> okula sayı girdin</span><div class=\"exportbar\"><button class=\"exportbtn\" id=\"clearManual\" type=\"button\">Girişleri temizle</button><button class=\"exportbtn primary\" id=\"exportManual\" type=\"button\">Girilenleri dışa aktar</button></div></div>"),
+("<th>Neden bulunamadı</th><th>İncele</th>", "<th>Neden bulunamadı</th><th>Öğrenci sayısı</th><th>İncele</th>"),
+("let all=[],filtered=[],page=1;const PAGE=50;", "let all=[],filtered=[],page=1;const PAGE=50;const MANUAL_KEY='pdrnorm_manual_student_counts_v1';let manual={};try{manual=JSON.parse(localStorage.getItem(MANUAL_KEY)||'{}')||{}}catch(e){manual={}};"),
+("function render(){const start=(page-1)*PAGE, slice=filtered.slice(start,start+PAGE);$('shown').textContent=filtered.length.toLocaleString('tr-TR');", "function manualCount(){return Object.values(manual).filter(v=>Number(v)>0).length}function syncManualSummary(){$('enteredCount').textContent=manualCount().toLocaleString('tr-TR')}function saveManual(){localStorage.setItem(MANUAL_KEY,JSON.stringify(manual));syncManualSummary()}function render(){const start=(page-1)*PAGE, slice=filtered.slice(start,start+PAGE);$('shown').textContent=filtered.length.toLocaleString('tr-TR');syncManualSummary();"),
+("</td><td><div class=\"links\"><a class=\"primary\" href=\"${esc(x.meb_url)}\"", "</td><td><div class=\"manualbox\"><input class=\"manualinput\" type=\"number\" min=\"1\" max=\"10000\" step=\"1\" inputmode=\"numeric\" data-code=\"${esc(x.kurum_kodu)}\" value=\"${manual[x.kurum_kodu]?esc(manual[x.kurum_kodu]):''}\" placeholder=\"örn. 428\"><span class=\"savedtick\">${manual[x.kurum_kodu]?'✓ kayıtlı':''}</span></div></td><td><div class=\"links\"><a class=\"primary\" href=\"${esc(x.meb_url)}\""),
+("$('prev').onclick=()=>", "$('rows').addEventListener('input',e=>{if(!e.target.classList.contains('manualinput'))return;const code=e.target.dataset.code;const n=parseInt(e.target.value,10);if(Number.isFinite(n)&&n>0){manual[code]=n;e.target.nextElementSibling.textContent='✓ kayıtlı'}else{delete manual[code];e.target.nextElementSibling.textContent=''}saveManual()});$('exportManual').onclick=()=>{const records=all.filter(x=>Number(manual[x.kurum_kodu])>0).map(x=>({kurum_kodu:x.kurum_kodu,okul_adi:x.okul_adi,il:x.il,ilce:x.ilce,kademe:x.kademe,okul_turu:x.okul_turu,ogrenci_sayisi:Number(manual[x.kurum_kodu]),meb_url:x.meb_url,kaynak_url:x.kaynak_url||''}));if(!records.length){alert('Henüz öğrenci sayısı girmedin.');return}const blob=new Blob([JSON.stringify({exported_at:new Date().toISOString(),total:records.length,records},null,2)],{type:'application/json;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`manuel-ogrenci-sayilari-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href)};$('clearManual').onclick=()=>{if(!confirm('Elle girdiğin tüm öğrenci sayılarını bu tarayıcıdan silmek istiyor musun?'))return;manual={};saveManual();render()};$('prev').onclick=()=>"),
+]
+
+for old,new in repls:
+    if old not in s:
+        raise SystemExit('Patch target not found: '+old[:120])
+    s=s.replace(old,new,1)
+
+p.write_text(s,encoding='utf-8')
+print('manual student count editor added')
