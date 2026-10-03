@@ -15,9 +15,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: refresh-student-counts
-  cancel-in-progress: true
 
 jobs:
   scan:
