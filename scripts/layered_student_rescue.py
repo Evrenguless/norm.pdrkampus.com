@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import csv
 import json
 import os
 import re
@@ -18,7 +17,7 @@ DATA_DIR = Path("data")
 OVERRIDES = DATA_DIR / "student-overrides.json"
 SCAN_SUMMARY = DATA_DIR / "student-scan-summary.json"
 OUT = DATA_DIR / "layered-rescue-summary.json"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PDRKampusNormBot/5.1; +https://norm.pdrkampus.com)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PDRKampusNormBot/5.2; +https://norm.pdrkampus.com)"}
 TIMEOUT = 10
 WORKERS = 16
 TARGET_GROUP = os.getenv("TARGET_GROUP", "kindergarten").strip().lower()
@@ -29,14 +28,6 @@ def norm(s):
     s = unicodedata.normalize("NFKD", s)
     s = "".join(ch for ch in s if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
-
-
-def load_rows():
-    rows = []
-    for p in sorted(DATA_DIR.glob("chunk-*.csv")):
-        with p.open(encoding="utf-8-sig", newline="") as f:
-            rows.extend(csv.DictReader(f))
-    return rows
 
 
 def load_json(path, default):
@@ -86,11 +77,7 @@ def fetch_text(url):
 
 def meb_direct(row):
     code = str(row.get("kurum_kodu") or "").strip()
-    attempted = [
-        f"https://{code}.meb.k12.tr/",
-        f"https://{code}.meb.k12.tr/tema/",
-    ]
-    for url in attempted:
+    for url in [f"https://{code}.meb.k12.tr/", f"https://{code}.meb.k12.tr/tema/"]:
         text = fetch_text(url)
         if not text:
             continue
@@ -135,34 +122,14 @@ def search_bing(row):
                 host = urlparse(href).netloc.lower()
                 if "meb.k12.tr" in host:
                     if href.lower().endswith(".pdf") or "meb_iys_dosyalar" in href:
-                        candidates.append({
-                            "value": count,
-                            "source_url": href,
-                            "source_type": "B_MEB_PDF_CANDIDATE",
-                            "confidence": "B-candidate",
-                            "snippet": blob[:500],
-                        })
+                        candidates.append({"value": count, "source_url": href, "source_type": "B_MEB_PDF_CANDIDATE", "confidence": "B-candidate", "snippet": blob[:500]})
                     else:
                         text = fetch_text(href)
                         verified_count = extract_count(text or "") or count
                         if verified_count:
-                            return {
-                                "accepted": {
-                                    "value": verified_count,
-                                    "source_url": href,
-                                    "source_type": "A_MEB_SEARCH_HIT",
-                                    "confidence": "A",
-                                },
-                                "candidates": candidates,
-                            }
+                            return {"accepted": {"value": verified_count, "source_url": href, "source_type": "A_MEB_SEARCH_HIT", "confidence": "A"}, "candidates": candidates}
                 elif count:
-                    candidates.append({
-                        "value": count,
-                        "source_url": href,
-                        "source_type": "D_SEARCH_SNIPPET",
-                        "confidence": "D",
-                        "snippet": blob[:500],
-                    })
+                    candidates.append({"value": count, "source_url": href, "source_type": "D_SEARCH_SNIPPET", "confidence": "D", "snippet": blob[:500]})
         except Exception:
             pass
         time.sleep(0.2)
@@ -177,28 +144,29 @@ def scan(row):
 
 
 def main():
-    rows = load_rows()
-    by_code = {str(r.get("kurum_kodu") or "").strip(): r for r in rows}
     payload = load_json(OVERRIDES, {"schools": {}})
     schools = payload.setdefault("schools", {})
     scan_summary = load_json(SCAN_SUMMARY, {})
-
     unresolved = scan_summary.get("unresolved") or {}
-    if TARGET_GROUP == "kindergarten":
-        target_codes = [
-            str(code).strip()
-            for code, info in unresolved.items()
-            if (info.get("school_type") or "").strip() == "Anaokulu"
-        ]
-        if len(target_codes) != 245:
-            raise RuntimeError(f"Safety check failed: expected exactly 245 unresolved kindergarten targets, got {len(target_codes)}")
-    else:
+
+    if TARGET_GROUP != "kindergarten":
         raise RuntimeError(f"Unsupported target group for exact-summary rescue: {TARGET_GROUP}")
 
-    targets = [by_code[c] for c in target_codes if c in by_code]
-    if len(targets) != len(target_codes):
-        missing = sorted(set(target_codes) - {str(r.get('kurum_kodu') or '').strip() for r in targets})
-        raise RuntimeError(f"Could not resolve {len(missing)} target codes in CSV chunks: {missing[:10]}")
+    targets = []
+    for code, info in unresolved.items():
+        if (info.get("school_type") or "").strip() != "Anaokulu":
+            continue
+        targets.append({
+            "kurum_kodu": str(code).strip(),
+            "okul_adi": info.get("school") or "",
+            "il": info.get("province") or "",
+            "ilce": info.get("district") or "",
+            "okul_turu": info.get("school_type") or "Anaokulu",
+            "previous_reason": info.get("reason") or "",
+        })
+
+    if len(targets) != 245:
+        raise RuntimeError(f"Safety check failed: expected exactly 245 unresolved kindergarten targets, got {len(targets)}")
 
     accepted = {}
     candidates = {}
@@ -206,7 +174,7 @@ def main():
         futures = {ex.submit(scan, row): row for row in targets}
         for i, future in enumerate(as_completed(futures), 1):
             row = futures[future]
-            code = str(row.get("kurum_kodu") or "").strip()
+            code = row["kurum_kodu"]
             result = future.result()
             hit = result.get("accepted")
             if hit:
@@ -228,20 +196,9 @@ def main():
                     "confidence": hit["confidence"],
                     "note": f"Katmanlı taramada {hit['source_type']} kaynağında {hit['value']} öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek {value} kullanıldı.",
                 }
-                accepted[code] = {
-                    "school": row.get("okul_adi"),
-                    "province": row.get("il"),
-                    "district": row.get("ilce"),
-                    **hit,
-                    "final_value": value,
-                }
+                accepted[code] = {"school": row["okul_adi"], "province": row["il"], "district": row["ilce"], "previous_reason": row["previous_reason"], **hit, "final_value": value}
             if result.get("candidates"):
-                candidates[code] = {
-                    "school": row.get("okul_adi"),
-                    "province": row.get("il"),
-                    "district": row.get("ilce"),
-                    "items": result["candidates"],
-                }
+                candidates[code] = {"school": row["okul_adi"], "province": row["il"], "district": row["ilce"], "previous_reason": row["previous_reason"], "items": result["candidates"]}
             if i % 25 == 0 or i == len(targets):
                 print(f"scanned {i}/{len(targets)} accepted={len(accepted)} candidates={len(candidates)}", flush=True)
 
