@@ -8,7 +8,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from refresh_student_counts import (
-    DATA_DIR,
     MAX_WORKERS,
     NORMAL_TARGET_TYPES,
     current_count,
@@ -21,14 +20,39 @@ from refresh_student_counts import (
 
 SHARD_INDEX = int(os.environ["SHARD_INDEX"])
 SHARD_COUNT = int(os.environ.get("SHARD_COUNT", "4"))
-TARGET_GROUP = os.environ.get("TARGET_GROUP", "all").strip().lower()\nOUT_DIR = Path(os.environ.get("SHARD_OUT_DIR", "shard-output"))
+TARGET_GROUP = os.environ.get("TARGET_GROUP", "all").strip().lower()
+OUT_DIR = Path(os.environ.get("SHARD_OUT_DIR", "shard-output"))
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+HIGH_SCHOOL_TYPES = {
+    "Anadolu Lisesi",
+    "Mesleki ve Teknik Anadolu Lisesi",
+    "Anadolu İmam Hatip Lisesi",
+    "Çok Programlı Anadolu Lisesi",
+    "Fen Lisesi",
+    "Lise",
+    "Spor Lisesi",
+    "Güzel Sanatlar Lisesi",
+    "Sosyal Bilimler Lisesi",
+    "Açık/Akşam Lisesi",
+}
+MIDDLE_SCHOOL_TYPES = {"Ortaokul", "İmam Hatip Ortaokulu", "Yatılı Bölge Ortaokulu"}
+
+
+def in_target_group(school_type):
+    if TARGET_GROUP == "highschool":
+        return school_type in HIGH_SCHOOL_TYPES
+    if TARGET_GROUP == "middle":
+        return school_type in MIDDLE_SCHOOL_TYPES
+    if TARGET_GROUP == "primary":
+        return school_type == "İlkokul"
+    return school_type in NORMAL_TARGET_TYPES
 
 
 def needs_rescan(row, verified_codes):
     school_type = (row.get("okul_turu") or "").strip()
     code = str(row.get("kurum_kodu") or "").strip()
-    if school_type not in NORMAL_TARGET_TYPES:
+    if not in_target_group(school_type):
         return False
     if not code or code in verified_codes:
         return False
@@ -83,6 +107,7 @@ def main():
     result = {
         "meta": {
             "updated_at": stamp,
+            "target_group": TARGET_GROUP,
             "shard_index": SHARD_INDEX,
             "shard_count": SHARD_COUNT,
             "targets_scanned": len(shard_targets),
