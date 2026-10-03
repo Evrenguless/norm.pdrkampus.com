@@ -6,6 +6,7 @@ on:
     paths:
       - "scripts/audit_preschool_missing.py"
       - "scripts/audit_preschool_js.mjs"
+      - "data/student-overrides.json"
       - ".github/workflows/audit-preschool-missing.yml"
   workflow_dispatch:
 
