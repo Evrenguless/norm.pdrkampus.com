@@ -173,10 +173,12 @@
         <h2>Hangi eşikler uygulanıyor?</h2>
       </div>
       <div class="rules-grid">
+        <article><b>Anaokulu</b><strong>150+</strong><p>İlk norm; 500 ve katlarında her defasında +1.</p></article>
         <article><b>İlkokul</b><strong>300+</strong><p>İlk norm; 500 ve katlarında her defasında +1.</p></article>
         <article><b>Ortaokul / İHO / Ortaöğretim</b><strong>150+</strong><p>İlk norm; 500 ve katlarında her defasında +1.</p></article>
         <article><b>Özel eğitim</b><strong>25+</strong><p>İlk norm; 100 ve katlarında her defasında +1. Özel eğitim anaokulu hariç.</p></article>
-        <article><b>Meslekî eğitim merkezi</b><strong>200+</strong><p>Çırak/kursiyer eşiği; veri setindeki öğrenci sayısı vekil olarak kullanılır.</p></article>
+        <article><b>Meslekî eğitim merkezi</b><strong>200+</strong><p>Çırak/kursiyer sayısı esas alınır; 500 ve katlarında ilave norm oluşur.</p></article>
+        <article><b>RAM</b><strong>Nüfus</strong><p>100 bine kadar 4; sonraki her 50 bin için +1, en az 25 bin artan nüfusta ayrıca +1.</p></article>
       </div>
     </section>
   </main>
@@ -187,7 +189,7 @@
       <button id="closeDialog" aria-label="Kapat">×</button>
     </div>
     <div class="dialog-body">
-      <p><b>Temel hesap:</b> İlkokullarda 300+, ortaokul/İHO ve ortaöğretimde 150+, özel eğitim kurumlarında 25+, meslekî eğitim merkezlerinde 200+ eşiği uygulanır. Özel eğitimde her 100, diğer kapsamdaki eğitim kurumlarında her 500 öğrenciye ulaşıldığında ek norm hesaplanır.</p>
+      <p><b>Temel hesap:</b> Anaokulu, ortaokul/İHO ve ortaöğretimde 150+, ilkokulda 300+, özel eğitim kurumlarında 25+, meslekî eğitim merkezlerinde 200+ eşiği uygulanır. Özel eğitimde her 100, diğer kapsamdaki eğitim kurumlarında her 500 çırak/öğrenciye ulaşıldığında ek norm hesaplanır.</p>
       <p><b>Yatılı/pansiyonlu:</b> Dosyada ayrı bir “yatılı/pansiyonlu” alanı yoktur. Kurum adı veya türünde açıkça “yatılı” ya da “pansiyon” ibaresi varsa asgari 1 norm uygulanır; adı bunu göstermeyen pansiyonlu okullar veri setinden tespit edilemez.</p>
       <p><b>İlçe merkezi istisnası (21/2-d):</b> CSV'de okulun ilçe merkezinde olup olmadığını güvenilir biçimde gösteren alan bulunmadığından bu bent otomatik eklenmez. Bu nedenle bazı 0 norm görünen ilçe merkezi okullarının gerçekte 1 norm hakkı olabilir.</p>
       <p><b>RAM:</b> Rehberlik ve araştırma merkezi hesabı il/ilçe nüfusuna bağlıdır. Veri setinde nüfus olmadığı için RAM kayıtları “ek veri gerekli” olarak gösterilir.</p>
@@ -298,7 +300,7 @@ function schoolLevel(r){
   const name=trLower(r.okul_adi||"");
 
   if(t==="Rehberlik ve Araştırma Merkezi" || tl.includes("rehberlik ve araştırma")) return "RAM";
-  if(t==="Mesleki Eğitim Merkezi" || tl.includes("mesleki eğitim merkezi") || tl.includes("meslekî eğitim merkezi")) return "Meslekî Eğitim Merkezi";
+  if(t==="Mesleki Eğitim Merkezi" || t==="Meslekî Eğitim Merkezi" || tl.includes("mesleki eğitim merkezi") || tl.includes("meslekî eğitim merkezi")) return "Meslekî Eğitim Merkezi";
   if(t==="Özel Eğitim Kurumu" || tl.includes("özel eğitim")) return "Özel Eğitim";
   if(t==="Anaokulu" || tl.includes("anaokulu") || tl.includes("ana okulu")) return "Anaokulu";
   if(t==="İlkokul" || tl.includes("ilkokul")) return "İlkokul";
@@ -325,8 +327,11 @@ function normFor(r){
   if(t==="Rehberlik ve Araştırma Merkezi") return {norm:null,status:"Ek veri gerekli",reason:"RAM normu için il/ilçe nüfus verisi gerekir (21/1)."};
   if(specialKG) return {norm:0,status:"Hesaplandı",reason:"Özel eğitim anaokulu öğrenci sayısı norm hesabının dışında (21/2-a, 21/3)."};
   if(t==="Anaokulu"){
-    if(boarding) return {norm:1,status:"Hesaplandı",reason:"Ad/tür bilgisindeki yatılı-pansiyonlu işaretine göre en az 1 norm (21/2-ç)."};
-    return {norm:0,status:"Hesaplandı",reason:"Anaokulu 21/2-b dışında; yatılı/pansiyonlu olduğuna dair veri işareti yok."};
+    if(n===null) return boarding
+      ? {norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1 norm; öğrenci sayısı eksik (21/2-ç)."}
+      : {norm:null,status:"Ek veri gerekli",reason:"Anaokulu rehberlik normu için öğrenci sayısı gerekir (21/2-b)."};
+    const v=Math.max((n>=150?1:0)+Math.floor(n/500),boarding?1:0);
+    return {norm:v,status:"Hesaplandı",reason:`Anaokulu: ${fmt(n)} öğrenci; 150+ için 1, her 500 ve katında +1 (21/2-b, 21/3).`};
   }
   if(special){
     if(n===null) return boarding ? {norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1; öğrenci sayısı eksik."}:{norm:null,status:"Ek veri gerekli",reason:"Özel eğitim kurumu için öğrenci sayısı eksik."};
@@ -343,7 +348,7 @@ function normFor(r){
     const v=Math.max((n>=150?1:0)+Math.floor(n/500),boarding?1:0);
     return {norm:v,status:"Hesaplandı",reason:`${middleTypes.has(t)?"Ortaokul/İHO":"Ortaöğretim"}: ${fmt(n)} öğrenci; 150+ için 1, her 500'de +1. 21/2-d gerekiyorsa ilçe merkezi verisi ayrıca gerekir.`};
   }
-  if(t==="Mesleki Eğitim Merkezi"){
+  if(t==="Mesleki Eğitim Merkezi" || t==="Meslekî Eğitim Merkezi"){
     if(n===null) return {norm:null,status:"Ek veri gerekli",reason:"Meslekî eğitim merkezi için çırak/kursiyer sayısı yerine kullanılabilecek öğrenci verisi eksik."};
     const v=Math.max((n>=200?1:0)+Math.floor(n/500),boarding?1:0);
     return {norm:v,status:"Hesaplandı",reason:`Dosyadaki ${fmt(n)} öğrenci sayısı çırak/kursiyer sayısı vekili olarak kullanıldı; 200+ için 1, her 500'de +1.`};
@@ -352,7 +357,7 @@ function normFor(r){
     if(n===null) return {norm:1,status:"Kısmi hesap",reason:"Yatılı/pansiyonlu işaretinden en az 1 norm; öğrenci sayısı eksik."};
     return {norm:1+Math.floor(n/500),status:"Hesaplandı",reason:`Yatılı/pansiyonlu işaretinden en az 1 norm (21/2-ç); 500'lük artışlar ayrıca uygulandı.`};
   }
-  return {norm:0,status:"Hesaplandı",reason:"Bu kurum türü 21/2'deki öğrenci sayısına bağlı temel gruplarda görünmüyor; yatılı/pansiyonlu işareti yok."};
+  return {norm:0,status:"Hesaplandı",reason:"Bu kurum türü Madde 21/2'de rehberlik alanı için öğrenci/çırak sayısına bağlı norm verilen kurumlar arasında sayılmıyor; yatılı/pansiyonlu işareti de yok."};
 }
 
 function fmt(n){return Number.isFinite(Number(n))?new Intl.NumberFormat("tr-TR").format(Number(n)):"—"}
