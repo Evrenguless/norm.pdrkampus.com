@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T01:00:53.406357+00:00",
+  "updated_at": "2026-10-03T01:56:08.388246+00:00",
   "scan_mode": "parallel_deep_second_pass",
   "shards": 4,
   "targets_scanned": 1546,
@@ -195,6 +195,21 @@
       ]
     },
     {
+      "school": "Aydınlar Kışkılı Mahallesi İlkokulu",
+      "province": "Bitlis",
+      "district": "Adilcevaz",
+      "school_type": "İlkokul",
+      "reason": "site_unreachable",
+      "attempted_urls": [
+        "https://aydinlar_kiskilli.meb.k12.tr/",
+        "https://aydinlar_kiskilli.meb.k12.tr/tema/",
+        "https://aydinlar_kiskilli.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://aydinlar_kiskilli.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://aydinlar_kiskilli.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": []
+    },
+    {
       "school": "Dipsiz İlkokulu",
       "province": "Iğdır",
       "district": "Tuzluca",
@@ -214,21 +229,6 @@
         200,
         404
       ]
-    },
-    {
-      "school": "Aydınlar Kışkılı Mahallesi İlkokulu",
-      "province": "Bitlis",
-      "district": "Adilcevaz",
-      "school_type": "İlkokul",
-      "reason": "site_unreachable",
-      "attempted_urls": [
-        "https://aydinlar_kiskilli.meb.k12.tr/",
-        "https://aydinlar_kiskilli.meb.k12.tr/tema/",
-        "https://aydinlar_kiskilli.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://aydinlar_kiskilli.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://aydinlar_kiskilli.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": []
     },
     {
       "school": "Süleyman Mezrası İlkokulu",
@@ -338,25 +338,23 @@
       ]
     },
     {
-      "school": "Dereiçi İlkokulu",
-      "province": "Batman",
-      "district": "Sason",
+      "school": "Oğulveren İlkokulu",
+      "province": "Erzincan",
+      "district": "Tercan",
       "school_type": "İlkokul",
-      "reason": "student_field_not_found",
+      "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://umurludereici.meb.k12.tr/",
-        "https://umurludereici.meb.k12.tr/tema/",
-        "https://umurludereici.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://umurludereici.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://umurludereici.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://umurludereici.meb.k12.tr/icerikler/okulumuzda-ulusal-egemenlik-ve-çocuk-bayrami-kutlamasi_14000016.html"
+        "https://712679.meb.k12.tr/",
+        "https://712679.meb.k12.tr/tema/",
+        "https://712679.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://712679.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://712679.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
         200,
         200,
         200,
-        404,
         404
       ]
     },
@@ -382,23 +380,25 @@
       ]
     },
     {
-      "school": "Oğulveren İlkokulu",
-      "province": "Erzincan",
-      "district": "Tercan",
+      "school": "Dereiçi İlkokulu",
+      "province": "Batman",
+      "district": "Sason",
       "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
+      "reason": "student_field_not_found",
       "attempted_urls": [
-        "https://712679.meb.k12.tr/",
-        "https://712679.meb.k12.tr/tema/",
-        "https://712679.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://712679.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://712679.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://umurludereici.meb.k12.tr/",
+        "https://umurludereici.meb.k12.tr/tema/",
+        "https://umurludereici.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://umurludereici.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://umurludereici.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://umurludereici.meb.k12.tr/icerikler/okulumuzda-ulusal-egemenlik-ve-çocuk-bayrami-kutlamasi_14000016.html"
       ],
       "statuses": [
         200,
         200,
         200,
         200,
+        404,
         404
       ]
     },
@@ -820,6 +820,21 @@
       "statuses": []
     },
     {
+      "school": "Çığlı Köyü Şehit Binbaşı Erdoğan Özdemir İlkokulu",
+      "province": "Hakkari",
+      "district": "Çukurca",
+      "school_type": "İlkokul",
+      "reason": "site_unreachable",
+      "attempted_urls": [
+        "https://cigli_ilkokulu.meb.k12.tr/",
+        "https://cigli_ilkokulu.meb.k12.tr/tema/",
+        "https://cigli_ilkokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://cigli_ilkokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://cigli_ilkokulu.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": []
+    },
+    {
       "school": "Merkez İlkokulu",
       "province": "Trabzon",
       "district": "Köprübaşı",
@@ -847,21 +862,6 @@
         200,
         200
       ]
-    },
-    {
-      "school": "Çığlı Köyü Şehit Binbaşı Erdoğan Özdemir İlkokulu",
-      "province": "Hakkari",
-      "district": "Çukurca",
-      "school_type": "İlkokul",
-      "reason": "site_unreachable",
-      "attempted_urls": [
-        "https://cigli_ilkokulu.meb.k12.tr/",
-        "https://cigli_ilkokulu.meb.k12.tr/tema/",
-        "https://cigli_ilkokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://cigli_ilkokulu.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://cigli_ilkokulu.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": []
     },
     {
       "school": "Mediha-Hasan Tahsin Alaylı Görme Engelliler İlkokulu",
@@ -926,27 +926,6 @@
       ]
     },
     {
-      "school": "Aşağı Kent İlkokulu",
-      "province": "Ağrı",
-      "district": "Merkez",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://767000.meb.k12.tr/",
-        "https://767000.meb.k12.tr/tema/",
-        "https://767000.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://767000.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://767000.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "içimli ilkokulu",
       "province": "Van",
       "district": "Çatak",
@@ -958,6 +937,27 @@
         "https://768037.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://768037.meb.k12.tr/okulumuz_hakkinda.html",
         "https://768037.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Aşağı Kent İlkokulu",
+      "province": "Ağrı",
+      "district": "Merkez",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://767000.meb.k12.tr/",
+        "https://767000.meb.k12.tr/tema/",
+        "https://767000.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://767000.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://767000.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1010,27 +1010,6 @@
       ]
     },
     {
-      "school": "Harun Reşit İlkokulu",
-      "province": "Osmaniye",
-      "district": "Düziçi",
-      "school_type": "İlkokul",
-      "reason": "student_field_not_found",
-      "attempted_urls": [
-        "https://harunresit.meb.k12.tr/",
-        "https://harunresit.meb.k12.tr/tema/",
-        "https://harunresit.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://harunresit.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://harunresit.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "İncilipınar İlkokulu",
       "province": "Kars",
       "district": "Susuz",
@@ -1042,6 +1021,27 @@
         "https://768474.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://768474.meb.k12.tr/okulumuz_hakkinda.html",
         "https://768474.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Harun Reşit İlkokulu",
+      "province": "Osmaniye",
+      "district": "Düziçi",
+      "school_type": "İlkokul",
+      "reason": "student_field_not_found",
+      "attempted_urls": [
+        "https://harunresit.meb.k12.tr/",
+        "https://harunresit.meb.k12.tr/tema/",
+        "https://harunresit.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://harunresit.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://harunresit.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1115,24 +1115,28 @@
       ]
     },
     {
-      "school": "Çomaklı İlkokulu",
-      "province": "Antalya",
-      "district": "Korkuteli",
+      "school": "Yenikonak İlkokulu",
+      "province": "Sinop",
+      "district": "Ayancık",
       "school_type": "İlkokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://770691.meb.k12.tr/",
-        "https://770691.meb.k12.tr/tema/",
-        "https://770691.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://770691.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://770691.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://yenikonakilkokulu.meb.k12.tr/",
+        "https://yenikonakilkokulu.meb.k12.tr/tema/",
+        "https://yenikonakilkokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://yenikonakilkokulu.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://yenikonakilkokulu.meb.k12.tr/okulumuz_hakkinda.php",
+        "https://yenikonakilkokulu.meb.k12.tr/icerikler/okulumuzdaguvenliinternetsloganyarismasiyapildi_13687584.html",
+        "https://yenikonakilkokulu.meb.k12.tr/icerikler/etiket_Okulumuzda_g%C3%BCvenli_internet_slogan_yar%C4%B1%C5%9Fmas%C4%B1_yap%C4%B1ld%C4%B1._"
       ],
       "statuses": [
         200,
         200,
         200,
         200,
-        404
+        404,
+        200,
+        200
       ]
     },
     {
@@ -1147,6 +1151,48 @@
         "https://770706.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://770706.meb.k12.tr/okulumuz_hakkinda.html",
         "https://770706.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Çayırlı Mezrası İlkokulu",
+      "province": "Bitlis",
+      "district": "Hizan",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://770699.meb.k12.tr/",
+        "https://770699.meb.k12.tr/tema/",
+        "https://770699.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://770699.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://770699.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Çomaklı İlkokulu",
+      "province": "Antalya",
+      "district": "Korkuteli",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://770691.meb.k12.tr/",
+        "https://770691.meb.k12.tr/tema/",
+        "https://770691.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://770691.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://770691.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1179,52 +1225,6 @@
         404,
         200,
         200
-      ]
-    },
-    {
-      "school": "Yenikonak İlkokulu",
-      "province": "Sinop",
-      "district": "Ayancık",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://yenikonakilkokulu.meb.k12.tr/",
-        "https://yenikonakilkokulu.meb.k12.tr/tema/",
-        "https://yenikonakilkokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://yenikonakilkokulu.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://yenikonakilkokulu.meb.k12.tr/okulumuz_hakkinda.php",
-        "https://yenikonakilkokulu.meb.k12.tr/icerikler/okulumuzdaguvenliinternetsloganyarismasiyapildi_13687584.html",
-        "https://yenikonakilkokulu.meb.k12.tr/icerikler/etiket_Okulumuzda_g%C3%BCvenli_internet_slogan_yar%C4%B1%C5%9Fmas%C4%B1_yap%C4%B1ld%C4%B1._"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404,
-        200,
-        200
-      ]
-    },
-    {
-      "school": "Çayırlı Mezrası İlkokulu",
-      "province": "Bitlis",
-      "district": "Hizan",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://770699.meb.k12.tr/",
-        "https://770699.meb.k12.tr/tema/",
-        "https://770699.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://770699.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://770699.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
       ]
     },
     {
@@ -1291,69 +1291,6 @@
       ]
     },
     {
-      "school": "Keçili İlkokulu",
-      "province": "Kars",
-      "district": "Susuz",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://770763.meb.k12.tr/",
-        "https://770763.meb.k12.tr/tema/",
-        "https://770763.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://770763.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://770763.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Millik İlkokulu",
-      "province": "Adıyaman",
-      "district": "Merkez",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://770895.meb.k12.tr/",
-        "https://770895.meb.k12.tr/tema/",
-        "https://770895.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://770895.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://770895.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Yeniyazı Kaldırım İlkokulu",
-      "province": "Bingöl",
-      "district": "Genç",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://770877.meb.k12.tr/",
-        "https://770877.meb.k12.tr/tema/",
-        "https://770877.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://770877.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://770877.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "Alagöz İlkokulu",
       "province": "Bingöl",
       "district": "Kığı",
@@ -1365,6 +1302,27 @@
         "https://770755.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://770755.meb.k12.tr/okulumuz_hakkinda.html",
         "https://770755.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Keçili İlkokulu",
+      "province": "Kars",
+      "district": "Susuz",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://770763.meb.k12.tr/",
+        "https://770763.meb.k12.tr/tema/",
+        "https://770763.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://770763.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://770763.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1396,6 +1354,27 @@
       ]
     },
     {
+      "school": "Yeniyazı Kaldırım İlkokulu",
+      "province": "Bingöl",
+      "district": "Genç",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://770877.meb.k12.tr/",
+        "https://770877.meb.k12.tr/tema/",
+        "https://770877.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://770877.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://770877.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
       "school": "Karatepe İlkokulu",
       "province": "Adana",
       "district": "Aladağ",
@@ -1407,6 +1386,27 @@
         "https://770926.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://770926.meb.k12.tr/okulumuz_hakkinda.html",
         "https://770926.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Millik İlkokulu",
+      "province": "Adıyaman",
+      "district": "Merkez",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://770895.meb.k12.tr/",
+        "https://770895.meb.k12.tr/tema/",
+        "https://770895.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://770895.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://770895.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1438,27 +1438,6 @@
       ]
     },
     {
-      "school": "Çakırören İlkokulu",
-      "province": "Adana",
-      "district": "Karataş",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://771015.meb.k12.tr/",
-        "https://771015.meb.k12.tr/tema/",
-        "https://771015.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://771015.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://771015.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "Çatak İlkokulu",
       "province": "Çorum",
       "district": "Merkez",
@@ -1470,6 +1449,27 @@
         "https://771005.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://771005.meb.k12.tr/okulumuz_hakkinda.html",
         "https://771005.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Çakırören İlkokulu",
+      "province": "Adana",
+      "district": "Karataş",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://771015.meb.k12.tr/",
+        "https://771015.meb.k12.tr/tema/",
+        "https://771015.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://771015.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://771015.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1501,17 +1501,17 @@
       ]
     },
     {
-      "school": "Yolçatı İlkokulu",
-      "province": "İstanbul",
-      "district": "Silivri",
+      "school": "Doluca İlkokulu",
+      "province": "Batman",
+      "district": "Merkez",
       "school_type": "İlkokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://771233.meb.k12.tr/",
-        "https://771233.meb.k12.tr/tema/",
-        "https://771233.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://771233.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://771233.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://771284.meb.k12.tr/",
+        "https://771284.meb.k12.tr/tema/",
+        "https://771284.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://771284.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://771284.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1543,38 +1543,17 @@
       ]
     },
     {
-      "school": "Kıbrıslar İlkokulu",
-      "province": "Adana",
-      "district": "Kozan",
+      "school": "Yolçatı İlkokulu",
+      "province": "İstanbul",
+      "district": "Silivri",
       "school_type": "İlkokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://771336.meb.k12.tr/",
-        "https://771336.meb.k12.tr/tema/",
-        "https://771336.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://771336.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://771336.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
-      "school": "Doluca İlkokulu",
-      "province": "Batman",
-      "district": "Merkez",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://771284.meb.k12.tr/",
-        "https://771284.meb.k12.tr/tema/",
-        "https://771284.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://771284.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://771284.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://771233.meb.k12.tr/",
+        "https://771233.meb.k12.tr/tema/",
+        "https://771233.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://771233.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://771233.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1596,6 +1575,27 @@
         "https://771356.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://771356.meb.k12.tr/okulumuz_hakkinda.html",
         "https://771356.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Kıbrıslar İlkokulu",
+      "province": "Adana",
+      "district": "Kozan",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://771336.meb.k12.tr/",
+        "https://771336.meb.k12.tr/tema/",
+        "https://771336.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://771336.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://771336.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1648,27 +1648,6 @@
       ]
     },
     {
-      "school": "Akmezra İlkokulu",
-      "province": "Elazığ",
-      "district": "Kovancılar",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://771526.meb.k12.tr/",
-        "https://771526.meb.k12.tr/tema/",
-        "https://771526.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://771526.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://771526.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "Körsu İlkokulu",
       "province": "Erzurum",
       "district": "Tekman",
@@ -1690,17 +1669,17 @@
       ]
     },
     {
-      "school": "Örenağıl Kayadibi İlkokulu",
-      "province": "Batman",
-      "district": "Sason",
+      "school": "Akmezra İlkokulu",
+      "province": "Elazığ",
+      "district": "Kovancılar",
       "school_type": "İlkokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://772026.meb.k12.tr/",
-        "https://772026.meb.k12.tr/tema/",
-        "https://772026.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://772026.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://772026.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://771526.meb.k12.tr/",
+        "https://771526.meb.k12.tr/tema/",
+        "https://771526.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://771526.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://771526.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1753,6 +1732,27 @@
       ]
     },
     {
+      "school": "Kınık İlkokulu",
+      "province": "Manisa",
+      "district": "Kırkağaç",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://772116.meb.k12.tr/",
+        "https://772116.meb.k12.tr/tema/",
+        "https://772116.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://772116.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://772116.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
       "school": "Esenler İlkokulu",
       "province": "Adana",
       "district": "Yüreğir",
@@ -1774,17 +1774,17 @@
       ]
     },
     {
-      "school": "Kınık İlkokulu",
-      "province": "Manisa",
-      "district": "Kırkağaç",
+      "school": "Örenağıl Kayadibi İlkokulu",
+      "province": "Batman",
+      "district": "Sason",
       "school_type": "İlkokul",
       "reason": "published_zero_or_dash",
       "attempted_urls": [
-        "https://772116.meb.k12.tr/",
-        "https://772116.meb.k12.tr/tema/",
-        "https://772116.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://772116.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://772116.meb.k12.tr/okulumuz_hakkinda.php"
+        "https://772026.meb.k12.tr/",
+        "https://772026.meb.k12.tr/tema/",
+        "https://772026.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://772026.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://772026.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -1879,27 +1879,6 @@
       ]
     },
     {
-      "school": "Akyüz İlkokulu",
-      "province": "Mardin",
-      "district": "Kızıltepe",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://772590.meb.k12.tr/",
-        "https://772590.meb.k12.tr/tema/",
-        "https://772590.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://772590.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://772590.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "Kaşobası Girne İlkokulu",
       "province": "Adana",
       "district": "Sarıçam",
@@ -1932,6 +1911,27 @@
         "https://772751.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://772751.meb.k12.tr/okulumuz_hakkinda.html",
         "https://772751.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "Akyüz İlkokulu",
+      "province": "Mardin",
+      "district": "Kızıltepe",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://772590.meb.k12.tr/",
+        "https://772590.meb.k12.tr/tema/",
+        "https://772590.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://772590.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://772590.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
@@ -2047,27 +2047,6 @@
       ]
     },
     {
-      "school": "YÜKSEKOVA 75. YIL İLKOKULU",
-      "province": "Hakkari",
-      "district": "Yüksekova",
-      "school_type": "İlkokul",
-      "reason": "published_zero_or_dash",
-      "attempted_urls": [
-        "https://774540.meb.k12.tr/",
-        "https://774540.meb.k12.tr/tema/",
-        "https://774540.meb.k12.tr/tema/okulumuz_hakkinda.php",
-        "https://774540.meb.k12.tr/okulumuz_hakkinda.html",
-        "https://774540.meb.k12.tr/okulumuz_hakkinda.php"
-      ],
-      "statuses": [
-        200,
-        200,
-        200,
-        200,
-        404
-      ]
-    },
-    {
       "school": "Ulukaya İlkokulu",
       "province": "Muş",
       "district": "Merkez",
@@ -2079,6 +2058,27 @@
         "https://774697.meb.k12.tr/tema/okulumuz_hakkinda.php",
         "https://774697.meb.k12.tr/okulumuz_hakkinda.html",
         "https://774697.meb.k12.tr/okulumuz_hakkinda.php"
+      ],
+      "statuses": [
+        200,
+        200,
+        200,
+        200,
+        404
+      ]
+    },
+    {
+      "school": "YÜKSEKOVA 75. YIL İLKOKULU",
+      "province": "Hakkari",
+      "district": "Yüksekova",
+      "school_type": "İlkokul",
+      "reason": "published_zero_or_dash",
+      "attempted_urls": [
+        "https://774540.meb.k12.tr/",
+        "https://774540.meb.k12.tr/tema/",
+        "https://774540.meb.k12.tr/tema/okulumuz_hakkinda.php",
+        "https://774540.meb.k12.tr/okulumuz_hakkinda.html",
+        "https://774540.meb.k12.tr/okulumuz_hakkinda.php"
       ],
       "statuses": [
         200,
