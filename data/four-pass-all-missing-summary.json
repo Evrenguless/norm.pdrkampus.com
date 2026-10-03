@@ -1,0 +1,1175 @@
+{
+  "updated_at": "2026-10-03T11:46:36.977873+00:00",
+  "scope": "Anaokulu, ilkokul, ortaokul/İHO/YBO, lise türleri ve özel eğitim okulları; RAM ve Mesleki Eğitim Merkezi farklı norm metriği nedeniyle hariç.",
+  "targets": 11,
+  "accepted": 0,
+  "low_confidence_candidate_schools": 0,
+  "four_steps_completed_unresolved": 11,
+  "results": {
+    "777396": {
+      "institution_code": "777396",
+      "school": "Göztepe TOKİ Ortaokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "Ortaokul",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://777396.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://777396.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://777396.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://777396.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Göztepe TOKİ Ortaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"777396\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Göztepe TOKİ Ortaokulu\" \"Sarıçam\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 7
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 7
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 7
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Göztepe TOKİ Ortaokulu\" \"Sarıçam\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Göztepe TOKİ Ortaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"777396\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "776923": {
+      "institution_code": "776923",
+      "school": "Buruk Özel Eğitim Anaokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "Anaokulu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://776923.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776923.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776923.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776923.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Buruk Özel Eğitim Anaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"776923\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Buruk Özel Eğitim Anaokulu\" \"Sarıçam\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 7
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 7
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Buruk Özel Eğitim Anaokulu\" \"Sarıçam\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Buruk Özel Eğitim Anaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"776923\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "777394": {
+      "institution_code": "777394",
+      "school": "Beyaz Fidan Anaokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "Anaokulu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://777394.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://777394.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://777394.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://777394.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Beyaz Fidan Anaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"777394\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Beyaz Fidan Anaokulu\" \"Sarıçam\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Beyaz Fidan Anaokulu\" \"Sarıçam\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Beyaz Fidan Anaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"777394\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "775548": {
+      "institution_code": "775548",
+      "school": "TOKİ Kürkçüler Özel Eğitim Uygulama Okulu I. Kademe",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "Özel Eğitim Kurumu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://775548.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775548.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775548.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775548.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"TOKİ Kürkçüler Özel Eğitim Uygulama Okulu I. Kademe\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"775548\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"TOKİ Kürkçüler Özel Eğitim Uygulama Okulu I. Kademe\" \"Sarıçam\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"TOKİ Kürkçüler Özel Eğitim Uygulama Okulu I. Kademe\" \"Sarıçam\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"TOKİ Kürkçüler Özel Eğitim Uygulama Okulu I. Kademe\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"775548\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "772782": {
+      "institution_code": "772782",
+      "school": "TOKİ Şehit Fikret Yükseler Anaokulu",
+      "province": "Adana",
+      "district": "Seyhan",
+      "school_type": "Anaokulu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://772782.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://772782.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://772782.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://772782.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"TOKİ Şehit Fikret Yükseler Anaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"772782\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"TOKİ Şehit Fikret Yükseler Anaokulu\" \"Seyhan\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"TOKİ Şehit Fikret Yükseler Anaokulu\" \"Seyhan\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"TOKİ Şehit Fikret Yükseler Anaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"772782\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "776062": {
+      "institution_code": "776062",
+      "school": "Çınarlı Anaokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "Anaokulu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://cinarlianaokulusaricam.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://cinarlianaokulusaricam.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://cinarlianaokulusaricam.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://cinarlianaokulusaricam.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776062.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776062.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776062.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://776062.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Çınarlı Anaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"776062\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Çınarlı Anaokulu\" \"Sarıçam\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Çınarlı Anaokulu\" \"Sarıçam\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Çınarlı Anaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"776062\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "719764": {
+      "institution_code": "719764",
+      "school": "Feke İmam Hatip Ortaokulu",
+      "province": "Adana",
+      "district": "Feke",
+      "school_type": "İmam Hatip Ortaokulu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://fekeimamhatip.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://fekeimamhatip.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://fekeimamhatip.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://fekeimamhatip.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://719764.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://719764.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://719764.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://719764.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Feke İmam Hatip Ortaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 7
+            },
+            {
+              "query": "\"719764\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 7
+            },
+            {
+              "query": "\"Feke İmam Hatip Ortaokulu\" \"Feke\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Feke İmam Hatip Ortaokulu\" \"Feke\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Feke İmam Hatip Ortaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"719764\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "766374": {
+      "institution_code": "766374",
+      "school": "Konaklama Merkezi Muallim Musab İmam Hatip Ortaokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "İmam Hatip Ortaokulu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://mmusabiho.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://mmusabiho.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://mmusabiho.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://mmusabiho.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://766374.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://766374.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://766374.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://766374.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Konaklama Merkezi Muallim Musab İmam Hatip Ortaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"766374\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Konaklama Merkezi Muallim Musab İmam Hatip Ortaokulu\" \"Sarıçam\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Konaklama Merkezi Muallim Musab İmam Hatip Ortaokulu\" \"Sarıçam\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Konaklama Merkezi Muallim Musab İmam Hatip Ortaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"766374\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "726595": {
+      "institution_code": "726595",
+      "school": "Makimsan Ortaokulu",
+      "province": "Adana",
+      "district": "Yüreğir",
+      "school_type": "Ortaokul",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://makimsanortaokulu.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://makimsanortaokulu.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://makimsanortaokulu.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://makimsanortaokulu.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://726595.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://726595.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://726595.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://726595.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Makimsan Ortaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 9
+            },
+            {
+              "query": "\"726595\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 7
+            },
+            {
+              "query": "\"Makimsan Ortaokulu\" \"Yüreğir\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Makimsan Ortaokulu\" \"Yüreğir\" \"Adana\" öğrenci",
+              "hits": 10
+            },
+            {
+              "query": "\"Makimsan Ortaokulu\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"726595\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "725028": {
+      "institution_code": "725028",
+      "school": "Şehit Zafer Oluk Ortaokulu",
+      "province": "Adana",
+      "district": "Seyhan",
+      "school_type": "Ortaokul",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://sehitzafer.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://sehitzafer.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://sehitzafer.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://sehitzafer.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://725028.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://725028.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://725028.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://725028.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Şehit Zafer Oluk Ortaokulu\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"725028\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Şehit Zafer Oluk Ortaokulu\" \"Seyhan\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 7
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 7
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 7
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Şehit Zafer Oluk Ortaokulu\" \"Seyhan\" \"Adana\" öğrenci",
+              "hits": 7
+            },
+            {
+              "query": "\"Şehit Zafer Oluk Ortaokulu\" \"öğrenci sayısı\"",
+              "hits": 7
+            },
+            {
+              "query": "\"725028\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    },
+    "775496": {
+      "institution_code": "775496",
+      "school": "Orhangazi Özel Eğitim Uygulama II. Kademe",
+      "province": "Adana",
+      "district": "Seyhan",
+      "school_type": "Özel Eğitim Kurumu",
+      "steps": {
+        "1_meb_direct": {
+          "found": false,
+          "attempts": [
+            {
+              "url": "https://orhangaziozelegitim2.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://orhangaziozelegitim2.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://orhangaziozelegitim2.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://orhangaziozelegitim2.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775496.meb.k12.tr/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775496.meb.k12.tr/tema/",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775496.meb.k12.tr/tema/okulumuz_hakkinda.php",
+              "status": 200,
+              "ok": true
+            },
+            {
+              "url": "https://775496.meb.k12.tr/okulumuz_hakkinda.html",
+              "status": 200,
+              "ok": true
+            }
+          ]
+        },
+        "2_official_search_pdf": {
+          "found": false,
+          "queries": [
+            {
+              "query": "\"Orhangazi Özel Eğitim Uygulama II. Kademe\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"775496\" \"Öğrenci Sayısı\" site:meb.k12.tr",
+              "hits": 10
+            },
+            {
+              "query": "\"Orhangazi Özel Eğitim Uygulama II. Kademe\" \"Seyhan\" \"Adana\" filetype:pdf MEB",
+              "hits": 10
+            }
+          ]
+        },
+        "3_trusted_external": {
+          "found": false,
+          "checked": [
+            {
+              "domain": "anaokullar.com.tr",
+              "hits": 10
+            },
+            {
+              "domain": "ilkokullar.com",
+              "hits": 10
+            },
+            {
+              "domain": "liseler.com.tr",
+              "hits": 7
+            },
+            {
+              "domain": "okulailem.com",
+              "hits": 10
+            },
+            {
+              "domain": "okullarhakkinda.com",
+              "hits": 10
+            }
+          ]
+        },
+        "4_broad_web": {
+          "found": false,
+          "checked": [
+            {
+              "query": "\"Orhangazi Özel Eğitim Uygulama II. Kademe\" \"Seyhan\" \"Adana\" öğrenci",
+              "hits": 0
+            },
+            {
+              "query": "\"Orhangazi Özel Eğitim Uygulama II. Kademe\" \"öğrenci sayısı\"",
+              "hits": 10
+            },
+            {
+              "query": "\"775496\" okul öğrenci",
+              "hits": 10
+            }
+          ],
+          "candidates": []
+        }
+      },
+      "result": "4_adim_tamamlandi_bulunamadi"
+    }
+  }
+}
