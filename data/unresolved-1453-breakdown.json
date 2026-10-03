@@ -1,0 +1,65 @@
+{
+  "all_rows": 55216,
+  "school_scope_rows": 52468,
+  "targets": 1452,
+  "by_level": {
+    "İlkokul": 579,
+    "Ortaokul": 385,
+    "Anaokulu": 225,
+    "Özel Eğitim": 135,
+    "Lise": 117,
+    "Diğer norm kapsamı": 11
+  },
+  "by_school_type": {
+    "İlkokul": 579,
+    "Ortaokul": 291,
+    "Anaokulu": 225,
+    "Özel Eğitim Kurumu": 135,
+    "İmam Hatip Ortaokulu": 94,
+    "Anadolu İmam Hatip Lisesi": 34,
+    "Mesleki ve Teknik Anadolu Lisesi": 34,
+    "Anadolu Lisesi": 26,
+    "Belirsiz": 11,
+    "Çok Programlı Anadolu Lisesi": 9,
+    "Fen Lisesi": 3,
+    "Lise": 3,
+    "Spor Lisesi": 3,
+    "Güzel Sanatlar Lisesi": 2,
+    "Sosyal Bilimler Lisesi": 2,
+    "Açık/Akşam Lisesi": 1
+  },
+  "by_reason": {
+    "student_field_not_found_or_unpublished": 716,
+    "published_zero_or_dash": 697,
+    "student_field_not_found": 35,
+    "site_unreachable": 4
+  },
+  "level_x_reason": {
+    "Anaokulu": {
+      "published_zero_or_dash": 186,
+      "student_field_not_found": 35,
+      "site_unreachable": 4
+    },
+    "Diğer norm kapsamı": {
+      "published_zero_or_dash": 5,
+      "student_field_not_found_or_unpublished": 6
+    },
+    "Lise": {
+      "student_field_not_found_or_unpublished": 90,
+      "published_zero_or_dash": 27
+    },
+    "Ortaokul": {
+      "student_field_not_found_or_unpublished": 305,
+      "published_zero_or_dash": 80
+    },
+    "Özel Eğitim": {
+      "published_zero_or_dash": 88,
+      "student_field_not_found_or_unpublished": 47
+    },
+    "İlkokul": {
+      "published_zero_or_dash": 311,
+      "student_field_not_found_or_unpublished": 268
+    }
+  },
+  "reason_method_note": "student-scan-summary reason is used where preserved; otherwise reason is conservatively inferred from current CSV fields."
+}
