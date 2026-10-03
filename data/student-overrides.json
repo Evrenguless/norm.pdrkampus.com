@@ -13,7 +13,8 @@
       "published_zero_or_dash": 204,
       "site_unreachable": 4,
       "student_field_not_found": 37
-    }
+    },
+    "layered_rescue_updated_at": "2026-10-03T11:23:23.574784+00:00"
   },
   "schools": {
     "189376": {
@@ -75034,6 +75035,17 @@
       ],
       "updated_at": "2026-10-03T11:01:39.802726+00:00",
       "note": "MEB okul sayfalarında bulunan doğrulanabilir değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "776609": {
+      "value": 128,
+      "verified": true,
+      "observed_values": [
+        128
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://776609.meb.k12.tr/",
+      "confidence": "A",
+      "note": "Katmanlı taramada A_MEB_SITE kaynağında 128 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 128 kullanıldı."
     }
   }
 }

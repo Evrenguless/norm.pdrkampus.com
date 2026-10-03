@@ -1,0 +1,21 @@
+{
+  "target_group": "kindergarten",
+  "targets": 245,
+  "accepted": 1,
+  "candidate_only": 0,
+  "remaining_without_accepted": 244,
+  "accepted_schools": {
+    "776609": {
+      "school": "Solaklı Anaokulu",
+      "province": "Adana",
+      "district": "Yüreğir",
+      "previous_reason": "student_field_not_found",
+      "value": 128,
+      "source_url": "https://776609.meb.k12.tr/",
+      "source_type": "A_MEB_SITE",
+      "confidence": "A",
+      "final_value": 128
+    }
+  },
+  "candidate_schools": {}
+}
