@@ -8,6 +8,7 @@ on:
       - "scripts/four_pass_all_missing_v2.py"
       - "scripts/four_pass_all_missing_v3.py"
       - "scripts/four_pass_all_missing_v4.py"
+      - "scripts/four_pass_all_missing_v5.py"
       - ".github/workflows/four-pass-all-missing.yml"
   workflow_dispatch:
 
@@ -25,10 +26,10 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install requests beautifulsoup4 pypdf
-      - name: Run direct-scope four-pass scan over every missing school
+      - name: Run exhaustive four-pass scan with corrected chunk loader
         env:
           WORKERS: "24"
-        run: python scripts/four_pass_all_missing_v4.py
+        run: python scripts/four_pass_all_missing_v5.py
       - name: Commit verified results and final audit report
         run: |
           if [ -z "$(git status --porcelain -- data/student-overrides.json data/four-pass-all-missing-summary.json)" ]; then
@@ -38,5 +39,5 @@ jobs:
           git config user.name "pdrkampus-data-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/student-overrides.json data/four-pass-all-missing-summary.json
-          git commit -m "data: complete direct-scope four-pass scan for all missing schools"
+          git commit -m "data: complete exhaustive four-pass scan with corrected loader"
           git push
