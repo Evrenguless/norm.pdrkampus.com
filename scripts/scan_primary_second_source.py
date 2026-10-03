@@ -11,9 +11,10 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = Path("data")
 OVERRIDES = DATA_DIR / "student-overrides.json"
+MEB_SUMMARY = DATA_DIR / "student-scan-summary.json"
 SUMMARY = DATA_DIR / "primary-second-source-summary.json"
 BASE = "https://ilkokullar.com"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PDRKampusNormBot/4.0; +https://norm.pdrkampus.com)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PDRKampusNormBot/4.1; +https://norm.pdrkampus.com)"}
 TIMEOUT = 10
 
 
@@ -21,8 +22,7 @@ def ascii_slug(s: str) -> str:
     s = (s or "").strip().lower().replace("ı", "i")
     s = unicodedata.normalize("NFKD", s)
     s = "".join(ch for ch in s if not unicodedata.combining(ch))
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-    return s
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
 def norm(s: str) -> str:
@@ -40,10 +40,15 @@ def load_rows():
     return rows
 
 
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
 def load_overrides():
-    if OVERRIDES.exists():
-        return json.loads(OVERRIDES.read_text(encoding="utf-8"))
-    return {"schools": {}}
+    return load_json(OVERRIDES, {"schools": {}})
 
 
 def parse_num(v):
@@ -54,28 +59,6 @@ def parse_num(v):
         return None
     vals = [int(x) for x in m]
     return max(vals) if vals else None
-
-
-def row_count(row, overrides):
-    vals = []
-    for k in ("ogrenci_sayisi", "ogrenci_sayilari"):
-        n = parse_num(row.get(k))
-        if n is not None:
-            vals.append(n)
-    code = str(row.get("kurum_kodu") or "").strip()
-    o = (overrides.get("schools") or {}).get(code) or {}
-    for k in ("value", "student_count"):
-        n = parse_num(o.get(k))
-        if n is not None:
-            vals.append(n)
-    for v in o.get("observed_values") or []:
-        n = parse_num(v)
-        if n is not None:
-            vals.append(n)
-    if not vals:
-        return None
-    v = max(vals)
-    return v if v > 0 else None
 
 
 def fetch_candidate(row):
@@ -94,7 +77,6 @@ def fetch_candidate(row):
     soup = BeautifulSoup(r.text, "html.parser")
     text = soup.get_text(" ", strip=True)
     nt = norm(text)
-    # Require school + province + district evidence on the page.
     if norm(row.get("okul_adi") or "") not in nt:
         return None, "school_mismatch"
     if norm(row.get("il") or "") not in nt or norm(row.get("ilce") or "") not in nt:
@@ -109,14 +91,20 @@ def fetch_candidate(row):
 
 def main():
     rows = load_rows()
+    by_code = {str(r.get("kurum_kodu") or "").strip(): r for r in rows}
     payload = load_overrides()
     schools = payload.setdefault("schools", {})
+    meb_summary = load_json(MEB_SUMMARY, {})
+    unresolved = meb_summary.get("unresolved") or {}
+
     targets = []
-    for row in rows:
+    for code, info in unresolved.items():
+        row = by_code.get(str(code).strip())
+        if not row:
+            continue
         if (row.get("okul_turu") or "").strip() != "İlkokul":
             continue
-        if row_count(row, payload) is None:
-            targets.append(row)
+        targets.append(row)
 
     found = {}
     reasons = {}
