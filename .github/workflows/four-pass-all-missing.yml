@@ -5,7 +5,7 @@ on:
     branches:
       - all-schools-four-pass
     paths:
-      - "scripts/four_pass_all_missing.py"
+      - "scripts/four_pass_all_missing_v2.py"
       - ".github/workflows/four-pass-all-missing.yml"
   workflow_dispatch:
 
@@ -23,10 +23,10 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install requests beautifulsoup4 pypdf
-      - name: Run four-pass scan over every missing school
+      - name: Run corrected four-pass scan over every missing school
         env:
           WORKERS: "24"
-        run: python scripts/four_pass_all_missing.py
+        run: python scripts/four_pass_all_missing_v2.py
       - name: Commit verified results and final audit report
         run: |
           if [ -z "$(git status --porcelain -- data/student-overrides.json data/four-pass-all-missing-summary.json)" ]; then
@@ -36,5 +36,5 @@ jobs:
           git config user.name "pdrkampus-data-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/student-overrides.json data/four-pass-all-missing-summary.json
-          git commit -m "data: complete four-pass scan for all missing schools"
+          git commit -m "data: complete corrected four-pass scan for all missing schools"
           git push
