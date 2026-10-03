@@ -1,0 +1,51 @@
+name: Layered student-count rescue
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_group:
+        description: Target school group
+        required: true
+        default: kindergarten
+        type: choice
+        options:
+          - kindergarten
+          - primary
+          - middle
+          - special
+  push:
+    branches:
+      - scan-kindergarten-student-counts
+    paths:
+      - scripts/layered_student_rescue.py
+      - .github/workflows/layered-student-rescue.yml
+
+permissions:
+  contents: write
+
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+      - name: Run layered rescue
+        env:
+          TARGET_GROUP: ${{ inputs.target_group || 'kindergarten' }}
+        run: python scripts/layered_student_rescue.py
+      - name: Commit accepted evidence and audit summary
+        run: |
+          if [ -z "$(git status --porcelain -- data/student-overrides.json data/layered-rescue-summary.json)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "pdrkampus-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/student-overrides.json data/layered-rescue-summary.json
+          git commit -m "data: layered student-count rescue"
+          git push
