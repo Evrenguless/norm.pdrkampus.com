@@ -1,23 +1,6 @@
 {
   "preschool_rows_total": 104,
-  "remaining_missing_total": 1,
-  "missing_by_okul_turu": {
-    "Anaokulu": 1
-  },
-  "remaining_missing": [
-    {
-      "kurum_kodu": "771503",
-      "okul_adi": "100. Yıl Şehit Serkan Ağca Anaokulu",
-      "il": "Adana",
-      "ilce": "Kozan",
-      "okul_turu": "Anaokulu",
-      "ogrenci_sayisi": "",
-      "ogrenci_sayilari": "",
-      "in_manual_exact_file": false,
-      "override_status": null,
-      "override_verified": null,
-      "override_value": null,
-      "override_note": null
-    }
-  ]
+  "remaining_missing_total": 0,
+  "missing_by_okul_turu": {},
+  "remaining_missing": []
 }
