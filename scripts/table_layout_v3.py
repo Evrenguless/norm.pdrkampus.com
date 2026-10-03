@@ -54,6 +54,7 @@ STYLE = r'''
     }
 
     .results table{
+      display:table!important;
       width:100%!important;
       min-width:1080px!important;
       table-layout:fixed!important;
@@ -62,10 +63,26 @@ STYLE = r'''
       background:#fff!important;
     }
 
-    .results thead,
-    .results thead tr{
+    .results thead{
       display:table-header-group!important;
       position:static!important;
+    }
+    .results thead tr{
+      display:table-row!important;
+      position:static!important;
+      width:auto!important;
+    }
+    .results tbody{
+      display:table-row-group!important;
+    }
+    .results tbody tr{
+      display:table-row!important;
+      width:auto!important;
+    }
+    .results thead th,
+    .results tbody td{
+      display:table-cell!important;
+      float:none!important;
     }
 
     .results thead th{
@@ -171,8 +188,16 @@ STYLE = r'''
   </style>
 '''
 
-if 'id="table-layout-v3"' not in text:
+# Replace the previous v3 style block if it already exists; otherwise append it.
+start = text.find('<style id="table-layout-v3">')
+if start >= 0:
+    end = text.find('</style>', start)
+    if end < 0:
+        raise RuntimeError('table-layout-v3 style closing tag not found')
+    end += len('</style>')
+    text = text[:start] + STYLE.strip() + text[end:]
+else:
     text = text.replace('</head>', STYLE + '\n</head>', 1)
 
 INDEX.write_text(text, encoding="utf-8")
-print('table layout v3 applied')
+print('table layout v3 applied with correct table row semantics')
