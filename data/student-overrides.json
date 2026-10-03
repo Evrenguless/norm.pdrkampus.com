@@ -69099,6 +69099,46 @@
       "value": 134,
       "verified": true,
       "note": "liseler.com.tr ikinci kaynak taramasında bulunan öğrenci sayısı site hesaplamasında kullanılmak üzere aktarıldı."
+    },
+    "428378": {
+      "value": 13,
+      "verified": true,
+      "observed_values": [
+        13
+      ],
+      "source": "ilkokullar.com",
+      "source_url": "https://ilkokullar.com/adana/aladag/kislak-ilkokulu",
+      "note": "ilkokullar.com üzerinde il/ilçe/okul adı eşleşmesiyle 13 öğrenci görüldü; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 13 kullanıldı."
+    },
+    "772108": {
+      "value": 5,
+      "verified": true,
+      "observed_values": [
+        5
+      ],
+      "source": "ilkokullar.com",
+      "source_url": "https://ilkokullar.com/adana/feke/hidirusagi-ilkokulu",
+      "note": "ilkokullar.com üzerinde il/ilçe/okul adı eşleşmesiyle 5 öğrenci görüldü; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 5 kullanıldı."
+    },
+    "766559": {
+      "value": 647,
+      "verified": true,
+      "observed_values": [
+        647
+      ],
+      "source": "ilkokullar.com",
+      "source_url": "https://ilkokullar.com/adana/saricam/saricam-konaklama-merkezi-goztepe-ilkokulu",
+      "note": "ilkokullar.com üzerinde il/ilçe/okul adı eşleşmesiyle 647 öğrenci görüldü; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 647 kullanıldı."
+    },
+    "767201": {
+      "value": 791,
+      "verified": true,
+      "observed_values": [
+        791
+      ],
+      "source": "ilkokullar.com",
+      "source_url": "https://ilkokullar.com/adana/seyhan/sehit-samet-ozkan-ilkokulu",
+      "note": "ilkokullar.com üzerinde il/ilçe/okul adı eşleşmesiyle 791 öğrenci görüldü; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 791 kullanıldı."
     }
   }
 }

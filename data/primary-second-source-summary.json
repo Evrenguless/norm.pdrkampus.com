@@ -1,0 +1,40 @@
+{
+  "targets": 22,
+  "recovered": 4,
+  "remaining": 18,
+  "reasons": {
+    "count_not_found": 13,
+    "school_mismatch": 5,
+    "ok": 4
+  },
+  "schools": {
+    "428378": {
+      "school": "Kışlak İlkokulu",
+      "province": "Adana",
+      "district": "Aladağ",
+      "value": 13,
+      "source_url": "https://ilkokullar.com/adana/aladag/kislak-ilkokulu"
+    },
+    "772108": {
+      "school": "Hıdıruşağı İlkokulu",
+      "province": "Adana",
+      "district": "Feke",
+      "value": 5,
+      "source_url": "https://ilkokullar.com/adana/feke/hidirusagi-ilkokulu"
+    },
+    "766559": {
+      "school": "Sarıçam Konaklama Merkezi Göztepe İlkokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "value": 647,
+      "source_url": "https://ilkokullar.com/adana/saricam/saricam-konaklama-merkezi-goztepe-ilkokulu"
+    },
+    "767201": {
+      "school": "Şehit Samet Özkan İlkokulu",
+      "province": "Adana",
+      "district": "Seyhan",
+      "value": 791,
+      "source_url": "https://ilkokullar.com/adana/seyhan/sehit-samet-ozkan-ilkokulu"
+    }
+  }
+}
