@@ -24,18 +24,19 @@ def load_rows():
 
 
 def embedded_missing_records(html: str):
+    decoded = html.replace('\\"', '"')
     pattern = re.compile(
-        r'\{\\"kurum_kodu\\":\\"(?P<code>\d+)\\",'
-        r'\\"okul_adi\\":\\"(?P<school>.*?)\\",'
-        r'\\"il\\":\\"(?P<province>.*?)\\",'
-        r'\\"ilce\\":\\"(?P<district>.*?)\\",'
-        r'\\"kademe\\":\\"(?P<level>.*?)\\",'
-        r'\\"okul_turu\\":\\"(?P<school_type>.*?)\\",'
-        r'\\"neden\\":\\"(?P<reason>.*?)\\"'
+        r'\{"kurum_kodu":"(?P<code>\d+)",'
+        r'"okul_adi":"(?P<school>.*?)",'
+        r'"il":"(?P<province>.*?)",'
+        r'"ilce":"(?P<district>.*?)",'
+        r'"kademe":"(?P<level>.*?)",'
+        r'"okul_turu":"(?P<school_type>.*?)",'
+        r'"neden":"(?P<reason>.*?)"'
     )
     out = []
     seen = set()
-    for m in pattern.finditer(html):
+    for m in pattern.finditer(decoded):
         d = m.groupdict()
         if d["code"] in seen:
             continue
@@ -59,6 +60,7 @@ def main():
     exact_counts_applied = 0
     manual_codes_not_in_missing_page = []
     missing_codes = {r["code"] for r in missing_records}
+    missing_by_code = {r["code"]: r for r in missing_records}
 
     for item in manual:
         code = str(item.get("kurum_kodu") or "").strip()
@@ -71,7 +73,7 @@ def main():
             manual_preschool_codes.add(code)
 
         row = by_code.get(code, {})
-        embedded = next((r for r in missing_records if r["code"] == code), {})
+        embedded = missing_by_code.get(code, {})
         previous = schools.get(code) if isinstance(schools.get(code), dict) else {}
         previous_value = previous.get("value")
         canonical = max(value, int(previous_value)) if isinstance(previous_value, (int, float)) and previous_value > 0 else value
