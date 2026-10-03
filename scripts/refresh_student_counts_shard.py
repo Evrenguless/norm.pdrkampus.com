@@ -54,11 +54,15 @@ def needs_rescan(row, verified_codes):
     code = str(row.get("kurum_kodu") or "").strip()
     if not in_target_group(school_type):
         return False
-    if not code or code in verified_codes:
+    if not code:
         return False
     primary = extract_numbers(row.get("ogrenci_sayisi"))
     primary_zero = bool(primary) and max(primary) == 0
     missing = current_count(row) is None
+    if TARGET_GROUP == "highschool":
+        return (primary_zero or missing) and bool(seed_urls(row))
+    if code in verified_codes:
+        return False
     return (primary_zero or missing) and bool(seed_urls(row))
 
 
@@ -69,6 +73,8 @@ def main():
 
     targets = [row for row in rows if needs_rescan(row, verified_codes)]
     targets.sort(key=lambda row: str(row.get("kurum_kodu") or ""))
+    if TARGET_GROUP == "highschool" and len(targets) != 532:
+        raise RuntimeError(f"Safety check failed: expected exactly 532 high-school targets, got {len(targets)}")
     shard_targets = [
         row for i, row in enumerate(targets)
         if i % SHARD_COUNT == SHARD_INDEX
