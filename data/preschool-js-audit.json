@@ -1,0 +1,227 @@
+{
+  "all_rows": 55216,
+  "anaokulu_total": 4155,
+  "anaokulu_flagged": 20,
+  "flagged": [
+    {
+      "kurum_kodu": "771503",
+      "okul_adi": "100. Yıl Şehit Serkan Ağca Anaokulu",
+      "il": "Adana",
+      "ilce": "Kozan",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "776609",
+      "okul_adi": "Solaklı Anaokulu",
+      "il": "Adana",
+      "ilce": "Yüreğir",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "772888",
+      "okul_adi": "Yolağzı Anaokulu",
+      "il": "Batman",
+      "ilce": "Gercüş",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "773752",
+      "okul_adi": "Yeşilköy Özel Eğitim Anaokulu",
+      "il": "Denizli",
+      "ilce": "Merkezefendi",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "770871",
+      "okul_adi": "Şükrüpaşa Anaokulu",
+      "il": "Erzurum",
+      "ilce": "Yakutiye",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "777092",
+      "okul_adi": "Dörtyol Özel Eğitim Anaokulu",
+      "il": "Hatay",
+      "ilce": "Dörtyol",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "774530",
+      "okul_adi": "Elmaşehir Anaokulu",
+      "il": "Karaman",
+      "ilce": "Merkez",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "775456",
+      "okul_adi": "Kocasinan Türkan Altun ve Av. Mehmet Altun Anaokulu",
+      "il": "Kayseri",
+      "ilce": "Kocasinan",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "776373",
+      "okul_adi": "Mithatpaşa Anaokulu",
+      "il": "Kayseri",
+      "ilce": "Kocasinan",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "767370",
+      "okul_adi": "Şehit Birol Mutlu Özel Eğitim Anaokulu",
+      "il": "Kayseri",
+      "ilce": "Kocasinan",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "773115",
+      "okul_adi": "Yenitaşkent Yusuf Bayık Anaokulu",
+      "il": "Mersin",
+      "ilce": "Akdeniz",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "772060",
+      "okul_adi": "Emine Erdoğan Anaokulu",
+      "il": "Siirt",
+      "ilce": "Merkez",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "776553",
+      "okul_adi": "Akasya Anaokulu",
+      "il": "Sivas",
+      "ilce": "Merkez",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "776215",
+      "okul_adi": "Minik Yıldızlar Anaokulu",
+      "il": "Sivas",
+      "ilce": "Merkez",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "774908",
+      "okul_adi": "Selçuklu Anaokulu",
+      "il": "Van",
+      "ilce": "Gevaş",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "776863",
+      "okul_adi": "Alaköy Anaokulu",
+      "il": "Van",
+      "ilce": "Tuşba",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "776127",
+      "okul_adi": "Başakşehir Mutlu Eğitim Anaokulu",
+      "il": "İstanbul",
+      "ilce": "Başakşehir",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "777262",
+      "okul_adi": "Esenler Şule Yüksel Şenler Anaokulu",
+      "il": "İstanbul",
+      "ilce": "Esenler",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "777096",
+      "okul_adi": "Piri Reis Anaokulu",
+      "il": "İzmir",
+      "ilce": "Buca",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    },
+    {
+      "kurum_kodu": "774528",
+      "okul_adi": "Keskin Öğretmen Birgül Kesin Anaokulu",
+      "il": "Şanlıurfa",
+      "ilce": "Eyyübiye",
+      "okul_turu": "Anaokulu",
+      "status": "Ek veri gerekli",
+      "ogrenci_sayisi": "",
+      "ogrenci_sayilari": "",
+      "override": null
+    }
+  ]
+}
