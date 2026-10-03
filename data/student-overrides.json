@@ -16,7 +16,10 @@
     },
     "manual_update_at": "2026-10-03T19:00:19.597076+00:00",
     "manual_update_source": "manual-student-counts-2026-10-03.json",
-    "manual_preschool_rule": "Exact manual values are used where supplied; remaining reviewed preschool targets are labeled under 100 without an invented exact count. Existing positive verified values are preserved."
+    "manual_preschool_rule": "Exact manual values are used where supplied; remaining reviewed preschool targets are labeled under 100 without an invented exact count. Existing positive verified values are preserved.",
+    "manual_highschool_update_at": "2026-10-03T20:07:38.002588+00:00",
+    "manual_highschool_source": "manual-student-counts-lise-2026-10-03.json",
+    "manual_highschool_rule": "Supplied exact values are applied; remaining unresolved high-school records are labeled Veri yok / Taşınmış / isim değişmiş without inventing a count."
   },
   "schools": {
     "189376": {
@@ -78801,6 +78804,1921 @@
       "student_count_label": "100 öğrenci altında",
       "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
       "school_name": "Keskin Öğretmen Birgül Kesin Anaokulu"
+    },
+    "323528": {
+      "value": 600,
+      "verified": true,
+      "school": "Seyhan Rotary Anadolu Lisesi",
+      "province": "Adana",
+      "district": "Yüreğir",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        600
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "600",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "775792": {
+      "value": 132,
+      "verified": true,
+      "school": "Çakırhöyük Anadolu Lisesi",
+      "province": "Adıyaman",
+      "district": "Besni",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        132
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "132",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777215": {
+      "value": 264,
+      "verified": true,
+      "school": "Girne Anadolu Lisesi",
+      "province": "Adıyaman",
+      "district": "Kahta",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        264
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "264",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777118": {
+      "value": 210,
+      "verified": true,
+      "school": "Atakent Anadolu Lisesi",
+      "province": "Adıyaman",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        210
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "210",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777387": {
+      "value": 960,
+      "verified": true,
+      "school": "Enderun Anadolu İmam Hatip Lisesi",
+      "province": "Adıyaman",
+      "district": "Merkez",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        960
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "960",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "760240": {
+      "value": 763,
+      "verified": true,
+      "school": "Türkiye Odalar ve Borsalar Birliği Kız Anadolu İmam Hatip Lisesi",
+      "province": "Adıyaman",
+      "district": "Merkez",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        763
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "763",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777140": {
+      "value": 60,
+      "verified": true,
+      "school": "Ahmet Ömer Kocaşaban Fen Lisesi",
+      "province": "Afyonkarahisar",
+      "district": "Merkez",
+      "school_type": "Fen Lisesi",
+      "observed_values": [
+        60
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "60",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "967311": {
+      "value": 892,
+      "verified": true,
+      "school": "Şehit Ersin Bacaksız Anadolu Lisesi",
+      "province": "Ankara",
+      "district": "Sincan",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        892
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "892",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "872187": {
+      "value": 480,
+      "verified": true,
+      "school": "Batıkent Şevket Evliyagil Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Ankara",
+      "district": "Yenimahalle",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        480
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "480",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "761554": {
+      "value": 300,
+      "verified": true,
+      "school": "Aksu Uçak Bakım Teknolojisi Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Aksu",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        300
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "300",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "215596": {
+      "value": 311,
+      "verified": true,
+      "school": "Alanya Ümit Altay Turizm Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Alanya",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        311
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "311",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "758327": {
+      "value": 308,
+      "verified": true,
+      "school": "Eczacı Güzin-Velittin Bekrioğlu Kız Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Alanya",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        308
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "308",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "829090": {
+      "value": 274,
+      "verified": true,
+      "school": "Kaş Turizm Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Kaş",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        274
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "274",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "767199": {
+      "value": 121,
+      "verified": true,
+      "school": "Bahtılı Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Konyaaltı",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        121
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "121",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "970103": {
+      "value": 3343,
+      "verified": true,
+      "school": "Muratpaşa Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Muratpaşa",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        3343
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "3343",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "377758": {
+      "value": 440,
+      "verified": true,
+      "school": "Zeynep-Mehmet Dönmez Turizm Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Aydın",
+      "district": "Didim",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        440
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "440",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "964493": {
+      "value": 345,
+      "verified": true,
+      "school": "Söke Yavuz Selim Anadolu Lisesi",
+      "province": "Aydın",
+      "district": "Söke",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        345
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "345",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "776079": {
+      "value": 427,
+      "verified": true,
+      "school": "Doğubayazıt Anadolu Lisesi",
+      "province": "Ağrı",
+      "district": "Doğubayazıt",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        427
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "427",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "776366": {
+      "value": 256,
+      "verified": true,
+      "school": "Necip Fazıl Kısakürek Anadolu Lisesi",
+      "province": "Ağrı",
+      "district": "Merkez",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        256
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "256",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "811328": {
+      "value": 204,
+      "verified": true,
+      "school": "T.C. Ziraat Bankası Güzel Sanatlar Lisesi",
+      "province": "Balıkesir",
+      "district": "Karesi",
+      "school_type": "Güzel Sanatlar Lisesi",
+      "observed_values": [
+        204
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "204",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777293": {
+      "value": 136,
+      "verified": true,
+      "school": "TOBB Cumhuriyet Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Bartın",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        136
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "136",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "973468": {
+      "value": 761,
+      "verified": true,
+      "school": "Şehitkamil Anadolu İmam Hatip Lisesi",
+      "province": "Gaziantep",
+      "district": "Şehitkamil",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        761
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "761",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "775336": {
+      "value": 881,
+      "verified": true,
+      "school": "Kırıkhan Gazi Anadolu Lisesi",
+      "province": "Hatay",
+      "district": "Kırıkhan",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        881
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "881",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "823617": {
+      "value": 508,
+      "verified": true,
+      "school": "Besti Aydeniz Kız Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Iğdır",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        508
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "508",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "754468": {
+      "value": 120,
+      "verified": true,
+      "school": "Kadriye Çalık Anadolu Lisesi",
+      "province": "Kahramanmaraş",
+      "district": "Dulkadiroğlu",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        120
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "120",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "749364": {
+      "value": 122,
+      "verified": true,
+      "school": "Fatma ve Nadir Haranioğlu Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Karaman",
+      "district": "Ermenek",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        122
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "122",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "950648": {
+      "value": 351,
+      "verified": true,
+      "school": "Develi Borsa İstanbul Fen Lisesi",
+      "province": "Kayseri",
+      "district": "Develi",
+      "school_type": "Fen Lisesi",
+      "observed_values": [
+        351
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "351",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777265": {
+      "value": 166,
+      "verified": true,
+      "school": "Belsin Anadolu Lisesi",
+      "province": "Kayseri",
+      "district": "Melikgazi",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        166
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "166",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "762207": {
+      "value": 600,
+      "verified": true,
+      "school": "Başiskele Şehit Ozan Özen Kız Anadolu İmam Hatip Lisesi",
+      "province": "Kocaeli",
+      "district": "Başiskele",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        600
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "600",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "775229": {
+      "value": 236,
+      "verified": true,
+      "school": "Müzehhibe Fatma Aydın Kız Anadolu İmam Hatip Lisesi",
+      "province": "Kocaeli",
+      "district": "Başiskele",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        236
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "236",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "776097": {
+      "value": 62,
+      "verified": true,
+      "school": "Kulu Fahrettin Koca Fen Lisesi",
+      "province": "Konya",
+      "district": "Kulu",
+      "school_type": "Fen Lisesi",
+      "observed_values": [
+        62
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "62",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "768150": {
+      "value": 80,
+      "verified": true,
+      "school": "Mümtaz Koru Anadolu İmam Hatip Lisesi",
+      "province": "Konya",
+      "district": "Meram",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        80
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "80",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "749189": {
+      "value": 747,
+      "verified": true,
+      "school": "Hacı Avni Kız Anadolu İmam Hatip Lisesi",
+      "province": "Malatya",
+      "district": "Battalgazi",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        747
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "747",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777256": {
+      "value": 97,
+      "verified": true,
+      "school": "İkizce Anadolu Lisesi",
+      "province": "Malatya",
+      "district": "Yeşilyurt",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        97
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "97",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "759994": {
+      "value": 542,
+      "verified": true,
+      "school": "Ayvaz Dede Kız Anadolu İmam Hatip Lisesi",
+      "province": "Manisa",
+      "district": "Akhisar",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        542
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "542",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "263278": {
+      "value": 360,
+      "verified": true,
+      "school": "Şehzadeler Gediz Anadolu Lisesi",
+      "province": "Manisa",
+      "district": "Şehzadeler",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        360
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "360",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "763720": {
+      "value": 477,
+      "verified": true,
+      "school": "Kızıltepe Anadolu İmam Hatip Lisesi",
+      "province": "Mardin",
+      "district": "Kızıltepe",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        477
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "477",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "300505": {
+      "value": 428,
+      "verified": true,
+      "school": "Türkiye Odalar ve Borsalar Birliği İzzettin Dündar Anadolu Lisesi",
+      "province": "Mardin",
+      "district": "Kızıltepe",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        428
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "428",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "763721": {
+      "value": 626,
+      "verified": true,
+      "school": "Nusaybin Zeynelabidin Anadolu İmam Hatip Lisesi",
+      "province": "Mardin",
+      "district": "Nusaybin",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        626
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "626",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "365590": {
+      "value": 233,
+      "verified": true,
+      "school": "Taşucu Turizm Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Mersin",
+      "district": "Silifke",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        233
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "233",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "774362": {
+      "value": 123,
+      "verified": true,
+      "school": "Tarsus Adalet Çok Programlı Anadolu Lisesi",
+      "province": "Mersin",
+      "district": "Tarsus",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "observed_values": [
+        123
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "123",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777031": {
+      "value": 135,
+      "verified": true,
+      "school": "İclal Ekenler Kız Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Mersin",
+      "district": "Tarsus",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        135
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "135",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "748825": {
+      "value": 227,
+      "verified": true,
+      "school": "Hoca Ahmet Yesevi Kız Anadolu İmam Hatip Lisesi",
+      "province": "Mersin",
+      "district": "Toroslar",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        227
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "227",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "757986": {
+      "value": 322,
+      "verified": true,
+      "school": "Menteşe Sosyal Bilimler Lisesi",
+      "province": "Muğla",
+      "district": "Menteşe",
+      "school_type": "Sosyal Bilimler Lisesi",
+      "observed_values": [
+        322
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "322",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "188263": {
+      "value": 330,
+      "verified": true,
+      "school": "Nevşehir Ahi Evran Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Nevşehir",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        330
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "330",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777160": {
+      "value": 223,
+      "verified": true,
+      "school": "Mehmet Atıf Aydın Kız Anadolu İmam Hatip Lisesi",
+      "province": "Sakarya",
+      "district": "Pamukova",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        223
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "223",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "762335": {
+      "value": 167,
+      "verified": true,
+      "school": "Şehit Özgür Gencer Kız Anadolu İmam Hatip Lisesi",
+      "province": "Sivas",
+      "district": "Şarkışla",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        167
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "167",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777088": {
+      "value": 45,
+      "verified": true,
+      "school": "Gökal Güldere Anadolu Lisesi",
+      "province": "Tokat",
+      "district": "Erbaa",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        45
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "45",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "767494": {
+      "value": 218,
+      "verified": true,
+      "school": "80. Yıl Çok Programlı Anadolu Lisesi",
+      "province": "Trabzon",
+      "district": "Ortahisar",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "observed_values": [
+        218
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "218",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "974782": {
+      "value": 619,
+      "verified": true,
+      "school": "Trabzon Kız Anadolu İmam Hatip Lisesi",
+      "province": "Trabzon",
+      "district": "Ortahisar",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        619
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "619",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "776911": {
+      "value": 149,
+      "verified": true,
+      "school": "Karahallı Veyis Turan Çok Programlı Anadolu Lisesi",
+      "province": "Uşak",
+      "district": "Karahallı",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "observed_values": [
+        149
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "149",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "755789": {
+      "value": 347,
+      "verified": true,
+      "school": "Van Spor Lisesi",
+      "province": "Van",
+      "district": "Tuşba",
+      "school_type": "Spor Lisesi",
+      "observed_values": [
+        347
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "347",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "249340": {
+      "value": 351,
+      "verified": true,
+      "school": "Çanakkale Kepez Turizm Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Çanakkale",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        351
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "351",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "759455": {
+      "value": 346,
+      "verified": true,
+      "school": "Yavuz Selim Kız Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Arnavutköy",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        346
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "346",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "764824": {
+      "value": 1003,
+      "verified": true,
+      "school": "İTO İbrahim Çağlar Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Arnavutköy",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        1003
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "1003",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "973854": {
+      "value": 730,
+      "verified": true,
+      "school": "Bağcılar Ahi Evran Kız Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Bağcılar",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        730
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "730",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "320597": {
+      "value": 988,
+      "verified": true,
+      "school": "Mahmutbey Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Bağcılar",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        988
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "988",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777179": {
+      "value": 1272,
+      "verified": true,
+      "school": "Selahaddin Eyyubi Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Başakşehir",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        1272
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "1272",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "765507": {
+      "value": 578,
+      "verified": true,
+      "school": "Ayşe Ege Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Beyoğlu",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "observed_values": [
+        578
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "578",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777310": {
+      "value": 650,
+      "verified": true,
+      "school": "İstanbul Ticaret Odası Esenler Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Esenler",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        650
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "650",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "765288": {
+      "value": 2312,
+      "verified": true,
+      "school": "Fatih Sultan Mehmet Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Esenyurt",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "observed_values": [
+        2312
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "2312",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "767589": {
+      "value": 515,
+      "verified": true,
+      "school": "Şehit Metin Çelebi Kız Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Kartal",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        515
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "515",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "748791": {
+      "value": 130,
+      "verified": true,
+      "school": "İBB Mahmut Bayram Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Maltepe",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        130
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "130",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777202": {
+      "value": 90,
+      "verified": true,
+      "school": "Sancaktepe Teknoloji Kız Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Sancaktepe",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        90
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "90",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "760917": {
+      "value": 567,
+      "verified": true,
+      "school": "Fatma Talip Kahraman Kız Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Çekmeköy",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        567
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "567",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "969696": {
+      "value": 559,
+      "verified": true,
+      "school": "Nesrin Uçmaklıoğlu Kız Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Çekmeköy",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        559
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "559",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "774135": {
+      "value": 546,
+      "verified": true,
+      "school": "Ahmet Ziylan Anadolu İmam Hatip Lisesi",
+      "province": "İstanbul",
+      "district": "Ümraniye",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        546
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "546",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777139": {
+      "value": 844,
+      "verified": true,
+      "school": "Sultan Alparslan Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Buca",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        844
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "844",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "775738": {
+      "value": 238,
+      "verified": true,
+      "school": "Üsküplü Sebahattin Özcan Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Buca",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        238
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "238",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "763588": {
+      "value": 179,
+      "verified": true,
+      "school": "Foça Recep Kerman Spor Lisesi",
+      "province": "İzmir",
+      "district": "Foça",
+      "school_type": "Spor Lisesi",
+      "observed_values": [
+        179
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "179",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "776937": {
+      "value": 487,
+      "verified": true,
+      "school": "Şehit Üsteğmen Murat Yıldız Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Gaziemir",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        487
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "487",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "291086": {
+      "value": 475,
+      "verified": true,
+      "school": "Güzelbahçe 60.Yıl Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Güzelbahçe",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        475
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "475",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777225": {
+      "value": 582,
+      "verified": true,
+      "school": "Bozyaka Şehit Fethi Bey Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Karabağlar",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        582
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "582",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "766282": {
+      "value": 452,
+      "verified": true,
+      "school": "TOKİ Karşıyaka Belediyesi Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Karşıyaka",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        452
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "452",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "777034": {
+      "value": 458,
+      "verified": true,
+      "school": "Haldun Koşay Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Menemen",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        458
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "458",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "324140": {
+      "value": 353,
+      "verified": true,
+      "school": "Borsa İstanbul Şehit Ömer Halisdemir Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Selçuk",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        353
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "353",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "758980": {
+      "value": 508,
+      "verified": true,
+      "school": "Torbalı Sema Karhan Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Torbalı",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        508
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "508",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "776587": {
+      "value": 105,
+      "verified": true,
+      "school": "Gökbey Anadolu Lisesi",
+      "province": "Şanlıurfa",
+      "district": "Eyyübiye",
+      "school_type": "Anadolu Lisesi",
+      "observed_values": [
+        105
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "105",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "973879": {
+      "value": 152,
+      "verified": true,
+      "school": "Hattat Behçet Ârabî Anadolu İmam Hatip Lisesi",
+      "province": "Şanlıurfa",
+      "district": "Eyyübiye",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "observed_values": [
+        152
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "152",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "262846": {
+      "value": 645,
+      "verified": true,
+      "school": "Suruç Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Şanlıurfa",
+      "district": "Suruç",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "observed_values": [
+        645
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "exact_manual_review",
+      "student_count_label": "645",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan lise öğrenci sayısı."
+    },
+    "118683": {
+      "value": null,
+      "verified": true,
+      "school": "Mesleki ve Teknik Açıköğretim Okulu",
+      "province": "Bakanlık",
+      "district": "Merkeze Bağlı Taşra",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "134834": {
+      "value": null,
+      "verified": true,
+      "school": "Osmangazi Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Bursa",
+      "district": "Osmangazi",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "144264": {
+      "value": null,
+      "verified": true,
+      "school": "Uzunköprü M. Arif Dilmen Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Edirne",
+      "district": "Uzunköprü",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "209733": {
+      "value": null,
+      "verified": true,
+      "school": "Şehit Erhan Ar Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Yozgat",
+      "district": "Yerköy",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "240280": {
+      "value": null,
+      "verified": true,
+      "school": "Erzincan Sosyal Bilimler Lisesi",
+      "province": "Erzincan",
+      "district": "Merkez",
+      "school_type": "Sosyal Bilimler Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "378394": {
+      "value": null,
+      "verified": true,
+      "school": "Yeniceoba İhsan Geyik Çok Programlı Anadolu Lisesi",
+      "province": "Konya",
+      "district": "Cihanbeyli",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "745662": {
+      "value": null,
+      "verified": true,
+      "school": "Osmangazi Hüma Hatun Kız Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Bursa",
+      "district": "Osmangazi",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "750616": {
+      "value": null,
+      "verified": true,
+      "school": "Çiftlik Çok Programlı Anadolu Lisesi",
+      "province": "Ordu",
+      "district": "Korgan",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "751942": {
+      "value": null,
+      "verified": true,
+      "school": "Burdur Spor Lisesi",
+      "province": "Burdur",
+      "district": "Merkez",
+      "school_type": "Spor Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "758283": {
+      "value": null,
+      "verified": true,
+      "school": "Hacı Hulusi Yahyagil Anadolu İmam Hatip Lisesi",
+      "province": "Elazığ",
+      "district": "Merkez",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "761450": {
+      "value": null,
+      "verified": true,
+      "school": "Ziya Eren Güzel Sanatlar Lisesi",
+      "province": "Bitlis",
+      "district": "Merkez",
+      "school_type": "Güzel Sanatlar Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "761467": {
+      "value": null,
+      "verified": true,
+      "school": "Zeycan Yıldırım Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Elazığ",
+      "district": "Merkez",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "761653": {
+      "value": null,
+      "verified": true,
+      "school": "Kandıra Kız Anadolu İmam Hatip Lisesi",
+      "province": "Kocaeli",
+      "district": "Kandıra",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "765111": {
+      "value": null,
+      "verified": true,
+      "school": "Celalettin Ökten Anadolu İmam Hatip Lisesi",
+      "province": "Eskişehir",
+      "district": "Tepebaşı",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "765513": {
+      "value": null,
+      "verified": true,
+      "school": "Melek Aknil Çok Programlı Anadolu Lisesi",
+      "province": "İstanbul",
+      "district": "Pendik",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "767197": {
+      "value": null,
+      "verified": true,
+      "school": "Şehit Serkan Çölkesen Anadolu Lisesi",
+      "province": "Antalya",
+      "district": "Muratpaşa",
+      "school_type": "Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "767861": {
+      "value": null,
+      "verified": true,
+      "school": "Aydın Adnan Menderes Üniversitesi Devlet Konservatuvarı Müzik ve Sahne Sanatları Lisesi",
+      "province": "Aydın",
+      "district": "Kuşadası",
+      "school_type": "Lise",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "768524": {
+      "value": null,
+      "verified": true,
+      "school": "Rabia Müslüm Tuncel Kız Anadolu İmam Hatip Lisesi",
+      "province": "Gaziantep",
+      "district": "Nizip",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "772106": {
+      "value": null,
+      "verified": true,
+      "school": "Gökçeada Anadolu İmam Hatip Lisesi",
+      "province": "Çanakkale",
+      "district": "Gökçeada",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "774956": {
+      "value": null,
+      "verified": true,
+      "school": "Yukarısalat Çok Programlı Anadolu Lisesi",
+      "province": "Diyarbakır",
+      "district": "Bismil",
+      "school_type": "Çok Programlı Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "775239": {
+      "value": null,
+      "verified": true,
+      "school": "Pamukkale Anadolu Lisesi",
+      "province": "Denizli",
+      "district": "Pamukkale",
+      "school_type": "Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "775244": {
+      "value": null,
+      "verified": true,
+      "school": "Çayırlı Anadolu Lisesi",
+      "province": "Erzincan",
+      "district": "Çayırlı",
+      "school_type": "Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "775446": {
+      "value": null,
+      "verified": true,
+      "school": "Buhara Anadolu İmam Hatip Lisesi",
+      "province": "Eskişehir",
+      "district": "Sivrihisar",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "776063": {
+      "value": null,
+      "verified": true,
+      "school": "Şahinbey Belediyesi Adil Teymur Anadolu İmam Hatip Lisesi",
+      "province": "Gaziantep",
+      "district": "Şahinbey",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "777255": {
+      "value": null,
+      "verified": true,
+      "school": "Hatice-Ömer Kalyenci Kız Anadolu İmam Hatip Lisesi",
+      "province": "Gaziantep",
+      "district": "Şehitkamil",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "777292": {
+      "value": null,
+      "verified": true,
+      "school": "Gökmen Uzay Havacılık Eğitim Merkezi (GUHEM) Havacılık ve Uzay Teknolojileri  Mesleki  ve  Teknik  Anadolu  Lisesi",
+      "province": "Bursa",
+      "district": "Osmangazi",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "777308": {
+      "value": null,
+      "verified": true,
+      "school": "Kuyular Anadolu İmam Hatip Lisesi",
+      "province": "Diyarbakır",
+      "district": "Hani",
+      "school_type": "Anadolu İmam Hatip Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "777380": {
+      "value": null,
+      "verified": true,
+      "school": "Seydikemer Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Muğla",
+      "district": "Seydikemer",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "777401": {
+      "value": null,
+      "verified": true,
+      "school": "Ford Otosan Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Kocaeli",
+      "district": "Gölcük",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "808388": {
+      "value": null,
+      "verified": true,
+      "school": "Açık Öğretim Lisesi",
+      "province": "Bakanlık",
+      "district": "Merkeze Bağlı Taşra",
+      "school_type": "Açık/Akşam Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "909586": {
+      "value": null,
+      "verified": true,
+      "school": "KIRGIZİSTAN KIRGIZ TÜRK ANADOLU KIZ MESLEK LİSESİ",
+      "province": "Bakanlık",
+      "district": "Y.Dışı-Kırgızistan",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "909598": {
+      "value": null,
+      "verified": true,
+      "school": "Kırgızistan-Kırgız Türk Anadolu Lisesi",
+      "province": "Bakanlık",
+      "district": "Y.Dışı-Kırgızistan",
+      "school_type": "Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "909608": {
+      "value": null,
+      "verified": true,
+      "school": "MOLDOVA KONGAZ SÜLEYMAN DEMİREL TÜRK MOLDOVA LİSESİ",
+      "province": "Bakanlık",
+      "district": "Y.Dışı-Moldova",
+      "school_type": "Lise",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "963910": {
+      "value": null,
+      "verified": true,
+      "school": "Mustafa Kaynak Anadolu Lisesi",
+      "province": "Denizli",
+      "district": "Merkezefendi",
+      "school_type": "Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "965007": {
+      "value": null,
+      "verified": true,
+      "school": "Mesleki Açıköğretim Lisesi",
+      "province": "Bakanlık",
+      "district": "Merkeze Bağlı Taşra",
+      "school_type": "Lise",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "967380": {
+      "value": null,
+      "verified": true,
+      "school": "Mehmet APİ Ticaret Mesleki ve Teknik Anadolu Lisesi",
+      "province": "Gaziantep",
+      "district": "Şehitkamil",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
+    },
+    "974425": {
+      "value": null,
+      "verified": true,
+      "school": "Mesleki ve Teknik Eğitim Genel Müdürlüğü",
+      "province": "Bakanlık",
+      "district": "Merkez Teşkilatı",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "student_count_status": "data_unavailable_moved_or_renamed",
+      "student_count_label": "Veri yok",
+      "institution_status_label": "Taşınmış / isim değişmiş",
+      "updated_at": "2026-10-03T20:07:38.002588+00:00",
+      "note": "Manuel lise kontrolünde güncel öğrenci sayısı bulunamadı; okul taşınmış, kapanmış veya isim değiştirmiş olabilir. Kesin öğrenci sayısı uydurulmadı."
     }
   }
 }

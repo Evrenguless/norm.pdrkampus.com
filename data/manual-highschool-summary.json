@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-03T20:07:38.002588+00:00",
+  "lise_targets_before": 117,
+  "manual_lise_exact": 80,
+  "exact_counts_applied": 80,
+  "moved_or_renamed_targets": 37,
+  "moved_or_renamed_labeled": 37,
+  "moved_or_renamed_preserved_positive": 0,
+  "manual_codes_not_in_current_missing_page": [],
+  "missing_page_before": 1227,
+  "exact_records_removed_from_missing_page": 80,
+  "missing_page_after": 1147
+}
