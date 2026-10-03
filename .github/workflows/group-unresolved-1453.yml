@@ -1,0 +1,25 @@
+name: Group exact unresolved 1453
+on:
+  push:
+    branches: [group-unresolved-1453-exact]
+    paths:
+      - "scripts/group_unresolved_1453.py"
+      - ".github/workflows/group-unresolved-1453.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  group:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/group_unresolved_1453.py
+      - run: |
+          git config user.name "pdrkampus-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/unresolved-1453-breakdown.json
+          git commit -m "data: add exact unresolved breakdown" || exit 0
+          git push
