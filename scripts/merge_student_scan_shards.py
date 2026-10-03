@@ -84,6 +84,7 @@ def main():
             "http_404_only": "Denenen sayfaların tamamı 404 döndürdü.",
             "no_usable_url": "Kullanılabilir MEB okul URL'si bulunamadı.",
         },
+        "unresolved": unresolved,
         "sample_unresolved": list(unresolved.values())[:100],
     }
     SUMMARY.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
