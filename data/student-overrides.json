@@ -13,7 +13,9 @@
       "published_zero_or_dash": 204,
       "site_unreachable": 4,
       "student_field_not_found": 37
-    }
+    },
+    "manual_update_at": "2026-10-03T18:41:14.257740+00:00",
+    "manual_update_source": "manual-student-counts-2026-10-03.json"
   },
   "schools": {
     "189376": {
@@ -75034,6 +75036,1611 @@
       ],
       "updated_at": "2026-10-03T11:01:39.802726+00:00",
       "note": "MEB okul sayfalarında bulunan doğrulanabilir değerler arasından en yüksek öğrenci sayısı kullanıldı."
+    },
+    "776062": {
+      "value": 58,
+      "verified": true,
+      "school": "Çınarlı Anaokulu",
+      "province": "Adana",
+      "district": "Sarıçam",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        58
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775774": {
+      "value": 38,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        38
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "752986": {
+      "value": 89,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        89
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "972295": {
+      "value": 41,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        41
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775579": {
+      "value": 48,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        48
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "767376": {
+      "value": 37,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        37
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772132": {
+      "value": 111,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        111
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "970175": {
+      "value": 136,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        136
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "766054": {
+      "value": 75,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        75
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "774276": {
+      "value": 157,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        157
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "970731": {
+      "value": 45,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        45
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "761089": {
+      "value": 70,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        70
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "703745": {
+      "value": 153,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        153
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772281": {
+      "value": 156,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        156
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775062": {
+      "value": 27,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        27
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773594": {
+      "value": 106,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        106
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "776004": {
+      "value": 49,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        49
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "777374": {
+      "value": 48,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        48
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "776780": {
+      "value": 75,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        75
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "974573": {
+      "value": 117,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        117
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "973075": {
+      "value": 84,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        84
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "774111": {
+      "value": 30,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        30
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "751797": {
+      "value": 110,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        110
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "749637": {
+      "value": 35,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        35
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "868120": {
+      "value": 123,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        123
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773503": {
+      "value": 30,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        30
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771129": {
+      "value": 158,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        158
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773512": {
+      "value": 30,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        30
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "966650": {
+      "value": 151,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        151
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775077": {
+      "value": 25,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        25
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "966664": {
+      "value": 161,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        161
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "971690": {
+      "value": 61,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        61
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "757551": {
+      "value": 59,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        59
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "891928": {
+      "value": 21,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        21
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "769141": {
+      "value": 27,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        27
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "750399": {
+      "value": 289,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        289
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "765876": {
+      "value": 66,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        66
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "752086": {
+      "value": 43,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        43
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "758963": {
+      "value": 103,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        103
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775743": {
+      "value": 45,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        45
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "777349": {
+      "value": 28,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        28
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "750219": {
+      "value": 175,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        175
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772331": {
+      "value": 145,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        145
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772357": {
+      "value": 23,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        23
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772359": {
+      "value": 102,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        102
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772493": {
+      "value": 14,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        14
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773946": {
+      "value": 26,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        26
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775762": {
+      "value": 127,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        127
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "768904": {
+      "value": 33,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        33
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "762962": {
+      "value": 17,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        17
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "754355": {
+      "value": 148,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        148
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "762413": {
+      "value": 168,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        168
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "963271": {
+      "value": 122,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        122
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773486": {
+      "value": 8,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        8
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "974622": {
+      "value": 54,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        54
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771876": {
+      "value": 286,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        286
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "776220": {
+      "value": 85,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        85
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "776183": {
+      "value": 49,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        49
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "769130": {
+      "value": 27,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        27
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "776873": {
+      "value": 41,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        41
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "777211": {
+      "value": 83,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        83
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "768965": {
+      "value": 214,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        214
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773721": {
+      "value": 60,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        60
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "768712": {
+      "value": 120,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        120
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775952": {
+      "value": 197,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        197
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775657": {
+      "value": 116,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        116
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772226": {
+      "value": 117,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        117
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "971961": {
+      "value": 185,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        185
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773420": {
+      "value": 40,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        40
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773671": {
+      "value": 77,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        77
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "970787": {
+      "value": 47,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        47
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773970": {
+      "value": 172,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        172
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "967565": {
+      "value": 227,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        227
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771399": {
+      "value": 38,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        38
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771433": {
+      "value": 130,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        130
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771435": {
+      "value": 14,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        14
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "772758": {
+      "value": 26,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        26
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771495": {
+      "value": 52,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        52
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "765760": {
+      "value": 34,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        34
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773206": {
+      "value": 151,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        151
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "972262": {
+      "value": 123,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        123
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "773050": {
+      "value": 32,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        32
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "776918": {
+      "value": 242,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        242
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "777197": {
+      "value": 59,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        59
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "885445": {
+      "value": 80,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        80
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "767541": {
+      "value": 225,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        225
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "775515": {
+      "value": 79,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        79
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "770232": {
+      "value": 28,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        28
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "973454": {
+      "value": 89,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        89
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "964773": {
+      "value": 174,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        174
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "770304": {
+      "value": 162,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        162
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "769915": {
+      "value": 84,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        84
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "762597": {
+      "value": 157,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        157
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "777352": {
+      "value": 200,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        200
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "970344": {
+      "value": 311,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        311
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "770112": {
+      "value": 29,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        29
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "872366": {
+      "value": 88,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        88
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "777011": {
+      "value": 68,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        68
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "763803": {
+      "value": 154,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        154
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "758797": {
+      "value": 170,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        170
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "872391": {
+      "value": 208,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        208
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771976": {
+      "value": 139,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        139
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771975": {
+      "value": 127,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        127
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "771573": {
+      "value": 88,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        88
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "774313": {
+      "value": 121,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        121
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "750254": {
+      "value": 309,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Anaokulu",
+      "observed_values": [
+        309
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
+    },
+    "970914": {
+      "value": 334,
+      "verified": true,
+      "school": "",
+      "province": "",
+      "district": "",
+      "school_type": "Lise",
+      "observed_values": [
+        334
+      ],
+      "manual_reviewed": true,
+      "manual_reviewed_at": "2026-10-03",
+      "updated_at": "2026-10-03T18:41:14.257740+00:00",
+      "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı."
     }
   }
 }
