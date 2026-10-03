@@ -46,6 +46,8 @@ def in_target_group(school_type):
         return school_type in MIDDLE_SCHOOL_TYPES
     if TARGET_GROUP == "primary":
         return school_type == "İlkokul"
+    if TARGET_GROUP == "kindergarten":
+        return school_type == "Anaokulu"
     return school_type in NORMAL_TARGET_TYPES
 
 
@@ -59,7 +61,7 @@ def needs_rescan(row, verified_codes):
     primary = extract_numbers(row.get("ogrenci_sayisi"))
     primary_zero = bool(primary) and max(primary) == 0
     missing = current_count(row) is None
-    if TARGET_GROUP in {"highschool", "middle", "primary"}:
+    if TARGET_GROUP in {"highschool", "middle", "primary", "kindergarten"}:
         return (primary_zero or missing) and bool(seed_urls(row))
     if code in verified_codes:
         return False
@@ -79,6 +81,8 @@ def main():
         raise RuntimeError(f"Safety check failed: expected exactly 978 middle-school targets, got {len(targets)}")
     if TARGET_GROUP == "primary" and len(targets) != 1546:
         raise RuntimeError(f"Safety check failed: expected exactly 1546 primary-school targets, got {len(targets)}")
+    if TARGET_GROUP == "kindergarten" and len(targets) != 410:
+        raise RuntimeError(f"Safety check failed: expected exactly 410 kindergarten targets, got {len(targets)}")
     shard_targets = [
         row for i, row in enumerate(targets)
         if i % SHARD_COUNT == SHARD_INDEX

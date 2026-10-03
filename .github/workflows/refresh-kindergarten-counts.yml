@@ -1,0 +1,68 @@
+name: Refresh kindergarten student counts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/refresh_student_counts_shard.py"
+      - ".github/workflows/refresh-kindergarten-counts.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    name: Kindergarten scan shard ${{ matrix.shard }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install scraper dependencies
+        run: pip install requests beautifulsoup4
+      - name: Run kindergarten shard
+        env:
+          SHARD_INDEX: ${{ matrix.shard }}
+          SHARD_COUNT: 4
+          TARGET_GROUP: kindergarten
+          SHARD_OUT_DIR: shard-output
+        run: python scripts/refresh_student_counts_shard.py
+      - name: Upload shard result
+        uses: actions/upload-artifact@v4
+        with:
+          name: kindergarten-scan-shard-${{ matrix.shard }}
+          path: shard-output/student-scan-shard-${{ matrix.shard }}.json
+          retention-days: 2
+
+  merge:
+    name: Merge kindergarten scan results
+    needs: scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download shard results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: kindergarten-scan-shard-*
+          path: shards
+      - name: Merge shard results
+        run: python scripts/merge_student_scan_shards.py
+      - name: Commit verified updates and scan summary
+        run: |
+          if [ -z "$(git status --porcelain -- data/student-overrides.json data/student-scan-summary.json)" ]; then
+            echo "No kindergarten student-count changes."
+            exit 0
+          fi
+          git config user.name "pdrkampus-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/student-overrides.json data/student-scan-summary.json
+          git commit -m "data: refresh kindergarten student counts"
+          git push
