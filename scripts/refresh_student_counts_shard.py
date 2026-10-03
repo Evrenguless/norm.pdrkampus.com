@@ -59,7 +59,7 @@ def needs_rescan(row, verified_codes):
     primary = extract_numbers(row.get("ogrenci_sayisi"))
     primary_zero = bool(primary) and max(primary) == 0
     missing = current_count(row) is None
-    if TARGET_GROUP == "highschool":
+    if TARGET_GROUP in {"highschool", "middle"}:
         return (primary_zero or missing) and bool(seed_urls(row))
     if code in verified_codes:
         return False
