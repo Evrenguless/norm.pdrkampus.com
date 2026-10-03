@@ -1,5 +1,6 @@
 name: Refresh student counts
 
+# Manual primary-school rescan trigger: 2026-10-03
 on:
   workflow_dispatch:
   schedule:
