@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "scripts/final_ui_polish.py"
+      - "scripts/compact_results_view.py"
       - ".github/workflows/final-ui-polish.yml"
   workflow_dispatch:
 
@@ -21,6 +22,8 @@ jobs:
           python-version: "3.12"
       - name: Apply final publication polish
         run: python scripts/final_ui_polish.py
+      - name: Apply compact full-screen results view
+        run: python scripts/compact_results_view.py
       - name: Commit polished homepage
         run: |
           git config user.name "pdrkampus-data-bot"
@@ -30,5 +33,5 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "ui: polish final publication homepage"
+          git commit -m "ui: focus homepage on full-screen results"
           git push
