@@ -17,10 +17,18 @@ DATA_DIR = Path("data")
 OVERRIDES = DATA_DIR / "student-overrides.json"
 SCAN_SUMMARY = DATA_DIR / "student-scan-summary.json"
 OUT = DATA_DIR / "layered-rescue-summary.json"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PDRKampusNormBot/5.2; +https://norm.pdrkampus.com)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PDRKampusNormBot/5.3; +https://norm.pdrkampus.com)"}
 TIMEOUT = 10
-WORKERS = 16
+WORKERS = 12
 TARGET_GROUP = os.getenv("TARGET_GROUP", "kindergarten").strip().lower()
+TRUSTED_EXTERNAL = {
+    "anaokullar.com.tr": "C_ANAOKULLAR_COM_TR",
+    "www.anaokullar.com.tr": "C_ANAOKULLAR_COM_TR",
+    "okullarhakkinda.com": "C_OKULLARHAKKINDA",
+    "www.okullarhakkinda.com": "C_OKULLARHAKKINDA",
+    "okulailem.com": "C_OKULAILEM",
+    "www.okulailem.com": "C_OKULAILEM",
+}
 
 
 def norm(s):
@@ -48,12 +56,22 @@ def nums(v):
     return out
 
 
+def current_override(code, schools):
+    o = schools.get(code) or {}
+    vals = nums(o.get("value"))
+    for v in o.get("observed_values") or []:
+        vals += nums(v)
+    vals = [v for v in vals if v > 0]
+    return max(vals) if vals else None
+
+
 def extract_count(text):
     pats = [
         r"Öğrenci\s+Sayısı\s*[:\-]?\s*(?:Kız\s*\d+\s*Erkek\s*\d+\s*)?(?:Toplam\s*)?(\d{1,5})",
         r"Öğrenci\s+Sayısı\s*[:\-]?\s*(\d{1,5})",
         r"Toplam\s+Öğrenci\s+Sayısı\s*[:\-]?\s*(\d{1,5})",
         r"(\d{1,5})\s+öğrenci\s+(?:ile\s+)?eğitim",
+        r"(\d{1,5})\s+Öğrenci\b",
     ]
     vals = []
     for pat in pats:
@@ -66,40 +84,55 @@ def fetch_text(url):
     try:
         r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
         if r.status_code != 200:
-            return None
+            return None, None
         ct = (r.headers.get("content-type") or "").lower()
         if "pdf" in ct or url.lower().endswith(".pdf"):
-            return None
-        return BeautifulSoup(r.text, "html.parser").get_text(" ", strip=True)
+            return None, r.url
+        return BeautifulSoup(r.text, "html.parser").get_text(" ", strip=True), r.url
     except Exception:
-        return None
+        return None, None
+
+
+def strong_match(text, row):
+    nt = norm(text)
+    name = norm(row.get("okul_adi"))
+    il = norm(row.get("il"))
+    ilce = norm(row.get("ilce"))
+    if not name or name not in nt:
+        return False
+    return bool(il and il in nt and ilce and ilce in nt)
 
 
 def meb_direct(row):
     code = str(row.get("kurum_kodu") or "").strip()
     for url in [f"https://{code}.meb.k12.tr/", f"https://{code}.meb.k12.tr/tema/"]:
-        text = fetch_text(url)
+        text, final_url = fetch_text(url)
         if not text:
             continue
         count = extract_count(text)
         if count:
-            return {"value": count, "source_url": url, "source_type": "A_MEB_SITE", "confidence": "A"}
+            return {"value": count, "source_url": final_url or url, "source_type": "A_MEB_SITE", "confidence": "A"}
     return None
 
 
-def search_bing(row):
+def search_engine(row, external_only=False):
     name = row.get("okul_adi") or ""
     il = row.get("il") or ""
     ilce = row.get("ilce") or ""
     code = str(row.get("kurum_kodu") or "").strip()
-    queries = [
-        f'"{name}" "Öğrenci Sayısı" site:meb.k12.tr',
-        f'"{code}" "Öğrenci Sayısı" site:meb.k12.tr',
-        f'"{name}" {ilce} {il} "Öğrenci Sayısı"',
-    ]
+    if external_only:
+        queries = [
+            f'"{name}" "{ilce}" "{il}" "Öğrenci Sayısı"',
+            f'"{name}" "{ilce}" "{il}" öğrenci',
+        ]
+    else:
+        queries = [
+            f'"{name}" "Öğrenci Sayısı" site:meb.k12.tr',
+            f'"{code}" "Öğrenci Sayısı" site:meb.k12.tr',
+        ]
     candidates = []
     for q in queries:
-        url = "https://www.bing.com/search?q=" + quote_plus(q) + "&count=10"
+        url = "https://www.bing.com/search?q=" + quote_plus(q) + "&count=15"
         try:
             r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
             if r.status_code != 200:
@@ -111,28 +144,34 @@ def search_bing(row):
                 if not a:
                     continue
                 href = a.get("href") or ""
+                host = urlparse(href).netloc.lower()
                 snippet = p.get_text(" ", strip=True) if p else ""
                 blob = " ".join([a.get_text(" ", strip=True), snippet])
-                normalized = norm(blob)
-                if norm(name) not in normalized and code not in blob:
+                if not strong_match(blob, row) and code not in blob:
                     continue
-                if norm(il) not in normalized and norm(ilce) not in normalized:
-                    continue
-                count = extract_count(blob)
-                host = urlparse(href).netloc.lower()
-                if "meb.k12.tr" in host:
+
+                if "meb.k12.tr" in host and not external_only:
                     if href.lower().endswith(".pdf") or "meb_iys_dosyalar" in href:
-                        candidates.append({"value": count, "source_url": href, "source_type": "B_MEB_PDF_CANDIDATE", "confidence": "B-candidate", "snippet": blob[:500]})
+                        candidates.append({"value": extract_count(blob), "source_url": href, "source_type": "B_MEB_PDF_CANDIDATE", "confidence": "B-candidate", "snippet": blob[:500]})
                     else:
-                        text = fetch_text(href)
-                        verified_count = extract_count(text or "") or count
-                        if verified_count:
-                            return {"accepted": {"value": verified_count, "source_url": href, "source_type": "A_MEB_SEARCH_HIT", "confidence": "A"}, "candidates": candidates}
-                elif count:
-                    candidates.append({"value": count, "source_url": href, "source_type": "D_SEARCH_SNIPPET", "confidence": "D", "snippet": blob[:500]})
+                        text, final_url = fetch_text(href)
+                        count = extract_count(text or "") or extract_count(blob)
+                        if count and (strong_match(text or blob, row) or code in (text or blob)):
+                            return {"accepted": {"value": count, "source_url": final_url or href, "source_type": "A_MEB_SEARCH_HIT", "confidence": "A"}, "candidates": candidates}
+
+                if external_only and host in TRUSTED_EXTERNAL:
+                    text, final_url = fetch_text(href)
+                    if not text or not strong_match(text, row):
+                        continue
+                    count = extract_count(text)
+                    if count:
+                        return {"accepted": {"value": count, "source_url": final_url or href, "source_type": TRUSTED_EXTERNAL[host], "confidence": "C"}, "candidates": candidates}
+
+                if extract_count(blob):
+                    candidates.append({"value": extract_count(blob), "source_url": href, "source_type": "D_SEARCH_SNIPPET", "confidence": "D", "snippet": blob[:500]})
         except Exception:
             pass
-        time.sleep(0.2)
+        time.sleep(0.15)
     return {"accepted": None, "candidates": candidates}
 
 
@@ -140,7 +179,11 @@ def scan(row):
     direct = meb_direct(row)
     if direct:
         return {"accepted": direct, "candidates": []}
-    return search_bing(row)
+    meb = search_engine(row, external_only=False)
+    if meb.get("accepted"):
+        return meb
+    ext = search_engine(row, external_only=True)
+    return {"accepted": ext.get("accepted"), "candidates": (meb.get("candidates") or []) + (ext.get("candidates") or [])}
 
 
 def main():
@@ -152,11 +195,11 @@ def main():
     if TARGET_GROUP != "kindergarten":
         raise RuntimeError(f"Unsupported target group for exact-summary rescue: {TARGET_GROUP}")
 
-    targets = []
+    baseline = []
     for code, info in unresolved.items():
         if (info.get("school_type") or "").strip() != "Anaokulu":
             continue
-        targets.append({
+        baseline.append({
             "kurum_kodu": str(code).strip(),
             "okul_adi": info.get("school") or "",
             "il": info.get("province") or "",
@@ -165,8 +208,12 @@ def main():
             "previous_reason": info.get("reason") or "",
         })
 
-    if len(targets) != 245:
-        raise RuntimeError(f"Safety check failed: expected exactly 245 unresolved kindergarten targets, got {len(targets)}")
+    if len(baseline) != 245:
+        raise RuntimeError(f"Safety check failed: expected exactly 245 unresolved kindergarten baseline targets, got {len(baseline)}")
+
+    targets = [r for r in baseline if not current_override(r["kurum_kodu"], schools)]
+    if len(targets) != 244:
+        raise RuntimeError(f"Safety check failed: expected exactly 244 still-unresolved kindergarten targets after accepted overrides, got {len(targets)}")
 
     accepted = {}
     candidates = {}
@@ -206,6 +253,7 @@ def main():
     OVERRIDES.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     out = {
         "target_group": TARGET_GROUP,
+        "baseline_unresolved": len(baseline),
         "targets": len(targets),
         "accepted": len(accepted),
         "candidate_only": len(candidates),
