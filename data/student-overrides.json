@@ -78641,6 +78641,166 @@
       "norm_eligible_by_student_count": false,
       "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
+    },
+    "771503": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "100. Yıl Şehit Serkan Ağca Anaokulu"
+    },
+    "776609": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Solaklı Anaokulu"
+    },
+    "772888": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Yolağzı Anaokulu"
+    },
+    "773752": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Yeşilköy Özel Eğitim Anaokulu"
+    },
+    "770871": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Şükrüpaşa Anaokulu"
+    },
+    "777092": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Dörtyol Özel Eğitim Anaokulu"
+    },
+    "774530": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Elmaşehir Anaokulu"
+    },
+    "775456": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Kocasinan Türkan Altun ve Av. Mehmet Altun Anaokulu"
+    },
+    "776373": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Mithatpaşa Anaokulu"
+    },
+    "767370": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Şehit Birol Mutlu Özel Eğitim Anaokulu"
+    },
+    "773115": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Yenitaşkent Yusuf Bayık Anaokulu"
+    },
+    "772060": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Emine Erdoğan Anaokulu"
+    },
+    "776553": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Akasya Anaokulu"
+    },
+    "776215": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Minik Yıldızlar Anaokulu"
+    },
+    "774908": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Selçuklu Anaokulu"
+    },
+    "776863": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Alaköy Anaokulu"
+    },
+    "776127": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Başakşehir Mutlu Eğitim Anaokulu"
+    },
+    "777262": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Esenler Şule Yüksel Şenler Anaokulu"
+    },
+    "777096": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Piri Reis Anaokulu"
+    },
+    "774528": {
+      "value": null,
+      "verified": true,
+      "student_count_status": "under_100_manual_review",
+      "student_count_label": "100 öğrenci altında",
+      "note": "Kullanıcı talebi doğrultusunda 100 öğrenci altında olarak işaretlendi.",
+      "school_name": "Keskin Öğretmen Birgül Kesin Anaokulu"
     }
   }
 }
