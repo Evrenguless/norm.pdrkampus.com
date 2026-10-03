@@ -16,7 +16,7 @@
     },
     "layered_rescue_updated_at": "2026-10-03T11:29:37.908645+00:00",
     "third_pass_updated_at": "2026-10-03T11:39:56.941825+00:00",
-    "four_pass_all_missing_updated_at": "2026-10-03T11:46:36.907563+00:00"
+    "four_pass_all_missing_updated_at": "2026-10-03T12:19:03.081415+00:00"
   },
   "schools": {
     "189376": {
@@ -75257,6 +75257,21 @@
       "source_url": "https://776127.meb.k12.tr/",
       "confidence": "A",
       "note": "Katmanlı taramada A_MEB_SITE kaynağında 8 öğrenci bulundu; mevcut doğrulanmış değerlerle karşılaştırılıp en yüksek 8 kullanıldı."
+    },
+    "775738": {
+      "value": 238,
+      "verified": true,
+      "observed_values": [
+        238
+      ],
+      "source": "A_MEB_SITE",
+      "source_url": "https://uskuplusebahattinozcanmtal.meb.k12.tr/",
+      "confidence": "A",
+      "school": "Üsküplü Sebahattin Özcan Mesleki ve Teknik Anadolu Lisesi",
+      "province": "İzmir",
+      "district": "Buca",
+      "school_type": "Mesleki ve Teknik Anadolu Lisesi",
+      "note": "Dört adımlı eksik veri taramasında doğrulandı; doğrulanabilir değerler içinden en yüksek değer kullanıldı."
     }
   }
 }
