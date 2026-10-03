@@ -14,7 +14,7 @@
       "site_unreachable": 4,
       "student_field_not_found": 37
     },
-    "manual_update_at": "2026-10-03T18:43:17.310174+00:00",
+    "manual_update_at": "2026-10-03T19:00:19.597076+00:00",
     "manual_update_source": "manual-student-counts-2026-10-03.json",
     "manual_preschool_rule": "Exact manual values are used where supplied; remaining reviewed preschool targets are labeled under 100 without an invented exact count. Existing positive verified values are preserved."
   },
@@ -75050,7 +75050,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "58"
@@ -75067,7 +75067,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "38"
@@ -75084,7 +75084,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "89"
@@ -75101,7 +75101,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "41"
@@ -75118,7 +75118,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "48"
@@ -75135,7 +75135,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "37"
@@ -75152,7 +75152,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "111"
@@ -75169,7 +75169,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "136"
@@ -75186,7 +75186,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "75"
@@ -75203,7 +75203,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "157"
@@ -75220,7 +75220,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "45"
@@ -75237,7 +75237,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "70"
@@ -75254,7 +75254,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "153"
@@ -75271,7 +75271,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "156"
@@ -75288,7 +75288,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "27"
@@ -75305,7 +75305,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "106"
@@ -75322,7 +75322,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "49"
@@ -75339,7 +75339,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "48"
@@ -75356,7 +75356,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "75"
@@ -75373,7 +75373,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "117"
@@ -75390,7 +75390,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "84"
@@ -75407,7 +75407,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "30"
@@ -75424,7 +75424,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "110"
@@ -75441,7 +75441,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "35"
@@ -75458,7 +75458,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "123"
@@ -75475,7 +75475,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "30"
@@ -75492,7 +75492,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "158"
@@ -75509,7 +75509,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "30"
@@ -75526,7 +75526,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "151"
@@ -75543,7 +75543,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "25"
@@ -75560,7 +75560,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "161"
@@ -75577,7 +75577,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "61"
@@ -75594,7 +75594,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "59"
@@ -75611,7 +75611,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "21"
@@ -75628,7 +75628,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "27"
@@ -75645,7 +75645,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "289"
@@ -75662,7 +75662,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "66"
@@ -75679,7 +75679,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "43"
@@ -75696,7 +75696,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "103"
@@ -75713,7 +75713,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "45"
@@ -75730,7 +75730,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "28"
@@ -75747,7 +75747,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "175"
@@ -75764,7 +75764,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "145"
@@ -75781,7 +75781,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "23"
@@ -75798,7 +75798,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "102"
@@ -75815,7 +75815,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "14"
@@ -75832,7 +75832,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "26"
@@ -75849,7 +75849,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "127"
@@ -75866,7 +75866,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "33"
@@ -75883,7 +75883,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "17"
@@ -75900,7 +75900,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "148"
@@ -75917,7 +75917,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "168"
@@ -75934,7 +75934,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "122"
@@ -75951,7 +75951,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "8"
@@ -75968,7 +75968,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "54"
@@ -75985,7 +75985,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "286"
@@ -76002,7 +76002,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "85"
@@ -76019,7 +76019,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "49"
@@ -76036,7 +76036,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "27"
@@ -76053,7 +76053,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "41"
@@ -76070,7 +76070,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "83"
@@ -76087,7 +76087,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "214"
@@ -76104,7 +76104,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "60"
@@ -76121,7 +76121,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "120"
@@ -76138,7 +76138,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "197"
@@ -76155,7 +76155,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "116"
@@ -76172,7 +76172,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "117"
@@ -76189,7 +76189,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "185"
@@ -76206,7 +76206,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "40"
@@ -76223,7 +76223,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "77"
@@ -76240,7 +76240,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "47"
@@ -76257,7 +76257,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "172"
@@ -76274,7 +76274,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "227"
@@ -76291,7 +76291,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "38"
@@ -76308,7 +76308,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "130"
@@ -76325,7 +76325,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "14"
@@ -76342,7 +76342,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "26"
@@ -76359,7 +76359,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "52"
@@ -76376,7 +76376,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "34"
@@ -76393,7 +76393,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "151"
@@ -76410,7 +76410,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "123"
@@ -76427,7 +76427,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "32"
@@ -76444,7 +76444,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "242"
@@ -76461,7 +76461,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "59"
@@ -76478,7 +76478,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "80"
@@ -76495,7 +76495,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "225"
@@ -76512,7 +76512,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "79"
@@ -76529,7 +76529,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "28"
@@ -76546,7 +76546,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "89"
@@ -76563,7 +76563,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "174"
@@ -76580,7 +76580,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "162"
@@ -76597,7 +76597,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "84"
@@ -76614,7 +76614,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "157"
@@ -76631,7 +76631,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "200"
@@ -76648,7 +76648,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "311"
@@ -76665,7 +76665,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "29"
@@ -76682,7 +76682,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "88"
@@ -76699,7 +76699,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "68"
@@ -76716,7 +76716,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "154"
@@ -76733,7 +76733,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "170"
@@ -76750,7 +76750,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "208"
@@ -76767,7 +76767,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "139"
@@ -76784,7 +76784,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "127"
@@ -76801,7 +76801,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "88"
@@ -76818,7 +76818,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "121"
@@ -76835,7 +76835,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "309"
@@ -76852,7 +76852,7 @@
       ],
       "manual_reviewed": true,
       "manual_reviewed_at": "2026-10-03",
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı tarafından okul sayfası tek tek kontrol edilerek doğrulanan öğrenci sayısı.",
       "student_count_status": "exact_manual_review",
       "student_count_label": "334"
@@ -76869,7 +76869,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "752765": {
@@ -76884,7 +76884,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "752800": {
@@ -76899,7 +76899,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "762514": {
@@ -76914,7 +76914,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "765573": {
@@ -76929,7 +76929,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "765744": {
@@ -76944,7 +76944,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "766672": {
@@ -76959,7 +76959,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "766780": {
@@ -76974,7 +76974,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "767399": {
@@ -76989,7 +76989,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "769071": {
@@ -77004,7 +77004,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "769837": {
@@ -77019,7 +77019,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "770301": {
@@ -77034,7 +77034,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "771009": {
@@ -77049,7 +77049,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "771166": {
@@ -77064,7 +77064,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "771397": {
@@ -77079,7 +77079,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "771398": {
@@ -77094,7 +77094,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "771545": {
@@ -77109,7 +77109,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "771832": {
@@ -77124,7 +77124,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772277": {
@@ -77139,7 +77139,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772355": {
@@ -77154,7 +77154,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772358": {
@@ -77169,7 +77169,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772375": {
@@ -77184,7 +77184,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772384": {
@@ -77199,7 +77199,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772413": {
@@ -77214,7 +77214,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772492": {
@@ -77229,7 +77229,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772756": {
@@ -77244,7 +77244,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772782": {
@@ -77259,7 +77259,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "772797": {
@@ -77274,7 +77274,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773036": {
@@ -77289,7 +77289,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773093": {
@@ -77304,7 +77304,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773482": {
@@ -77319,7 +77319,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773552": {
@@ -77334,7 +77334,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773641": {
@@ -77349,7 +77349,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773667": {
@@ -77364,7 +77364,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773707": {
@@ -77379,7 +77379,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773723": {
@@ -77394,7 +77394,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773737": {
@@ -77409,7 +77409,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773762": {
@@ -77424,7 +77424,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773818": {
@@ -77439,7 +77439,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773819": {
@@ -77454,7 +77454,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773877": {
@@ -77469,7 +77469,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773892": {
@@ -77484,7 +77484,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773922": {
@@ -77499,7 +77499,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773951": {
@@ -77514,7 +77514,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773954": {
@@ -77529,7 +77529,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773961": {
@@ -77544,7 +77544,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "773976": {
@@ -77559,7 +77559,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774107": {
@@ -77574,7 +77574,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774319": {
@@ -77589,7 +77589,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774621": {
@@ -77604,7 +77604,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774708": {
@@ -77619,7 +77619,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774754": {
@@ -77634,7 +77634,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774907": {
@@ -77649,7 +77649,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774933": {
@@ -77664,7 +77664,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774935": {
@@ -77679,7 +77679,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774951": {
@@ -77694,7 +77694,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774970": {
@@ -77709,7 +77709,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774977": {
@@ -77724,7 +77724,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774978": {
@@ -77739,7 +77739,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774980": {
@@ -77754,7 +77754,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774984": {
@@ -77769,7 +77769,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "774991": {
@@ -77784,7 +77784,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775005": {
@@ -77799,7 +77799,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775006": {
@@ -77814,7 +77814,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775014": {
@@ -77829,7 +77829,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775016": {
@@ -77844,7 +77844,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775020": {
@@ -77859,7 +77859,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775023": {
@@ -77874,7 +77874,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775024": {
@@ -77889,7 +77889,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775025": {
@@ -77904,7 +77904,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775064": {
@@ -77919,7 +77919,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775065": {
@@ -77934,7 +77934,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775068": {
@@ -77949,7 +77949,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775082": {
@@ -77964,7 +77964,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775086": {
@@ -77979,7 +77979,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775097": {
@@ -77994,7 +77994,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775104": {
@@ -78009,7 +78009,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775107": {
@@ -78024,7 +78024,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775588": {
@@ -78039,7 +78039,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775611": {
@@ -78054,7 +78054,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775732": {
@@ -78069,7 +78069,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775793": {
@@ -78084,7 +78084,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775815": {
@@ -78099,7 +78099,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775933": {
@@ -78114,7 +78114,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775940": {
@@ -78129,7 +78129,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "775948": {
@@ -78144,7 +78144,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776352": {
@@ -78159,7 +78159,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776499": {
@@ -78174,7 +78174,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776548": {
@@ -78189,7 +78189,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776742": {
@@ -78204,7 +78204,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776763": {
@@ -78219,7 +78219,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776785": {
@@ -78234,7 +78234,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776801": {
@@ -78249,7 +78249,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776836": {
@@ -78264,7 +78264,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776844": {
@@ -78279,7 +78279,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776895": {
@@ -78294,7 +78294,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776923": {
@@ -78309,7 +78309,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "776933": {
@@ -78324,7 +78324,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777107": {
@@ -78339,7 +78339,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777148": {
@@ -78354,7 +78354,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777158": {
@@ -78369,7 +78369,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777237": {
@@ -78384,7 +78384,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777271": {
@@ -78399,7 +78399,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777303": {
@@ -78414,7 +78414,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777336": {
@@ -78429,7 +78429,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777348": {
@@ -78444,7 +78444,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777361": {
@@ -78459,7 +78459,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777385": {
@@ -78474,7 +78474,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777390": {
@@ -78489,7 +78489,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777394": {
@@ -78504,7 +78504,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777417": {
@@ -78519,7 +78519,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777421": {
@@ -78534,7 +78534,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "777422": {
@@ -78549,7 +78549,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "873729": {
@@ -78564,7 +78564,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "965333": {
@@ -78579,7 +78579,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "967238": {
@@ -78594,7 +78594,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "970105": {
@@ -78609,7 +78609,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "971874": {
@@ -78624,7 +78624,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     },
     "974339": {
@@ -78639,7 +78639,7 @@
       "student_count_label": "100 öğrenci altında",
       "value_upper_bound": 99,
       "norm_eligible_by_student_count": false,
-      "updated_at": "2026-10-03T18:43:17.310174+00:00",
+      "updated_at": "2026-10-03T19:00:19.597076+00:00",
       "note": "Kullanıcı anaokulu hedef listesini tek tek kontrol etti; kesin öğrenci sayısı bulunamadı ve okulun 100 öğrencinin altında olduğu belirtildi. Kesin sayı uydurulmadı."
     }
   }
