@@ -1,11 +1,18 @@
 {
   "meta": {
-    "updated_at": "2026-10-02T22:01:18.376808+00:00",
+    "updated_at": "2026-10-03T00:29:54.526293+00:00",
     "source": "MEB school websites",
     "rule": "When conflicting counts exist, the highest verifiable count is used.",
-    "targets_scanned": 3285,
+    "scan_mode": "parallel_deep_second_pass",
+    "shards": 4,
+    "targets_scanned": 8213,
     "verified_records": 1928,
-    "new_or_retained_records": 1918
+    "new_verified_records": 0,
+    "remaining_unresolved_normal_schools": 8213,
+    "unresolved_reason_counts": {
+      "site_unreachable": 2,
+      "student_field_not_found": 8211
+    }
   },
   "schools": {
     "189376": {
