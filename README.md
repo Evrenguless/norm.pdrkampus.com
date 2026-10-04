@@ -21,3 +21,9 @@ Türkiye'deki okul verisini, **Rehberlik Alan Öğretmeni Norm Kadrosu – Madde
 ## Yayın
 
 Repo kökünden GitHub Pages ile çalışacak şekilde hazırlanmıştır. `CNAME` dosyası `norm.pdrkampus.com` alan adını içerir.
+
+## Arayüz ve veri güncellemesi
+
+Okul normu ve RAM mevcut personel sayısı ayrı gösterilir. Okul tablolarında kaynak adresleri, CSV kontrol tarihi ve manuel düzeltme tarihi bulunur; tarihsiz kayıtlar belirtilir. Filtreler URL parametreleri (`il`, `ilce`, `q`, `kademe`, `norm`, `ogrenci`) ile paylaşılır. CSV ve Excel ile açılabilen XML çalışma kitabı dışa aktarımı tüm filtrelenmiş kayıtları içerir.
+
+Modern tarayıcılar `data/schools-v1.json.gz` ve `data/overrides-v1.json.gz` dosyalarını yükler; DecompressionStream olmayan tarayıcılar kaynak CSV/JSON dosyalarını kullanır. Kaynak veri veya manuel düzeltmeler güncellenince `python3 tools/build-data.py` çalıştırılıp iki sıkıştırılmış dosya da aynı committe yayımlanmalıdır. Bu işlem sayı seçimi ve norm formüllerini değiştirmez.
