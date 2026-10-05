@@ -1,8 +1,5 @@
 name: Collect public school counselor listings
 on:
-  push:
-    branches: [main]
-    paths: [tools/collect-staff.py, .github/workflows/staff-scan.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -42,25 +39,3 @@ jobs:
           name: staff-scan-audit
           path: work/staff/staff-crawl.sqlite
           retention-days: 7
-      - name: Prepare published site
-        run: |
-          mkdir -p "$RUNNER_TEMP/site"
-          git archive HEAD | tar -x -C "$RUNNER_TEMP/site"
-          rm -rf "$RUNNER_TEMP/site/.github" "$RUNNER_TEMP/site/tools"
-          rm -f "$RUNNER_TEMP/site/data/staff-scan-seed.json.gz"
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ${{ runner.temp }}/site
-  deploy:
-    needs: collect
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy completed data
-        id: deployment
-        uses: actions/deploy-pages@v4
