@@ -1,0 +1,66 @@
+name: Collect public school counselor listings
+on:
+  push:
+    branches: [main]
+    paths: [tools/collect-staff.py]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: school-staff-scan
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      STAFF_WORK_DIR: ${{ runner.temp }}/staff-crawl
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install lxml==5.3.2
+      - name: Resume public roster scan
+        run: python tools/collect-staff.py --workers 16
+      - name: Export aggregate counts
+        run: python tools/export-staff.py
+      - name: Save completed data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/staff-v1.json data/staff-v1.json.gz
+          if ! git diff --cached --quiet; then
+            git commit -m 'Complete public school counselor roster scan'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Save scan audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: staff-scan-audit
+          path: ${{ runner.temp }}/staff-crawl/staff-crawl.sqlite
+          retention-days: 7
+      - name: Prepare published site
+        run: |
+          mkdir -p "$RUNNER_TEMP/site"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/site"
+          rm -rf "$RUNNER_TEMP/site/.github" "$RUNNER_TEMP/site/tools"
+          rm -f "$RUNNER_TEMP/site/data/staff-scan-seed.json.gz"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy completed data
+        id: deployment
+        uses: actions/deploy-pages@v4
