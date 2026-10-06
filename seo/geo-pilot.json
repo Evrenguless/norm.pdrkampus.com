@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "minimum_score": 70,
+  "require_education_period": true,
+  "provinces": {
+    "Adana": [
+      "Aladağ",
+      "Ceyhan"
+    ],
+    "Adıyaman": [
+      "Besni",
+      "Çelikhan"
+    ],
+    "Afyonkarahisar": [
+      "Başmakçı",
+      "Bayat"
+    ],
+    "Ağrı": [
+      "Diyadin",
+      "Doğubayazıt"
+    ],
+    "Aksaray": [
+      "Ağaçören",
+      "Eskil"
+    ]
+  },
+  "education_period_declaration": {
+    "period": "2026-2027",
+    "basis": "user_confirmation",
+    "confirmed_on": "2026-10-06",
+    "scope": "current_norm_institution_records"
+  }
+}
