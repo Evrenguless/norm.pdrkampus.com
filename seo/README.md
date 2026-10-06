@@ -33,3 +33,7 @@ Ana sitenin aynı resmî dosyaya işaret eden katalog kayıtları kaynak verisi 
 `geo-pilot.json` en fazla 5 il ve 10 ilçe seçer. `python3 scripts/build_geo_pilot.py generate --dry-run --output /tmp/yeni-geo-onizleme` yalnız proje dışına taslak üretir. İl/ilçe, kurum adı/türü ve kaynak adresi alanları okunur; öğrenci, norm, personel veya boş kadro hesaplanmaz. Kaynak dosyaları ve sitemap değiştirilmez.
 
 Dönem 2026-2027, veri sahibinin 2026-10-06 tarihli açık teyididir. Bu açıklama ayrı pilot metadatasında tutulur; kaynak satırlardaki boş eğitim yılı alanları doldurulmaz. Resmî belge doğrulaması olarak sunulmaz. Kaynakta farklı bir dönem varsa teyit onun üstüne yazılmaz; yayın uygunluğu durdurulur. 15 taslak dönem ve yapısal denetimi geçse bile otomatik yayın yapılmaz. Kurum bağlantılarının içeriği ve taslakların anlamlılığı ayrıca editoryal inceleme gerektirir.
+
+### Editoryal pilot güncellemesi
+
+İl/ilçe önizlemeleri konuma özgü en yoğun kurum türlerini ve il düzeyinde ilçe kayıt dağılımını gösterir. Eğitim dönemi görünür kapsam bilgisidir; dönem teyidine ilişkin iç metaveri sayfa metnine aktarılmaz. Bütün dry-run sayfaları `noindex,follow` olarak üretilir. Canlı sitemap ve uygulama dosyaları değiştirilmez.

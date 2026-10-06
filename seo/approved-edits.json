@@ -3,8 +3,8 @@
   "edits": {
     "index.html": {
       "baseline_sha256": "321f67a18fe65be30a2b4da5e8de70d321a51d847bfb5fb7d3787250677dbf1b",
-      "reviewed_sha256": "4da5ddf7aab5a61756466347425cdd35f51529debd5190e2720d10c3b01a1875",
-      "reason": "Reviewed SEO/content/catalogue display correction; source records and calculation logic preserved",
+      "reviewed_sha256": "5baacb97f255fc5797c7392e729648f7630eb7c1c1e5155cc8da96aa2a330235",
+      "reason": "User-authorized publication: editorial route discovery and sitemap; calculation and data preserved",
       "runtime_sha256": "547b7b27b79ea9547033e45e2f464e8282b213890e8d98e8edc4a1a536373ec9"
     },
     "norm-fark-analizi.html": {
