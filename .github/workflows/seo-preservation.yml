@@ -1,0 +1,23 @@
+name: SEO Preservation
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preservation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check original calculation and data protection
+        run: python scripts/seo_engine.py audit --output "$RUNNER_TEMP/seo-preservation-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Run preservation tests
+        run: python scripts/test_seo_engine.py
+      - name: Test geographic dry-run boundaries
+        run: python scripts/test_geo_pilot.py
+      - name: Validate small geographic pilot
+        run: python scripts/build_geo_pilot.py validate --output "$RUNNER_TEMP/geo-pilot-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"

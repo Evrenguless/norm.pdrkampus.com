@@ -27,3 +27,9 @@ Başlangıç hash kaydı korunur. Kullanıcının devam/düzeltme talebiyle yap�
 Ana sitenin aynı resmî dosyaya işaret eden katalog kayıtları kaynak verisi değiştirilmeden tek görünür kartta gruplanır. Kayıt kimlikleri ve diğer başlıklar korunur. `catalogue-aliases.json` yalnız denetlenmiş ortak dosya gruplarını tanımlar; yeni ve denetlenmemiş tekrarlar katalog oluşturma/test aşamasında hata verir. Özel üye dosyaları gruplanmaz.
 
 İsteğe bağlı komut adları `seo/package.json` içinde tanımlıdır; `seo/` dizininde `npm run seo:audit -- --output /tmp/yeni-cikti` kullanılabilir. Üretim komutu yine `--dry-run` gerektirir.
+
+## İl/ilçe kapsam pilotu
+
+`geo-pilot.json` en fazla 5 il ve 10 ilçe seçer. `python3 scripts/build_geo_pilot.py generate --dry-run --output /tmp/yeni-geo-onizleme` yalnız proje dışına taslak üretir. İl/ilçe, kurum adı/türü ve kaynak adresi alanları okunur; öğrenci, norm, personel veya boş kadro hesaplanmaz. Kaynak dosyaları ve sitemap değiştirilmez.
+
+Dönem 2026-2027, veri sahibinin 2026-10-06 tarihli açık teyididir. Bu açıklama ayrı pilot metadatasında tutulur; kaynak satırlardaki boş eğitim yılı alanları doldurulmaz. Resmî belge doğrulaması olarak sunulmaz. Kaynakta farklı bir dönem varsa teyit onun üstüne yazılmaz; yayın uygunluğu durdurulur. 15 taslak dönem ve yapısal denetimi geçse bile otomatik yayın yapılmaz. Kurum bağlantılarının içeriği ve taslakların anlamlılığı ayrıca editoryal inceleme gerektirir.
