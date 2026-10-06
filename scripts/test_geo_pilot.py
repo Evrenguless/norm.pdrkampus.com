@@ -14,7 +14,7 @@ class Tests(unittest.TestCase):
   rows=[row(),row('2026-2027')];before=json.dumps(rows)
   c={**CONFIG,'education_period_declaration':{'period':'2026-2027','basis':'user_confirmation','confirmed_on':'2026-10-06','scope':'current_norm_institution_records'}}
   p=plans(rows,c)[0];self.assertTrue(p['eligible_for_publication']);self.assertEqual(p['effective_period'],'2026-2027');self.assertEqual(json.dumps(rows),before)
-  page=render(p,[p],'test','2026-10-06');self.assertIn('kullanıcı teyidi',page);self.assertIn('bağımsız resmî belge doğrulaması değildir',page)
+  page=render(p,[p],'test','2026-10-06');self.assertIn('2026-2027',page);self.assertNotIn('kullanıcı teyidi',page);self.assertNotIn('veri sahibinin',page);self.assertIn('noindex,follow',page)
  def test_declared_period_cannot_override_conflicting_source_year(self):
   c={**CONFIG,'education_period_declaration':{'period':'2026-2027','basis':'user_confirmation','confirmed_on':'2026-10-06','scope':'current_norm_institution_records'}}
   p=plans([row('2025-2026')],c)[0];self.assertFalse(p['eligible_for_publication']);self.assertIn('education_period_conflicts_with_declaration',p['issues'])
@@ -33,5 +33,9 @@ class Tests(unittest.TestCase):
  def test_noindex_preview_has_encoded_filter_link_and_escaped_names(self):
   r=row();r['okul_adi']='<script>alert(1)</script>';p=plans([r],CONFIG);page=render(p[0],p,'test','2026-10-06')
   self.assertIn('noindex,follow',page);self.assertIn('il=Adana',page);self.assertIn('&lt;script&gt;',page);self.assertNotIn('<script>alert',page)
+ def test_local_editorial_sections(self):
+  c={**CONFIG,'education_period_declaration':{'period':'2026-2027','basis':'user_confirmation','confirmed_on':'2026-10-06','scope':'current_norm_institution_records'}}
+  ps=plans([row(),row()],c)
+  district=ps[1];page=render(district,ps,'test','2026-10-06');self.assertIn('İlkokul: 2 kayıt',page);self.assertIn('Aladağ için filtreyi',page);self.assertNotIn('doğrulanmamıştır',page)
  def test_turkish_slug(self):self.assertEqual(slug('Adıyaman'),'adiyaman');self.assertEqual(slug('Ağaçören'),'agacoren')
 if __name__=='__main__':unittest.main(verbosity=2)
