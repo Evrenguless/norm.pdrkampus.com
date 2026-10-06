@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "edits": {
+    "index.html": {
+      "baseline_sha256": "321f67a18fe65be30a2b4da5e8de70d321a51d847bfb5fb7d3787250677dbf1b",
+      "reviewed_sha256": "4da5ddf7aab5a61756466347425cdd35f51529debd5190e2720d10c3b01a1875",
+      "reason": "Reviewed SEO/content/catalogue display correction; source records and calculation logic preserved",
+      "runtime_sha256": "547b7b27b79ea9547033e45e2f464e8282b213890e8d98e8edc4a1a536373ec9"
+    },
+    "norm-fark-analizi.html": {
+      "baseline_sha256": "4ce7da465d7019bc195a8ea8ad1ffb200de8902f27905f908e1b93af9e4c9336",
+      "reviewed_sha256": "f1aca6b141992f3b941c756e5ccedee9575029cc178c9a2af6a3abe7526c5732",
+      "reason": "Reviewed SEO/content/catalogue display correction; source records and calculation logic preserved",
+      "runtime_sha256": "f2bae06fbb1ad6f9305fee9ea7f36ddeb1f37005b62e95b60eaeaa16e13ed625"
+    },
+    "ogrenci-yeniden-kontrol.html": {
+      "baseline_sha256": "98e82bb7930c7e22f41983c7c7d46abebda250dd04061331020d0aa8dfccab24",
+      "reviewed_sha256": "4b1a4fc941c5a92c7258a360357b2d0f9926d746a6970343612e477cc04c319c",
+      "reason": "Reviewed SEO/content/catalogue display correction; source records and calculation logic preserved",
+      "runtime_sha256": "3a9a0b3c7aaac1ff78db6a6d05ef82de220a46cca34ed173a710b71fe4aa5463"
+    }
+  }
+}

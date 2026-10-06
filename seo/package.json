@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "seo:audit": "python3 ../scripts/seo_engine.py audit",
+    "seo:validate": "python3 ../scripts/seo_engine.py validate",
+    "seo:generate": "python3 ../scripts/seo_engine.py generate"
+  }
+}
