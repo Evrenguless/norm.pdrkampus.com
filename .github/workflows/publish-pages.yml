@@ -1,4 +1,4 @@
-name: Publish PDR Norm and Istanbul School Profiles
+name: Publish PDR Norm and School Profiles
 on:
   push:
     branches: [main]
@@ -23,7 +23,7 @@ jobs:
           node-version: '22'
       - name: Verify protected data and calculation runtime
         run: python scripts/seo_engine.py audit --output "$RUNNER_TEMP/source-audit"
-      - name: Build source-backed Istanbul profiles
+      - name: Build source-backed nationwide profiles
         run: python scripts/build_school_profiles.py --output "$RUNNER_TEMP/pdr-site"
       - name: Verify all generated profiles and links
         run: python scripts/test_school_profiles.py "$RUNNER_TEMP/pdr-site"

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf-8
-"""Build source-backed Istanbul profiles with the application's unchanged model."""
+"""Build source-backed nationwide profiles with the application's unchanged model."""
 import argparse,collections,gzip,hashlib,html,json,os,re,shutil,subprocess,unicodedata
 from pathlib import Path
 from urllib.parse import urlencode,urlsplit
@@ -13,6 +13,12 @@ DATE='2026-10-07'
 def slug(s):
  return re.sub('[^a-z0-9]+','-',unicodedata.normalize('NFKD',s.replace('ı','i').replace('İ','I')).encode('ascii','ignore').decode().lower()).strip('-')
 def route(r):
+ return district_route(r['il'],r['ilce'])+slug(r['okul_adi'])+'-'+str(r['kurum_kodu'])+'/'
+def province_route(province):
+ return '/okullar/'+slug(province)+'/'
+def district_route(province,district):
+ return province_route(province)+slug(district)+'/'
+def legacy_route(r):
  return '/okul/'+('esenyurt-sezai-karakoc-anadolu-lisesi' if str(r['kurum_kodu'])==SPECIAL else slug(r['okul_adi'])+'-'+str(r['kurum_kodu']))+'/'
 def official(value):
  try:
@@ -25,7 +31,7 @@ def fmt(v):
  return f'{v:,}'.replace(',','.') if isinstance(v,(int,float)) else str(v)
 def load():
  payload=json.loads(gzip.decompress((ROOT/'data/schools-v1.json.gz').read_bytes()))
- rows=[dict(zip(payload['columns'],r)) for r in payload['rows'] if r[0]=='İstanbul']
+ rows=[dict(zip(payload['columns'],r)) for r in payload['rows'] if r[0]!='Bakanlık']
  staff=json.loads((ROOT/'data/staff-v1.json').read_text())
  staff={str(r[0]):dict(zip(staff['columns'],r)) for r in staff['rows']}
  source=(ROOT/'index.html').read_text()
@@ -60,21 +66,21 @@ def metric(label,value,note):
 def source_item(label,url,date):
  return '<div class="source"><strong>'+E(label)+'</strong>'+(('<a href="'+E(url,quote=True)+'" target="_blank" rel="noopener">'+E(urlsplit(url).hostname or url)+' ↗</a>') if url else '<small>Resmî kaynak bağlantısı kayıtta bulunmuyor.</small>')+'<small>Kayıt kontrolü: '+E(date_label(date))+'</small></div>'
 def render(r,peers):
- name=r['okul_adi'];district=r['ilce'];code=str(r['kurum_kodu']);si=r['student'];calc=r['calculation'];st=r['staff'];url=official(r['web_sitesi']);source=official(r['kaynak_url']) or url
- droute='/okullar/istanbul/'+slug(district)+'/'
+ name=r['okul_adi'];province=r['il'];district=r['ilce'];code=str(r['kurum_kodu']);si=r['student'];calc=r['calculation'];st=r['staff'];url=official(r['web_sitesi']);source=official(r['kaynak_url']) or url
+ droute=district_route(province,district);proute=province_route(province)
  title=name+' | Öğrenci ve Rehber Öğretmen Sayısı · PDR Kampüs'
- desc=f"{name}: İstanbul {district} öğrenci sayısı, web listesindeki rehber öğretmen sayısı, rehberlik norm analizi ve tarihli kaynaklar. Kurum kodu {code}."
- crumbs='<nav class="crumbs" aria-label="İçerik yolu"><a href="/">Norm haritası</a><span>/</span><a href="/okullar/istanbul/">İstanbul</a><span>/</span><a href="'+droute+'">'+E(district)+'</a><span>/</span><span>Kurum profili</span></nav>'
- tool='/?'+urlencode({'il':'İstanbul','ilce':district,'q':code})+'#schools'
+ desc=f"{name}: {province} {district} öğrenci sayısı, web listesindeki rehber öğretmen sayısı, rehberlik norm analizi ve tarihli kaynaklar. Kurum kodu {code}."
+ crumbs='<nav class="crumbs" aria-label="İçerik yolu"><a href="/">Norm haritası</a><span>/</span><a href="/okullar/">Şehirler</a><span>/</span><a href="'+proute+'">'+E(province)+'</a><span>/</span><a href="'+droute+'">'+E(district)+'</a><span>/</span><span>Kurum profili</span></nav>'
+ tool='/?'+urlencode({'il':province,'ilce':district,'q':code})+'#schools'
  student_value=si.get('label') or (fmt(si['value']) if si['value'] is not None else 'Veri yok')
  norm_value=calc.get('normRange') or (fmt(calc['norm']) if calc['norm'] is not None else 'Hesaplanmadı')
  count=st.get('listed_count') if st else None
  staff_value=fmt(count) if count is not None else 'Listede yok'
  staff_note='Web listesindeki kayıt; görevdeki personelin tamamını doğrulamaz.' if count is not None else 'Liste kaydı bulunmaması, PDR sayısının sıfır olduğu anlamına gelmez.'
- body=crumbs+'<section class="hero"><div><p class="kicker">İstanbul / '+E(district)+' <span>'+E(r['level'])+'</span></p><h1>'+E(name)+'</h1><p class="lead">'+E(district)+' ilçesindeki '+E(r['okul_turu'])+' kaydını; öğrenci bilgisi, rehberlik norm analizi ve okulun web listesindeki PDR verileriyle birlikte inceleyin.</p><div class="actions"><a class="button primary" href="/">Tüm istatistikleri için <span aria-hidden="true">↗</span></a><a class="button secondary" href="'+E(tool,quote=True)+'">Bu kurumu haritada incele</a></div></div><aside class="hero-aside"><div><small>Kurum kodu</small><strong>'+E(code)+'</strong></div><div><small>Öğrenci kaydı kontrolü</small><strong>'+E(date_label(r['kontrol_tarihi'] or r['cekim_tarihi']))+'</strong></div></aside></section>'
+ body=crumbs+'<section class="hero"><div><p class="kicker">'+E(province)+' / '+E(district)+' <span>'+E(r['level'])+'</span></p><h1>'+E(name)+'</h1><p class="lead">'+E(district)+' ilçesindeki '+E(r['okul_turu'])+' kaydını; öğrenci bilgisi, rehberlik norm analizi ve okulun web listesindeki PDR verileriyle birlikte inceleyin.</p><div class="actions"><a class="button primary" href="/">Tüm istatistikleri için <span aria-hidden="true">↗</span></a><a class="button secondary" href="'+E(tool,quote=True)+'">Bu kurumu haritada incele</a></div></div><aside class="hero-aside"><div><small>Kurum kodu</small><strong>'+E(code)+'</strong></div><div><small>Öğrenci kaydı kontrolü</small><strong>'+E(date_label(r['kontrol_tarihi'] or r['cekim_tarihi']))+'</strong></div></aside></section>'
  body+='<section class="metrics" aria-label="Kurum verileri">'+metric('Öğrenci sayısı',student_value,'Tarihli platform kaydı · Güncel resmî toplam değildir.')+metric('Hesaplanan rehberlik normu',norm_value,calc['status'])+metric('Web listesinde rehber öğretmen',staff_value,staff_note)+'</section>'
  body+='<aside class="data-note">Hesaplanan norm ve web listesindeki PDR sayısı farklı verilerdir. Bu sayfa kesin boş kadro ya da personel açığı tespiti değildir. Kaynak tarihleriyle değerlendirin.</aside><div class="content-grid"><div><section class="panel"><div class="section-label">KURUM BİLGİLERİ</div><h2>'+E(name)+' hangi ilçede?</h2><dl>'
- facts=[('İl / ilçe','İstanbul / '+district),('Kurum türü',r['okul_turu']),('Kademe',r['level']),('Kurum kodu',code)]
+ facts=[('İl / ilçe',province+' / '+district),('Kurum türü',r['okul_turu']),('Kademe',r['level']),('Kurum kodu',code)]
  if code==SPECIAL:facts.extend([('Adres','Barbaros Hayrettin Paşa Mahallesi, 2266. Sokak No: 2, Esenyurt / İstanbul'),('Telefon','0212 813 72 73')])
  body+=''.join('<div><dt>'+E(k)+'</dt><dd>'+E(v)+'</dd></div>' for k,v in facts)
  body+='<div><dt>Resmî web sitesi</dt><dd>'+('<a href="'+E(url,quote=True)+'" target="_blank" rel="noopener">'+E(urlsplit(url).hostname)+' ↗</a>' if url else 'Kayıtta belirtilmemiş')+'</dd></div></dl></section><section class="panel"><div class="section-label">REHBERLİK NORM ANALİZİ</div><h2>Norm hesabı nasıl yorumlanmalı?</h2><span class="status'+(' missing' if calc['status']!='Hesaplandı' else '')+'">'+E(calc['status'])+'</span><div class="method">'+E(calc['reason'])+'</div><p>Hesap, PDR Norm Haritası’nın mevcut modeliyle oluşturulur. Web listesindeki personel sayısı norm hesabının girdisi değildir. Kesin kurum normu ve güncel görevlendirmeler resmî kurum kayıtlarından doğrulanmalıdır.</p><a href="'+E(tool,quote=True)+'">Kurumun ayrıntılı istatistiklerini aç →</a></section><section class="panel"><div class="section-label">VERİ KAPSAMI</div><h2>Öğrenci ve PDR verisinin kaynağı</h2><p>'+E((si.get('note') or 'Öğrenci sayısı, platformdaki tarihli kurum kaydına dayanır.').replace('CSV ve MEB doğrulamalarındaki','Kaynak kaydı ve MEB doğrulamalarındaki').replace("CSV'deki",'Kaynak kaydındaki').replace("CSV'de",'Kaynak kaydında'))+'</p><p>'+E(staff_note)+'</p>'
@@ -86,20 +92,27 @@ def render(r,peers):
  body+=source_item('PDR web listesi',official(st.get('source_url')) if st else '',st.get('checked_at') if st else '')
  if code==SPECIAL:body+=source_item('Okulumuz Hakkında','https://eskal.meb.k12.tr/34/39/769335/okulumuz_hakkinda.html',DATE)+source_item('İletişim','https://eskal.meb.k12.tr/tema/iletisim.php',DATE)
  body+='</section><section class="panel"><div class="section-label">AYNI İLÇEDEN</div><h2>'+E(district)+' kurumları</h2><ul class="related">'+''.join('<li><a href="'+p['route']+'">'+E(p['okul_adi'])+'</a><small>'+E(p['okul_turu'])+'</small></li>' for p in peers)+'</ul><p style="margin-top:16px"><a href="'+droute+'">İlçedeki tüm kurum kayıtları →</a></p></section><section class="panel"><h2>Bu sayfa hakkında</h2><p>PDR Kampüs’ün bağımsız kurum verisi profilidir. Kurumun resmî web sitesi değildir.</p><p>Sayfa oluşturma tarihi: '+DATE+'. Bu tarih kaynak kurum verisinin kontrol tarihi değildir.</p></section></aside></div>'
- entity={'@type':'School' if r['level'] not in ('Diğer','RAM') else 'EducationalOrganization','@id':BASE+r['route']+'#institution','name':name,'identifier':code,'address':{'@type':'PostalAddress','addressLocality':district,'addressRegion':'İstanbul','addressCountry':'TR'}}
+ entity={'@type':'School' if r['level'] not in ('Diğer','RAM') else 'EducationalOrganization','@id':BASE+r['route']+'#institution','name':name,'identifier':code,'address':{'@type':'PostalAddress','addressLocality':district,'addressRegion':province,'addressCountry':'TR'}}
  if url:entity['sameAs']=url
- schema={'@context':'https://schema.org','@graph':[entity,{'@type':'WebPage','url':BASE+r['route'],'name':title,'inLanguage':'tr-TR','about':{'@id':entity['@id']},'publisher':{'@type':'Organization','name':'PDR Kampüs','url':'https://pdrkampus.com/'}},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'İstanbul','item':BASE+'/okullar/istanbul/'},{'@type':'ListItem','position':2,'name':district,'item':BASE+droute},{'@type':'ListItem','position':3,'name':name,'item':BASE+r['route']}]}]}
+ schema={'@context':'https://schema.org','@graph':[entity,{'@type':'WebPage','url':BASE+r['route'],'name':title,'inLanguage':'tr-TR','about':{'@id':entity['@id']},'publisher':{'@type':'Organization','name':'PDR Kampüs','url':'https://pdrkampus.com/'}},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':province,'item':BASE+proute},{'@type':'ListItem','position':2,'name':district,'item':BASE+droute},{'@type':'ListItem','position':3,'name':name,'item':BASE+r['route']}]}]}
  return document(title,desc,r['route'],body,schema)
-def directory(rows,district=None):
- path='/okullar/istanbul/'+(slug(district)+'/' if district else '')
- place='İstanbul'+(' / '+district if district else '')
+def directory(rows,province=None,district=None):
+ path=district_route(province,district) if district else province_route(province) if province else '/okullar/'
+ place=(province+(' / '+district if district else '')) if province else 'Türkiye'
  title=place+' Okul ve Kurum Kayıtları | PDR Kampüs'
- body='<nav class="crumbs" aria-label="İçerik yolu"><a href="/">Norm haritası</a><span>/</span><a href="/okullar/istanbul/">İstanbul kurumları</a>'+('<span>/</span><span>'+E(district)+'</span>' if district else '')+'</nav><section class="hero"><div><p class="kicker">Kurum profilleri</p><h1>'+E(place)+' okul ve kurum kayıtları</h1><p class="lead directory-intro">Mevcut platform veri setindeki '+fmt(len(rows))+' kurum kaydını inceleyin. Her profil öğrenci, norm analizi ve tarihli kaynak bilgisine ayrı bir bağlantı sunar. Kapsam veri setine dayanır; İstanbul’daki tüm resmî ve özel kurumların eksiksiz sayımı değildir.</p><div class="actions"><a class="button primary" href="/">Tüm istatistikleri için ↗</a></div></div></section>'
+ crumbs='<nav class="crumbs" aria-label="İçerik yolu"><a href="/">Norm haritası</a><span>/</span><a href="/okullar/">Şehirler</a>'
+ if province:crumbs+='<span>/</span><a href="'+province_route(province)+'">'+E(province)+'</a>'
+ if district:crumbs+='<span>/</span><span>'+E(district)+'</span>'
+ crumbs+='</nav>'
+ body=crumbs+'<section class="hero"><div><p class="kicker">Kurum profilleri</p><h1>'+E(place)+' okul ve kurum kayıtları</h1><p class="lead directory-intro">Mevcut platform veri setindeki '+fmt(len(rows))+' kurum kaydını inceleyin. Şehir ve ilçe üzerinden her kurumun öğrenci sayısı, rehber öğretmen web listesi ve rehberlik norm analizine ulaşın. Kapsam kaynak veri setine dayanır; tüm resmî ve özel kurumların eksiksiz sayımı değildir.</p><div class="actions"><a class="button primary" href="/">Tüm istatistikleri için ↗</a></div></div></section>'
+ label='Okul veya kurum ara' if district else 'İlçe ara' if province else 'Şehir ara'
+ body+='<label class="directory-search"><span>'+label+'</span><input type="search" id="directorySearch" placeholder="'+label+'" autocomplete="off" aria-controls="directoryResults"></label><p class="directory-count" id="directoryCount" aria-live="polite"></p>'
  if not district:
-  counts=collections.Counter(r['ilce'] for r in rows)
-  body+='<div class="district-grid">'+''.join('<a class="district-card" href="/okullar/istanbul/'+slug(d)+'/">'+E(d)+'<span>'+fmt(n)+' kayıt →</span></a>' for d,n in sorted(counts.items()))+'</div>'
+  key='ilce' if province else 'il';counts=collections.Counter(r[key] for r in rows)
+  body+='<div class="district-grid" id="directoryResults">'+''.join('<a class="district-card" data-directory-entry href="'+(district_route(province,d) if province else province_route(d))+'">'+E(d)+'<span>'+fmt(n)+' kayıt →</span></a>' for d,n in sorted(counts.items()))+'</div>'
  else:
-  body+='<section class="panel"><h2>'+E(district)+' kurum profilleri</h2><ul class="institution-list">'+''.join('<li><a href="'+r['route']+'">'+E(r['okul_adi'])+'</a><small>'+E(r['okul_turu'])+' · Kurum kodu '+E(str(r['kurum_kodu']))+'</small></li>' for r in rows)+'</ul></section>'
+  body+='<section class="panel"><h2>'+E(district)+' kurum profilleri</h2><ul class="institution-list" id="directoryResults">'+''.join('<li data-directory-entry><a href="'+r['route']+'">'+E(r['okul_adi'])+'</a><small>'+E(r['okul_turu'])+' · Kurum kodu '+E(str(r['kurum_kodu']))+'</small></li>' for r in rows)+'</ul></section>'
+ body+='<script src="/assets/school-directory.js" defer></script>'
  return path,document(title,place+' kurumlarının öğrenci ve rehberlik norm analizlerine, okul profillerine ve kaynak kayıtlarına erişin.',path,body,{'@context':'https://schema.org','@type':'CollectionPage','url':BASE+path,'name':title,'inLanguage':'tr-TR'})
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--output',type=Path,required=True);args=ap.parse_args();out=args.output.resolve()
@@ -107,24 +120,42 @@ def main():
  if out.exists():raise ValueError('Output already exists')
  rows=load();assert len(rows)==len({r['kurum_kodu'] for r in rows});assert len(rows)==len({r['route'] for r in rows})
  shutil.copytree(ROOT,out,ignore=shutil.ignore_patterns('.git','__pycache__','.DS_Store'))
- groups={d:sorted([r for r in rows if r['ilce']==d],key=lambda r:r['okul_adi']) for d in set(r['ilce'] for r in rows)}
- paths=[]
- for r in rows:
-  peers=groups[r['ilce']];pos=next(i for i,p in enumerate(peers) if p['kurum_kodu']==r['kurum_kodu']);near=[peers[(pos+i)%len(peers)] for i in range(1,min(5,len(peers)))]
-  target=out/r['route'].strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(render(r,near));paths.append(r['route'])
- for d,rs in [(None,rows)]+list(sorted(groups.items())):
-  path,content=directory(rs,d);target=out/path.strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(content);paths.append(path)
- ns='http://www.sitemaps.org/schemas/sitemap/0.9';ET.register_namespace('',ns);tree=ET.parse(ROOT/'sitemap.xml');root=tree.getroot();known={u.find('{'+ns+'}loc').text for u in root}
- for path in paths:
-  if BASE+path not in known:
-   node=ET.SubElement(root,'{'+ns+'}url');ET.SubElement(node,'{'+ns+'}loc').text=BASE+path;ET.SubElement(node,'{'+ns+'}lastmod').text=DATE
-  else:
-   for node in root:
-    if node.find('{'+ns+'}loc').text==BASE+path:
-     lm=node.find('{'+ns+'}lastmod')
-     if lm is None:lm=ET.SubElement(node,'{'+ns+'}lastmod')
-     lm.text=DATE
- tree.write(out/'sitemap.xml',encoding='utf-8',xml_declaration=True)
- report={'profiles':len(rows),'districts':len(groups),'directory_pages':len(groups)+1,'sitemap_urls':len(root),'scenario_values_excluded':sum(r['scenario_excluded'] for r in rows),'missing_students':sum(r['student']['value'] is None for r in rows),'missing_rosters':sum(r['staff'] is None for r in rows),'source_sha256':hashlib.sha256((ROOT/'data/schools-v1.json.gz').read_bytes()).hexdigest(),'paths':paths}
- (out/'school-profile-build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in report.items() if k!='paths'},ensure_ascii=False))
+ groups=collections.defaultdict(list);provinces=collections.defaultdict(list)
+ for r in rows:groups[(r['il'],r['ilce'])].append(r);provinces[r['il']].append(r)
+ assert len(provinces)==81,'Expected 81 Turkish provinces'
+ for key in groups:groups[key].sort(key=lambda r:r['okul_adi'])
+ paths=[];aliases={};codes={}
+ def write(path,content):
+  target=out/path.strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(content)
+ for peers in groups.values():
+  for pos,r in enumerate(peers):
+   near=[peers[(pos+i)%len(peers)] for i in range(1,min(5,len(peers)))];content=render(r,near)
+   write(r['route'],content);paths.append(r['route']);codes[str(r['kurum_kodu'])]=r['route']
+   if r['il']=='İstanbul':
+    old=legacy_route(r);write(old,content);aliases[old]=r['route']
+ directory_paths=[]
+ for province,district,rs in [(None,None,rows)]+[(p,None,rs) for p,rs in sorted(provinces.items())]+[(p,d,rs) for (p,d),rs in sorted(groups.items())]:
+  path,content=directory(rs,province,district);write(path,content);paths.append(path);directory_paths.append(path)
+ assert len(paths)==len(set(paths)),'Geographic slug collision'
+ ns='http://www.sitemaps.org/schemas/sitemap/0.9';ET.register_namespace('',ns);old=ET.parse(ROOT/'sitemap.xml').getroot()
+ def sitemap(filename,urls):
+  root=ET.Element('{'+ns+'}urlset')
+  for url in urls:
+   node=ET.SubElement(root,'{'+ns+'}url');ET.SubElement(node,'{'+ns+'}loc').text=url;ET.SubElement(node,'{'+ns+'}lastmod').text=DATE
+  assert len(urls)<=50000
+  ET.ElementTree(root).write(out/filename,encoding='utf-8',xml_declaration=True)
+  assert (out/filename).stat().st_size<50*1024*1024
+ (out/'sitemaps').mkdir(exist_ok=True)
+ main_urls=[node.find('{'+ns+'}loc').text for node in old if node.find('{'+ns+'}loc') is not None and '/okul/' not in node.find('{'+ns+'}loc').text]+[BASE+'/okullar/']
+ sitemap('sitemaps/ana.xml',main_urls);sitemap_files=['sitemaps/ana.xml']
+ for province,rs in sorted(provinces.items()):
+  filename='sitemaps/okullar-'+slug(province)+'.xml'
+  urls=[BASE+province_route(province)]+[BASE+district_route(p,d) for p,d in sorted(groups) if p==province]+[BASE+r['route'] for r in rs]
+  sitemap(filename,urls);sitemap_files.append(filename)
+ root=ET.Element('{'+ns+'}sitemapindex')
+ for filename in sitemap_files:
+  node=ET.SubElement(root,'{'+ns+'}sitemap');ET.SubElement(node,'{'+ns+'}loc').text=BASE+'/'+filename;ET.SubElement(node,'{'+ns+'}lastmod').text=DATE
+ ET.ElementTree(root).write(out/'sitemap.xml',encoding='utf-8',xml_declaration=True)
+ report={'profiles':len(rows),'provinces':len(provinces),'districts':len(groups),'directory_pages':len(directory_paths),'sitemap_urls':len(main_urls)+len(paths)-1,'sitemap_files':sitemap_files,'scenario_values_excluded':sum(r['scenario_excluded'] for r in rows),'missing_students':sum(r['student']['value'] is None for r in rows),'missing_rosters':sum(r['staff'] is None for r in rows),'source_sha256':hashlib.sha256((ROOT/'data/schools-v1.json.gz').read_bytes()).hexdigest(),'paths':paths,'aliases':aliases,'profile_codes':codes}
+ (out/'school-profile-build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in report.items() if k not in ('paths','aliases','profile_codes','sitemap_files')},ensure_ascii=False))
 if __name__=='__main__':main()
