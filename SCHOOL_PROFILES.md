@@ -1,0 +1,5 @@
+# İstanbul kurum profilleri
+
+`Publish PDR Norm and Istanbul School Profiles` GitHub Actions iş akışı, ana uygulama ve İstanbul'daki kaynak kurum kayıtlarını aynı Pages sürümünde yayınlar. `scripts/build_school_profiles.py --output /absolute/output/outside/checkout` komutu, mevcut uygulamadan norm modelini okuyarak statik profiller, ilçe dizinleri ve sitemap üretir. Node.js ve Python gereklidir. Kaynak veri dosyaları değiştirilmez; kişisel kullanım için üretilmiş öğrenci senaryoları kamuya açık kaynak profillerinden hariç tutulur. Eksik öğrenci ve personel kaydı sıfır sayılmaz.
+
+Görsel sistem `assets/school-profile.css` dosyasıyla ve mevcut `assets/logo.png` logosuyla ortaktır. Her profilde iki adet `Tüm istatistikleri için` butonu ana norm haritasına yönlendirir. Okul profilleri ana sayfada tanıtım alanı olarak gösterilmez. `scripts/test_school_profiles.py <output>` tüm üretilen sayfaların canonical, sitemap, logo, yönlendirme ve yerel bağlantılarını denetler. GitHub Pages yayın kaynağı GitHub Actions olarak ayarlanmalıdır.
