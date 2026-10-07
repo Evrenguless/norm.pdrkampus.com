@@ -1,0 +1,43 @@
+name: Publish PDR Norm and Istanbul School Profiles
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify protected data and calculation runtime
+        run: python scripts/seo_engine.py audit --output "$RUNNER_TEMP/source-audit"
+      - name: Build source-backed Istanbul profiles
+        run: python scripts/build_school_profiles.py --output "$RUNNER_TEMP/pdr-site"
+      - name: Verify all generated profiles and links
+        run: python scripts/test_school_profiles.py "$RUNNER_TEMP/pdr-site"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/pdr-site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
