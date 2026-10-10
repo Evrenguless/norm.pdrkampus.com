@@ -23,6 +23,8 @@ jobs:
           node-version: '22'
       - name: Verify protected data and calculation runtime
         run: python scripts/seo_engine.py audit --output "$RUNNER_TEMP/source-audit"
+      - name: Verify sitemap count, byte limits and canonical rules
+        run: python scripts/test_sitemaps.py
       - name: Build source-backed nationwide profiles
         run: python scripts/build_school_profiles.py --output "$RUNNER_TEMP/pdr-site"
       - name: Verify all generated profiles and links

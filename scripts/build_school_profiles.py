@@ -138,24 +138,21 @@ def main():
   path,content=directory(rs,province,district);write(path,content);paths.append(path);directory_paths.append(path)
  assert len(paths)==len(set(paths)),'Geographic slug collision'
  ns='http://www.sitemaps.org/schemas/sitemap/0.9';ET.register_namespace('',ns);old=ET.parse(ROOT/'sitemap.xml').getroot()
- def sitemap(filename,urls):
-  root=ET.Element('{'+ns+'}urlset')
-  for url in urls:
-   node=ET.SubElement(root,'{'+ns+'}url');ET.SubElement(node,'{'+ns+'}loc').text=url;ET.SubElement(node,'{'+ns+'}lastmod').text=DATE
-  assert len(urls)<=50000
-  ET.ElementTree(root).write(out/filename,encoding='utf-8',xml_declaration=True)
-  assert (out/filename).stat().st_size<50*1024*1024
- (out/'sitemaps').mkdir(exist_ok=True)
+ from sitemap_tools import render_sitemaps
  main_urls=[node.find('{'+ns+'}loc').text for node in old if node.find('{'+ns+'}loc') is not None and '/okul/' not in node.find('{'+ns+'}loc').text]+[BASE+'/okullar/']
- sitemap('sitemaps/ana.xml',main_urls);sitemap_files=['sitemaps/ana.xml']
- for province,rs in sorted(provinces.items()):
-  filename='sitemaps/okullar-'+slug(province)+'.xml'
-  urls=[BASE+province_route(province)]+[BASE+district_route(p,d) for p,d in sorted(groups) if p==province]+[BASE+r['route'] for r in rs]
-  sitemap(filename,urls);sitemap_files.append(filename)
- root=ET.Element('{'+ns+'}sitemapindex')
- for filename in sitemap_files:
-  node=ET.SubElement(root,'{'+ns+'}sitemap');ET.SubElement(node,'{'+ns+'}loc').text=BASE+'/'+filename;ET.SubElement(node,'{'+ns+'}lastmod').text=DATE
- ET.ElementTree(root).write(out/'sitemap.xml',encoding='utf-8',xml_declaration=True)
+ from seo_engine import Page
+ for url in main_urls:
+  rel=url.removeprefix(BASE+'/');file=out/(rel+'index.html' if not rel or rel.endswith('/') else rel)
+  page=Page(file.read_text())
+  if page.noindex or page.canonicals != [url]:raise ValueError('Invalid base canonical: '+url)
+ urls=main_urls+[BASE+path for path in paths if path!='/okullar/']
+ def group(url):
+  parts=urlsplit(url).path.strip('/').split('/')
+  return 'okullar-'+parts[1] if len(parts)>1 and parts[0]=='okullar' else 'ana'
+ sitemap_outputs=render_sitemaps(urls,BASE,group_for_url=group)
+ for filename,content in sitemap_outputs.items():
+  file=out/filename;file.parent.mkdir(parents=True,exist_ok=True);file.write_text(content)
+ sitemap_files=[name for name in sitemap_outputs if name!='sitemap.xml']
  report={'profiles':len(rows),'provinces':len(provinces),'districts':len(groups),'directory_pages':len(directory_paths),'sitemap_urls':len(main_urls)+len(paths)-1,'sitemap_files':sitemap_files,'scenario_values_excluded':sum(r['scenario_excluded'] for r in rows),'missing_students':sum(r['student']['value'] is None for r in rows),'missing_rosters':sum(r['staff'] is None for r in rows),'source_sha256':hashlib.sha256((ROOT/'data/schools-v1.json.gz').read_bytes()).hexdigest(),'paths':paths,'aliases':aliases,'profile_codes':codes}
  (out/'school-profile-build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in report.items() if k not in ('paths','aliases','profile_codes','sitemap_files')},ensure_ascii=False))
 if __name__=='__main__':main()

@@ -33,6 +33,12 @@ for item in index.findall('s:sitemap/s:loc',ns):
  assert len(locs)<=50000 and shard.stat().st_size<50*1024*1024
  urls.extend(locs)
 assert len(urls)==len(set(urls))==report['sitemap_urls'];url_set=set(urls)
+# Validate legacy/base URLs as well as generated school profiles.
+for url in urls:
+ u=urlsplit(url);assert u.scheme=='https' and u.netloc==urlsplit(base).netloc and not u.query and not u.fragment
+ rel=u.path.lstrip('/');file=site/(rel+'index.html' if not rel or rel.endswith('/') else rel)
+ if '/okullar/' not in u.path:
+  page=Page();page.feed(file.read_text());assert not page.noindex and page.canonicals==[url],url
 assert all('/okullar/' in path for path in report['paths'])
 for position,path in enumerate(report['paths']):
  if position and position%10000==0:print(f'Checked {position} pages',flush=True)

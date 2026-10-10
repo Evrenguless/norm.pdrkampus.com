@@ -3,9 +3,9 @@
   "edits": {
     "index.html": {
       "baseline_sha256": "321f67a18fe65be30a2b4da5e8de70d321a51d847bfb5fb7d3787250677dbf1b",
-      "reviewed_sha256": "5baacb97f255fc5797c7392e729648f7630eb7c1c1e5155cc8da96aa2a330235",
-      "reason": "User requested no visible school promotion on homepage; remove profile card and preserve calculation/data runtime.",
-      "runtime_sha256": "547b7b27b79ea9547033e45e2f464e8282b213890e8d98e8edc4a1a536373ec9"
+      "reviewed_sha256": "a4664eff8fdad936b942583c8b719219ae670dd28486ceec50a0c69009bbd2d8",
+      "runtime_sha256": "3a73d7bc08f36770e081fc95e67258ac16f7ec665e4acc1e366a48b9eaf672e9",
+      "reason": "Reviewed existing Google Analytics addition in starting commit 3c196c4; this SEO change does not modify index.html, student data, norm formulas or authentication."
     },
     "norm-fark-analizi.html": {
       "baseline_sha256": "4ce7da465d7019bc195a8ea8ad1ffb200de8902f27905f908e1b93af9e4c9336",
