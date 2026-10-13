@@ -9,13 +9,13 @@
     },
     "norm-fark-analizi.html": {
       "baseline_sha256": "4ce7da465d7019bc195a8ea8ad1ffb200de8902f27905f908e1b93af9e4c9336",
-      "reviewed_sha256": "de90550c4d631319ba6de942a1566c60a17d12932eae2fe537787dd7d42efd32",
+      "reviewed_sha256": "9ea73a6e005ac599588d3b2e0a7b6658dfd3e22375f9444775833656c8958c1d",
       "reason": "User-authorized cross-platform navigation and contextual links; source data and calculations preserved",
       "runtime_sha256": "f2bae06fbb1ad6f9305fee9ea7f36ddeb1f37005b62e95b60eaeaa16e13ed625"
     },
     "ogrenci-yeniden-kontrol.html": {
       "baseline_sha256": "98e82bb7930c7e22f41983c7c7d46abebda250dd04061331020d0aa8dfccab24",
-      "reviewed_sha256": "3b7443388cb6cc8fd55098f4a04cc319f1ed790db0e8ad7948902f69f38e5079",
+      "reviewed_sha256": "c06469e9335c86bb805ca64fae4133bb95fa8b73b785d2730c28b964fa36ad2d",
       "reason": "User-authorized cross-platform navigation and contextual links; source data and calculations preserved",
       "runtime_sha256": "3a9a0b3c7aaac1ff78db6a6d05ef82de220a46cca34ed173a710b71fe4aa5463"
     }
