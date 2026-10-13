@@ -56,6 +56,7 @@ for r in records:
  path=report['profile_codes'][str(r['kurum_kodu'])];p=Page();p.feed((site/path.strip('/')/'index.html').read_text())
  entity=p.schema[0]['@graph'][0];assert entity['name']==r['okul_adi'] and entity['address']['addressRegion']==r['il'] and entity['address']['addressLocality']==r['ilce']
 assert 'schoolProfileTitle' not in (site/'index.html').read_text()
+home=Page();home.feed((site/'index.html').read_text());assert '/okullar/' in home.links, 'Nationwide directory must be reachable from home'
 assert '2.445' in (site/'okul/esenyurt-sezai-karakoc-anadolu-lisesi/index.html').read_text()
 assert not errors, '\n'.join(errors[:30])
 print(json.dumps({'checked_pages':len(report['paths']),'sitemap_urls':len(urls),'broken_links':0,'duplicate_urls':0,'mandatory_cta':True,'source_data_preserved':True}))
