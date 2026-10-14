@@ -12,8 +12,8 @@
 /* Simple reference-style menu, integrated in the existing site header. */
 .pk-tool-switch{position:relative;display:inline-block;color:inherit;font:inherit;flex:none;text-align:left;z-index:50}
 .pk-tool-switch summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer;min-height:38px;padding:8px 14px;border-radius:8px;font-weight:600;font-size:14px;color:inherit;white-space:nowrap;transition:background .15s,box-shadow .15s}
-.pk-tool-switch summary::-webkit-details-marker{display:none}.pk-tool-switch summary span{display:inline-block;color:currentColor;font-size:15px;line-height:1;transition:transform .18s}
-.pk-tool-switch summary:hover{background:#f4f6f5}.pk-tool-switch[open] summary{background:#f4f6f5;box-shadow:0 0 0 3px #d8dfda}.pk-tool-switch[open] summary span{transform:rotate(180deg)}
+.pk-tool-switch summary::-webkit-details-marker{display:none}.pk-tool-switch summary span{display:none}
+.pk-tool-switch summary:hover{background:#f4f6f5}.pk-tool-switch[open] summary{background:#f4f6f5;box-shadow:0 0 0 3px #d8dfda}
 .pk-tool-switch>nav{position:absolute;right:0;top:calc(100% + 12px);display:grid!important;gap:2px!important;width:210px;max-width:calc(100vw - 32px);padding:6px!important;background:#fff;border:1px solid #dfe5e1;border-radius:10px;box-shadow:0 10px 25px #15251c18,0 2px 5px #15251c08;z-index:100;color:#263b31}
 .pk-tool-switch>nav a{display:block!important;min-height:40px;box-sizing:border-box;padding:10px 12px!important;border:0!important;border-radius:6px!important;text-decoration:none!important;color:#263b31!important;white-space:normal!important;line-height:1.4!important;font-size:14px!important;font-weight:500!important;transition:background .12s}
 .pk-tool-switch>nav a strong{font:inherit!important}.pk-tool-switch>nav a span{display:none}.pk-tool-switch>nav a:hover{background:#f1f5f2!important}
