@@ -9,14 +9,18 @@
 .pk-result-next{display:none}.exam-finished .pk-result-next{display:block}
 .rk-main>.pk-network-footer{order:4;width:100%}
 
-/* Compact, native header dropdown. No extra menu row or reserved strip. */
+/* Simple reference-style menu, integrated in the existing site header. */
 .pk-tool-switch{position:relative;display:inline-block;color:inherit;font:inherit;flex:none;text-align:left;z-index:50}
-.pk-tool-switch summary{display:flex;align-items:center;gap:7px;list-style:none;cursor:pointer;padding:10px 12px;border-radius:10px;font-weight:700;font-size:14px;color:inherit;white-space:nowrap}
-.pk-tool-switch summary::-webkit-details-marker{display:none}.pk-tool-switch summary span{color:#397d6b;font-size:16px}.pk-tool-switch[open] summary,.pk-tool-switch summary:hover{background:#eef6f2;color:#286c58}
-.pk-tool-switch>nav{position:absolute;right:0;top:calc(100% + 10px);display:grid!important;gap:2px!important;width:290px;max-width:calc(100vw - 32px);padding:8px!important;background:#fff;border:1px solid #dce8e2;border-radius:14px;box-shadow:0 14px 40px #173b321f;z-index:100;color:#183b32}
-.pk-tool-switch>nav a{display:flex!important;flex-direction:column;gap:4px!important;padding:12px!important;border:0!important;border-radius:9px!important;text-decoration:none!important;color:#183b32!important;white-space:normal!important;line-height:1.45!important;font-size:14px!important}
-.pk-tool-switch>nav a span{font-size:12px;color:#687c72;font-weight:400}.pk-tool-switch>nav a:hover{background:#f1f7f4!important}
-.pk-tool-switch summary:focus-visible,.pk-tool-switch a:focus-visible{outline:2px solid #397d6b;outline-offset:3px}.pk-menu-label{display:block;padding:16px 12px 6px;font-size:11px;font-weight:800;letter-spacing:.08em;color:#71877c;border-top:1px solid #e2ebe5;margin-top:10px}
+.pk-tool-switch summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer;min-height:38px;padding:8px 14px;border-radius:8px;font-weight:600;font-size:14px;color:inherit;white-space:nowrap;transition:background .15s,box-shadow .15s}
+.pk-tool-switch summary::-webkit-details-marker{display:none}.pk-tool-switch summary span{display:inline-block;color:currentColor;font-size:15px;line-height:1;transition:transform .18s}
+.pk-tool-switch summary:hover{background:#f4f6f5}.pk-tool-switch[open] summary{background:#f4f6f5;box-shadow:0 0 0 3px #d8dfda}.pk-tool-switch[open] summary span{transform:rotate(180deg)}
+.pk-tool-switch>nav{position:absolute;right:0;top:calc(100% + 12px);display:grid!important;gap:2px!important;width:210px;max-width:calc(100vw - 32px);padding:6px!important;background:#fff;border:1px solid #dfe5e1;border-radius:10px;box-shadow:0 10px 25px #15251c18,0 2px 5px #15251c08;z-index:100;color:#263b31}
+.pk-tool-switch>nav a{display:block!important;min-height:40px;box-sizing:border-box;padding:10px 12px!important;border:0!important;border-radius:6px!important;text-decoration:none!important;color:#263b31!important;white-space:normal!important;line-height:1.4!important;font-size:14px!important;font-weight:500!important;transition:background .12s}
+.pk-tool-switch>nav a strong{font:inherit!important}.pk-tool-switch>nav a span{display:none}.pk-tool-switch>nav a:hover{background:#f1f5f2!important}
+.pk-tool-switch summary:focus-visible,.pk-tool-switch a:focus-visible{outline:2px solid #397d6b;outline-offset:3px}
+.pk-tool-switch[open]>nav{animation:pk-simple-menu-in .16s ease-out;transform-origin:top right}@keyframes pk-simple-menu-in{from{opacity:0;transform:translateY(-4px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){.pk-tool-switch summary,.pk-tool-switch summary span,.pk-tool-switch>nav a{transition:none}.pk-tool-switch[open]>nav{animation:none}}
+.pk-menu-label{display:block;padding:16px 12px 6px;font-size:11px;font-weight:800;letter-spacing:.08em;color:#71877c;border-top:1px solid #e2ebe5;margin-top:10px}
 .pk-guide-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px}.pk-guide-tools>a{font-size:14px;font-weight:700;color:#397d6b}
 
 .site-header .header-inner{flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}
