@@ -3,20 +3,20 @@
   "edits": {
     "index.html": {
       "baseline_sha256": "321f67a18fe65be30a2b4da5e8de70d321a51d847bfb5fb7d3787250677dbf1b",
-      "reviewed_sha256": "51a34f551919026779f4a5e4a6a5a8be363fa9cced06438a7364d8ec4c561eec",
-      "reason": "User-requested simple navigation appearance and stylesheet version; application scripts and source data preserved",
+      "reviewed_sha256": "e9e05228c53c9c7ef368e1bbd247678d7c2fe9e9f0d004b5d212b1bc5952b50d",
+      "reason": "User-requested arrow-free menu styling; application scripts and source data preserved",
       "runtime_sha256": "3a73d7bc08f36770e081fc95e67258ac16f7ec665e4acc1e366a48b9eaf672e9"
     },
     "norm-fark-analizi.html": {
       "baseline_sha256": "4ce7da465d7019bc195a8ea8ad1ffb200de8902f27905f908e1b93af9e4c9336",
-      "reviewed_sha256": "c117109d4e234b872b62b4db221cea78e523d9803e43979f2b571a26e273b92d",
-      "reason": "User-requested simple navigation appearance and stylesheet version; application scripts and source data preserved",
+      "reviewed_sha256": "4dc3b4dd54351e0e2f470aeeaebd21415a920a9f8156a631b9c526fd3e1f6a87",
+      "reason": "User-requested arrow-free menu styling; application scripts and source data preserved",
       "runtime_sha256": "f2bae06fbb1ad6f9305fee9ea7f36ddeb1f37005b62e95b60eaeaa16e13ed625"
     },
     "ogrenci-yeniden-kontrol.html": {
       "baseline_sha256": "98e82bb7930c7e22f41983c7c7d46abebda250dd04061331020d0aa8dfccab24",
-      "reviewed_sha256": "ec7c60e596334172453423e771731f738c0b565f4e133e9d986e51ffb2963fc3",
-      "reason": "User-requested simple navigation appearance and stylesheet version; application scripts and source data preserved",
+      "reviewed_sha256": "aaec7c80269eb784b767dd9b70cf239cd190d1ad167ee105d2029cb3772b7a37",
+      "reason": "User-requested arrow-free menu styling; application scripts and source data preserved",
       "runtime_sha256": "3a9a0b3c7aaac1ff78db6a6d05ef82de220a46cca34ed173a710b71fe4aa5463"
     }
   }
