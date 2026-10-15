@@ -115,12 +115,14 @@ def directory(rows,province=None,district=None):
   body+='<section class="panel"><h2>'+E(district)+' kurum profilleri</h2><ul class="institution-list" id="directoryResults">'+''.join('<li data-directory-entry><a href="'+r['route']+'">'+E(r['okul_adi'])+'</a><small>'+E(r['okul_turu'])+' · Kurum kodu '+E(str(r['kurum_kodu']))+'</small></li>' for r in rows)+'</ul></section>'
  body+='<script src="/assets/school-directory.js" defer></script>'
  return path,document(title,place+' kurumlarının öğrenci ve rehberlik norm analizlerine, okul profillerine ve kaynak kayıtlarına erişin.',path,body,{'@context':'https://schema.org','@type':'CollectionPage','url':BASE+path,'name':title,'inLanguage':'tr-TR'})
+PUBLIC_BUILD_IGNORE = shutil.ignore_patterns('.git','.github','__pycache__','.DS_Store','.env','.env.*','*.pem','*.p12','*.pfx','scripts','tests','seo','docs','node_modules')
+
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--output',type=Path,required=True);args=ap.parse_args();out=args.output.resolve()
  if out==ROOT or ROOT in out.parents:raise ValueError('Output must be outside source checkout')
  if out.exists():raise ValueError('Output already exists')
  rows=load();assert len(rows)==len({r['kurum_kodu'] for r in rows});assert len(rows)==len({r['route'] for r in rows})
- shutil.copytree(ROOT,out,ignore=shutil.ignore_patterns('.git','__pycache__','.DS_Store'))
+ shutil.copytree(ROOT,out,ignore=PUBLIC_BUILD_IGNORE)
  groups=collections.defaultdict(list);provinces=collections.defaultdict(list)
  for r in rows:groups[(r['il'],r['ilce'])].append(r);provinces[r['il']].append(r)
  assert len(provinces)==81,'Expected 81 Turkish provinces'

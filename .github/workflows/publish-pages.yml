@@ -21,6 +21,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Reject private credentials and verify artifact exclusions
+        run: |
+          python scripts/secret_guard.py
+          python -m unittest discover -s scripts -p 'test_build_exclusions.py'
       - name: Verify protected data and calculation runtime
         run: python scripts/seo_engine.py audit --output "$RUNNER_TEMP/source-audit"
       - name: Verify sitemap count, byte limits and canonical rules
