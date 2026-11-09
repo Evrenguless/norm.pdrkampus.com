@@ -40,10 +40,12 @@ for url in urls:
  if '/okullar/' not in u.path:
   page=Page();page.feed(file.read_text());assert not page.noindex and page.canonicals==[url],url
 assert all('/okullar/' in path for path in report['paths'])
+profile_routes=set(report['profile_codes'].values())
 for position,path in enumerate(report['paths']):
  if position and position%10000==0:print(f'Checked {position} pages',flush=True)
  file=site/path.strip('/')/'index.html';p=Page();p.feed(file.read_text())
- if p.h1!=1 or p.noindex or p.canonicals!=[base+path] or not p.cta or not p.schema or '/' not in p.links or base+path not in url_set:errors.append(path+' metadata/CTA')
+ profile=path in profile_routes
+ if p.h1!=1 or p.noindex!=profile or p.canonicals!=[base+path] or not p.cta or not p.schema or '/' not in p.links or (base+path in url_set)==profile:errors.append(path+' metadata/CTA/indexability')
  for link in p.links:
   u=urlsplit(link)
   if u.scheme or u.netloc or not u.path.startswith('/'):continue
