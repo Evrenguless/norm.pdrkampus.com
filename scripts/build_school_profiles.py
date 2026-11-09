@@ -59,8 +59,8 @@ def footer():
  return '<footer class="site-footer"><span>© 2026 PDR Kampüs · Bağımsız okul ve kurum verisi incelemesi</span><div><a href="/">Norm haritası</a> · <a href="https://pdrkampus.com/iletisim.html">İletişim</a></div></footer>'
 def conversion():
  return '<section class="conversion"><div><h2>Verileri birlikte değerlendirin.</h2><p>İl, ilçe ve okul türüne göre karşılaştırın; öğrenci, hesaplanan norm ve web listesindeki PDR verilerini norm haritasında inceleyin.</p></div><a class="button" href="/">Tüm istatistikleri için <span aria-hidden="true">↗</span></a></section>'
-def document(title,desc,path,body,schema):
- return '<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(title)+'</title><meta name="description" content="'+E(desc,quote=True)+'"><meta name="robots" content="index,follow"><link rel="canonical" href="'+BASE+path+'"><link rel="icon" href="/assets/logo.png" type="image/png"><meta name="theme-color" content="#f3f6f8"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/school-profile.css"><meta property="og:type" content="website"><meta property="og:title" content="'+E(title,quote=True)+'"><meta property="og:description" content="'+E(desc,quote=True)+'"><meta property="og:url" content="'+BASE+path+'"><meta property="og:image" content="'+BASE+'/assets/logo.png"><meta name="twitter:card" content="summary"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script><link rel="stylesheet" href="/assets/campus-tools.css?v=20261014-simple-v2"></head><body>'+header()+navigation('norm')+'<main class="shell">'+body+conversion()+campus_footer('norm')+footer()+'</main></body></html>'
+def document(title,desc,path,body,schema,robots='index,follow'):
+ return '<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(title)+'</title><meta name="description" content="'+E(desc,quote=True)+'"><meta name="robots" content="'+robots+'"><link rel="canonical" href="'+BASE+path+'"><link rel="icon" href="/assets/logo.png" type="image/png"><meta name="theme-color" content="#f3f6f8"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/school-profile.css"><meta property="og:type" content="website"><meta property="og:title" content="'+E(title,quote=True)+'"><meta property="og:description" content="'+E(desc,quote=True)+'"><meta property="og:url" content="'+BASE+path+'"><meta property="og:image" content="'+BASE+'/assets/logo.png"><meta name="twitter:card" content="summary"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script><link rel="stylesheet" href="/assets/campus-tools.css?v=20261014-simple-v2"></head><body>'+header()+navigation('norm')+'<main class="shell">'+body+conversion()+campus_footer('norm')+footer()+'</main></body></html>'
 def metric(label,value,note):
  v=E(str(value));long=' long' if len(str(value))>8 else ''
  return '<article class="metric"><span class="metric-label">'+E(label)+'</span><strong class="'+long.strip()+'">'+v+'</strong><small>'+E(note)+'</small></article>'
@@ -96,7 +96,8 @@ def render(r,peers):
  entity={'@type':'School' if r['level'] not in ('Diğer','RAM') else 'EducationalOrganization','@id':BASE+r['route']+'#institution','name':name,'identifier':code,'address':{'@type':'PostalAddress','addressLocality':district,'addressRegion':province,'addressCountry':'TR'}}
  if url:entity['sameAs']=url
  schema={'@context':'https://schema.org','@graph':[entity,{'@type':'WebPage','url':BASE+r['route'],'name':title,'inLanguage':'tr-TR','about':{'@id':entity['@id']},'publisher':{'@type':'Organization','name':'PDR Kampüs','url':'https://pdrkampus.com/'}},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':province,'item':BASE+proute},{'@type':'ListItem','position':2,'name':district,'item':BASE+droute},{'@type':'ListItem','position':3,'name':name,'item':BASE+r['route']}]}]}
- return document(title,desc,r['route'],body,schema)
+ # Tekil kurum profilleri Google'a sunulmaz (toplu şablon sayfa sinyali); il/ilçe dizinleri dizinlenir.
+ return document(title,desc,r['route'],body,schema,robots='noindex,follow')
 def directory(rows,province=None,district=None):
  path=district_route(province,district) if district else province_route(province) if province else '/okullar/'
  place=(province+(' / '+district if district else '')) if province else 'Türkiye'
@@ -146,7 +147,7 @@ def main():
   rel=url.removeprefix(BASE+'/');file=out/(rel+'index.html' if not rel or rel.endswith('/') else rel)
   page=Page(file.read_text())
   if page.noindex or page.canonicals != [url]:raise ValueError('Invalid base canonical: '+url)
- urls=main_urls+[BASE+path for path in paths if path!='/okullar/']
+ urls=main_urls+[BASE+path for path in directory_paths if path!='/okullar/']
  def group(url):
   parts=urlsplit(url).path.strip('/').split('/')
   return 'okullar-'+parts[1] if len(parts)>1 and parts[0]=='okullar' else 'ana'
@@ -154,6 +155,6 @@ def main():
  for filename,content in sitemap_outputs.items():
   file=out/filename;file.parent.mkdir(parents=True,exist_ok=True);file.write_text(content)
  sitemap_files=[name for name in sitemap_outputs if name!='sitemap.xml']
- report={'profiles':len(rows),'provinces':len(provinces),'districts':len(groups),'directory_pages':len(directory_paths),'sitemap_urls':len(main_urls)+len(paths)-1,'sitemap_files':sitemap_files,'scenario_values_excluded':sum(r['scenario_excluded'] for r in rows),'missing_students':sum(r['student']['value'] is None for r in rows),'missing_rosters':sum(r['staff'] is None for r in rows),'source_sha256':hashlib.sha256((ROOT/'data/schools-v1.json.gz').read_bytes()).hexdigest(),'paths':paths,'aliases':aliases,'profile_codes':codes}
+ report={'profiles':len(rows),'provinces':len(provinces),'districts':len(groups),'directory_pages':len(directory_paths),'sitemap_urls':len(urls),'sitemap_files':sitemap_files,'scenario_values_excluded':sum(r['scenario_excluded'] for r in rows),'missing_students':sum(r['student']['value'] is None for r in rows),'missing_rosters':sum(r['staff'] is None for r in rows),'source_sha256':hashlib.sha256((ROOT/'data/schools-v1.json.gz').read_bytes()).hexdigest(),'paths':paths,'aliases':aliases,'profile_codes':codes}
  (out/'school-profile-build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in report.items() if k not in ('paths','aliases','profile_codes','sitemap_files')},ensure_ascii=False))
 if __name__=='__main__':main()
