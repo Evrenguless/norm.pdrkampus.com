@@ -1,0 +1,62 @@
+name: School data review pilot
+
+on:
+  push:
+    branches:
+      - codex/student-staff-refresh-review
+    paths:
+      - "tools/review_school_data.py"
+      - "tools/merge_school_data_review.py"
+      - ".github/workflows/school-data-review-pilot.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: school-data-review-pilot
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install read-only scanner dependencies
+        run: pip install requests beautifulsoup4
+      - name: Scan 100 official school sites
+        run: python tools/review_school_data.py --shard-index 0 --shard-count 1 --workers 2 --limit 100 --out-dir review-output
+      - name: Save pilot scan rows
+        uses: actions/upload-artifact@v4
+        with:
+          name: school-review-shard-0
+          path: review-output/school-review-00.json
+          retention-days: 7
+
+  report:
+    needs: scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download pilot scan rows
+        uses: actions/download-artifact@v4
+        with:
+          name: school-review-shard-0
+          path: shards
+      - name: Build comparison report
+        run: |
+          mkdir -p report
+          python tools/merge_school_data_review.py --expected-shards 1
+      - name: Save pilot comparison report
+        uses: actions/upload-artifact@v4
+        with:
+          name: school-data-review-pilot-report
+          path: report/
+          retention-days: 7
