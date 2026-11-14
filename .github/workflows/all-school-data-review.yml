@@ -1,0 +1,64 @@
+name: All school data review report
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: all-school-data-review
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    name: Scan shard ${{ matrix.shard }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install read-only scanner dependencies
+        run: pip install requests beautifulsoup4
+      - name: Scan assigned official school sites
+        run: python tools/review_school_data.py --shard-index ${{ matrix.shard }} --shard-count 32 --workers 2 --out-dir review-output
+      - name: Save scan rows
+        uses: actions/upload-artifact@v4
+        with:
+          name: school-review-shard-${{ matrix.shard }}
+          path: review-output/school-review-*.json
+          if-no-files-found: error
+          retention-days: 7
+
+  report:
+    needs: scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download all shard results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: school-review-shard-*
+          path: shards
+          merge-multiple: false
+      - name: Build the single comparison CSV
+        run: python tools/build_all_school_review_report.py
+      - name: Save single-file report
+        uses: actions/upload-artifact@v4
+        with:
+          name: tum-okullar-karsilastirma
+          path: report/tum-okullar-karsilastirma.csv
+          if-no-files-found: error
+          retention-days: 14
