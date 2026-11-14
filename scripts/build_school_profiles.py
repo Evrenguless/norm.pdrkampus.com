@@ -2,7 +2,7 @@
 from campus_tools import navigation, footer as campus_footer, switcher
 # coding: utf-8
 """Build source-backed nationwide profiles with the application's unchanged model."""
-import argparse,collections,gzip,hashlib,html,json,os,re,shutil,subprocess,unicodedata
+import argparse,base64,collections,gzip,hashlib,html,json,os,re,shutil,subprocess,unicodedata
 from pathlib import Path
 from urllib.parse import urlencode,urlsplit
 from xml.etree import ElementTree as ET
@@ -42,6 +42,28 @@ def load():
   functions.append(line)
  # Public profiles do not present personal, generated scenario values as MEB records.
  overrides=json.loads((ROOT/'data/student-overrides.json').read_text())['schools']
+ refresh={}
+ for shard in range(1,9):
+  encoded=(ROOT/'data'/f'refresh-v1-{shard:02}.json.gz.b64').read_text(encoding='ascii')
+  part=json.loads(gzip.decompress(base64.b64decode(encoded)))
+  if part.get('version')!=1 or not part.get('meta',{}).get('complete') or part['meta'].get('shard')!=shard: raise ValueError('Invalid school refresh shard')
+  for code,value in part['schools'].items():
+   if code in refresh: raise ValueError('Duplicate school refresh code '+code)
+   refresh[code]=value
+ if len(refresh)!=55216: raise ValueError('School refresh is incomplete')
+ for r in rows:
+  code=str(r['kurum_kodu']);scan=refresh.get(code)
+  if not scan: continue
+  r['kontrol_tarihi']=scan[0][:10]
+  student=scan[1]
+  if student:
+   value,urls,previous=student;old=overrides.get(code,{})
+   overrides[code]={**old,'value':value,'preferred_current_value':True,'verified':False,'source_urls':urls,'checked_at':scan[0],'previous_value':previous,'generated_for_personal_use':False}
+   if urls:r['kaynak_url']=urls[0]
+  staff_update=scan[2]
+  if staff_update:
+   value,url,previous=staff_update
+   staff[code]={'listed_count':value,'permanent_listed':None,'assigned_listed':None,'unspecified_listed':value,'source_url':url,'checked_at':scan[0],'as_of':None}
  public_overrides={k:v for k,v in overrides.items() if not v.get('generated_for_personal_use')}
  js='\n'.join(functions)+'\nSTUDENT_OVERRIDES={...STUDENT_OVERRIDES,...input.overrides};\nconsole.log(JSON.stringify(input.rows.map(r=>{const si=studentInfo(r);return {...r,student:si,calculation:normFor(r,si),level:schoolLevel(r)}})));'
  script='const fs=require("fs");const input=JSON.parse(fs.readFileSync(0,"utf8"));\n'+js
