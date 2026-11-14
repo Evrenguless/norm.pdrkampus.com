@@ -3,8 +3,8 @@
   "edits": {
     "index.html": {
       "baseline_sha256": "321f67a18fe65be30a2b4da5e8de70d321a51d847bfb5fb7d3787250677dbf1b",
-      "reviewed_sha256": "e9e05228c53c9c7ef368e1bbd247678d7c2fe9e9f0d004b5d212b1bc5952b50d",
-      "reason": "User-requested arrow-free menu styling; application scripts and source data preserved",
+      "reviewed_sha256": "0176b27e9da3a33f98cd8e10d388d5279e303a6478c7d312225f9cd7f5b4a171",
+      "reason": "User-authorized static discovery links for existing norm tools; all calculation scripts and data preserved",
       "runtime_sha256": "3a73d7bc08f36770e081fc95e67258ac16f7ec665e4acc1e366a48b9eaf672e9"
     },
     "norm-fark-analizi.html": {

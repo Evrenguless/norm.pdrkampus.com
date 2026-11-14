@@ -19,7 +19,10 @@ class Page(HTMLParser):
   if self.in_schema:self.buf+=data
  def handle_endtag(self,t):
   if t=='script' and self.in_schema:self.schema.append(json.loads(self.buf));self.in_schema=False
-site=Path(sys.argv[1]).resolve();report=json.loads((site/'school-profile-build.json').read_text());base='https://norm.pdrkampus.com';errors=[]
+site=Path(sys.argv[1]).resolve()
+for forbidden in ['.git','.github','.env','.env.production','scripts','tests','seo','node_modules']:
+ assert not (site/forbidden).exists(), 'Private/developer path in public artifact: '+forbidden
+report=json.loads((site/'school-profile-build.json').read_text());base='https://norm.pdrkampus.com';errors=[]
 source=json.loads(gzip.decompress((site/'data/schools-v1.json.gz').read_bytes())); records=[dict(zip(source['columns'],row)) for row in source['rows'] if row[0]!='Bakanlık']
 assert report['profiles']==len(records) and report['provinces']==81
 assert report['districts']==len(set((r['il'],r['ilce']) for r in records))
