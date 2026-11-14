@@ -1,6 +1,11 @@
 name: All school data review report
 
 on:
+  push:
+    branches:
+      - codex/student-staff-refresh-review
+    paths:
+      - ".github/workflows/all-school-data-review.yml"
   workflow_dispatch:
 
 permissions:
