@@ -1,3 +1,4 @@
+import argparse
 import csv
 import glob
 import json
@@ -27,9 +28,12 @@ def write_csv(path, rows):
             writer.writerow({k: cell(row, k) for k in FIELDS})
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--expected-shards", type=int, default=32)
+    args = parser.parse_args()
     paths = sorted(glob.glob("shards/**/school-review-*.json", recursive=True))
-    if len(paths) != 32:
-        raise SystemExit(f"Expected 32 shard reports, found {len(paths)}")
+    if len(paths) != args.expected_shards:
+        raise SystemExit(f"Expected {args.expected_shards} shard reports, found {len(paths)}")
     rows = []
     for path in paths:
         data = json.loads(Path(path).read_text(encoding="utf-8"))
