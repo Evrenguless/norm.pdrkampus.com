@@ -6,8 +6,8 @@ function missingStaffLabel(r){return normWithoutStaffRecord(r)?'Normu var, web s
 function staffDifference(r){const s=staffFor(r);return s&&Number.isFinite(r.norm)?r.norm-s.listed_count:null;}
 function staffNumber(n){return Number.isInteger(n)?fmt(n):'—';}
 function staffReportValues(r){const s=staffFor(r);return s?[s.listed_count,s.source_url,s.checked_at,r.norm===0?'Kontrol gerekli':'Güncellik doğrulanmadı']:staffLoadError?['','','','Personel verisi yüklenemedi']:[0,'','',missingStaffLabel(r)+'; personel sayısı doğrulanmadı'];}
-function staffScanDate(r){const record=staffFor(r),review=STAFF_DATA.reviewed_schools?.[String(r.kurum_kodu)];const value=review?.checked_at||record?.checked_at||STAFF_DATA.meta.exported_at;return value&&Number.isFinite(Date.parse(value))?new Date(value).toLocaleDateString('tr-TR'):'—';}
-function schoolSourceCell(r){const value=r.web_sitesi||r.kaynak_url||staffFor(r)?.source_url;try{const url=new URL(/^https?:/.test(value)?value:'https://'+value);if(!url.hostname.endsWith('.meb.k12.tr')||!['http:','https:'].includes(url.protocol))return '—';return '<a href="'+esc(url.href)+'" target="_blank" rel="noopener noreferrer">MEB okul sitesi ↗</a>';}catch{return '—';}}
+function staffScanDate(r){const record=staffFor(r),review=STAFF_DATA.reviewed_schools?.[String(r.kurum_kodu)],scan=SCAN_REFRESH?.schools?.[String(r.kurum_kodu)];const value=scan?.[0]||review?.checked_at||record?.checked_at||STAFF_DATA.meta.exported_at;return value&&Number.isFinite(Date.parse(value))?new Date(value).toLocaleDateString('tr-TR'):'—';}
+function schoolSourceCell(r){const scan=SCAN_REFRESH?.schools?.[String(r.kurum_kodu)],scanned=scan?.[1]?.[1]?.[0]||scan?.[2]?.[1],value=scanned||r.web_sitesi||r.kaynak_url||staffFor(r)?.source_url;try{const url=new URL(/^https?:/.test(value)?value:'https://'+value);if(!url.hostname.endsWith('.meb.k12.tr')||!['http:','https:'].includes(url.protocol))return '—';return '<a href="'+esc(url.href)+'" target="_blank" rel="noopener noreferrer">MEB okul sitesi ↗</a>';}catch{return '—';}}
 function staffCells(r){const s=staffFor(r);const count=staffLoadError?'—':s?fmt(s.listed_count):normWithoutStaffRecord(r)?'<span class="reason">Norm hesaplandı ama Rehber Öğretmen verisine ulaşılamadı</span>':'0';return '<td class="pdr-count-cell">'+(staffLoadError||normWithoutStaffRecord(r)?count:'<span class="pdr-count">'+count+'</span>')+'</td><td>'+esc(staffScanDate(r))+'</td>';}
 function updateStaffSummary(){}
 async function loadStaffData(){
@@ -23,6 +23,17 @@ async function loadStaffData(){
  }catch{staffLoadError=true;STAFF_DATA={version:1,meta:{},schools:{}};}
 }
 
+function applyStaffRefresh(refreshSchools){
+ const merged={...STAFF_DATA.schools};
+ for(const [code,row] of Object.entries(refreshSchools||{})){
+  const update=row?.[2];if(!update)continue;
+  const [count,source,previous]=update;if(!/^\\d+$/.test(code)||!Number.isInteger(count)||count<1)continue;
+  try{const url=new URL(source);if(!['http:','https:'].includes(url.protocol)||!url.hostname.endsWith('.meb.k12.tr'))continue;
+   merged[code]={listed_count:count,permanent_listed:null,assigned_listed:null,unspecified_listed:count,source_url:url.href,checked_at:row[0],as_of:null,previous_value:previous||null};
+  }catch{}
+ }
+ STAFF_DATA={...STAFF_DATA,meta:{...STAFF_DATA.meta,exported_at:SCAN_REFRESH.meta?.updated_at||STAFF_DATA.meta.exported_at},schools:merged};
+}
 function applyStaffEstimates(){
  allRows=allRows.map(row=>{
   const r=row.originalRecord||row,s=staffFor(r);if(!s||!Number.isFinite(r.norm)||s.listed_count<=r.norm)return r;
