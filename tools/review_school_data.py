@@ -378,6 +378,7 @@ def main():
     parser.add_argument("--shard-count", type=int, required=True)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--out-dir", default="review-output")
+    parser.add_argument("--limit", type=int, default=0)
     args = parser.parse_args()
     if args.shard_count < 1 or not 0 <= args.shard_index < args.shard_count:
         raise SystemExit("Invalid shard settings")
@@ -385,6 +386,8 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     rows, overrides, staff = load_data()
     targets = [r for r in rows if shard_id(r, args.shard_count) == args.shard_index]
+    if args.limit:
+        targets = [r for r in targets if student_urls(r)][:args.limit]
     policy = HostPolicy()
     results = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
